@@ -1,0 +1,19 @@
+:root {
+  --bg: #EFD4C4;
+  --bg-deep: #E8C5B0;
+  --coral: #D94A3D;
+  --coral-deep: #C0413A;
+  --petrol: #3E5852;
+  --petrol-deep: #2F4640;
+  --cream: #FAF4ED;
+  --cream-warm: #F5EBDD;
+  --ink: #2B1F1C;
+  --ink-soft: #6B5751;
+  --ink-faint: rgba(43, 31, 28, 0.35);
+  --serif: 'Fraunces', Georgia, serif;
+  --sans: 'Inter', -apple-system, system-ui, sans-serif;
+  --shadow-soft: 0 2px 6px rgba(43, 31, 28, 0.06);
+  --shadow-card: 0 6px 16px rgba(43, 31, 28, 0.10);
+  --shadow-cover: 0 10px 24px rgba(43, 31, 28, 0.18);
+  --shadow-cover-hover: 0 18px 36px rgba(43, 31, 28, 0.24);
+}

@@ -1,0 +1,41 @@
+# ───── Python ─────
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+
+# ───── Node / Web ─────
+node_modules/
+web/dist/
+web/dist-ssr/
+web/.vite/
+*.local
+
+# ───── Logs ─────
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ───── macOS ─────
+.DS_Store
+
+# ───── Editor / IDE ─────
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+
+# ───── Secrets ─────
+.env
+.env.local
+.env.*.local
