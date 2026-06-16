@@ -5,15 +5,15 @@ interface Props {
   book: Book;
 }
 
-function Avatar({ empfehler }: { empfehler: Book['empfohlen_von'] }) {
-  if (empfehler === 'Christine') {
+function Avatar({ recommender }: { recommender: Book['recommended_by'] }) {
+  if (recommender === 'Christine') {
     return (
       <span className="avatar-wrap">
         <span className="avatar avatar-c">C</span>
       </span>
     );
   }
-  if (empfehler === 'Mona') {
+  if (recommender === 'Mona') {
     return (
       <span className="avatar-wrap">
         <span className="avatar avatar-m">M</span>
@@ -34,17 +34,17 @@ export function BookCard({ book }: Props) {
     <article className="book">
       <div className="cover" style={{ background: bg, color: fg }}>
         <div className="cover-mark">Zwei Seiten</div>
-        <div className="cover-title">{book.titel}</div>
+        <div className="cover-title">{book.title}</div>
         <div className="cover-foot">
           <div className="cover-rule" />
-          <div className="cover-author">{book.autor}</div>
+          <div className="cover-author">{book.author}</div>
         </div>
       </div>
-      <h3 className="book-title">{book.titel}</h3>
-      <p className="book-author">{book.autor}</p>
+      <h3 className="book-title">{book.title}</h3>
+      <p className="book-author">{book.author}</p>
       <p className="book-meta">
-        <Avatar empfehler={book.empfohlen_von} />
-        <span className="book-thema">Folge „{book.thema}"</span>
+        <Avatar recommender={book.recommended_by} />
+        <span className="book-thema">Folge „{book.topic}"</span>
       </p>
     </article>
   );

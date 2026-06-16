@@ -8,7 +8,7 @@ import { BOOKS } from './data/books';
 import { applyFilters } from './lib/search';
 import type { Filters } from './lib/types';
 
-const INITIAL: Filters = { search: '', empfehler: 'alle', theme: '', year: '' };
+const INITIAL: Filters = { search: '', recommender: 'alle', theme: '', year: '' };
 
 function scrollToBanner() {
   document.getElementById('banner-anchor')?.scrollIntoView({ behavior: 'smooth', block: 'start' });

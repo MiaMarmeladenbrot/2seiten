@@ -6,7 +6,7 @@ interface Props {
   onChange: (patch: Partial<Filters>) => void;
 }
 
-const SEGMENTS: { value: Filters['empfehler']; label: string }[] = [
+const SEGMENTS: { value: Filters['recommender']; label: string }[] = [
   { value: 'alle', label: 'Alle' },
   { value: 'Christine', label: 'Christine' },
   { value: 'Mona', label: 'Mona' },
@@ -21,8 +21,8 @@ export function FilterBar({ filters, onChange }: Props) {
         {SEGMENTS.map((s) => (
           <button
             key={s.value}
-            className={`seg${filters.empfehler === s.value ? ' active' : ''}`}
-            onClick={() => onChange({ empfehler: s.value })}
+            className={`seg${filters.recommender === s.value ? ' active' : ''}`}
+            onClick={() => onChange({ recommender: s.value })}
           >
             {s.label}
           </button>

@@ -1,20 +1,20 @@
-export type Empfehler = 'Christine' | 'Mona' | 'beide';
-export type Rolle = 'Hauptempfehlung' | 'Zusatzempfehlung';
+export type Recommender = 'Christine' | 'Mona' | 'beide';
+export type Role = 'Hauptempfehlung' | 'Zusatzempfehlung';
 
 export interface Book {
-  titel: string;
-  autor: string;
-  empfohlen_von: Empfehler;
-  rolle: Rolle;
-  folge_titel: string;
-  thema: string;
-  jahr: string;
+  title: string;
+  author: string;
+  recommended_by: Recommender;
+  role: Role;
+  episode_title: string;
+  topic: string;
+  year: string;
   page_url: string;
 }
 
 export interface Filters {
   search: string;
-  empfehler: 'alle' | Empfehler;
+  recommender: 'alle' | Recommender;
   theme: string;
   year: string;
 }

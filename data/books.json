@@ -2,11 +2,11 @@
   "metadata": {
     "podcast": "Zwei Seiten – Der Podcast über Bücher (WDR)",
     "extraction_method": "manuell von Claude (Claude Code) aus den RSS-Feed-Beschreibungen extrahiert; nur die in der jeweiligen Folge tatsächlich besprochenen Bücher, keine 'Beim nächsten Mal'-Vorschauen.",
-    "rolle_legende": {
+    "role_legend": {
       "Hauptempfehlung": "zentrale Buchbesprechung der Folge",
       "Zusatzempfehlung": "weitere ausführlich empfohlene Bücher (Sonderfolgen)"
     },
-    "empfehler_legende": {
+    "recommender_legend": {
       "Christine": "Christine Westermann",
       "Mona": "Mona Ameziane",
       "beide": "von beiden gemeinsam empfohlen"
@@ -19,45 +19,45 @@
       "guid": "/4708b4f7c712f51813bd284f68710f55",
       "title": "Einhundert – über das, was war und was noch kommt",
       "published": "2026-05-05T00:10:01+00:00",
-      "thema": "Einhundert",
+      "topic": "Einhundert",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-einhundert-ueber-das-was-war-und-was-noch-kommt-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/media/p/public/weltweit/2026/05/04/af09b6a0-2123-4d59-9621-e231282489aa/af09b6a0-2123-4d59-9621-e231282489aa_MP3-160.mp3",
       "books": [
         {
-          "titel": "Lügen über meine Mutter",
-          "autor": "Daniela Dröscher",
-          "empfohlen_von": "beide",
-          "rolle": "Hauptempfehlung"
+          "title": "Lügen über meine Mutter",
+          "author": "Daniela Dröscher",
+          "recommended_by": "beide",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Herkunft",
-          "autor": "Saša Stanišić",
-          "empfohlen_von": "beide",
-          "rolle": "Hauptempfehlung"
+          "title": "Herkunft",
+          "author": "Saša Stanišić",
+          "recommended_by": "beide",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Dann schlaf auch du",
-          "autor": "Leila Slimani",
-          "empfohlen_von": "beide",
-          "rolle": "Hauptempfehlung"
+          "title": "Dann schlaf auch du",
+          "author": "Leila Slimani",
+          "recommended_by": "beide",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Die Anomalie",
-          "autor": "Hervé Le Tellier",
-          "empfohlen_von": "beide",
-          "rolle": "Hauptempfehlung"
+          "title": "Die Anomalie",
+          "author": "Hervé Le Tellier",
+          "recommended_by": "beide",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Männer",
-          "autor": "Johanna Adroján",
-          "empfohlen_von": "beide",
-          "rolle": "Hauptempfehlung"
+          "title": "Männer",
+          "author": "Johanna Adroján",
+          "recommended_by": "beide",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Mein Freund Rilke",
-          "autor": "Melanie Garanin",
-          "empfohlen_von": "beide",
-          "rolle": "Hauptempfehlung"
+          "title": "Mein Freund Rilke",
+          "author": "Melanie Garanin",
+          "recommended_by": "beide",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -65,21 +65,21 @@
       "guid": "/e6933085227a08eb53582b0e8fed6669",
       "title": "Mode – über das, was wir tragen",
       "published": "2026-04-21T00:10:00+00:00",
-      "thema": "Mode",
+      "topic": "Mode",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-mode-ueber-das-was-wir-tragen-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/media/p/public/weltweit/2026/04/20/0d279fc8-3261-4d11-96e1-22189a4ba07f/0d279fc8-3261-4d11-96e1-22189a4ba07f_MP3-160.mp3",
       "books": [
         {
-          "titel": "Let's talk about feelings",
-          "autor": "Leif Randt",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Let's talk about feelings",
+          "author": "Leif Randt",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Einatmen. Ausatmen",
-          "autor": "Maxim Leo",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Einatmen. Ausatmen",
+          "author": "Maxim Leo",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -87,21 +87,21 @@
       "guid": "/7c12349b6f6a954d2119251110d507ec",
       "title": "Kraft – über die Stärke in uns",
       "published": "2026-04-06T23:10:00+00:00",
-      "thema": "Kraft",
+      "topic": "Kraft",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-kraft-ueber-die-staerke-in-uns-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/media/p/public/weltweit/2026/04/02/fd4c814f-405f-4aa4-bbb3-73494d3cd2a8/fd4c814f-405f-4aa4-bbb3-73494d3cd2a8_MP3-160.mp3",
       "books": [
         {
-          "titel": "Es ist hell und draußen dreht sich die Welt",
-          "autor": "Dita Zipfel",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Es ist hell und draußen dreht sich die Welt",
+          "author": "Dita Zipfel",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Eine Hymne an das Leben",
-          "autor": "Gisèle Pelicot",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Eine Hymne an das Leben",
+          "author": "Gisèle Pelicot",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -109,21 +109,21 @@
       "guid": "/0c444295d808f50686c3b3cbe51311da",
       "title": "Spaß – übers das, was uns Freude macht",
       "published": "2026-03-24T00:10:00+00:00",
-      "thema": "Spaß",
+      "topic": "Spaß",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-spass-uebers-das-was-uns-freude-macht-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/media/p/public/weltweit/2026/03/23/51160172-57cd-4f93-8252-0675e8b452c7/51160172-57cd-4f93-8252-0675e8b452c7_MP3-160.mp3",
       "books": [
         {
-          "titel": "Wir Freitagsmänner",
-          "autor": "Hans-Gerd Raeth",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Wir Freitagsmänner",
+          "author": "Hans-Gerd Raeth",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Das Leben ist eins der Härtesten",
-          "autor": "Giulia Becker",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Das Leben ist eins der Härtesten",
+          "author": "Giulia Becker",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -131,21 +131,21 @@
       "guid": "/0e5202985b55a50096bc845af1302ee0",
       "title": "Namen – über das Etikett, das uns prägt",
       "published": "2026-03-10T00:10:00+00:00",
-      "thema": "Namen",
+      "topic": "Namen",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-namen-ueber-das-etikett-das-uns-praegt-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/media/p/public/weltweit/2026/03/09/d659345c-3550-4c18-ab7e-824e520040a2/d659345c-3550-4c18-ab7e-824e520040a2_MP3-160.mp3",
       "books": [
         {
-          "titel": "Die Namen",
-          "autor": "Florence Knapp",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Die Namen",
+          "author": "Florence Knapp",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Frankie",
-          "autor": "Jochen Gutsch",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Frankie",
+          "author": "Jochen Gutsch",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -153,21 +153,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20260224_01be4a38.mp3",
       "title": "Chancen – übers Ergreifen und Verpassen",
       "published": "2026-02-24T00:10:00+00:00",
-      "thema": "Chancen",
+      "topic": "Chancen",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-chancen--uebers-ergreifen-und-verpassen-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/344/3440755/3440755_66099164.mp3",
       "books": [
         {
-          "titel": "Wenn die Kraniche nach Süden ziehen",
-          "autor": "Lisa Ridzén",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Wenn die Kraniche nach Süden ziehen",
+          "author": "Lisa Ridzén",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Im Leben nebenan",
-          "autor": "Anne Sauer",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Im Leben nebenan",
+          "author": "Anne Sauer",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -175,21 +175,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20260210_42e7d94d.mp3",
       "title": "Orientierung – über die Wegweiser des Lebens",
       "published": "2026-02-10T00:10:00+00:00",
-      "thema": "Orientierung",
+      "topic": "Orientierung",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-orientierung--ueber-die-wegweiser-des-lebens-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/343/3433762/3433762_65912883.mp3",
       "books": [
         {
-          "titel": "Monstergott",
-          "autor": "Caroline Schmitt",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Monstergott",
+          "author": "Caroline Schmitt",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Der Held vom Bahnhof Friedrichstraße",
-          "autor": "Maxim Leo",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Der Held vom Bahnhof Friedrichstraße",
+          "author": "Maxim Leo",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -197,21 +197,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20260127_e09f8bb7.mp3",
       "title": "Luft – übers Atmen, Fliegen und Wolkengucken",
       "published": "2026-01-27T00:10:00+00:00",
-      "thema": "Luft",
+      "topic": "Luft",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-luft--uebers-atmen-fliegen-und-wolkengucken-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/342/3426669/3426669_65731240.mp3",
       "books": [
         {
-          "titel": "Die Wolkengucker",
-          "autor": "Kristina Fritz",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Die Wolkengucker",
+          "author": "Kristina Fritz",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Der letzte Sommer der Tauben",
-          "autor": "Abbas Khider",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Der letzte Sommer der Tauben",
+          "author": "Abbas Khider",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -219,21 +219,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20260113_ad4eedeb.mp3",
       "title": "Essen – über das, was wir mögen und meiden",
       "published": "2026-01-13T00:10:00+00:00",
-      "thema": "Essen",
+      "topic": "Essen",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-essen--ueber-das-was-wir-moegen-und-meiden-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/341/3419197/3419197_65550680.mp3",
       "books": [
         {
-          "titel": "Ein Tisch am Fenster",
-          "autor": "Vincent Moissonnier",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Ein Tisch am Fenster",
+          "author": "Vincent Moissonnier",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Kochen im falschen Jahrhundert",
-          "autor": "Teresa Präauer",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Kochen im falschen Jahrhundert",
+          "author": "Teresa Präauer",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -241,21 +241,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20251230_0e8cf570.mp3",
       "title": "Erinnerung – über den Speicher in unserem Kopf",
       "published": "2025-12-30T00:10:00+00:00",
-      "thema": "Erinnerung",
+      "topic": "Erinnerung",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-erinnerung--ueber-den-speicher-in-unserem-kopf-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/341/3413588/3413588_65395213.mp3",
       "books": [
         {
-          "titel": "Schlupfwinkel",
-          "autor": "Friedrich Ani",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Schlupfwinkel",
+          "author": "Friedrich Ani",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Die Ausweichschule",
-          "autor": "Kaleb Erdmann",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Die Ausweichschule",
+          "author": "Kaleb Erdmann",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -263,21 +263,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20251216_7d7f4a09.mp3",
       "title": "Druck – über das, was auf uns lastet",
       "published": "2025-12-16T00:10:00+00:00",
-      "thema": "Druck",
+      "topic": "Druck",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-druck--ueber-das-was-auf-uns-lastet-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/340/3407972/3407972_65238702.mp3",
       "books": [
         {
-          "titel": "Nur für Mitglieder",
-          "autor": "Thorsten Nagelschmidt",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Nur für Mitglieder",
+          "author": "Thorsten Nagelschmidt",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Vielleicht ist die Liebe so",
-          "autor": "Katja Früh",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Vielleicht ist die Liebe so",
+          "author": "Katja Früh",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -285,21 +285,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20251202_95e9a81b.mp3",
       "title": "Feiern – über fette Parties und kleine Feste",
       "published": "2025-12-02T00:10:00+00:00",
-      "thema": "Feiern",
+      "topic": "Feiern",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-feiern--ueber-fette-parties-und-kleine-feste-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/339/3399907/3399907_65028668.mp3",
       "books": [
         {
-          "titel": "Das kleine Haus am Sonnenhang",
-          "autor": "Alex Capus",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Das kleine Haus am Sonnenhang",
+          "author": "Alex Capus",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Wedding People",
-          "autor": "Alison Espach",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Wedding People",
+          "author": "Alison Espach",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -307,21 +307,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20251118_47d2cad7.mp3",
       "title": "Fehler – über kleine Makel und falsche Entscheidungen",
       "published": "2025-11-18T00:10:00+00:00",
-      "thema": "Fehler",
+      "topic": "Fehler",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-fehler--ueber-kleine-makel-und-falsche-entscheidungen-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/339/3391773/3391773_64810980.mp3",
       "books": [
         {
-          "titel": "Geordnete Verhältnisse",
-          "autor": "Lana Lux",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Geordnete Verhältnisse",
+          "author": "Lana Lux",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "1000 letzte Dates",
-          "autor": "Anna Dushime",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "1000 letzte Dates",
+          "author": "Anna Dushime",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -329,21 +329,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20251104_b98d5e04.mp3",
       "title": "Ungerechtigkeit – über eine Welt, die nicht fair spielt",
       "published": "2025-11-04T00:10:00+00:00",
-      "thema": "Ungerechtigkeit",
+      "topic": "Ungerechtigkeit",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-ungerechtigkeit--ueber-eine-welt-die-nicht-fair-spielt-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/338/3384529/3384529_64616066.mp3",
       "books": [
         {
-          "titel": "Fallers große Liebe",
-          "autor": "Thommie Bayer",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Fallers große Liebe",
+          "author": "Thommie Bayer",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Tigermilch",
-          "autor": "Stefanie de Velasco",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Tigermilch",
+          "author": "Stefanie de Velasco",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -351,21 +351,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20251021_ca340b05.mp3",
       "title": "Herbst – über Kürbisse, Kastanien und kürzere Tage",
       "published": "2025-10-21T00:10:00+00:00",
-      "thema": "Herbst",
+      "topic": "Herbst",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-herbst--ueber-kuerbisse-kastanien-und-kuerzere-tage-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/337/3377649/3377649_64437997.mp3",
       "books": [
         {
-          "titel": "Tage im warmen Licht",
-          "autor": "Kristina Pfister",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Tage im warmen Licht",
+          "author": "Kristina Pfister",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Nach Mattias",
-          "autor": "Peter Zantingh",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Nach Mattias",
+          "author": "Peter Zantingh",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -373,21 +373,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20251007_e777d6db.mp3",
       "title": "Bewunderung – über alles zwischen Faszination und Neid",
       "published": "2025-10-07T00:10:00+00:00",
-      "thema": "Bewunderung",
+      "topic": "Bewunderung",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-bewunderung--ueber-alles-zwischen-faszination-und-neid-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/337/3370061/3370061_64242454.mp3",
       "books": [
         {
-          "titel": "Familiensache",
-          "autor": "Claire Lynch",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Familiensache",
+          "author": "Claire Lynch",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Gym",
-          "autor": "Verena Keßler",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Gym",
+          "author": "Verena Keßler",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -395,21 +395,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20250923_5984ab93.mp3",
       "title": "Therapie – über den Blick in die Seele",
       "published": "2025-09-23T00:10:00+00:00",
-      "thema": "Therapie",
+      "topic": "Therapie",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-therapie--ueber-den-blick-in-die-seele-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/336/3363473/3363473_64066980.mp3",
       "books": [
         {
-          "titel": "Marianengraben",
-          "autor": "Jasmin Schreiber",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Marianengraben",
+          "author": "Jasmin Schreiber",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Auf gefährlich sanfte Art",
-          "autor": "Antoine Laurain",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Auf gefährlich sanfte Art",
+          "author": "Antoine Laurain",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -417,21 +417,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20250909_9eb8d0f5.mp3",
       "title": "Spiele – übers Gewinnen und Verlieren",
       "published": "2025-09-09T00:10:00+00:00",
-      "thema": "Spiele",
+      "topic": "Spiele",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-spiele--uebers-gewinnen-und-verlieren-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/335/3355513/3355513_63867851.mp3",
       "books": [
         {
-          "titel": "Alle meine Wünsche",
-          "autor": "Grégoire Delacourt",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Alle meine Wünsche",
+          "author": "Grégoire Delacourt",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Die Falle",
-          "autor": "Melanie Raabe",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Die Falle",
+          "author": "Melanie Raabe",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -439,21 +439,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20250826_c35b0cef.mp3",
       "title": "Großeltern – über Omas und Opas",
       "published": "2025-08-26T00:10:00+00:00",
-      "thema": "Großeltern",
+      "topic": "Großeltern",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-grosseltern--ueber-omas-und-opas-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/334/3348761/3348761_63680935.mp3",
       "books": [
         {
-          "titel": "Der Geschmack von Apfelkernen",
-          "autor": "Katharina Hagena",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Der Geschmack von Apfelkernen",
+          "author": "Katharina Hagena",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Nonna",
-          "autor": "Thomas de Padova",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Nonna",
+          "author": "Thomas de Padova",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -461,21 +461,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20250812_e7a213ce.mp3",
       "title": "Nacht – über wache Momente in dunklen Stunden",
       "published": "2025-08-12T00:30:00+00:00",
-      "thema": "Nacht",
+      "topic": "Nacht",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-nacht--ueber-wache-momente-in-dunklen-stunden-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/334/3341907/3341907_63481026.mp3",
       "books": [
         {
-          "titel": "Nachts",
-          "autor": "Mercedes Lauenstein",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Nachts",
+          "author": "Mercedes Lauenstein",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Die Karte meiner Träume",
-          "autor": "Reif Larsen",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Die Karte meiner Träume",
+          "author": "Reif Larsen",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -483,21 +483,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20250729_5c4ea7aa.mp3",
       "title": "Sommer – über Wärme, Wellen und Wurstsalat",
       "published": "2025-07-29T00:30:00+00:00",
-      "thema": "Sommer",
+      "topic": "Sommer",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-sommer--ueber-waerme-wellen-und-wurstsalat-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/333/3334809/3334809_63300123.mp3",
       "books": [
         {
-          "titel": "Damals im Sommer",
-          "autor": "Florian Gottschick",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Damals im Sommer",
+          "author": "Florian Gottschick",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Ein Ende und ein Anfang",
-          "autor": "Oliver Hilmes",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Ein Ende und ein Anfang",
+          "author": "Oliver Hilmes",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -505,21 +505,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20250715_7cf9f10f.mp3",
       "title": "Schmerz – über gebrochene Knochen und gebrochene Herzen",
       "published": "2025-07-15T00:30:00+00:00",
-      "thema": "Schmerz",
+      "topic": "Schmerz",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-schmerz--ueber-gebrochene-knochen-und-gebrochene-herzen-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/332/3326702/3326702_63112814.mp3",
       "books": [
         {
-          "titel": "Drei Meter Dreißig",
-          "autor": "Jaqueline Scheiber",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Drei Meter Dreißig",
+          "author": "Jaqueline Scheiber",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Vergiss mich",
-          "autor": "Alex Schulman",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Vergiss mich",
+          "author": "Alex Schulman",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -527,21 +527,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20250701_cdc316cf.mp3",
       "title": "Fantasie – über das Kino in unserem Kopf",
       "published": "2025-07-01T00:30:00+00:00",
-      "thema": "Fantasie",
+      "topic": "Fantasie",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-fantasie--ueber-das-kino-in-unserem-kopf-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/331/3317510/3317510_62918844.mp3",
       "books": [
         {
-          "titel": "Mr. Parnassus Heim für magisch Begabte",
-          "autor": "T.J. Klune",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Mr. Parnassus Heim für magisch Begabte",
+          "author": "T.J. Klune",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Der Bademeister ohne Himmel",
-          "autor": "Petra Pellini",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Der Bademeister ohne Himmel",
+          "author": "Petra Pellini",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -549,21 +549,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20250617_67e909f8.mp3",
       "title": "Zeit – über das Ticken in unserem Leben",
       "published": "2025-06-17T00:10:00+00:00",
-      "thema": "Zeit",
+      "topic": "Zeit",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-zeit--ueber-das-ticken-in-unserem-leben-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/331/3310740/3310740_62735435.mp3",
       "books": [
         {
-          "titel": "Uhren gibt es nicht mehr",
-          "autor": "André Heller",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Uhren gibt es nicht mehr",
+          "author": "André Heller",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Das Ministerium der Zeit",
-          "autor": "Kaliane Bradley",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Das Ministerium der Zeit",
+          "author": "Kaliane Bradley",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -571,21 +571,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20250603_3367ed54.mp3",
       "title": "Eitelkeit – über Schönheit, Schein und Selbstinszenierung",
       "published": "2025-06-03T00:10:00+00:00",
-      "thema": "Eitelkeit",
+      "topic": "Eitelkeit",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/eitelkeit--ueber-schoenheit-schein-und-selbstinszenierung-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/330/3303763/3303763_62555621.mp3",
       "books": [
         {
-          "titel": "Das Palais muss brennen",
-          "autor": "Mercedes Spannagel",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Das Palais muss brennen",
+          "author": "Mercedes Spannagel",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Montauk",
-          "autor": "Max Frisch",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Montauk",
+          "author": "Max Frisch",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -593,21 +593,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20250520_66821add.mp3",
       "title": "Ehe – über ein großes \"JA\" und alles danach",
       "published": "2025-05-20T00:10:00+00:00",
-      "thema": "Ehe",
+      "topic": "Ehe",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-ehe--ueber-ein-grosses-ja-und-alles-danach-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/329/3296953/3296953_62375473.mp3",
       "books": [
         {
-          "titel": "Die anhaltende Suche nach Glück",
-          "autor": "Géraldine Dalban-Moreynas",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Die anhaltende Suche nach Glück",
+          "author": "Géraldine Dalban-Moreynas",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Die Ehefrau",
-          "autor": "Meg Wolitzer",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Die Ehefrau",
+          "author": "Meg Wolitzer",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -615,21 +615,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20250506_00637769.mp3",
       "title": "Reue – über das, was wir bedauern",
       "published": "2025-05-06T00:10:00+00:00",
-      "thema": "Reue",
+      "topic": "Reue",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-reue--ueber-das-was-wir-bedauern-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/328/3289842/3289842_62187486.mp3",
       "books": [
         {
-          "titel": "Nackt über Berlin",
-          "autor": "Axel Ranisch",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Nackt über Berlin",
+          "author": "Axel Ranisch",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Peggy",
-          "autor": "Rebecca Godfrey & Leslie Jamison",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Peggy",
+          "author": "Rebecca Godfrey & Leslie Jamison",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -637,21 +637,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20250422_56ffbf70.mp3",
       "title": "Frühling – über das große Aufblühen",
       "published": "2025-04-22T00:10:00+00:00",
-      "thema": "Frühling",
+      "topic": "Frühling",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-fruehling--ueber-das-grosse-aufbluehen-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/328/3282716/3282716_62016079.mp3",
       "books": [
         {
-          "titel": "Sonnenhang",
-          "autor": "Kathrin Weßling",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Sonnenhang",
+          "author": "Kathrin Weßling",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Kirschblüten: Hanami",
-          "autor": "Doris Dörrie",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Kirschblüten: Hanami",
+          "author": "Doris Dörrie",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -659,21 +659,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20250408_5a81da49.mp3",
       "title": "Versuchung – über das, was uns lockt",
       "published": "2025-04-08T00:10:00+00:00",
-      "thema": "Versuchung",
+      "topic": "Versuchung",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-versuchung--ueber-das-was-uns-lockt-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/327/3276505/3276505_61839412.mp3",
       "books": [
         {
-          "titel": "Die Partie seines Lebens",
-          "autor": "Walter Tevis",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Die Partie seines Lebens",
+          "author": "Walter Tevis",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Dschungel",
-          "autor": "Friedemann Karig",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Dschungel",
+          "author": "Friedemann Karig",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -681,21 +681,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20250325_6426f065.mp3",
       "title": "Streit – über großen Krach und kleine Kränkungen",
       "published": "2025-03-25T00:10:00+00:00",
-      "thema": "Streit",
+      "topic": "Streit",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-streit--ueber-grossen-krach-und-kleine-kraenkungen-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/326/3269263/3269263_61654017.mp3",
       "books": [
         {
-          "titel": "Schwindel",
-          "autor": "Hengameh Yaghoobifarah",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Schwindel",
+          "author": "Hengameh Yaghoobifarah",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Noch mal von vorne",
-          "autor": "Dana von Suffrin",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Noch mal von vorne",
+          "author": "Dana von Suffrin",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -703,21 +703,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20250311_9cdd986d.mp3",
       "title": "Träume – über das Kino in unserem Kopf",
       "published": "2025-03-11T00:10:00+00:00",
-      "thema": "Träume",
+      "topic": "Träume",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-traeume--ueber-das-kino-in-unserem-kopf-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/326/3262720/3262720_61474603.mp3",
       "books": [
         {
-          "titel": "Sieben Tage Sommer",
-          "autor": "Thommie Bayer",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Sieben Tage Sommer",
+          "author": "Thommie Bayer",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Zwei vernünftige Erwachsene, die sich mal nackt gesehen haben",
-          "autor": "Anika Decker",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Zwei vernünftige Erwachsene, die sich mal nackt gesehen haben",
+          "author": "Anika Decker",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -725,21 +725,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20250225_dd457cbc.mp3",
       "title": "Hoffnung – über all das, was möglich scheint",
       "published": "2025-02-25T00:10:00+00:00",
-      "thema": "Hoffnung",
+      "topic": "Hoffnung",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-hoffnung--ueber-all-das-was-moeglich-scheint-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/325/3255935/3255935_61298985.mp3",
       "books": [
         {
-          "titel": "Mitternachtsschwimmer",
-          "autor": "Roisin Maguire",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Mitternachtsschwimmer",
+          "author": "Roisin Maguire",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Ostende",
-          "autor": "Volker Weidermann",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Ostende",
+          "author": "Volker Weidermann",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -747,21 +747,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20250211_7ad316a2.mp3",
       "title": "Grenzen – übers Überschreiten und Einhalten",
       "published": "2025-02-11T00:10:00+00:00",
-      "thema": "Grenzen",
+      "topic": "Grenzen",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-grenzen--uebers-ueberschreiten-und-einhalten-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/324/3248801/3248801_61118483.mp3",
       "books": [
         {
-          "titel": "23 Uhr 12",
-          "autor": "Adeline Dieudonné",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "23 Uhr 12",
+          "author": "Adeline Dieudonné",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Über den Fluss",
-          "autor": "Theresa Pleitner",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Über den Fluss",
+          "author": "Theresa Pleitner",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -769,21 +769,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20250128_d479c754.mp3",
       "title": "Winter – über eisige Zeiten und warme Socken",
       "published": "2025-01-28T00:10:00+00:00",
-      "thema": "Winter",
+      "topic": "Winter",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-winter--ueber-eisige-zeiten-und-warme-socken-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/324/3242061/3242061_60939704.mp3",
       "books": [
         {
-          "titel": "Das Eisschloss",
-          "autor": "Tarjei Vesaas",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Das Eisschloss",
+          "author": "Tarjei Vesaas",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Die Eismacher",
-          "autor": "Ernest van der Kwast",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Die Eismacher",
+          "author": "Ernest van der Kwast",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -791,21 +791,21 @@
       "guid": "/zwei_seiten__der_podcast_ber_bcher__wdr_20250114_573ece61.mp3",
       "title": "Umzug – über gepackte Kisten und neue Räume",
       "published": "2025-01-14T00:10:00+00:00",
-      "thema": "Umzug",
+      "topic": "Umzug",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-umzug--ueber-gepackte-kisten-und-neue-raeume-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3234955/3234955_60748637.mp3",
       "books": [
         {
-          "titel": "Alles wie immer",
-          "autor": "Shirley Jackson",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Alles wie immer",
+          "author": "Shirley Jackson",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Okaye Tage",
-          "autor": "Jenny Mustard",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Okaye Tage",
+          "author": "Jenny Mustard",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -813,21 +813,21 @@
       "guid": "7ce5873800341dfddf4294813d049b4b",
       "title": "Weihnachten – über (nicht ganz so) heilige Tage",
       "published": "2024-12-24T01:00:00+00:00",
-      "thema": "Weihnachten",
+      "topic": "Weihnachten",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-weihnachten--ueber-nicht-ganz-so-heilige-tage-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232261/3232261_60673118.mp3",
       "books": [
         {
-          "titel": "Der alte Mann und der Bär",
-          "autor": "Janosch",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Der alte Mann und der Bär",
+          "author": "Janosch",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Verflixte Festtage",
-          "autor": "Kati Hertzsch",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Verflixte Festtage",
+          "author": "Kati Hertzsch",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -835,21 +835,21 @@
       "guid": "520b31328f04dca7d3daedaecf8a4113",
       "title": "Rituale – über Momente mit Bedeutung",
       "published": "2024-12-10T01:00:00+00:00",
-      "thema": "Rituale",
+      "topic": "Rituale",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-rituale--ueber-momente-mit-bedeutung-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232258/3232258_60673050.mp3",
       "books": [
         {
-          "titel": "Barbara stirbt nicht",
-          "autor": "Alina Bronsky",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Barbara stirbt nicht",
+          "author": "Alina Bronsky",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Issa",
-          "autor": "Mirrianne Mahn",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Issa",
+          "author": "Mirrianne Mahn",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -857,21 +857,21 @@
       "guid": "5fc62d7bbf4817faf1b2f0825656f7e7",
       "title": "Ordnung – übers Aufräumen, Sortieren und Klarkommen",
       "published": "2024-11-26T01:00:00+00:00",
-      "thema": "Ordnung",
+      "topic": "Ordnung",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-ordnung--uebers-aufraeumen-sortieren-und-klarkommen-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232256/3232256_60673038.mp3",
       "books": [
         {
-          "titel": "Weltalltage",
-          "autor": "Paula Fürstenberg",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Weltalltage",
+          "author": "Paula Fürstenberg",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Man kann auch in die Höhe fallen",
-          "autor": "Joachim Meyerhoff",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Man kann auch in die Höhe fallen",
+          "author": "Joachim Meyerhoff",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -879,21 +879,21 @@
       "guid": "3db2e68471e27c5a812a19e1457a847d",
       "title": "Prüfungen – über das, was wir bestehen wollen",
       "published": "2024-11-12T01:00:00+00:00",
-      "thema": "Prüfungen",
+      "topic": "Prüfungen",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-pruefungen--ueber-das-was-wir-bestehen-wollen-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232250/3232250_60673008.mp3",
       "books": [
         {
-          "titel": "Institut für gute Mütter",
-          "autor": "Jessamine Chan",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Institut für gute Mütter",
+          "author": "Jessamine Chan",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Munk",
-          "autor": "Jan Weiler",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Munk",
+          "author": "Jan Weiler",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -901,21 +901,21 @@
       "guid": "ed5d9504d835a3ab9d6b40826c01f80d",
       "title": "Wehmut – über bittersüße Momente",
       "published": "2024-10-29T01:00:00+00:00",
-      "thema": "Wehmut",
+      "topic": "Wehmut",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-wehmut--ueber-bittersuesse-momente-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232255/3232255_60673010.mp3",
       "books": [
         {
-          "titel": "Bevor wir uns vergessen",
-          "autor": "Éliette Abécassis",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Bevor wir uns vergessen",
+          "author": "Éliette Abécassis",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Nur vom Weltraum aus ist die Erde blau",
-          "autor": "Björn Stephan",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Nur vom Weltraum aus ist die Erde blau",
+          "author": "Björn Stephan",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -923,21 +923,21 @@
       "guid": "f57f3f9e175e802afe8ad2d029d3fb6a",
       "title": "Macht – über Einfluss, Kontrolle und Abhängigkeit",
       "published": "2024-10-14T23:00:00+00:00",
-      "thema": "Macht",
+      "topic": "Macht",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-macht--ueber-einfluss-kontrolle-und-abhaengigkeit-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232247/3232247_60673007.mp3",
       "books": [
         {
-          "titel": "Die schönste Version",
-          "autor": "Ruth-Maria Thomas",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Die schönste Version",
+          "author": "Ruth-Maria Thomas",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Die Himmelsrichtungen",
-          "autor": "Jo Lendle",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Die Himmelsrichtungen",
+          "author": "Jo Lendle",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -945,21 +945,21 @@
       "guid": "2672c92e2c99921c1a561f2e0388cb6b",
       "title": "Vertrauen – über ein sicheres Gefühl",
       "published": "2024-09-30T23:00:00+00:00",
-      "thema": "Vertrauen",
+      "topic": "Vertrauen",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-vertrauen--ueber-ein-sicheres-gefuehl-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232254/3232254_60673009.mp3",
       "books": [
         {
-          "titel": "Das größere Wunder",
-          "autor": "Thomas Glavinic",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Das größere Wunder",
+          "author": "Thomas Glavinic",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Kleine Monster",
-          "autor": "Jessica Lind",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Kleine Monster",
+          "author": "Jessica Lind",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -967,21 +967,21 @@
       "guid": "dbbb10a7d41537537a6fe074b075785a",
       "title": "Wunder – über die unerklärlichen Momente",
       "published": "2024-09-16T23:00:00+00:00",
-      "thema": "Wunder",
+      "topic": "Wunder",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-wunder--ueber-die-unerklaerlichen-momente-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232242/3232242_60672900.mp3",
       "books": [
         {
-          "titel": "Wunder",
-          "autor": "R.J. Palacio",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Wunder",
+          "author": "R.J. Palacio",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Draußen feiern die Leute",
-          "autor": "Sven Pfizenmaier",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Draußen feiern die Leute",
+          "author": "Sven Pfizenmaier",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -989,21 +989,21 @@
       "guid": "cd3822b1b2452dc318abe1d61c20369e",
       "title": "Humor – über das, was uns zum Lachen bringt",
       "published": "2024-09-02T23:00:00+00:00",
-      "thema": "Humor",
+      "topic": "Humor",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-humor--ueber-das-was-uns-zum-lachen-bringt-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232243/3232243_60672899.mp3",
       "books": [
         {
-          "titel": "Funny Girl",
-          "autor": "Anthony McCarten",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Funny Girl",
+          "author": "Anthony McCarten",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Schrei mich bitte nicht so an!",
-          "autor": "Miriam Wurster",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Schrei mich bitte nicht so an!",
+          "author": "Miriam Wurster",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1011,21 +1011,21 @@
       "guid": "7d4d690fafc7409586ea14a3d557406c",
       "title": "Verbrechen – über den Mix aus Angst und Faszination",
       "published": "2024-08-19T23:00:00+00:00",
-      "thema": "Verbrechen",
+      "topic": "Verbrechen",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-verbrechen--ueber-den-mix-aus-angst-und-faszination-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232241/3232241_60672898.mp3",
       "books": [
         {
-          "titel": "Müll",
-          "autor": "Wolf Haas",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Müll",
+          "author": "Wolf Haas",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Nullzeit",
-          "autor": "Juli Zeh",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Nullzeit",
+          "author": "Juli Zeh",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1033,21 +1033,21 @@
       "guid": "0da4ac4c3860394203c19789caedda55",
       "title": "Stimme – über den Klang unserer Worte",
       "published": "2024-08-05T23:00:00+00:00",
-      "thema": "Stimme",
+      "topic": "Stimme",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-stimme--ueber-den-klang-unserer-worte-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232228/3232228_60672816.mp3",
       "books": [
         {
-          "titel": "Vox",
-          "autor": "Nicholson Baker",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Vox",
+          "author": "Nicholson Baker",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Vox",
-          "autor": "Christina Dalcher",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Vox",
+          "author": "Christina Dalcher",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1055,21 +1055,21 @@
       "guid": "fa8c453e0ba756c8d10bfcca22f13379",
       "title": "Entscheidungen – über die Qual der Wahl",
       "published": "2024-07-22T23:00:00+00:00",
-      "thema": "Entscheidungen",
+      "topic": "Entscheidungen",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-entscheidungen--ueber-die-qual-der-wahl-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232095/3232095_60671743.mp3",
       "books": [
         {
-          "titel": "Das Shaolin Prinzip",
-          "autor": "Bernhard Moestl",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Das Shaolin Prinzip",
+          "author": "Bernhard Moestl",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Bleib",
-          "autor": "Adeline Dieudonné",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Bleib",
+          "author": "Adeline Dieudonné",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1077,21 +1077,21 @@
       "guid": "a96f19a69ca15fe0082dbd5ed6186357",
       "title": "Märchen – über das große \"Es war einmal...\"",
       "published": "2024-07-08T23:00:00+00:00",
-      "thema": "Märchen",
+      "topic": "Märchen",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-maerchen--ueber-das-grosse-es-war-einmal-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232096/3232096_60671742.mp3",
       "books": [
         {
-          "titel": "Nathalie küsst",
-          "autor": "David Foenkinos",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Nathalie küsst",
+          "author": "David Foenkinos",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Power",
-          "autor": "Verena Güntner",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Power",
+          "author": "Verena Güntner",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1099,21 +1099,21 @@
       "guid": "7ad05647aa5022c5a19ef27abc3c6af3",
       "title": "Reisen – über alle Berge",
       "published": "2024-06-24T23:00:00+00:00",
-      "thema": "Reisen",
+      "topic": "Reisen",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-reisen--ueber-alle-berge-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232092/3232092_60671677.mp3",
       "books": [
         {
-          "titel": "Nächsten Sommer",
-          "autor": "Edgar Rai",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Nächsten Sommer",
+          "author": "Edgar Rai",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Gebrauchsanweisung fürs Zugreisen",
-          "autor": "Jaroslav Rudiš",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Gebrauchsanweisung fürs Zugreisen",
+          "author": "Jaroslav Rudiš",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1121,45 +1121,45 @@
       "guid": "dff0790b6e8aaa7b9d9bddb6d11f7eb7",
       "title": "Jubiläum – über unseren ersten Geburtstag",
       "published": "2024-06-17T23:00:00+00:00",
-      "thema": "Jubiläum",
+      "topic": "Jubiläum",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-jubilaeum--ueber-unseren-ersten-geburtstag-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232090/3232090_60671632.mp3",
       "books": [
         {
-          "titel": "Léon und Louise",
-          "autor": "Alex Capus",
-          "empfohlen_von": "beide",
-          "rolle": "Hauptempfehlung"
+          "title": "Léon und Louise",
+          "author": "Alex Capus",
+          "recommended_by": "beide",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Trennungsroman",
-          "autor": "Anna Brüggemann",
-          "empfohlen_von": "beide",
-          "rolle": "Hauptempfehlung"
+          "title": "Trennungsroman",
+          "author": "Anna Brüggemann",
+          "recommended_by": "beide",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Supergute Tage",
-          "autor": "Mark Haddon",
-          "empfohlen_von": "beide",
-          "rolle": "Hauptempfehlung"
+          "title": "Supergute Tage",
+          "author": "Mark Haddon",
+          "recommended_by": "beide",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Der Club",
-          "autor": "Takis Würger",
-          "empfohlen_von": "beide",
-          "rolle": "Hauptempfehlung"
+          "title": "Der Club",
+          "author": "Takis Würger",
+          "recommended_by": "beide",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Der Papierpalast",
-          "autor": "Miranda Cowley Heller",
-          "empfohlen_von": "beide",
-          "rolle": "Hauptempfehlung"
+          "title": "Der Papierpalast",
+          "author": "Miranda Cowley Heller",
+          "recommended_by": "beide",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "City of Girls",
-          "autor": "Elizabeth Gilbert",
-          "empfohlen_von": "beide",
-          "rolle": "Hauptempfehlung"
+          "title": "City of Girls",
+          "author": "Elizabeth Gilbert",
+          "recommended_by": "beide",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1167,21 +1167,21 @@
       "guid": "b422e918996aded6f718dd277a0d6412",
       "title": "Pause – übers Innehalten und Durchatmen",
       "published": "2024-05-20T23:00:00+00:00",
-      "thema": "Pause",
+      "topic": "Pause",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-pause--uebers-innehalten-und-durchatmen-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232086/3232086_60671505.mp3",
       "books": [
         {
-          "titel": "Das Geräusch einer Schnecke beim Essen",
-          "autor": "Elisabeth Tova Bailey",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Das Geräusch einer Schnecke beim Essen",
+          "author": "Elisabeth Tova Bailey",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "60 Tage liegen",
-          "autor": "Dennis Freischlad",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "60 Tage liegen",
+          "author": "Dennis Freischlad",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1189,21 +1189,21 @@
       "guid": "b55cf11f59911008663c2e72015c4d4f",
       "title": "Veränderung – über die neuen Kapitel im Leben",
       "published": "2024-05-13T23:00:00+00:00",
-      "thema": "Veränderung",
+      "topic": "Veränderung",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-veraenderung--ueber-die-neuen-kapitel-im-leben-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232074/3232074_60671486.mp3",
       "books": [
         {
-          "titel": "Hawaii",
-          "autor": "Cihan Acar",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Hawaii",
+          "author": "Cihan Acar",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Wir werden jung sein",
-          "autor": "Maxim Leo",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Wir werden jung sein",
+          "author": "Maxim Leo",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1211,21 +1211,21 @@
       "guid": "732534990db57d53ce81d3eab40dde7c",
       "title": "Scham – über den Wunsch, im Boden zu versinken",
       "published": "2024-05-06T23:00:00+00:00",
-      "thema": "Scham",
+      "topic": "Scham",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-scham--ueber-den-wunsch-im-boden-zu-versinken-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232073/3232073_60671485.mp3",
       "books": [
         {
-          "titel": "Seltsame Blüten",
-          "autor": "Donal Ryan",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Seltsame Blüten",
+          "author": "Donal Ryan",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Scham",
-          "autor": "Inès Bayard",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Scham",
+          "author": "Inès Bayard",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1233,21 +1233,21 @@
       "guid": "9f9d97b965f23f353ae3c5641955e8f4",
       "title": "Scheitern – über Niederlagen und alles danach",
       "published": "2024-04-29T23:00:00+00:00",
-      "thema": "Scheitern",
+      "topic": "Scheitern",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-scheitern--ueber-niederlagen-und-alles-danach-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232072/3232072_60671484.mp3",
       "books": [
         {
-          "titel": "Die Kobra von Kreuzberg",
-          "autor": "Michel Decar",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Die Kobra von Kreuzberg",
+          "author": "Michel Decar",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "So, und jetzt kommst du",
-          "autor": "Arno Frank",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "So, und jetzt kommst du",
+          "author": "Arno Frank",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1255,21 +1255,21 @@
       "guid": "42257030b1d287705d62252f7af78263",
       "title": "Musik – über die Macht von Melodien",
       "published": "2024-04-22T23:00:00+00:00",
-      "thema": "Musik",
+      "topic": "Musik",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-musik--ueber-die-macht-von-melodien-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232070/3232070_60671483.mp3",
       "books": [
         {
-          "titel": "Der letzte Satz",
-          "autor": "Robert Seethaler",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Der letzte Satz",
+          "author": "Robert Seethaler",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Augustblau",
-          "autor": "Deborah Levy",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Augustblau",
+          "author": "Deborah Levy",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1277,21 +1277,21 @@
       "guid": "d746618d2e15db97d7d0fc148c12c8fb",
       "title": "Schule – übers Lernen, Lügen und Lachen",
       "published": "2024-04-15T23:00:00+00:00",
-      "thema": "Schule",
+      "topic": "Schule",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-schule--uebers-lernen-luegen-und-lachen-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232069/3232069_60671482.mp3",
       "books": [
         {
-          "titel": "Wie ich fälschte, log und Gutes tat",
-          "autor": "Thomas Klupp",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Wie ich fälschte, log und Gutes tat",
+          "author": "Thomas Klupp",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Abifeier",
-          "autor": "Eric Nil",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Abifeier",
+          "author": "Eric Nil",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1299,21 +1299,21 @@
       "guid": "ef68ebbcd21a77acb906ba25e4dd1dc1",
       "title": "Trauer – übers Weitermachen (müssen)",
       "published": "2024-04-08T23:00:00+00:00",
-      "thema": "Trauer",
+      "topic": "Trauer",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-trauer--uebers-weitermachen-muessen-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232057/3232057_60671361.mp3",
       "books": [
         {
-          "titel": "In einen Stern",
-          "autor": "Puk Qvortrup",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "In einen Stern",
+          "author": "Puk Qvortrup",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Kurt",
-          "autor": "Sarah Kuttner",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Kurt",
+          "author": "Sarah Kuttner",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1321,21 +1321,21 @@
       "guid": "23c6b32f627838e720ee57df9885f4ed",
       "title": "Schlaf – über zzzzzzzzzzzzzzzzzzzzzzzzzz",
       "published": "2024-04-01T23:00:00+00:00",
-      "thema": "Schlaf",
+      "topic": "Schlaf",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-schlaf--ueber-zzzzzzzzzzzzzzzzzzzzzzzzzz-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232058/3232058_60671360.mp3",
       "books": [
         {
-          "titel": "Schlafes Bruder",
-          "autor": "Robert Schneider",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Schlafes Bruder",
+          "author": "Robert Schneider",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Mein Jahr der Ruhe und Entspannung",
-          "autor": "Ottessa Moshfegh",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Mein Jahr der Ruhe und Entspannung",
+          "author": "Ottessa Moshfegh",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1343,21 +1343,21 @@
       "guid": "12f27daf9278f27519525c3e83953960",
       "title": "Sehnsucht – über Träume, Wünsche und Illusionen",
       "published": "2024-03-26T01:00:00+00:00",
-      "thema": "Sehnsucht",
+      "topic": "Sehnsucht",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-sehnsucht--ueber-traeume-wuensche-und-illusionen-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232054/3232054_60671359.mp3",
       "books": [
         {
-          "titel": "Alle sieben Wellen",
-          "autor": "Daniel Glattauer",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Alle sieben Wellen",
+          "author": "Daniel Glattauer",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Beschreibung einer Krabbenwanderung",
-          "autor": "Karosh Taha",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Beschreibung einer Krabbenwanderung",
+          "author": "Karosh Taha",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1365,21 +1365,21 @@
       "guid": "4b903e1fec661df83c1f24219661659d",
       "title": "Familie – über Menschen, die wir uns nicht aussuchen",
       "published": "2024-03-19T01:00:00+00:00",
-      "thema": "Familie",
+      "topic": "Familie",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-familie--ueber-menschen-die-wir-uns-nicht-aussuchen-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232052/3232052_60671331.mp3",
       "books": [
         {
-          "titel": "Dschinns",
-          "autor": "Fatma Aydemir",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Dschinns",
+          "author": "Fatma Aydemir",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Der größte Spaß, den wir je hatten",
-          "autor": "Claire Lombardo",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Der größte Spaß, den wir je hatten",
+          "author": "Claire Lombardo",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1387,21 +1387,21 @@
       "guid": "735c9dc1308b1b7a575dd43c30e4888a",
       "title": "Schuld – über die Last auf unseren Schultern",
       "published": "2024-03-12T01:00:00+00:00",
-      "thema": "Schuld",
+      "topic": "Schuld",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-schuld--ueber-die-last-auf-unseren-schultern-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232053/3232053_60671303.mp3",
       "books": [
         {
-          "titel": "Sommer wie Winter",
-          "autor": "Judith Taschler",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Sommer wie Winter",
+          "author": "Judith Taschler",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Der Mauersegler",
-          "autor": "Jasmin Schreiber",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Der Mauersegler",
+          "author": "Jasmin Schreiber",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1409,21 +1409,21 @@
       "guid": "dd17aed1e9521b454f5021e566a7d9c8",
       "title": "Narben – über (fast) verheilte Wunden",
       "published": "2024-03-05T01:00:00+00:00",
-      "thema": "Narben",
+      "topic": "Narben",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-narben--ueber-fast-verheilte-wunden-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232035/3232035_60670956.mp3",
       "books": [
         {
-          "titel": "Miroloi",
-          "autor": "Karen Köhler",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Miroloi",
+          "author": "Karen Köhler",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Die Unvollkommenheit der Liebe",
-          "autor": "Elizabeth Strout",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Die Unvollkommenheit der Liebe",
+          "author": "Elizabeth Strout",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1431,7 +1431,7 @@
       "guid": "6f1c2578d8370d3503471c7b3e463a35",
       "title": "Fragen (Pt. 2) – über das, was euch interessiert",
       "published": "2024-02-27T01:00:00+00:00",
-      "thema": "Fragen (Pt. 2)",
+      "topic": "Fragen (Pt. 2)",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-fragen-pt---ueber-das-was-euch-interessiert-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232034/3232034_60670955.mp3",
       "books": []
@@ -1440,21 +1440,21 @@
       "guid": "295e4305e2cc54838a99dddee1fa110d",
       "title": "Wut - über ein mächtiges Gefühl",
       "published": "2024-02-20T01:00:00+00:00",
-      "thema": "Wut",
+      "topic": "Wut",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-wut---ueber-ein-maechtiges-gefuehl-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232033/3232033_60670954.mp3",
       "books": [
         {
-          "titel": "Schlichte Wut",
-          "autor": "Davide Longo",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Schlichte Wut",
+          "author": "Davide Longo",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Die Wut, die bleibt",
-          "autor": "Mareike Fallwickl",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Die Wut, die bleibt",
+          "author": "Mareike Fallwickl",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1462,21 +1462,21 @@
       "guid": "8fc9446c369e50cfb6b0bf9548de757e",
       "title": "Zufall – über Fügung, Schicksal und Glück",
       "published": "2024-02-13T01:00:00+00:00",
-      "thema": "Zufall",
+      "topic": "Zufall",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-zufall--ueber-fuegung-schicksal-und-glueck-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232008/3232008_60670695.mp3",
       "books": [
         {
-          "titel": "Soweit der Fluss uns trägt",
-          "autor": "Shelley Read",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Soweit der Fluss uns trägt",
+          "author": "Shelley Read",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Schnell leben",
-          "autor": "Brigitte Giraud",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Schnell leben",
+          "author": "Brigitte Giraud",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1484,21 +1484,21 @@
       "guid": "78226c6953e625a40246c05af7440590",
       "title": "Vergessen – über das Verschwinden im Kopf",
       "published": "2024-02-06T01:00:00+00:00",
-      "thema": "Vergessen",
+      "topic": "Vergessen",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-vergessen--ueber-das-verschwinden-im-kopf-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232004/3232004_60670692.mp3",
       "books": [
         {
-          "titel": "Ich bleibe hier",
-          "autor": "Marco Balzano",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Ich bleibe hier",
+          "author": "Marco Balzano",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "All right. Good Night",
-          "autor": "Helgard Haug",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "All right. Good Night",
+          "author": "Helgard Haug",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1506,21 +1506,21 @@
       "guid": "2ecc3a3b987732e48220cf897a53e828",
       "title": "Untreue – über die große Versuchung",
       "published": "2024-01-30T01:00:00+00:00",
-      "thema": "Untreue",
+      "topic": "Untreue",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-untreue--ueber-die-grosse-versuchung-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232003/3232003_60670691.mp3",
       "books": [
         {
-          "titel": "All das zu verlieren",
-          "autor": "Leila Slimani",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "All das zu verlieren",
+          "author": "Leila Slimani",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Verbrenn all meine Briefe",
-          "autor": "Alex Schulman",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Verbrenn all meine Briefe",
+          "author": "Alex Schulman",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1528,21 +1528,21 @@
       "guid": "8a83292e14369a9b370ddc14d3017407",
       "title": "Väter – über den ersten Mann im Leben",
       "published": "2024-01-23T01:00:00+00:00",
-      "thema": "Väter",
+      "topic": "Väter",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-vaeter--ueber-den-ersten-mann-im-leben-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3232000/3232000_60670597.mp3",
       "books": [
         {
-          "titel": "Hast du uns endlich gefunden",
-          "autor": "Edgar Selge",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Hast du uns endlich gefunden",
+          "author": "Edgar Selge",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Pandatage",
-          "autor": "James Gould-Bourn",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Pandatage",
+          "author": "James Gould-Bourn",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1550,21 +1550,21 @@
       "guid": "f41869ae47da4d3d0c198b6fe4f29630",
       "title": "Alkohol – übers Genießen und die Sucht",
       "published": "2024-01-16T01:00:00+00:00",
-      "thema": "Alkohol",
+      "topic": "Alkohol",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-alkohol--uebers-geniessen-und-die-sucht-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231999/3231999_60670596.mp3",
       "books": [
         {
-          "titel": "Nüchtern",
-          "autor": "Daniel Schreiber",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Nüchtern",
+          "author": "Daniel Schreiber",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Eierlikörtage",
-          "autor": "Hendrik Groen",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Eierlikörtage",
+          "author": "Hendrik Groen",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1572,21 +1572,21 @@
       "guid": "ad0f2c02b56f5d26a3733da031212684",
       "title": "Neustart – über all die guten Vorsätze",
       "published": "2024-01-09T01:00:00+00:00",
-      "thema": "Neustart",
+      "topic": "Neustart",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-neustart--ueber-all-die-guten-vorsaetze-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231991/3231991_60670472.mp3",
       "books": [
         {
-          "titel": "Mir geht's gut, wenn nicht heute dann morgen",
-          "autor": "Dirk Stermann",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Mir geht's gut, wenn nicht heute dann morgen",
+          "author": "Dirk Stermann",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Kleine Probleme",
-          "autor": "Nele Pollatschek",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Kleine Probleme",
+          "author": "Nele Pollatschek",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1594,21 +1594,21 @@
       "guid": "dc6e32916e9ae6ca948033c99103a2b9",
       "title": "Dreißig – über eine ganz besondere Zahl",
       "published": "2024-01-02T01:00:00+00:00",
-      "thema": "Dreißig",
+      "topic": "Dreißig",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-dreissig--ueber-eine-ganz-besondere-zahl-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231983/3231983_60670206.mp3",
       "books": [
         {
-          "titel": "Drei Wünsche",
-          "autor": "Laura Karasek",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Drei Wünsche",
+          "author": "Laura Karasek",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Bei euch ist es immer so unheimlich still",
-          "autor": "Alena Schröder",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Bei euch ist es immer so unheimlich still",
+          "author": "Alena Schröder",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1616,21 +1616,21 @@
       "guid": "0d127c0b3322f829cb3a221ea5bf9d44",
       "title": "Gewohnheit – über Traditionen und Routinen",
       "published": "2023-12-26T01:00:00+00:00",
-      "thema": "Gewohnheit",
+      "topic": "Gewohnheit",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-gewohnheit--ueber-traditionen-und-routinen-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231982/3231982_60670205.mp3",
       "books": [
         {
-          "titel": "Der Erdspiegel",
-          "autor": "Andrea Maria Schenkel",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Der Erdspiegel",
+          "author": "Andrea Maria Schenkel",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Leonard und Paul",
-          "autor": "Rónán Hession",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Leonard und Paul",
+          "author": "Rónán Hession",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1638,21 +1638,21 @@
       "guid": "e14fc5a17763cbddeae03d2962566fe6",
       "title": "Geschenke – übers Ein- und Auspacken",
       "published": "2023-12-19T01:00:00+00:00",
-      "thema": "Geschenke",
+      "topic": "Geschenke",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-geschenke--uebers-ein--und-auspacken-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231979/3231979_60670201.mp3",
       "books": [
         {
-          "titel": "Schweig!",
-          "autor": "Judith Merchant",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Schweig!",
+          "author": "Judith Merchant",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Nicht von dieser Welt",
-          "autor": "Michael Ebert",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Nicht von dieser Welt",
+          "author": "Michael Ebert",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1660,21 +1660,21 @@
       "guid": "5f85fa7bf4052bf4f4dbb6238e5a31f8",
       "title": "Kunst – über Bilder, Bühnen und Bücher",
       "published": "2023-12-12T01:00:00+00:00",
-      "thema": "Kunst",
+      "topic": "Kunst",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-kunst--ueber-bilder-buehnen-und-buecher-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231975/3231975_60670000.mp3",
       "books": [
         {
-          "titel": "Sein oder nicht sein",
-          "autor": "Klaus Pohl",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Sein oder nicht sein",
+          "author": "Klaus Pohl",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Zauber der Stille",
-          "autor": "Florian Illies",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Zauber der Stille",
+          "author": "Florian Illies",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1682,21 +1682,21 @@
       "guid": "a25cab65359e7eee79e5f7f689f59b70",
       "title": "Wünsche – über das, was in Erfüllung gehen soll",
       "published": "2023-12-05T01:00:00+00:00",
-      "thema": "Wünsche",
+      "topic": "Wünsche",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-wuensche--ueber-das-was-in-erfuellung-gehen-soll-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231973/3231973_60669999.mp3",
       "books": [
         {
-          "titel": "Die Perfektionen",
-          "autor": "Vincenzo Latronico",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Die Perfektionen",
+          "author": "Vincenzo Latronico",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Die Frau, die nicht alterte",
-          "autor": "Grégoire Delacourt",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Die Frau, die nicht alterte",
+          "author": "Grégoire Delacourt",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1704,21 +1704,21 @@
       "guid": "ed94fc4a23cbed176951ca289eda976d",
       "title": "Tiere – über Pfoten, Flügel und Hufe",
       "published": "2023-11-28T01:00:00+00:00",
-      "thema": "Tiere",
+      "topic": "Tiere",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-tiere--ueber-pfoten-fluegel-und-hufe-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231947/3231947_60669207.mp3",
       "books": [
         {
-          "titel": "Sirius",
-          "autor": "Jonathan Crown",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Sirius",
+          "author": "Jonathan Crown",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Das Glück ist grau",
-          "autor": "Christopher McDougall",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Das Glück ist grau",
+          "author": "Christopher McDougall",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1726,21 +1726,21 @@
       "guid": "2d0f34541bb6b4a0390ecfd68a6e0b06",
       "title": "Nachbarn – über die Menschen von nebenan",
       "published": "2023-11-21T01:00:00+00:00",
-      "thema": "Nachbarn",
+      "topic": "Nachbarn",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-nachbarn--ueber-die-menschen-von-nebenan-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231937/3231937_60668960.mp3",
       "books": [
         {
-          "titel": "Der Hausmann",
-          "autor": "Wlada Kolosowa",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Der Hausmann",
+          "author": "Wlada Kolosowa",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Über uns",
-          "autor": "Eshkol Nevo",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Über uns",
+          "author": "Eshkol Nevo",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1748,21 +1748,21 @@
       "guid": "75df17507089376dc6b37a0c511f1ffa",
       "title": "Mut – über Tapferkeit, Selbstvertrauen und Stärke",
       "published": "2023-11-14T01:00:00+00:00",
-      "thema": "Mut",
+      "topic": "Mut",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-mut--ueber-tapferkeit-selbstvertrauen-und-staerke-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231938/3231938_60668959.mp3",
       "books": [
         {
-          "titel": "Nils. Von Tod und Wut. Und von Mut",
-          "autor": "Melanie Garanin",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Nils. Von Tod und Wut. Und von Mut",
+          "author": "Melanie Garanin",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Wie man unsterblich wird",
-          "autor": "Sally Nicholls",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Wie man unsterblich wird",
+          "author": "Sally Nicholls",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1770,21 +1770,21 @@
       "guid": "08eb5bc5bb5751d8d62e4214baeec514",
       "title": "Männlichkeit – über etwas echt Kompliziertes",
       "published": "2023-11-07T01:00:00+00:00",
-      "thema": "Männlichkeit",
+      "topic": "Männlichkeit",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-maennlichkeit--ueber-etwas-echt-kompliziertes-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231930/3231930_60668900.mp3",
       "books": [
         {
-          "titel": "Toxic Man",
-          "autor": "Frédéric Schwilden",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Toxic Man",
+          "author": "Frédéric Schwilden",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Gruber geht",
-          "autor": "Doris Knecht",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Gruber geht",
+          "author": "Doris Knecht",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1792,21 +1792,21 @@
       "guid": "ec8dcd6d8c4d1b8fbe86a53f0a919866",
       "title": "Kälte – über eisige Zeiten",
       "published": "2023-10-31T01:00:00+00:00",
-      "thema": "Kälte",
+      "topic": "Kälte",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-kaelte--ueber-eisige-zeiten-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231928/3231928_60668871.mp3",
       "books": [
         {
-          "titel": "Das finstere Tal",
-          "autor": "Thomas Willmann",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Das finstere Tal",
+          "author": "Thomas Willmann",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Herz auf Eis",
-          "autor": "Isabelle Autissier",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Herz auf Eis",
+          "author": "Isabelle Autissier",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1814,21 +1814,21 @@
       "guid": "4b9139e568fdf8682413abed81aaa820",
       "title": "Lust – übers übereinander herfallen",
       "published": "2023-10-23T23:00:00+00:00",
-      "thema": "Lust",
+      "topic": "Lust",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-lust--uebers-uebereinander-herfallen-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231923/3231923_60668814.mp3",
       "books": [
         {
-          "titel": "Tage in Cape May",
-          "autor": "Chip Cheek",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Tage in Cape May",
+          "author": "Chip Cheek",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Kleine Kratzer",
-          "autor": "Jane Campbell",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Kleine Kratzer",
+          "author": "Jane Campbell",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1836,7 +1836,7 @@
       "guid": "85b87a1c1858e3d34f1302ed5b04d4b5",
       "title": "Fragen – über das, was euch interessiert",
       "published": "2023-10-16T23:00:00+00:00",
-      "thema": "Fragen",
+      "topic": "Fragen",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-fragen--ueber-das-was-euch-interessiert-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231922/3231922_60668813.mp3",
       "books": []
@@ -1845,21 +1845,21 @@
       "guid": "2049c2e9d6177a67720aa6874a964e8b",
       "title": "Endlichkeit – über das letzte Stück des Weges",
       "published": "2023-10-09T23:00:00+00:00",
-      "thema": "Endlichkeit",
+      "topic": "Endlichkeit",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-endlichkeit--ueber-das-letzte-stueck-des-weges-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231917/3231917_60668688.mp3",
       "books": [
         {
-          "titel": "Und dann steht einer auf und öffnet das Fenster",
-          "autor": "Susann Pásztor",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Und dann steht einer auf und öffnet das Fenster",
+          "author": "Susann Pásztor",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Fremde Federn",
-          "autor": "Alina Lindermuth",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Fremde Federn",
+          "author": "Alina Lindermuth",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1867,21 +1867,21 @@
       "guid": "b9b6d78d1dab5d654920166adc7f8a7b",
       "title": "Sport – über sich hinauswachsen",
       "published": "2023-10-02T23:00:00+00:00",
-      "thema": "Sport",
+      "topic": "Sport",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-sport--ueber-sich-hinauswachsen-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231915/3231915_60668687.mp3",
       "books": [
         {
-          "titel": "Wovon ich rede, wenn ich vom Laufen rede",
-          "autor": "Haruki Murakami",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Wovon ich rede, wenn ich vom Laufen rede",
+          "author": "Haruki Murakami",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "1933 war ein schlimmes Jahr",
-          "autor": "John Fante",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "1933 war ein schlimmes Jahr",
+          "author": "John Fante",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1889,21 +1889,21 @@
       "guid": "f6feb8505c8f89bf77f557d105fe3041",
       "title": "Geheimnis – über das, was wir lieber verschweigen",
       "published": "2023-09-25T23:00:00+00:00",
-      "thema": "Geheimnis",
+      "topic": "Geheimnis",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-geheimnis--ueber-das-was-wir-lieber-verschweigen-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231913/3231913_60668684.mp3",
       "books": [
         {
-          "titel": "Gittersee",
-          "autor": "Charlotte Gneuß",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Gittersee",
+          "author": "Charlotte Gneuß",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Im Wasser sind wir schwerelos",
-          "autor": "Tomasz Jedrowski",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Im Wasser sind wir schwerelos",
+          "author": "Tomasz Jedrowski",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1911,21 +1911,21 @@
       "guid": "f29d2fdd4d2897c05771e838f5eb7dad",
       "title": "Genuss – über richtig guten Geschmack",
       "published": "2023-09-18T23:00:00+00:00",
-      "thema": "Genuss",
+      "topic": "Genuss",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-genuss--ueber-richtig-guten-geschmack-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231911/3231911_60668683.mp3",
       "books": [
         {
-          "titel": "Zusammen sind wir wundervoll",
-          "autor": "Marina Kirschner",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Zusammen sind wir wundervoll",
+          "author": "Marina Kirschner",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Der Geschmack der Sehnsucht",
-          "autor": "Kim Thúy",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Der Geschmack der Sehnsucht",
+          "author": "Kim Thúy",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1933,21 +1933,21 @@
       "guid": "e45c3ec05069f7d683c8de9c1ed53a4e",
       "title": "Natur – über Bäume, Waschbären und Co.",
       "published": "2023-09-11T23:00:00+00:00",
-      "thema": "Natur",
+      "topic": "Natur",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-natur--ueber-baeume-waschbaeren-und-co-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231912/3231912_60668682.mp3",
       "books": [
         {
-          "titel": "Ein Stadtmensch im Wald",
-          "autor": "H.D. Walden",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Ein Stadtmensch im Wald",
+          "author": "H.D. Walden",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "An der Grasnarbe",
-          "autor": "Mirjam Wittig",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "An der Grasnarbe",
+          "author": "Mirjam Wittig",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1955,21 +1955,21 @@
       "guid": "cbc58416a9fdec875cf6d651cf7d42d4",
       "title": "Geschwister – über eine ganz besondere Beziehung",
       "published": "2023-09-04T23:00:00+00:00",
-      "thema": "Geschwister",
+      "topic": "Geschwister",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-geschwister--ueber-eine-ganz-besondere-beziehung-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231894/3231894_60668339.mp3",
       "books": [
         {
-          "titel": "Worauf wir hoffen",
-          "autor": "Fatima Farheen Mirza",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Worauf wir hoffen",
+          "author": "Fatima Farheen Mirza",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Brüderchen",
-          "autor": "Clara Dupont-Monod",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Brüderchen",
+          "author": "Clara Dupont-Monod",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1977,21 +1977,21 @@
       "guid": "0c32dda845a295d0dea968ff25fdb81d",
       "title": "Angst – über das, wovor wir uns fürchten",
       "published": "2023-08-28T23:00:00+00:00",
-      "thema": "Angst",
+      "topic": "Angst",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-angst--ueber-das-wovor-wir-uns-fuerchten-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231893/3231893_60668337.mp3",
       "books": [
         {
-          "titel": "Königin außer Dienst",
-          "autor": "Martine Bijl",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Königin außer Dienst",
+          "author": "Martine Bijl",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Kukolka",
-          "autor": "Lana Lux",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Kukolka",
+          "author": "Lana Lux",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -1999,21 +1999,21 @@
       "guid": "22f1738232e17d1d2a2b41379b225dc0",
       "title": "Reichtum – über den Traum vom großen Geld",
       "published": "2023-08-21T23:00:00+00:00",
-      "thema": "Reichtum",
+      "topic": "Reichtum",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-reichtum--ueber-den-traum-vom-grossen-geld-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231887/3231887_60668305.mp3",
       "books": [
         {
-          "titel": "So reich wie der König",
-          "autor": "Abigail Assor",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "So reich wie der König",
+          "author": "Abigail Assor",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Melody",
-          "autor": "Martin Suter",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Melody",
+          "author": "Martin Suter",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -2021,21 +2021,21 @@
       "guid": "be5f2f84e14d7ea7ae02d046a283c958",
       "title": "Zuhause – übers Ankommen und Wohlfühlen",
       "published": "2023-08-14T23:00:00+00:00",
-      "thema": "Zuhause",
+      "topic": "Zuhause",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-zuhause--uebers-ankommen-und-wohlfuehlen-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231888/3231888_60668304.mp3",
       "books": [
         {
-          "titel": "Das dritte Licht",
-          "autor": "Claire Keegan",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Das dritte Licht",
+          "author": "Claire Keegan",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Novecento",
-          "autor": "Alessandro Baricco",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Novecento",
+          "author": "Alessandro Baricco",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -2043,21 +2043,21 @@
       "guid": "0ebeefbc068f99dbdb91a94fcf40a544",
       "title": "Einsamkeit – über das Gefühl, allein zu sein",
       "published": "2023-08-07T23:00:00+00:00",
-      "thema": "Einsamkeit",
+      "topic": "Einsamkeit",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-einsamkeit--ueber-das-gefuehl-allein-zu-sein-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231881/3231881_60668302.mp3",
       "books": [
         {
-          "titel": "Hitzewelle",
-          "autor": "Fabienne Maris",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Hitzewelle",
+          "author": "Fabienne Maris",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Die Einsamkeit der Primzahlen",
-          "autor": "Paolo Giordano",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Die Einsamkeit der Primzahlen",
+          "author": "Paolo Giordano",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -2065,21 +2065,21 @@
       "guid": "7e1dd784eaa4cf75ac9bcbaba6eda034",
       "title": "Körper – über Ideale, Anziehung und Schutzpanzer",
       "published": "2023-07-31T23:00:00+00:00",
-      "thema": "Körper",
+      "topic": "Körper",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-koerper--ueber-ideale-anziehung-und-schutzpanzer-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231880/3231880_60668301.mp3",
       "books": [
         {
-          "titel": "An Liebe stirbst du nicht",
-          "autor": "Géraldine Dalban-Moreynas",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "An Liebe stirbst du nicht",
+          "author": "Géraldine Dalban-Moreynas",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Die Kriegerin",
-          "autor": "Helene Bukowski",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Die Kriegerin",
+          "author": "Helene Bukowski",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -2087,21 +2087,21 @@
       "guid": "5f33ee73d5d16ba6b4a11be7565e0927",
       "title": "Mütter – übers Kind sein und (keine) Kinder bekommen",
       "published": "2023-07-24T23:00:00+00:00",
-      "thema": "Mütter",
+      "topic": "Mütter",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-muetter--uebers-kind-sein-und-keine-kinder-bekommen-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231864/3231864_60667783.mp3",
       "books": [
         {
-          "titel": "Auszeit",
-          "autor": "Hannah Lühmann",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Auszeit",
+          "author": "Hannah Lühmann",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Eine Frau am Telefon",
-          "autor": "Carole Fives",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Eine Frau am Telefon",
+          "author": "Carole Fives",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -2109,21 +2109,21 @@
       "guid": "3a774f7052fb0d3597bebe9956fad907",
       "title": "Dunkelheit – über lange Nächte und schwarze Phasen",
       "published": "2023-07-17T23:00:00+00:00",
-      "thema": "Dunkelheit",
+      "topic": "Dunkelheit",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-dunkelheit--ueber-lange-naechte-und-schwarze-phasen-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231861/3231861_60667753.mp3",
       "books": [
         {
-          "titel": "Arbeit",
-          "autor": "Thorsten Nagelschmidt",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Arbeit",
+          "author": "Thorsten Nagelschmidt",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Bis ich wieder atmen konnte",
-          "autor": "Lorenzo Amurri",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Bis ich wieder atmen konnte",
+          "author": "Lorenzo Amurri",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -2131,21 +2131,21 @@
       "guid": "97a74e063d41526f69805573b18f4ee1",
       "title": "Freundschaft – über Nähe, die (nicht immer) bleibt",
       "published": "2023-07-10T23:00:00+00:00",
-      "thema": "Freundschaft",
+      "topic": "Freundschaft",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-freundschaft--ueber-naehe-die-nicht-immer-bleibt-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231858/3231858_60667740.mp3",
       "books": [
         {
-          "titel": "Bell und Harry",
-          "autor": "Jane Gardam",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Bell und Harry",
+          "author": "Jane Gardam",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Dunkelgrün fast schwarz",
-          "autor": "Mareike Fallwickl",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Dunkelgrün fast schwarz",
+          "author": "Mareike Fallwickl",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -2153,21 +2153,21 @@
       "guid": "b8b6a97894f50d34cf5c55faab43ec87",
       "title": "Lügen – übers Flunkern, Betrügen und vieles dazwischen",
       "published": "2023-07-03T23:00:00+00:00",
-      "thema": "Lügen",
+      "topic": "Lügen",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-luegen--uebers-flunkern-betruegen-und-vieles-dazwischen-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231855/3231855_60667606.mp3",
       "books": [
         {
-          "titel": "Super, und dir?",
-          "autor": "Kathrin Weßling",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Super, und dir?",
+          "author": "Kathrin Weßling",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Lempi, das heißt Liebe",
-          "autor": "Minna Rytisalo",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Lempi, das heißt Liebe",
+          "author": "Minna Rytisalo",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -2175,21 +2175,21 @@
       "guid": "5c94b1ccb8e5973668df3aad4438c173",
       "title": "Ferne – übers Reisen und das Gefühl, weit weg zu sein",
       "published": "2023-06-26T23:00:00+00:00",
-      "thema": "Ferne",
+      "topic": "Ferne",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-ferne--uebers-reisen-und-das-gefuehl-weit-weg-zu-sein-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231849/3231849_60667450.mp3",
       "books": [
         {
-          "titel": "Die vier Jahreszeiten des Sommers",
-          "autor": "Grégoire Delacourt",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Die vier Jahreszeiten des Sommers",
+          "author": "Grégoire Delacourt",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Über die See",
-          "autor": "Mariette Navarro",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Über die See",
+          "author": "Mariette Navarro",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -2197,21 +2197,21 @@
       "guid": "f2e5b2250755b10d040376953eba5eb9",
       "title": "Liebeskummer – übers Ablenken, Entlieben und Weiterleben",
       "published": "2023-06-19T23:00:00+00:00",
-      "thema": "Liebeskummer",
+      "topic": "Liebeskummer",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-liebeskummer--uebers-ablenken-entlieben-und-weiterleben-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231841/3231841_60667190.mp3",
       "books": [
         {
-          "titel": "Haha Heartbreak",
-          "autor": "Olivia Kuderewski",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Haha Heartbreak",
+          "author": "Olivia Kuderewski",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Cindy liebt mich nicht",
-          "autor": "Juan Moreno & Jochen-Martin Gutsch",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Cindy liebt mich nicht",
+          "author": "Juan Moreno & Jochen-Martin Gutsch",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -2219,21 +2219,21 @@
       "guid": "a02bd04c5521b4973e7419cb94b02df4",
       "title": "Anfänge – über den Moment, wenn etwas Neues beginnt",
       "published": "2023-06-12T23:00:00+00:00",
-      "thema": "Anfänge",
+      "topic": "Anfänge",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-anfaenge--ueber-den-moment-wenn-etwas-neues-beginnt-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231834/3231834_60666767.mp3",
       "books": [
         {
-          "titel": "Fünf Viertelstunden bis zum Meer",
-          "autor": "Ernest van der Kwast",
-          "empfohlen_von": "Christine",
-          "rolle": "Hauptempfehlung"
+          "title": "Fünf Viertelstunden bis zum Meer",
+          "author": "Ernest van der Kwast",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
         },
         {
-          "titel": "Sommernachtserwachen",
-          "autor": "Meg Rosoff",
-          "empfohlen_von": "Mona",
-          "rolle": "Hauptempfehlung"
+          "title": "Sommernachtserwachen",
+          "author": "Meg Rosoff",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
         }
       ]
     },
@@ -2241,7 +2241,7 @@
       "guid": "eaeac8fb604f84a92b1846eab5d617cd",
       "title": "Trailer: Zwei Seiten – der Podcast über Bücher",
       "published": "2023-05-25T13:49:00+00:00",
-      "thema": "Trailer",
+      "topic": "Trailer",
       "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-trailer-zwei-seiten--der-podcast-ueber-buecher-100.html",
       "audio_url": "https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/323/3231825/3231825_60666280.mp3",
       "books": []

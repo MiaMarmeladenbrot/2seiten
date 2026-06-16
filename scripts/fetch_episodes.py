@@ -1,8 +1,8 @@
 """
-Lädt den RSS-Feed von "Zwei Seiten – Der Podcast über Bücher" (WDR)
-und speichert alle Folgen als JSON.
+Fetches the RSS feed of "Zwei Seiten – Der Podcast über Bücher" (WDR)
+and stores all episodes as JSON.
 
-Nutzung:
+Usage:
     .venv/bin/python fetch_episodes.py
 """
 
@@ -46,20 +46,20 @@ def parse_published(entry) -> str | None:
 
 
 def main() -> None:
-    print(f"Lade Feed: {FEED_URL}")
+    print(f"Fetching feed: {FEED_URL}")
     feed = feedparser.parse(FEED_URL)
 
     if feed.bozo and not feed.entries:
-        raise SystemExit(f"Feed konnte nicht gelesen werden: {feed.bozo_exception!r}")
+        raise SystemExit(f"Could not read feed: {feed.bozo_exception!r}")
 
     show_title = feed.feed.get("title", "")
-    print(f"Sendung: {show_title}")
-    print(f"Folgen im Feed: {len(feed.entries)}")
+    print(f"Show: {show_title}")
+    print(f"Episodes in feed: {len(feed.entries)}")
 
     episodes = []
     for entry in feed.entries:
-        # description (HTML) und ggf. itunes:summary parallel ablegen –
-        # die Buchnennungen können in beiden auftauchen.
+        # Keep description (HTML) and itunes:summary side by side —
+        # book mentions can appear in either one.
         description_html = entry.get("summary") or entry.get("description") or ""
         itunes_summary = entry.get("itunes_summary") or ""
         content_blocks = [c.get("value", "") for c in entry.get("content", []) or []]
@@ -81,16 +81,16 @@ def main() -> None:
     OUT_FILE.write_text(
         json.dumps(episodes, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    print(f"Geschrieben: {OUT_FILE} ({len(episodes)} Folgen)")
+    print(f"Written: {OUT_FILE} ({len(episodes)} episodes)")
 
     if episodes:
-        print("\nBeispiel-Folge:")
+        print("\nSample episode:")
         first = episodes[0]
-        print(f"  Titel:        {first['title']}")
-        print(f"  Erschienen:   {first['published']}")
+        print(f"  Title:        {first['title']}")
+        print(f"  Published:    {first['published']}")
         print(f"  Audio:        {first['audio_url']}")
         snippet = (first["description"] or "")[:300]
-        print(f"  Beschreibung: {snippet}{'…' if len(first['description']) > 300 else ''}")
+        print(f"  Description:  {snippet}{'…' if len(first['description']) > 300 else ''}")
 
 
 if __name__ == "__main__":

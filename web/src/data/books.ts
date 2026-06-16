@@ -1,18 +1,18 @@
 import raw from "../../../data/books.json";
-import type { Book, Empfehler, Rolle } from "../lib/types";
+import type { Book, Recommender, Role } from "../lib/types";
 
 interface RawEpisode {
   guid: string;
   title: string;
   published: string;
-  thema: string;
+  topic: string;
   page_url?: string;
   audio_url?: string;
   books: {
-    titel: string;
-    autor: string;
-    empfohlen_von: Empfehler;
-    rolle: Rolle;
+    title: string;
+    author: string;
+    recommended_by: Recommender;
+    role: Role;
   }[];
 }
 
@@ -28,22 +28,22 @@ const data = raw as unknown as RawBooksJson;
 
 export const BOOKS: Book[] = data.episodes.flatMap((ep) =>
   ep.books.map((b) => ({
-    titel: b.titel,
-    autor: b.autor,
-    empfohlen_von: b.empfohlen_von,
-    rolle: b.rolle,
-    folge_titel: ep.title,
-    thema: ep.thema,
-    jahr: ep.published.slice(0, 4),
+    title: b.title,
+    author: b.author,
+    recommended_by: b.recommended_by,
+    role: b.role,
+    episode_title: ep.title,
+    topic: ep.topic,
+    year: ep.published.slice(0, 4),
     page_url: ep.page_url ?? "",
   })),
 );
 
-export const THEMES: string[] = [...new Set(BOOKS.map((b) => b.thema))].sort(
+export const THEMES: string[] = [...new Set(BOOKS.map((b) => b.topic))].sort(
   (a, b) => a.toLowerCase().localeCompare(b.toLowerCase()),
 );
 
-export const YEARS: string[] = [...new Set(BOOKS.map((b) => b.jahr))]
+export const YEARS: string[] = [...new Set(BOOKS.map((b) => b.year))]
   .sort()
   .reverse();
 

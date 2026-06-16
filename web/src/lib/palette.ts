@@ -27,6 +27,6 @@ function hashStr(s: string): number {
   return Math.abs(h);
 }
 
-export function paletteFor(book: Pick<Book, 'titel' | 'autor'>): CoverPalette {
-  return PALETTES[hashStr(book.titel + book.autor) % PALETTES.length];
+export function paletteFor(book: Pick<Book, 'title' | 'author'>): CoverPalette {
+  return PALETTES[hashStr(book.title + book.author) % PALETTES.length];
 }

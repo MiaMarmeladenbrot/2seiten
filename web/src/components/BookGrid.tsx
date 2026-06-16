@@ -16,7 +16,7 @@ export function BookGrid({ books }: Props) {
   return (
     <main className="grid">
       {books.map((b, i) => (
-        <BookCard key={`${b.titel}|${b.autor}|${i}`} book={b} />
+        <BookCard key={`${b.title}|${b.author}|${i}`} book={b} />
       ))}
     </main>
   );

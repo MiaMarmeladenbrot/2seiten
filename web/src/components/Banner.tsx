@@ -8,13 +8,13 @@ interface Props {
 
 export function Banner({ filters, count, onClear }: Props) {
   const hasFilter =
-    !!filters.theme || !!filters.year || filters.empfehler !== 'alle';
+    !!filters.theme || !!filters.year || filters.recommender !== 'alle';
   const visible = !!filters.search || hasFilter;
   if (!visible) return null;
 
   const noun = count === 1 ? 'Buch' : 'Bücher';
   const parts: string[] = [];
-  if (filters.empfehler !== 'alle') parts.push(filters.empfehler);
+  if (filters.recommender !== 'alle') parts.push(filters.recommender);
   if (filters.theme) parts.push(`Thema „${filters.theme}"`);
   if (filters.year) parts.push(filters.year);
 
