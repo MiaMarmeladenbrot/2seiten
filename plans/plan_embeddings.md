@@ -1,5 +1,11 @@
 # Plan: Empfehlungssuche mit mpnet-base
 
+> ⚠️ **VERALTET — nicht mehr maßgeblich.** Dieser Plan beschrieb einen Python-Weg
+> mit Server (mpnet + FastAPI/Streamlit). Wir haben uns gegen ein Backend
+> entschieden; die Suche läuft im Browser. Aktueller Plan: **`plan_browser_search.md`**.
+> Dieses Dokument bleibt nur als Referenz/Historie erhalten.
+
+
 ## Phase 1 — Einrichtung (einmalig, ~30–60 Min)
 
 **1.1 Was installiert wird**
