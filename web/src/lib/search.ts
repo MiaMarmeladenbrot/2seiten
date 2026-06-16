@@ -1,10 +1,9 @@
 import type { Book, Filters } from './types';
+import { semanticSearch } from './embeddings';
 
-// Stand-in for the upcoming embedding model (transformers.js + multilingual MiniLM).
-// When the real vector index is wired in, its output replaces this function —
-// the callers (`unifiedSearch`, `applyFilters`) stay identical.
-// NOTE: the keyword strings stay German on purpose — they match German queries and
-// German episode/topic content.
+// Keyword stand-in used as the instant fallback while the embedding model loads.
+// NOTE: the keyword strings stay German on purpose — they match German queries
+// and German episode/topic content.
 const MOOD_KEYWORDS: Record<string, string[]> = {
   fernweh: ['reisen', 'sommer', 'urlaub', 'ferne', 'meer', 'wege', 'horizont', 'sehnsucht'],
   trost: ['trost', 'trauer', 'abschied', 'wehmut', 'schmerz', 'verlust', 'einsamkeit'],
@@ -20,7 +19,9 @@ const MOOD_KEYWORDS: Record<string, string[]> = {
   ruhe: ['ruhe', 'stille', 'meditation', 'langsam', 'abend'],
 };
 
-function moodSearch(query: string, books: Book[]): Book[] {
+const keyOf = (b: Book): string => b.title + '|' + b.author;
+
+function keywordSearch(query: string, books: Book[]): Book[] {
   const q = query.toLowerCase().trim();
   if (!q) return [];
   const words = q.split(/\s+/).filter((w) => w.length > 2);
@@ -46,34 +47,53 @@ function moodSearch(query: string, books: Book[]): Book[] {
     .map((x) => x.book);
 }
 
-// Hybrid: first substring hits on title/author (top results),
-// then semantic hits on topic/episode — deduplicated, exact matches first.
-function unifiedSearch(query: string, books: Book[]): Book[] {
-  const q = query.trim();
-  if (!q) return books;
-  const qL = q.toLowerCase();
-  const exact = books.filter(
+// Exact substring hits on title/author — these are the strongest signal and
+// always rank first, ahead of fuzzy/semantic matches.
+function exactMatches(query: string, books: Book[]): Book[] {
+  const qL = query.trim().toLowerCase();
+  return books.filter(
     (b) => b.title.toLowerCase().includes(qL) || b.author.toLowerCase().includes(qL),
   );
-  const semantic = moodSearch(q, books);
-  const seen = new Set(exact.map((b) => b.title + '|' + b.author));
+}
+
+// Exact matches first, then the rest, deduplicated.
+function merge(exact: Book[], rest: Book[]): Book[] {
+  const seen = new Set(exact.map(keyOf));
   const combined = [...exact];
-  for (const b of semantic) {
-    const key = b.title + '|' + b.author;
-    if (!seen.has(key)) {
+  for (const b of rest) {
+    const k = keyOf(b);
+    if (!seen.has(k)) {
       combined.push(b);
-      seen.add(key);
+      seen.add(k);
     }
   }
   return combined;
 }
 
-export function applyFilters(books: Book[], filters: Filters): Book[] {
-  let list = filters.search ? unifiedSearch(filters.search, books) : books;
+// Recommender / topic / year filters — applied after the search step.
+function narrow(list: Book[], filters: Filters): Book[] {
   if (filters.recommender !== 'alle') {
     list = list.filter((b) => b.recommended_by === filters.recommender);
   }
   if (filters.theme) list = list.filter((b) => b.topic === filters.theme);
   if (filters.year) list = list.filter((b) => b.year === filters.year);
   return list;
+}
+
+// Synchronous keyword search — instant, no model. Used for the immediate render
+// and as the fallback shown while the embedding model is still loading.
+export function applyFiltersSync(books: Book[], filters: Filters): Book[] {
+  const q = filters.search.trim();
+  const list = q ? merge(exactMatches(q, books), keywordSearch(q, books)) : books;
+  return narrow(list, filters);
+}
+
+// Asynchronous semantic search — the real thing. Embeds the query in the browser
+// and ranks by meaning. Callers (App) await this and replace the sync result.
+export async function applyFilters(books: Book[], filters: Filters): Promise<Book[]> {
+  const q = filters.search.trim();
+  if (!q) return narrow(books, filters);
+  const semantic = await semanticSearch(q, books);
+  const list = merge(exactMatches(q, books), semantic);
+  return narrow(list, filters);
 }
