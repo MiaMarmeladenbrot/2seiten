@@ -1,0 +1,7 @@
+*.css
+
+data/
+web/src/data/embeddings.json
+web/dist/
+web/pnpm-lock.yaml
+.venv/

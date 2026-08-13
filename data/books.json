@@ -9,7 +9,7 @@
     "recommender_legend": {
       "Christine": "Christine Westermann",
       "Mona": "Mona Ameziane",
-      "beide": "von beiden gemeinsam empfohlen"
+      "both": "von beiden gemeinsam empfohlen"
     },
     "total_episodes": 101,
     "total_books": 204
@@ -26,37 +26,37 @@
         {
           "title": "Lügen über meine Mutter",
           "author": "Daniela Dröscher",
-          "recommended_by": "beide",
+          "recommended_by": "both",
           "role": "Hauptempfehlung"
         },
         {
           "title": "Herkunft",
           "author": "Saša Stanišić",
-          "recommended_by": "beide",
+          "recommended_by": "both",
           "role": "Hauptempfehlung"
         },
         {
           "title": "Dann schlaf auch du",
           "author": "Leila Slimani",
-          "recommended_by": "beide",
+          "recommended_by": "both",
           "role": "Hauptempfehlung"
         },
         {
           "title": "Die Anomalie",
           "author": "Hervé Le Tellier",
-          "recommended_by": "beide",
+          "recommended_by": "both",
           "role": "Hauptempfehlung"
         },
         {
           "title": "Männer",
           "author": "Johanna Adroján",
-          "recommended_by": "beide",
+          "recommended_by": "both",
           "role": "Hauptempfehlung"
         },
         {
           "title": "Mein Freund Rilke",
           "author": "Melanie Garanin",
-          "recommended_by": "beide",
+          "recommended_by": "both",
           "role": "Hauptempfehlung"
         }
       ]
@@ -1128,37 +1128,37 @@
         {
           "title": "Léon und Louise",
           "author": "Alex Capus",
-          "recommended_by": "beide",
+          "recommended_by": "both",
           "role": "Hauptempfehlung"
         },
         {
           "title": "Trennungsroman",
           "author": "Anna Brüggemann",
-          "recommended_by": "beide",
+          "recommended_by": "both",
           "role": "Hauptempfehlung"
         },
         {
           "title": "Supergute Tage",
           "author": "Mark Haddon",
-          "recommended_by": "beide",
+          "recommended_by": "both",
           "role": "Hauptempfehlung"
         },
         {
           "title": "Der Club",
           "author": "Takis Würger",
-          "recommended_by": "beide",
+          "recommended_by": "both",
           "role": "Hauptempfehlung"
         },
         {
           "title": "Der Papierpalast",
           "author": "Miranda Cowley Heller",
-          "recommended_by": "beide",
+          "recommended_by": "both",
           "role": "Hauptempfehlung"
         },
         {
           "title": "City of Girls",
           "author": "Elizabeth Gilbert",
-          "recommended_by": "beide",
+          "recommended_by": "both",
           "role": "Hauptempfehlung"
         }
       ]

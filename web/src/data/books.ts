@@ -1,5 +1,5 @@
-import raw from "../../../data/books.json";
-import type { Book, Recommender, Role } from "../lib/types";
+import raw from '../../../data/books.json';
+import type { Book, Recommender, Role } from '../lib/types';
 
 interface RawEpisode {
   guid: string;
@@ -35,17 +35,15 @@ export const BOOKS: Book[] = data.episodes.flatMap((ep) =>
     episode_title: ep.title,
     topic: ep.topic,
     year: ep.published.slice(0, 4),
-    page_url: ep.page_url ?? "",
+    page_url: ep.page_url ?? '',
   })),
 );
 
-export const THEMES: string[] = [...new Set(BOOKS.map((b) => b.topic))].sort(
-  (a, b) => a.toLowerCase().localeCompare(b.toLowerCase()),
+export const THEMES: string[] = [...new Set(BOOKS.map((b) => b.topic))].sort((a, b) =>
+  a.toLowerCase().localeCompare(b.toLowerCase()),
 );
 
-export const YEARS: string[] = [...new Set(BOOKS.map((b) => b.year))]
-  .sort()
-  .reverse();
+export const YEARS: string[] = [...new Set(BOOKS.map((b) => b.year))].sort().reverse();
 
 export const META = {
   totalBooks: data.metadata.total_books,

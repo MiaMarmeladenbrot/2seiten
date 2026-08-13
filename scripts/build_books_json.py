@@ -6,7 +6,7 @@ from the RSS descriptions. Per episode:
 - topic of the episode
 - list of discussed books with title, author, recommender, role
 
-recommended_by values: "Christine" | "Mona" | "beide"
+recommended_by values: "Christine" | "Mona" | "both"
 role values:
   - Hauptempfehlung  -> the central book discussion of the episode
   - Zusatzempfehlung -> further books recommended in this episode
@@ -31,12 +31,12 @@ EXTRACTIONS: dict[str, dict] = {
     "/4708b4f7c712f51813bd284f68710f55": {
         "topic": "Einhundert",
         "books": [
-            ("Lügen über meine Mutter", "Daniela Dröscher", "beide", "Hauptempfehlung"),
-            ("Herkunft", "Saša Stanišić", "beide", "Hauptempfehlung"),
-            ("Dann schlaf auch du", "Leila Slimani", "beide", "Hauptempfehlung"),
-            ("Die Anomalie", "Hervé Le Tellier", "beide", "Hauptempfehlung"),
-            ("Männer", "Johanna Adroján", "beide", "Hauptempfehlung"),
-            ("Mein Freund Rilke", "Melanie Garanin", "beide", "Hauptempfehlung"),
+            ("Lügen über meine Mutter", "Daniela Dröscher", "both", "Hauptempfehlung"),
+            ("Herkunft", "Saša Stanišić", "both", "Hauptempfehlung"),
+            ("Dann schlaf auch du", "Leila Slimani", "both", "Hauptempfehlung"),
+            ("Die Anomalie", "Hervé Le Tellier", "both", "Hauptempfehlung"),
+            ("Männer", "Johanna Adroján", "both", "Hauptempfehlung"),
+            ("Mein Freund Rilke", "Melanie Garanin", "both", "Hauptempfehlung"),
         ],
     },
     # 2
@@ -427,12 +427,12 @@ EXTRACTIONS: dict[str, dict] = {
     "dff0790b6e8aaa7b9d9bddb6d11f7eb7": {
         "topic": "Jubiläum",
         "books": [
-            ("Léon und Louise", "Alex Capus", "beide", "Hauptempfehlung"),
-            ("Trennungsroman", "Anna Brüggemann", "beide", "Hauptempfehlung"),
-            ("Supergute Tage", "Mark Haddon", "beide", "Hauptempfehlung"),
-            ("Der Club", "Takis Würger", "beide", "Hauptempfehlung"),
-            ("Der Papierpalast", "Miranda Cowley Heller", "beide", "Hauptempfehlung"),
-            ("City of Girls", "Elizabeth Gilbert", "beide", "Hauptempfehlung"),
+            ("Léon und Louise", "Alex Capus", "both", "Hauptempfehlung"),
+            ("Trennungsroman", "Anna Brüggemann", "both", "Hauptempfehlung"),
+            ("Supergute Tage", "Mark Haddon", "both", "Hauptempfehlung"),
+            ("Der Club", "Takis Würger", "both", "Hauptempfehlung"),
+            ("Der Papierpalast", "Miranda Cowley Heller", "both", "Hauptempfehlung"),
+            ("City of Girls", "Elizabeth Gilbert", "both", "Hauptempfehlung"),
         ],
     },
     # 51
@@ -889,7 +889,7 @@ def main() -> None:
             "recommender_legend": {
                 "Christine": "Christine Westermann",
                 "Mona": "Mona Ameziane",
-                "beide": "von beiden gemeinsam empfohlen",
+                "both": "von beiden gemeinsam empfohlen",
             },
             "total_episodes": len(out_episodes),
             "total_books": book_count,

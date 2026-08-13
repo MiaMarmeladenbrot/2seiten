@@ -1,4 +1,5 @@
 import type { Filters } from '../lib/types';
+import { RECOMMENDER_LABELS } from '../lib/labels';
 
 interface Props {
   filters: Filters;
@@ -8,14 +9,13 @@ interface Props {
 }
 
 export function Banner({ filters, count, searching, onClear }: Props) {
-  const hasFilter =
-    !!filters.theme || !!filters.year || filters.recommender !== 'alle';
+  const hasFilter = !!filters.theme || !!filters.year || filters.recommender !== 'alle';
   const visible = !!filters.search || hasFilter;
   if (!visible) return null;
 
   const noun = count === 1 ? 'Buch' : 'Bücher';
   const parts: string[] = [];
-  if (filters.recommender !== 'alle') parts.push(filters.recommender);
+  if (filters.recommender !== 'alle') parts.push(RECOMMENDER_LABELS[filters.recommender]);
   if (filters.theme) parts.push(`Thema „${filters.theme}"`);
   if (filters.year) parts.push(filters.year);
 
@@ -30,12 +30,8 @@ export function Banner({ filters, count, searching, onClear }: Props) {
               für <strong>„{filters.search}"</strong>
             </>
           )}
-          {hasFilter && (
-            <span style={{ color: 'var(--ink-soft)' }}> — {parts.join(' · ')}</span>
-          )}
-          {searching && (
-            <span style={{ color: 'var(--ink-soft)' }}> · sucht …</span>
-          )}
+          {hasFilter && <span style={{ color: 'var(--ink-soft)' }}> — {parts.join(' · ')}</span>}
+          {searching && <span style={{ color: 'var(--ink-soft)' }}> · sucht …</span>}
         </span>
         <button className="banner-clear" onClick={onClear}>
           × zurücksetzen

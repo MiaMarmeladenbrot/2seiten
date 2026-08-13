@@ -1,4 +1,5 @@
 import type { Filters } from '../lib/types';
+import { RECOMMENDER_LABELS } from '../lib/labels';
 import { THEMES, YEARS } from '../data/books';
 
 interface Props {
@@ -6,12 +7,8 @@ interface Props {
   onChange: (patch: Partial<Filters>) => void;
 }
 
-const SEGMENTS: { value: Filters['recommender']; label: string }[] = [
-  { value: 'alle', label: 'Alle' },
-  { value: 'Christine', label: 'Christine' },
-  { value: 'Mona', label: 'Mona' },
-  { value: 'beide', label: 'Beide' },
-];
+const SEGMENT_ORDER: Filters['recommender'][] = ['alle', 'Christine', 'Mona', 'both'];
+const SEGMENTS = SEGMENT_ORDER.map((value) => ({ value, label: RECOMMENDER_LABELS[value] }));
 
 export function FilterBar({ filters, onChange }: Props) {
   return (
@@ -32,10 +29,7 @@ export function FilterBar({ filters, onChange }: Props) {
       <div className="dropdowns">
         <div className="dropdown">
           <span className="dropdown-label">Thema</span>
-          <select
-            value={filters.theme}
-            onChange={(e) => onChange({ theme: e.target.value })}
-          >
+          <select value={filters.theme} onChange={(e) => onChange({ theme: e.target.value })}>
             <option value="">alle</option>
             {THEMES.map((t) => (
               <option key={t} value={t}>

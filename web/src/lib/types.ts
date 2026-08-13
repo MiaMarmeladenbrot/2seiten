@@ -1,4 +1,4 @@
-export type Recommender = 'Christine' | 'Mona' | 'beide';
+export type Recommender = 'Christine' | 'Mona' | 'both';
 export type Role = 'Hauptempfehlung' | 'Zusatzempfehlung';
 
 export interface Book {

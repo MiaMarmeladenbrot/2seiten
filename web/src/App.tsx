@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Hero } from './components/Hero';
 import { SearchBar } from './components/SearchBar';
 import { FilterBar } from './components/FilterBar';
@@ -14,34 +14,40 @@ function scrollToBanner() {
   document.getElementById('banner-anchor')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
+interface SemanticResult {
+  filters: Filters;
+  books: Book[];
+}
+
 export default function App() {
   const [filters, setFilters] = useState<Filters>(INITIAL);
-  const [results, setResults] = useState<Book[]>(() => applyFiltersSync(BOOKS, INITIAL));
-  const [searching, setSearching] = useState(false);
+  const [semanticResult, setSemanticResult] = useState<SemanticResult | null>(null);
+
+  const keywordResults = useMemo(() => applyFiltersSync(BOOKS, filters), [filters]);
+  const semanticMatchesCurrentFilters =
+    semanticResult !== null && semanticResult.filters === filters;
+
+  const results = semanticMatchesCurrentFilters ? semanticResult.books : keywordResults;
+  const searching = filters.search.trim() !== '' && !semanticMatchesCurrentFilters;
 
   const update = (patch: Partial<Filters>) => setFilters((f) => ({ ...f, ...patch }));
 
   useEffect(() => {
-    // Show the instant keyword result first — this is also the fallback that
-    // stays visible while the embedding model loads on the first search.
-    setResults(applyFiltersSync(BOOKS, filters));
-
-    if (!filters.search.trim()) {
-      setSearching(false);
-      return;
-    }
+    if (!filters.search.trim()) return;
 
     let cancelled = false;
-    setSearching(true);
-    applyFilters(BOOKS, filters).then((semantic) => {
-      if (cancelled) return;
-      setResults(semantic);
-      setSearching(false);
-    });
+    applyFilters(BOOKS, filters)
+      .then((books) => {
+        if (!cancelled) setSemanticResult({ filters, books });
+      })
+      .catch((err) => {
+        console.error('Semantic search unavailable, keeping keyword results:', err);
+        if (!cancelled) setSemanticResult({ filters, books: keywordResults });
+      });
     return () => {
       cancelled = true;
     };
-  }, [filters]);
+  }, [filters, keywordResults]);
 
   return (
     <>
