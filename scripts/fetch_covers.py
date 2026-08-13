@@ -6,9 +6,17 @@ images to web/public/covers/<isbn>.jpg and writes web/src/data/covers.json,
 which maps "Title|Author" to the file name so the app knows which books have a
 cover and which fall back to the generated design.
 
-Books often have several ISBNs (foreign editions, audio books, e-books). The
-candidates are already ordered with German print editions first, so the first
-one that returns an image usually is the right edition.
+Books often have several ISBNs (foreign editions, audio books, e-books), already
+ordered with German print editions first. The service sometimes answers with a
+3D product render — the book at an angle, cut out on white — or with an audio
+book cover in CD proportions. Candidates are therefore scored: too wide is
+rejected outright, bright corners mean a cut-out render, and among equals the
+earlier candidate wins, because that ordering is the better guess at the right
+edition.
+
+data/cover_overrides.json pins single books to a chosen ISBN when the automatic
+pick is ugly. A pinned ISBN is downloaded as it comes, without any of the
+quality gates.
 
 Usage:
     .venv/bin/python scripts/fetch_covers.py           # only missing ones
@@ -28,6 +36,7 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
 DETAILS_FILE = ROOT / "data" / "book_details.json"
+OVERRIDES_FILE = ROOT / "data" / "cover_overrides.json"
 COVER_DIR = ROOT / "web" / "public" / "covers"
 MANIFEST_FILE = ROOT / "web" / "src" / "data" / "covers.json"
 
@@ -42,6 +51,7 @@ MIN_WIDTH = 200
 MAX_SENSIBLE_RATIO = 0.80
 CORNER_BOX = 12
 BRIGHT_CORNER = 240
+POSITION_PENALTY = 10
 
 
 def http_get(url, timeout=25):
@@ -89,31 +99,46 @@ def corner_brightness(data):
     return values
 
 
-def cover_penalty(size, corners):
-    penalty = 0.0
+def cover_penalty(size, corners, position):
+    if corners is None:
+        return None
+    penalty = position * POSITION_PENALTY
     if size and size[1] and size[0] / size[1] > MAX_SENSIBLE_RATIO:
         penalty += 1000
-    if corners:
-        penalty += sum(1 for value in corners if value >= BRIGHT_CORNER) * 100
-        penalty += sum(corners) / len(corners)
+    penalty += sum(1 for value in corners if value >= BRIGHT_CORNER) * 100
     return penalty
+
+
+def fetch_image(isbn):
+    try:
+        data, content_type, status = http_get(COVER_URL.format(isbn=isbn))
+    except Exception:
+        time.sleep(REQUEST_PAUSE)
+        return None, None
+    time.sleep(REQUEST_PAUSE)
+    if status != 200 or "image" not in content_type or not data:
+        return None, None
+    return data, jpeg_size(data)
+
+
+def download_pinned_cover(isbn):
+    data, size = fetch_image(isbn)
+    if data is None:
+        return None, None, None
+    return isbn, data, size
 
 
 def download_cover(isbns):
     best = None
-    for isbn in isbns[:MAX_CANDIDATES]:
-        try:
-            data, content_type, status = http_get(COVER_URL.format(isbn=isbn))
-        except Exception:
-            time.sleep(REQUEST_PAUSE)
+    for position, isbn in enumerate(isbns[:MAX_CANDIDATES]):
+        data, size = fetch_image(isbn)
+        if data is None or len(data) < MIN_BYTES:
             continue
-        time.sleep(REQUEST_PAUSE)
-        if status != 200 or "image" not in content_type or len(data) < MIN_BYTES:
-            continue
-        size = jpeg_size(data)
         if size and size[0] < MIN_WIDTH:
             continue
-        penalty = cover_penalty(size, corner_brightness(data))
+        penalty = cover_penalty(size, corner_brightness(data), position)
+        if penalty is None:
+            continue
         if best is None or penalty < best[0]:
             best = (penalty, isbn, data, size)
         if penalty < 100:
@@ -132,22 +157,47 @@ def main():
     COVER_DIR.mkdir(parents=True, exist_ok=True)
     details = json.loads(DETAILS_FILE.read_text(encoding="utf-8"))["books"]
 
+    overrides = {}
+    if OVERRIDES_FILE.exists():
+        overrides = {
+            key: value
+            for key, value in json.loads(OVERRIDES_FILE.read_text(encoding="utf-8")).items()
+            if not key.startswith("_")
+        }
+
     manifest = {}
-    if MANIFEST_FILE.exists() and not args.force:
+    if MANIFEST_FILE.exists():
         try:
             manifest = json.loads(MANIFEST_FILE.read_text(encoding="utf-8"))
         except json.JSONDecodeError:
             manifest = {}
 
+    unknown_overrides = sorted(set(overrides) - set(details))
+    if unknown_overrides:
+        print(f"WARNUNG: {len(unknown_overrides)} Override-Schlüssel passen zu keinem Buch:")
+        for key in unknown_overrides:
+            print(f"  {key}")
+        print()
+
     todo = []
     for key, detail in details.items():
-        if key in manifest and (COVER_DIR / manifest[key]).exists():
+        pinned = overrides.get(key)
+        wanted = f"{pinned}.jpg" if pinned else manifest.get(key)
+        already_there = (
+            wanted is not None
+            and manifest.get(key) == wanted
+            and (COVER_DIR / wanted).exists()
+        )
+        if already_there and not args.force:
+            continue
+        if pinned:
+            todo.append((key, [pinned], True))
             continue
         candidates = detail.get("isbn_candidates") or (
             [detail["isbn"]] if detail.get("isbn") else []
         )
         if candidates:
-            todo.append((key, candidates))
+            todo.append((key, candidates, False))
 
     if args.limit:
         todo = todo[: args.limit]
@@ -156,8 +206,11 @@ def main():
     print(f"Hole jetzt {len(todo)}\n")
 
     widths, total_bytes, failures = [], 0, []
-    for index, (key, candidates) in enumerate(todo, start=1):
-        isbn, data, size = download_cover(candidates)
+    for index, (key, candidates, pinned) in enumerate(todo, start=1):
+        if pinned:
+            isbn, data, size = download_pinned_cover(candidates[0])
+        else:
+            isbn, data, size = download_cover(candidates)
         if not data:
             failures.append(key)
             print(f"  [{index:>3}/{len(todo)}] ----  {key.split('|')[0][:52]}")

@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import type { Book } from '../lib/types';
 import { paletteFor } from '../lib/palette';
 import coverFiles from '../data/covers.json';
@@ -33,7 +34,8 @@ function Avatar({ recommender }: { recommender: Book['recommended_by'] }) {
 
 export function BookCard({ book }: Props) {
   const { bg, fg } = paletteFor(book);
-  const coverFile = COVER_BY_BOOK[`${book.title}|${book.author}`];
+  const [imageBroken, setImageBroken] = useState(false);
+  const coverFile = imageBroken ? undefined : COVER_BY_BOOK[`${book.title}|${book.author}`];
   return (
     <article className="book">
       <div
@@ -46,6 +48,7 @@ export function BookCard({ book }: Props) {
             src={`${import.meta.env.BASE_URL}covers/${coverFile}`}
             alt={`Buchcover von „${book.title}"`}
             loading="lazy"
+            onError={() => setImageBroken(true)}
           />
         ) : (
           <>
