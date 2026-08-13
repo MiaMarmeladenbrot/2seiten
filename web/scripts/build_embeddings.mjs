@@ -16,18 +16,13 @@ const MODEL = 'Xenova/paraphrase-multilingual-MiniLM-L12-v2';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const BOOKS_PATH = resolve(here, '../../data/books.json');
+const EPISODES_PATH = resolve(here, '../../data/episodes.json');
 const OUT_PATH = resolve(here, '../src/data/embeddings.json');
 
-// Indexing text per book — what the model "reads".
-// Labels stay German on purpose: the content and the queries are German, so
-// German labels give the multilingual model the best semantic match.
-function bookText(book, episode) {
-  return [
-    `Thema: ${episode.topic}`,
-    `Buch: ${book.title} von ${book.author}`,
-    `Empfohlen von: ${book.recommended_by}`,
-    `Folge: ${episode.title}`,
-  ].join('\n');
+const DESCRIPTION_CHARS = 400;
+
+function bookIndexTextWithoutFieldLabels(book, episode, episodeDescription) {
+  return `${episode.topic}. ${book.title}. ${episode.title}. ${episodeDescription.slice(0, DESCRIPTION_CHARS)}`;
 }
 
 // Stable key, identical to the one used in the browser (title|author).
@@ -35,14 +30,30 @@ const keyOf = (book) => `${book.title}|${book.author}`;
 
 async function main() {
   const data = JSON.parse(readFileSync(BOOKS_PATH, 'utf8'));
+  const episodes = JSON.parse(readFileSync(EPISODES_PATH, 'utf8'));
+  const descriptionByGuid = new Map(
+    episodes.map((ep) => [ep.guid, ep.description_full_text || ep.description || '']),
+  );
 
   const items = [];
+  const episodesWithoutDescription = new Set();
   for (const ep of data.episodes) {
+    const description = descriptionByGuid.get(ep.guid) ?? '';
+    if (!description) episodesWithoutDescription.add(ep.title);
     for (const book of ep.books) {
-      items.push({ key: keyOf(book), text: bookText(book, ep) });
+      items.push({
+        key: keyOf(book),
+        text: bookIndexTextWithoutFieldLabels(book, ep, description),
+      });
     }
   }
   console.log(`Read ${items.length} books from books.json`);
+  if (episodesWithoutDescription.size > 0) {
+    console.log(
+      `  no episode description for ${episodesWithoutDescription.size} episode(s): ` +
+        [...episodesWithoutDescription].slice(0, 5).join(' | '),
+    );
+  }
 
   console.log(`Loading model ${MODEL} … (download on first run, cached afterwards)`);
   const extract = await pipeline('feature-extraction', MODEL);

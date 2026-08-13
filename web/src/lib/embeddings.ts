@@ -5,9 +5,25 @@ import type { Book } from './types';
 // won't match.
 const MODEL = 'Xenova/paraphrase-multilingual-MiniLM-L12-v2';
 
-// Cosine-similarity cutoff: book vectors with a lower score than this are not
-// considered a semantic match. Tune while testing (higher = stricter).
-const MIN_SCORE = 0.3;
+const CUTOFF_SIGMA = 2.0;
+const ABSOLUTE_FLOOR = 0.35;
+
+const MEDIUM_WORDS = new Set([
+  'buch',
+  'bücher',
+  'buchtipp',
+  'buchtipps',
+  'roman',
+  'romane',
+  'lektüre',
+]);
+
+function dropMediumWords(query: string): string {
+  const kept = query
+    .split(/\s+/)
+    .filter((w) => !MEDIUM_WORDS.has(w.toLowerCase().replace(/[^\wäöüß]/g, '')));
+  return kept.length ? kept.join(' ') : query;
+}
 
 type VectorMap = Record<string, number[]>;
 
@@ -25,8 +41,7 @@ let extractorPromise: Promise<Extractor> | null = null;
 function getExtractor(): Promise<Extractor> {
   if (!extractorPromise) {
     extractorPromise = import('@huggingface/transformers').then(
-      async ({ pipeline }) =>
-        (await pipeline('feature-extraction', MODEL)) as unknown as Extractor,
+      async ({ pipeline }) => (await pipeline('feature-extraction', MODEL)) as unknown as Extractor,
     );
   }
   return extractorPromise;
@@ -45,28 +60,31 @@ function getVectors(): Promise<VectorMap> {
 // Must match the key format written by build_embeddings.mjs.
 const keyOf = (book: Book): string => `${book.title}|${book.author}`;
 
-// Embeds the query and ranks all books by cosine similarity (= dot product,
-// since all vectors are L2-normalized). Returns books above MIN_SCORE, best first.
 export async function semanticSearch(query: string, books: Book[]): Promise<Book[]> {
   const q = query.trim();
   if (!q) return [];
 
   const [extract, vectors] = await Promise.all([getExtractor(), getVectors()]);
-  const out = await extract(q, { pooling: 'mean', normalize: true });
+  const out = await extract(dropMediumWords(q), { pooling: 'mean', normalize: true });
   const qvec = out.data;
 
-  return books
-    .map((book) => {
-      const v = vectors[keyOf(book)];
-      let score = -1;
-      if (v) {
-        let dot = 0;
-        for (let i = 0; i < qvec.length; i++) dot += qvec[i] * v[i];
-        score = dot;
-      }
-      return { book, score };
-    })
-    .filter((x) => x.score >= MIN_SCORE)
+  const scored: { book: Book; score: number }[] = [];
+  for (const book of books) {
+    const v = vectors[keyOf(book)];
+    if (!v) continue;
+    let dot = 0;
+    for (let i = 0; i < qvec.length; i++) dot += qvec[i] * v[i];
+    scored.push({ book, score: dot });
+  }
+  if (!scored.length) return [];
+
+  const mean = scored.reduce((sum, x) => sum + x.score, 0) / scored.length;
+  const variance = scored.reduce((sum, x) => sum + (x.score - mean) ** 2, 0) / scored.length;
+  const cutoffAboveThisQuerysOwnBaseline = mean + CUTOFF_SIGMA * Math.sqrt(variance);
+  const cutoff = Math.max(ABSOLUTE_FLOOR, cutoffAboveThisQuerysOwnBaseline);
+
+  return scored
+    .filter((x) => x.score >= cutoff)
     .sort((a, b) => b.score - a.score)
     .map((x) => x.book);
 }
