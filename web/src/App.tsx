@@ -79,8 +79,6 @@ export default function App() {
 
       <footer>
         Fan-Projekt zum WDR-Podcast „Zwei Seiten" mit Christine Westermann und Mona Ameziane.
-        <br />
-        Stimmungs-Suche per Embedding-Modell — läuft komplett im Browser.
       </footer>
     </>
   );
