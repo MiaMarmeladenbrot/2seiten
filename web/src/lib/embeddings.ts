@@ -7,6 +7,7 @@ const MODEL = 'Xenova/paraphrase-multilingual-MiniLM-L12-v2';
 
 const CUTOFF_SIGMA = 2.0;
 const ABSOLUTE_FLOOR = 0.35;
+const MINIMUM_RESULTS = 10;
 
 const MEDIUM_WORDS = new Set([
   'buch',
@@ -23,6 +24,14 @@ function dropMediumWords(query: string): string {
     .split(/\s+/)
     .filter((w) => !MEDIUM_WORDS.has(w.toLowerCase().replace(/[^\wäöüß]/g, '')));
   return kept.length ? kept.join(' ') : query;
+}
+
+function matchGermanNounCapitalisation(query: string): string {
+  return query.charAt(0).toUpperCase() + query.slice(1);
+}
+
+function prepareQuery(query: string): string {
+  return matchGermanNounCapitalisation(dropMediumWords(query));
 }
 
 type VectorMap = Record<string, number[]>;
@@ -65,7 +74,7 @@ export async function semanticSearch(query: string, books: Book[]): Promise<Book
   if (!q) return [];
 
   const [extract, vectors] = await Promise.all([getExtractor(), getVectors()]);
-  const out = await extract(dropMediumWords(q), { pooling: 'mean', normalize: true });
+  const out = await extract(prepareQuery(q), { pooling: 'mean', normalize: true });
   const qvec = out.data;
 
   const scored: { book: Book; score: number }[] = [];
@@ -83,8 +92,13 @@ export async function semanticSearch(query: string, books: Book[]): Promise<Book
   const cutoffAboveThisQuerysOwnBaseline = mean + CUTOFF_SIGMA * Math.sqrt(variance);
   const cutoff = Math.max(ABSOLUTE_FLOOR, cutoffAboveThisQuerysOwnBaseline);
 
-  return scored
-    .filter((x) => x.score >= cutoff)
-    .sort((a, b) => b.score - a.score)
-    .map((x) => x.book);
+  const plausible = scored
+    .filter((x) => x.score >= ABSOLUTE_FLOOR)
+    .sort((a, b) => b.score - a.score);
+  const aboveCutoff = plausible.filter((x) => x.score >= cutoff);
+
+  const shown =
+    aboveCutoff.length >= MINIMUM_RESULTS ? aboveCutoff : plausible.slice(0, MINIMUM_RESULTS);
+
+  return shown.map((x) => x.book);
 }

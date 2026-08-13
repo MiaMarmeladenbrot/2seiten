@@ -17,12 +17,20 @@ const MODEL = 'Xenova/paraphrase-multilingual-MiniLM-L12-v2';
 const here = dirname(fileURLToPath(import.meta.url));
 const BOOKS_PATH = resolve(here, '../../data/books.json');
 const EPISODES_PATH = resolve(here, '../../data/episodes.json');
+const DETAILS_PATH = resolve(here, '../../data/book_details.json');
 const OUT_PATH = resolve(here, '../src/data/embeddings.json');
 
-const DESCRIPTION_CHARS = 400;
+const DESCRIPTION_CHARS_WITHOUT_KEYWORDS = 400;
+const DESCRIPTION_CHARS_WITH_KEYWORDS = 200;
+const KEYWORD_COUNT = 10;
 
-function bookIndexTextWithoutFieldLabels(book, episode, episodeDescription) {
-  return `${episode.topic}. ${book.title}. ${episode.title}. ${episodeDescription.slice(0, DESCRIPTION_CHARS)}`;
+function bookIndexText(book, episode, episodeDescription, keywords) {
+  const head = `${episode.topic}. ${book.title}. ${episode.title}`;
+  if (!keywords.length) {
+    return `${head}. ${episodeDescription.slice(0, DESCRIPTION_CHARS_WITHOUT_KEYWORDS)}`;
+  }
+  const terms = keywords.slice(0, KEYWORD_COUNT).join(', ');
+  return `${head}. ${terms}. ${episodeDescription.slice(0, DESCRIPTION_CHARS_WITH_KEYWORDS)}`;
 }
 
 // Stable key, identical to the one used in the browser (title|author).
@@ -35,19 +43,27 @@ async function main() {
     episodes.map((ep) => [ep.guid, ep.description_full_text || ep.description || '']),
   );
 
+  const details = JSON.parse(readFileSync(DETAILS_PATH, 'utf8')).books;
+
   const items = [];
   const episodesWithoutDescription = new Set();
+  let booksWithKeywords = 0;
   for (const ep of data.episodes) {
     const description = descriptionByGuid.get(ep.guid) ?? '';
     if (!description) episodesWithoutDescription.add(ep.title);
     for (const book of ep.books) {
+      const keywords = details[keyOf(book)]?.keywords ?? [];
+      if (keywords.length) booksWithKeywords++;
       items.push({
         key: keyOf(book),
-        text: bookIndexTextWithoutFieldLabels(book, ep, description),
+        text: bookIndexText(book, ep, description, keywords),
       });
     }
   }
   console.log(`Read ${items.length} books from books.json`);
+  console.log(
+    `  ${booksWithKeywords} with DNB keywords, ${items.length - booksWithKeywords} on the episode description alone`,
+  );
   if (episodesWithoutDescription.size > 0) {
     console.log(
       `  no episode description for ${episodesWithoutDescription.size} episode(s): ` +
