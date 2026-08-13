@@ -11,10 +11,164 @@
       "Mona": "Mona Ameziane",
       "both": "von beiden gemeinsam empfohlen"
     },
-    "total_episodes": 101,
-    "total_books": 204
+    "total_episodes": 108,
+    "total_books": 218
   },
   "episodes": [
+    {
+      "guid": "/41e9ac6b35be8ffcaed10941a65356c2",
+      "title": "Magie – über Übernatürliches",
+      "published": "2026-08-10T22:01:25+00:00",
+      "topic": "Magie",
+      "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-magie-ueber-uebernatuerliches-100.html",
+      "audio_url": "https://wdrmedien-a.akamaihd.net/media/p/public/weltweit/2026/08/12/7cbe9324-f19d-4898-8b4f-af6c987e4926/7cbe9324-f19d-4898-8b4f-af6c987e4926_MP3-160.mp3",
+      "books": [
+        {
+          "title": "Tintenherz",
+          "author": "Cornelia Funke",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
+        },
+        {
+          "title": "Achtsam morden",
+          "author": "Carsten Dusse",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
+        }
+      ]
+    },
+    {
+      "guid": "/ce7b1d09eef7942949e2b70ed4381093",
+      "title": "Hotels – über ein Zuhause auf Zeit",
+      "published": "2026-07-28T00:10:00+00:00",
+      "topic": "Hotels",
+      "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-hotels-ueber-ein-zuhause-auf-zeit-100.html",
+      "audio_url": "https://wdrmedien-a.akamaihd.net/media/p/public/weltweit/2026/07/27/a994d2c7-cd92-4393-a9e2-1276c69455e6/a994d2c7-cd92-4393-a9e2-1276c69455e6_MP3-160.mp3",
+      "books": [
+        {
+          "title": "Hotel Laguna",
+          "author": "Alexander Gorkow",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
+        },
+        {
+          "title": "Grand Hotel Avalon",
+          "author": "Maggie Stiefvater",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
+        }
+      ]
+    },
+    {
+      "guid": "/f9183aa7ffeeac5481d0683cbc78832d",
+      "title": "Flirten – über das Knistern beim Kennenlernen",
+      "published": "2026-07-14T00:10:00+00:00",
+      "topic": "Flirten",
+      "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-flirten-ueber-das-knistern-beim-kennenlernen-100.html",
+      "audio_url": "https://wdrmedien-a.akamaihd.net/media/p/public/weltweit/2026/07/13/655d1e3f-c22c-4025-999e-8cebfa7ff308/655d1e3f-c22c-4025-999e-8cebfa7ff308_MP3-160.mp3",
+      "books": [
+        {
+          "title": "Weißer Sommer",
+          "author": "Eva Pramschüfer",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
+        },
+        {
+          "title": "Seemann vom Siebener",
+          "author": "Arno Frank",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
+        }
+      ]
+    },
+    {
+      "guid": "/a1b54b192cea25d31ba00ea1e5f1692b",
+      "title": "Inseln – über kleine Sehnsuchtsorte",
+      "published": "2026-06-30T00:10:00+00:00",
+      "topic": "Inseln",
+      "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-inseln-ueber-kleine-sehnsuchtsorte-100.html",
+      "audio_url": "https://wdrmedien-a.akamaihd.net/media/p/public/weltweit/2026/06/29/e911cf75-9339-4eb2-8f96-3e914094b6b8/e911cf75-9339-4eb2-8f96-3e914094b6b8_MP3-160.mp3",
+      "books": [
+        {
+          "title": "Das Sommerbuch",
+          "author": "Tove Jansson",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
+        },
+        {
+          "title": "Träume aus Salz",
+          "author": "Anika Landsteiner",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
+        }
+      ]
+    },
+    {
+      "guid": "/637ed31337a8ffa421aa685a6aad431b",
+      "title": "Langeweile – über Zeit, die nicht vergeht",
+      "published": "2026-06-16T00:10:00+00:00",
+      "topic": "Langeweile",
+      "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-langeweile-ueber-zeit-die-nicht-vergeht-100.html",
+      "audio_url": "https://wdrmedien-a.akamaihd.net/media/p/public/weltweit/2026/06/15/0954faf8-4e48-41f5-b1a2-c68ec329afbd/0954faf8-4e48-41f5-b1a2-c68ec329afbd_MP3-160.mp3",
+      "books": [
+        {
+          "title": "Der alte Mann und das Meer",
+          "author": "Ernest Hemingway",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
+        },
+        {
+          "title": "Angerichtet",
+          "author": "Herman Koch",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
+        }
+      ]
+    },
+    {
+      "guid": "/5a59dab7c688b6a8c4894d1297a2e6f4",
+      "title": "Hingabe – übers Fallenlassen und Vertrauen",
+      "published": "2026-06-02T00:10:00+00:00",
+      "topic": "Hingabe",
+      "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-hingabe-uebers-fallenlassen-und-vertrauen-100.html",
+      "audio_url": "https://wdrmedien-a.akamaihd.net/media/p/public/weltweit/2026/06/01/bbb531e3-0ea8-4790-9321-f48bda84477a/bbb531e3-0ea8-4790-9321-f48bda84477a_MP3-160.mp3",
+      "books": [
+        {
+          "title": "Alle meine Mütter",
+          "author": "Lena Gorelik",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
+        },
+        {
+          "title": "Salz auf unserer Haut",
+          "author": "Benoîte Groult",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
+        }
+      ]
+    },
+    {
+      "guid": "/46c9cd03aa59b6f9b20bb842fb6f87e3",
+      "title": "Wasser – übers Überschwappen und Abtauchen",
+      "published": "2026-05-19T00:10:00+00:00",
+      "topic": "Wasser",
+      "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-wasser-uebers-ueberschwappen-und-abtauchen-100.html",
+      "audio_url": "https://wdrmedien-a.akamaihd.net/media/p/public/weltweit/2026/05/18/3332f93f-a939-43a4-9a45-d3c81fd94963/3332f93f-a939-43a4-9a45-d3c81fd94963_MP3-160.mp3",
+      "books": [
+        {
+          "title": "Unter Wasser",
+          "author": "Tara Menon",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
+        },
+        {
+          "title": "Ultramarin",
+          "author": "Ann-Christin Kumm",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
+        }
+      ]
+    },
     {
       "guid": "/4708b4f7c712f51813bd284f68710f55",
       "title": "Einhundert – über das, was war und was noch kommt",
@@ -49,7 +203,7 @@
         },
         {
           "title": "Männer",
-          "author": "Johanna Adroján",
+          "author": "Johanna Adorján",
           "recommended_by": "both",
           "role": "Hauptempfehlung"
         },

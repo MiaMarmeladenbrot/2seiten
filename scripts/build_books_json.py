@@ -27,6 +27,55 @@ OUT_FILE = DATA_DIR / "books.json"
 # Extractions per episode, identified by GUID.
 # Format: GUID -> {topic, books: [(title, author, recommended_by, role)]}
 EXTRACTIONS: dict[str, dict] = {
+    "/41e9ac6b35be8ffcaed10941a65356c2": {
+        "topic": "Magie",
+        "books": [
+            ("Tintenherz", "Cornelia Funke", "Mona", "Hauptempfehlung"),
+            ("Achtsam morden", "Carsten Dusse", "Christine", "Hauptempfehlung"),
+        ],
+    },
+    "/ce7b1d09eef7942949e2b70ed4381093": {
+        "topic": "Hotels",
+        "books": [
+            ("Hotel Laguna", "Alexander Gorkow", "Christine", "Hauptempfehlung"),
+            ("Grand Hotel Avalon", "Maggie Stiefvater", "Mona", "Hauptempfehlung"),
+        ],
+    },
+    "/f9183aa7ffeeac5481d0683cbc78832d": {
+        "topic": "Flirten",
+        "books": [
+            ("Weißer Sommer", "Eva Pramschüfer", "Mona", "Hauptempfehlung"),
+            ("Seemann vom Siebener", "Arno Frank", "Christine", "Hauptempfehlung"),
+        ],
+    },
+    "/a1b54b192cea25d31ba00ea1e5f1692b": {
+        "topic": "Inseln",
+        "books": [
+            ("Das Sommerbuch", "Tove Jansson", "Christine", "Hauptempfehlung"),
+            ("Träume aus Salz", "Anika Landsteiner", "Mona", "Hauptempfehlung"),
+        ],
+    },
+    "/637ed31337a8ffa421aa685a6aad431b": {
+        "topic": "Langeweile",
+        "books": [
+            ("Der alte Mann und das Meer", "Ernest Hemingway", "Mona", "Hauptempfehlung"),
+            ("Angerichtet", "Herman Koch", "Christine", "Hauptempfehlung"),
+        ],
+    },
+    "/5a59dab7c688b6a8c4894d1297a2e6f4": {
+        "topic": "Hingabe",
+        "books": [
+            ("Alle meine Mütter", "Lena Gorelik", "Christine", "Hauptempfehlung"),
+            ("Salz auf unserer Haut", "Benoîte Groult", "Mona", "Hauptempfehlung"),
+        ],
+    },
+    "/46c9cd03aa59b6f9b20bb842fb6f87e3": {
+        "topic": "Wasser",
+        "books": [
+            ("Unter Wasser", "Tara Menon", "Mona", "Hauptempfehlung"),
+            ("Ultramarin", "Ann-Christin Kumm", "Christine", "Hauptempfehlung"),
+        ],
+    },
     # 1
     "/4708b4f7c712f51813bd284f68710f55": {
         "topic": "Einhundert",
@@ -35,7 +84,7 @@ EXTRACTIONS: dict[str, dict] = {
             ("Herkunft", "Saša Stanišić", "both", "Hauptempfehlung"),
             ("Dann schlaf auch du", "Leila Slimani", "both", "Hauptempfehlung"),
             ("Die Anomalie", "Hervé Le Tellier", "both", "Hauptempfehlung"),
-            ("Männer", "Johanna Adroján", "both", "Hauptempfehlung"),
+            ("Männer", "Johanna Adorján", "both", "Hauptempfehlung"),
             ("Mein Freund Rilke", "Melanie Garanin", "both", "Hauptempfehlung"),
         ],
     },
