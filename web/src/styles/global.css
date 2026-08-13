@@ -312,7 +312,7 @@ input, select { font-family: inherit; }
   flex-direction: column;
 }
 .cover {
-  aspect-ratio: 2 / 3;
+  aspect-ratio: 63 / 100;
   border-radius: 2px;
   padding: 22px 16px;
   display: flex;
@@ -337,6 +337,16 @@ input, select { font-family: inherit; }
 .book:hover .cover {
   transform: translateY(-6px) rotate(-1.2deg);
   box-shadow: var(--shadow-cover-hover);
+}
+.cover-photo { padding: 0; }
+.cover-photo::before { display: none; }
+.cover-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .cover-title {
   font-size: 17px;
