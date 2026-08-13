@@ -1,15 +1,13 @@
 import { useEffect, useRef, useState } from 'react';
 
 const PLACEHOLDERS = [
-  'habe Fernweh…',
-  '„Stanišić"…',
-  'Buch für müde Abende…',
-  '„Westermann"…',
-  'brauche Mut…',
-  'über Familie…',
-  '„Le Tellier"…',
-  'etwas Lustiges…',
-  'Roman in Frankreich…',
+  'habe Fernweh …',
+  'Buch für müde Abende …',
+  'Funke …',
+  'brauche Mut …',
+  'über Familie …',
+  'etwas Lustiges …',
+  'Roman in Frankreich …',
 ];
 
 const CHIPS: { label: string; query: string }[] = [
