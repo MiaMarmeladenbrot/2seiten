@@ -346,6 +346,7 @@ input, select { font-family: inherit; }
   letter-spacing: -0.005em;
   word-wrap: break-word;
   overflow-wrap: break-word;
+  margin-top: 16px;
 }
 .cover-foot {
   display: flex;
