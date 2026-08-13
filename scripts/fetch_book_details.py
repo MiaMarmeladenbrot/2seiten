@@ -46,6 +46,55 @@ MAX_BLURB_LINKS = 4
 
 AUDIO_MARKERS = ("hörbuch", "gesprochen", "ungekürzte lesung", "mp3", "audio-cd")
 
+STUDY_TITLE_MARKERS = (
+    "textanalyse",
+    "interpretation",
+    "lektüreschlüssel",
+    "königs erläuterung",
+    "unterrichtsmodell",
+    "erläuterungen",
+    "inhaltsangabe",
+    "charakterisierung",
+    "arbeitsheft",
+    "lehrerband",
+    "lesetagebuch",
+    "kopiervorlagen",
+    "handreichung",
+    "unterrichtsmaterial",
+    "abiturwissen",
+    "prüfungsaufgaben",
+    "lektürehilfe",
+    "text und material",
+    "mit materialien",
+)
+
+STUDY_PUBLISHERS = (
+    "klett sprachen",
+    "klett lerntraining",
+    "bange",
+    "schöningh",
+    "cornelsen",
+    "stark verlag",
+    "pons",
+    "hueber",
+    "verlag an der ruhr",
+    "persen",
+    "auer verlag",
+    "buchner",
+    "krapp",
+    "friedrich verlag",
+)
+
+STUDY_KEYWORD_MARKERS = (
+    "deutsch als fremdsprache",
+    "sekundarstufe",
+    "lektüreschlüssel",
+    "unterrichtsmaterial",
+    "schullektüre",
+    "klassenlektüre",
+    "abiturprüfung",
+)
+
 KEYWORD_BLOCKLIST = {
     "novels",
     "fiction",
@@ -191,7 +240,22 @@ def parse_record(record):
         if any(marker in blob for marker in AUDIO_MARKERS):
             parsed["is_audio"] = True
 
+    parsed["study_edition_score"] = study_edition_score(parsed)
     return parsed
+
+
+def study_edition_score(parsed):
+    score = 0
+    title_and_subtitle = f"{parsed['title']} {parsed['subtitle']}".lower()
+    publisher = parsed["publisher"].lower()
+    keywords = " ".join(parsed["keywords"]).lower()
+    if any(marker in title_and_subtitle for marker in STUDY_TITLE_MARKERS):
+        score += 3
+    if any(marker in publisher for marker in STUDY_PUBLISHERS):
+        score += 2
+    if any(marker in keywords for marker in STUDY_KEYWORD_MARKERS):
+        score += 1
+    return score
 
 
 def title_matches(searched, found):
@@ -264,6 +328,7 @@ def find_matching_records(title, author):
 def record_rank(parsed):
     german_print = any(i.startswith("9783") for i in parsed["isbns"])
     return (
+        parsed["study_edition_score"],
         0 if german_print else 1,
         0 if not parsed["is_audio"] else 1,
         0 if parsed["blurb_links"] else 1,
@@ -310,6 +375,7 @@ def build_detail(title, author):
 
     records = matching
     usable = [r for r in matching if not r["is_audio"]] or matching
+    usable = [r for r in usable if r["study_edition_score"] == 0] or usable
     usable.sort(key=record_rank)
     best = usable[0]
 

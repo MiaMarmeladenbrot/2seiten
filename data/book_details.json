@@ -4,645 +4,25 @@
     "endpoint": "https://services.dnb.de/sru/dnb",
     "note": "Klappentexte sind geschützte Verlagstexte — nur zum Bau des Suchindex verwenden, nicht anzeigen.",
     "total": 218,
-    "with_blurb": 187,
-    "with_keywords": 207,
+    "with_blurb": 185,
+    "with_keywords": 206,
     "with_isbn": 217
   },
   "books": {
-    "Lügen über meine Mutter|Daniela Dröscher": {
-      "dnb_title": "Lügen über meine Mutter",
-      "subtitle": "Roman",
-      "isbn": "9783462006575",
-      "isbn_candidates": [
-        "9783462006575",
-        "9783462001990",
-        "9783462303681"
-      ],
-      "blurb": "Daniela Dröscher erzählt vom Aufwachsen in einer Familie, in der ein Thema alles beherrscht: das Körpergewicht der Mutter. Ist diese schöne, eigenwillige, unberechenbare Frau zu dick? Muss sie dringend abnehmen? Ja, das muss sie. Entscheidet ihr Ehemann. Und die Mutter ist dem ausgesetzt, Tag für Tag. &#xa0; »Lügen über meine Mutter« ist zweierlei zugleich: die Erzählung einer Kindheit im Hunsrück der 1980er, die immer stärker beherrscht wird von der fixen Idee des Vaters, das Übergewicht seiner Frau wäre verantwortlich für alles, was ihm versagt bleibt: die Beförderung, der soziale Aufstieg, die Anerkennung in der Dorfgemeinschaft. Und es ist eine Befragung des Geschehens aus der heutigen Perspektive: Was ist damals wirklich passiert? Was wurde verheimlicht, worüber wurde gelogen? Und was sagt uns das alles über den größeren Zusammenhang: die Gesellschaft, die ständig auf uns einwirkt, ob wir wollen oder nicht?&#xa0;Schonungslos und eindrücklich lässt Daniela Dröscher ihr kindliches Alter Ego die Jahre, in denen sich dieses »Kammerspiel namens Familie« abspielte, noch einmal durchleben. Ihr gelingt ein ebenso berührender wie kluger Roman über subtile Gewalt, aber auch über Verantwortung und Fürsorge. Vor allem aber ist dies ein tragik-komisches Buch über eine starke Frau, die nicht aufhört, für die Selbstbestimmung über ihr Leben zu kämpfen.",
-      "keywords": [
-        "Familiengeschichte",
-        "literarische Autofiktion",
-        "Bodyshaming",
-        "Übergewicht",
-        "autobiographisch",
-        "80er Jahre",
-        "Frauenbild",
-        "Longlist Deutscher Buchpreis 2022",
-        "Körperbilder",
-        "kleinbürgerliche Konventionen",
-        "Zeige deine Klasse",
-        "Ministerium für Mitgefühl",
-        "Familienroman",
-        "Emanzipationsgeschichte",
-        "Emanzipation",
-        "Geschenkbuch für Mütter",
-        "Buch für Mütter",
-        "Dröscher neuer Roman",
-        "Coming of Age",
-        "1980er-Jahre",
-        "Bundesrepublik",
-        "Bonner Republik",
-        "Herkunft",
-        "Ursprungsfamilie",
-        "Familiendrama",
-        "Körperbewusstsein",
-        "Patriarchat",
-        "Anna Seghers-Preis"
-      ],
-      "thema": [
-        {
-          "code": "FBA",
-          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
-        },
-        {
-          "code": "FC",
-          "label": "Biografischer Roman / Autobiografischer Roman"
-        },
-        {
-          "code": "FXM",
-          "label": "Belletristik: Themen, Stoffe, Motive: Seelenleben"
-        },
-        {
-          "code": "FS",
-          "label": "Familienleben"
-        },
-        {
-          "code": "FXB",
-          "label": "Belletristik: Themen, Stoffe, Motive: Heranwachsen"
-        },
-        {
-          "code": "1DFG-DE-UR",
-          "label": "Rheinland-Pfalz"
-        },
-        {
-          "code": "3MPQX",
-          "label": "ca. 1980 bis ca. 1989"
-        },
-        {
-          "code": "FBA",
-          "label": "Moderne und zeitgenössische Belletristik"
-        },
-        {
-          "code": "FC",
-          "label": "Biografischer Roman"
-        },
-        {
-          "code": "3MPQX",
-          "label": "1980 bis 1989 n. Chr."
-        }
-      ],
-      "genre": [
-        "Fiktionale Darstellung",
-        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
-      ],
-      "publisher": "Kiepenheuer & Witsch",
-      "place": "Köln",
-      "published_year": "2024",
-      "pages": 443,
-      "original_title": "",
-      "translators": [],
-      "series": "KiWi",
-      "record_count": 9,
-      "fetched_at": "2026-08-13"
-    },
-    "Herkunft|Saša Stanišić": {
-      "dnb_title": "Herkunft von Saša Stanišić - Textanalyse und Interpretation",
-      "subtitle": "mit Zusammenfassung, Inhaltsangabe, Charakterisierung, Szenenanalyse und Prüfungsaufgaben uvm.",
-      "isbn": "9783129303610",
-      "isbn_candidates": [
-        "9783129303610",
-        "9783442719709",
-        "9783630874739",
-        "9783804460652",
-        "9783804470651",
-        "9783641163242"
-      ],
-      "blurb": "Spare Zeit und verzichte auf lästige Recherche! In diesem Band findest du alles , was du zur Vorbereitung auf Referat, Klausur, Abitur oder Matura benötigst – ohne das Buch komplett gelesen zu haben . Alle wichtigen Infos zur Interpretation sowohl kurz (Kapitelzusammenfassungen) als auch ausführlich und klar strukturiert. Inhalt: Schnellübersicht Autor: Leben und Werk ausführliche Inhaltsangabe Aufbau Personenkonstellationen Sachliche und sprachliche Erläuterungen Stil und Sprache Interpretationsansätze 6 Abituraufgaben mit Musterlösungen NEU: exemplarische Schlüsselszenenanalysen NEU: Lernskizzen zur schnellen Wiederholung Layout: Randspalten mit Schlüsselbegriffen übersichtliche Schaubilder NEU: vierfarbiges Layout Im teilweise autobiografischen Roman Herkunft des Autors Saša Stanišić schildert der Ich-Erzähler seine Familiengeschichte und Flucht aus dem von Krieg und Völkermord zerrütteten Jugoslawien. Reihe KÖNIGS ERLÄUTERUNGEN , Band 379",
-      "keywords": [
-        "Bremen Abi Deutsch",
-        "Personenkonstellation Herkunft",
-        "Abituraufgaben Herkunft",
-        "Herkunft Lektüreschlüssel",
-        "Abitur Bremen Deutsch",
-        "Herkunft Szenenanalyse",
-        "Herkunft ausführliche Inhaltsangabe",
-        "Interpretation Herkunft",
-        "Herkunft Schlüsselszenen",
-        "Herkunft Drachenhort",
-        "Biografie Stanisic",
-        "Lektüreschlüssel XL Herkunft",
-        "Herkunft Textanalyse",
-        "Herkunft der Drachenhort",
-        "Herkunft Abituraufgaben",
-        "Deutsch Abitur Bremen",
-        "Bremen Abi",
-        "Herkunft Personenkonstellation",
-        "Einfach Deutsch Herkunft",
-        "Bremen Abitur",
-        "Herkunft Stanisic Jugoslawien",
-        "Stanišić",
-        "Herkunft Ich-Erzähler Stanisic",
-        "Herkunft Interpretation",
-        "Schlüsselszene Herkunft",
-        "Stanišić Leben und Werk",
-        "Abi Bremen Herkunft",
-        "Herkunft Abi Bremen",
-        "Zusammenfassung Herkunft",
-        "Stanisic Biografie",
-        "Herkunft Charakteristiken",
-        "Herkunft Inhaltsangabe",
-        "Herkunft Schlüsselszene",
-        "Stanisic Herkunft",
-        "Jugoslawien Herkunft Stanisic",
-        "Herkunft Lektürehilfe",
-        "Herkunft Ich Erzähler",
-        "Lektüreschlüssel Herkunft",
-        "Figurenkonstellation Herkunft",
-        "Herkunft Eichendorff",
-        "Herkunft Zusammenfassung",
-        "Abi Bremen Deutsch",
-        "Lektürehilfe Herkunft",
-        "Herkunft Stanisic",
-        "Abi Bremen",
-        "Herkunft Figurenkonstellation",
-        "Herkunft Reclam",
-        "Charakteristiken Herkunft",
-        "Stil und Sprache",
-        "Bremen Deutsch Abitur",
-        "Reclam Herkunft",
-        "Herkunft Einfach Deutsch",
-        "Abitur Bremen",
-        "Reclam Lektürehilfe Herkunft",
-        "Migrantenliteratur Herkunft",
-        "Recherche Herkunft Stanisic",
-        "Deutsch Abi Bremen",
-        "Herkunft Aufbau",
-        "Bremen Deutsch Abi",
-        "Deutsch Abi Bremen 2024",
-        "Textanalyse Herkunft",
-        "Schlüsselszenen Herkunft",
-        "Stanisic Herkunft Recherche",
-        "Stanišić Biografie Stanišić",
-        "Szenenanalyse Herkunft",
-        "Herkunft Stanisic Bedeutung",
-        "Longlist Deutscher Buchpreis 2019",
-        "Großmutter",
-        "Heidelberg",
-        "Oskorusa",
-        "Bestseller 2019",
-        "Bosnien-Herzegowina",
-        "Heimat",
-        "Alfred-Döblin-Preis",
-        "Preis der Leipziger Buchmesse",
-        "Demenz",
-        "Dorf",
-        "Meine Heimaten",
-        "EBook Herkunft",
-        "Herkunft EBook",
-        "Herkunft PDF",
-        "PDF Herkunft",
-        "Abituraufgaben",
-        "Aufbau",
-        "ausführliche Inhaltsangabe",
-        "Autor Leben und Werk",
-        "Biografie",
-        "Figurenkonstellation",
-        "Interpretation",
-        "Lektürehilfe",
-        "Lektüreschlüssel",
-        "Personenkonstellation",
-        "Recherche",
-        "Schlüsselszene",
-        "Szenenanalyse",
-        "Textanalyse",
-        "Zusammenfassung",
-        "EPub Herkunft",
-        "Herkunft EPub"
-      ],
-      "thema": [
-        {
-          "code": "YPCA9",
-          "label": "Schule und Lernen: Erstsprache: Literatur"
-        },
-        {
-          "code": "FBA",
-          "label": "Moderne und zeitgenössische Belletristik"
-        },
-        {
-          "code": "1DFG-DE-UB",
-          "label": "Baden-Württemberg"
-        },
-        {
-          "code": "1DFG-DE-VH",
-          "label": "Hamburg"
-        },
-        {
-          "code": "1DXH",
-          "label": "Bosnien und Herzegowina"
-        },
-        {
-          "code": "3MPQ",
-          "label": "Zweite Hälfte 20. Jahrhundert (1950 bis 1999 n. Chr.)"
-        },
-        {
-          "code": "3MRB",
-          "label": "erste Hälfte 21. Jahrhundert (2000 bis 2050 n. Chr.)"
-        }
-      ],
-      "genre": [
-        "Fiktionale Darstellung",
-        "Erzählende Literatur: Gegenwartsliteratur ab 1945",
-        "Romanhafte Biographien",
-        "Lehr- und Lernressource",
-        "Autobiografie"
-      ],
-      "publisher": "Klett Lerntraining bei PONS Langenscheidt GmbH",
-      "place": "Stuttgart",
-      "published_year": "2023",
-      "pages": 150,
-      "original_title": "",
-      "translators": [],
-      "series": "Königs Erläuterungen",
-      "record_count": 30,
-      "fetched_at": "2026-08-13"
-    },
-    "Dann schlaf auch du|Leila Slimani": {
-      "dnb_title": "Dann schlaf auch du",
-      "subtitle": "Roman",
-      "isbn": "9783442770557",
-      "isbn_candidates": [
-        "9783442770557",
-        "9783442717422",
-        "9783630875545",
-        "9783641212902"
-      ],
-      "blurb": "Die Geschenkausgabe mit der abgerundeten Ecke: anspruchsvolle Haptik, hochwertiges Papier, mit Lesebändchen, kleines Format. Sie haben Glück gehabt, denken sich Myriam und Paul, als sie Louise einstellen - eine Nanny wie aus dem Bilderbuch, die auf ihre beiden kleinen Kinder aufpasst, in der schönen Pariser Altbauwohnung im 10. Arrondissement. Sie ahnen nichts von den Abgründen und von der Verletzlichkeit der Frau, der sie das Kostbarste anvertrauen. Von der tiefen Einsamkeit, in der sich Louise zu verlieren droht. Bis eines Tages die Tragödie über die kleine Familie hereinbricht. Ebenso unaufhaltsam wie schrecklich. Ausstattung: mit Lesebändchen",
-      "keywords": [
-        "moderne Familie",
-        "berufstätige Mutter",
-        "Frankreich",
-        "Französischer Roman",
-        "Familie",
-        "Kinder",
-        "Nanny",
-        "Kinderfrau",
-        "Mord",
-        "Paris",
-        "Prix Goncourt",
-        "Glück"
-      ],
-      "thema": [
-        {
-          "code": "FBA",
-          "label": "Moderne und zeitgenössische Belletristik"
-        },
-        {
-          "code": "FS",
-          "label": "Familienleben"
-        },
-        {
-          "code": "FXM",
-          "label": "Belletristik: Themen, Stoffe, Motive: Seelenleben"
-        },
-        {
-          "code": "FYT",
-          "label": "Belletristik in Übersetzung"
-        },
-        {
-          "code": "FXM",
-          "label": "Belletristik: Themen, Stoffe, Motive: Psychologisches Innenleben"
-        }
-      ],
-      "genre": [
-        "Fiktionale Darstellung",
-        "Erzählende Literatur",
-        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
-      ],
-      "publisher": "btb",
-      "place": "München",
-      "published_year": "2021",
-      "pages": 286,
-      "original_title": "Chanson douce",
-      "translators": [
-        "Thoma, Amelie"
-      ],
-      "series": "",
-      "record_count": 7,
-      "fetched_at": "2026-08-13"
-    },
-    "Die Anomalie|Hervé Le Tellier": {
-      "dnb_title": "Die Anomalie",
-      "subtitle": "Der SPIEGEL Bestseller jetzt als Taschenbuch",
-      "isbn": "9783499006975",
-      "isbn_candidates": [
-        "9783499006975",
-        "9783498002589",
-        "9783644010765",
-        "9783763273416"
-      ],
-      "blurb": "Im März 2021 fliegt eine Boeing 787 auf dem Weg von Paris nach New York durch einen elektromagnetischen Wirbelsturm. Die Turbulenzen sind heftig, doch die Landung glückt. Allerdings: Im Juni landet dieselbe Boeing mit denselben Passagieren ein zweites Mal in New York. Im Flieger sitzen der Architekt André und seine Geliebte Lucie, der Auftragskiller Blake, der nigerianische Afro-Pop-Sänger Slimboy, der französische Schriftsteller Victor Miesel, eine amerikanische Schauspielerin. Sie alle führen auf unterschiedliche Weise ein Doppelleben. Und nun gibt es sie tatsächlich doppelt − sie sind mit sich selbst konfrontiert, in der Anomalie einer verrückt gewordenen Welt.",
-      "keywords": [
-        "Prix Goncourt",
-        "Französische Gegenwartsliteratur",
-        "Flughafen",
-        "Paris",
-        "New York",
-        "Überwachung",
-        "Amerikanische Wirklichkeit",
-        "Oulipo",
-        "Science-Fiction",
-        "Doppelung",
-        "Doppelleben",
-        "High Concept",
-        "Zeitsprung",
-        "Parallelgeschichten",
-        "Spiegel Bestseller 2021"
-      ],
-      "thema": [
-        {
-          "code": "FBA",
-          "label": "Moderne und zeitgenössische Belletristik"
-        },
-        {
-          "code": "FDK",
-          "label": "Alternativweltgeschichten"
-        },
-        {
-          "code": "FYT",
-          "label": "Belletristik in Übersetzung"
-        },
-        {
-          "code": "FH",
-          "label": "Thriller / Spannung"
-        },
-        {
-          "code": "1KBB-US-NAK",
-          "label": "New York"
-        },
-        {
-          "code": "1DDF-FR-LAA",
-          "label": "Paris (City)"
-        },
-        {
-          "code": "1FPC",
-          "label": "China"
-        },
-        {
-          "code": "1FKA-IN-JMM",
-          "label": "Mumbai"
-        },
-        {
-          "code": "1HFDN",
-          "label": "Nigeria"
-        }
-      ],
-      "genre": [
-        "Erzählende Literatur: Gegenwartsliteratur ab 1945",
-        "Fiktionale Darstellung",
-        "Erzählende Literatur"
-      ],
-      "publisher": "ROWOHLT Taschenbuch",
-      "place": "Hamburg",
-      "published_year": "2022",
-      "pages": 352,
-      "original_title": "L'Anomalie",
-      "translators": [
-        "Ritte, Jürgen",
-        "Ritte, Romy"
-      ],
-      "series": "",
-      "record_count": 8,
-      "fetched_at": "2026-08-13"
-    },
-    "Mein Freund Rilke|Melanie Garanin": {
-      "dnb_title": "Mein Freund Rilke",
-      "subtitle": "",
-      "isbn": "9783551757807",
-      "isbn_candidates": [
-        "9783551757807"
-      ],
-      "blurb": "Ellen schreibt einen Artikel über Rainer Maria Rilke. Sie kennt seinen Namen, aber nicht sein Werk. Dann geschieht das Unmögliche: Sie trifft Rilke persönlich. Eine Liebesgeschichte entspinnt sich – zwischen zwei Zeiten, zwei Weltbildern. Poetisch und eindringlich eröffnet Melanie Garanin eine neue, heutige Sicht auf den berühmten Dichter. Für alle, die Rilke lieben oder ihn neu entdecken möchten.",
-      "keywords": [
-        "Rainer Maria Rilke",
-        "Rilke verstehen",
-        "Graphic Novel Rilke",
-        "Graphic Novel Romantisch",
-        "Deutsche Dichter",
-        "Liebesgeschichte"
-      ],
-      "thema": [
-        {
-          "code": "XQC",
-          "label": "Graphic Novel / Comic / Manga: Inspiriert von oder adaptiert von anderen Medien"
-        },
-        {
-          "code": "XQF",
-          "label": "Graphic Novel / Comic / Manga: Moderne und zeitgenössische Belletristik, Literatur"
-        },
-        {
-          "code": "XQR",
-          "label": "Graphic Novel / Comic / Manga: Romanze"
-        },
-        {
-          "code": "3MN",
-          "label": "19. Jahrhundert (ca. 1800 bis ca. 1899)"
-        },
-        {
-          "code": "3MR",
-          "label": "21. Jahrhundert (ca. 2000 bis ca. 2100)"
-        },
-        {
-          "code": "5AN",
-          "label": "empfohlenes Alter: ab ca. 12 Jahre"
-        },
-        {
-          "code": "5LK",
-          "label": "In Bezug auf das Erwachsenenalter"
-        },
-        {
-          "code": "5LKM",
-          "label": "In Bezug auf das mittlere Erwachsenenalter"
-        },
-        {
-          "code": "5TD-DE-A",
-          "label": "Literature of Germany"
-        }
-      ],
-      "genre": [
-        "Comic"
-      ],
-      "publisher": "Carlsen Comics",
-      "place": "Hamburg",
-      "published_year": "",
-      "pages": 184,
-      "original_title": "",
-      "translators": [],
-      "series": "Graphic novel",
-      "record_count": 1,
-      "fetched_at": "2026-08-13"
-    },
-    "Let's talk about feelings|Leif Randt": {
-      "dnb_title": "Let's talk about feelings",
-      "subtitle": "Roman",
-      "isbn": "9783462007961",
-      "isbn_candidates": [
-        "9783462007961",
-        "9783462313369"
-      ],
-      "blurb": "Leif Randt hat ein optimistisches Buch über traurige Abschiede geschrieben. »Let’s Talk About Feelings«feiert die Mode, das Begehren und den Aufbruch ins mittlere Alter.&#xa0; Marian Flanders, 41, verkauft in seiner Westberliner Boutique die vielleicht schönste Kleidung der Welt, aber finanziell erfolgreich ist der Kenting-Beach-Store nur selten. Als seine Mutter Carolina – ein einst ikonisches Fotomodel – nach langer Krankheit verstirbt, richtet Marian eine alternative Trauerfeier für ausgewählte Gäste aus. Auf dem ehemaligen Partyboot seines Vaters hält er eine entwaffnende Rede, co-formuliert von seinem besten Freund, und streut die Asche seiner Mutter auf den Wannsee. Marian glaubt, dass mit diesem Ereignis die freudlosere Hälfte des Lebens beginnt. Doch es folgt ein Jahr der Verwandlung. Aus unterkühlter Traurigkeit wird warmherziger Trotz, aus tiefer Enttäuschung erwächst euphorische Zuneigung – »Let’s Talk About Feelings«&#xa0;ist ein Pageturner für die ganze Familie.",
-      "keywords": [
-        "Middle Age",
-        "coming of middle age",
-        "Westberlin",
-        "Mode",
-        "Trauer",
-        "Alegro Pastel",
-        "Millenials",
-        "Lebensentwürfe",
-        "Mutter-Sohn-Beziehung",
-        "Verlust",
-        "roman trauer",
-        "neues Buch Leif Randt",
-        "Junge deutsche Literatur",
-        "neues buch 2025",
-        "leif randt buch",
-        "Mittleres Leben",
-        "roman emotionale reise",
-        "Familienbeziehungen",
-        "Lebensumbruch",
-        "Neuanfang",
-        "Gefühle",
-        "Männer und Gefühle"
-      ],
-      "thema": [
-        {
-          "code": "FBA",
-          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
-        },
-        {
-          "code": "FXL",
-          "label": "Belletristik: Themen, Stoffe, Motive: Tod, Trauer, Verlust"
-        },
-        {
-          "code": "FXM",
-          "label": "Belletristik: Themen, Stoffe, Motive: Seelenleben"
-        },
-        {
-          "code": "FXB",
-          "label": "Belletristik: Themen, Stoffe, Motive: Heranwachsen"
-        },
-        {
-          "code": "AKT",
-          "label": "Mode- und Textildesign"
-        },
-        {
-          "code": "FS",
-          "label": "Familienleben"
-        },
-        {
-          "code": "1DFG-DE-BE",
-          "label": "Berlin"
-        },
-        {
-          "code": "1DFG",
-          "label": "Deutschland"
-        },
-        {
-          "code": "3MRB",
-          "label": "Erste Hälfte 21. Jahrhundert (ca. 2000 bis ca. 2050)"
-        }
-      ],
-      "genre": [
-        "Fiktionale Darstellung",
-        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
-      ],
-      "publisher": "Kiepenheuer & Witsch",
-      "place": "Köln",
-      "published_year": "2025",
-      "pages": 305,
-      "original_title": "",
-      "translators": [],
-      "series": "",
-      "record_count": 3,
-      "fetched_at": "2026-08-13"
-    },
-    "Einatmen. Ausatmen|Maxim Leo": {
-      "dnb_title": "Einatmen. Ausatmen.",
-      "subtitle": "Roman",
-      "isbn": "9783462006513",
-      "isbn_candidates": [
-        "9783462006513",
-        "9783462312751"
-      ],
-      "blurb": "Was passiert, wenn eine gefühlsresistente Spitzenmanagerin ein Achtsamkeitstraining bei einem Coach absolvieren muss, der selbst in einer Sinnkrise steckt? Maxim Leos rasend komischer und tief berührender Roman über die Suche nach dem richtigen Leben und den Weg zu uns selbst. Marlene Buchholz soll Vorstandsvorsitzende des Aviola- Konzerns werden. Ihre Kollegen sind sich einig, dass sie fachlich hochkompetent ist – aber menschlich eine ziemliche Katastrophe. Weshalb sie zum Coaching in ein Brandenburger Schloss geschickt wird – zu Alex Grow, dem berühmten Seelenflüsterer. Was niemand weiß: Seine &#xa0;Academy steht kurz vor dem Bankrott und Alex hat selbst mit Panikattacken zu kämpfen. Marlene ist seine letzte Hoffnung, denn im Erfolgsfall winkt ein Großauftrag der Aviola . Doch die Klientin bleibt skeptisch und verschlossen – bis ein verletztes Wildschwein, ein schüchterner Hausmeister und ein dreizehnjähriges Mädchen auftauchen, die Marlenes Augen und Herz öffnen und sie erahnen lassen, was am Ende wirklich zählt.",
-      "keywords": [
-        "Achtsamkeit Roman",
-        "Maxim Leo Roman",
-        "neues Buch Maxim Leo",
-        "Humorvoller Roman",
-        "Sinnsuche Roman",
-        "Persönlichkeitsentwicklung Buch",
-        "Coaching",
-        "Der Pfau",
-        "unterhaltungsroman",
-        "Geschenk für Männer"
-      ],
-      "thema": [
-        {
-          "code": "FBA",
-          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
-        },
-        {
-          "code": "FXM",
-          "label": "Belletristik: Themen, Stoffe, Motive: Seelenleben"
-        },
-        {
-          "code": "FU",
-          "label": "Belletristik: Humor"
-        },
-        {
-          "code": "1DFG-DE-BG",
-          "label": "Brandenburg"
-        },
-        {
-          "code": "3MRB",
-          "label": "Erste Hälfte 21. Jahrhundert (ca. 2000 bis ca. 2050)"
-        }
-      ],
-      "genre": [
-        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
-      ],
-      "publisher": "Kiepenheuer & Witsch",
-      "place": "Köln",
-      "published_year": "2026",
-      "pages": 256,
-      "original_title": "",
-      "translators": [],
-      "series": "",
-      "record_count": 3,
-      "fetched_at": "2026-08-13"
-    },
     "Tintenherz|Cornelia Funke": {
       "dnb_title": "Tintenherz",
       "subtitle": "",
-      "isbn": "9783126741347",
+      "isbn": "9783751300483",
       "isbn_candidates": [
-        "9783126741347",
         "9783751300483",
         "9783841505583",
         "9783791504957",
         "9783751301367",
-        "9783126741149"
+        "9783751300742",
+        "9783862723072"
       ],
-      "blurb": "Mit der Hybriden Ausgabe erhalten Sie in der Printausgabe einen eingedruckten Lizenzschlüssel (für Unterrichtende und Lernende) zur Digitalen Ausgabe. So steht Ihnen das Buch auf der Lernplattform allango auch digital zur Verfügung und Sie haben digitale Medieninhalte sofort griffbereit. Hybride Ausgabe: Buch mit Lizenzschlüssel zu digitaler Textausgabe Hörbuch Wenn Bücher zum Leben erwachen … Seit ihre Mutter vor neun Jahren verschwunden ist, lebt Meggie bei ihrem Vater Mo. Doch alles ändert sich, als eines Nachts ein Fremder namens Staubfinger auftaucht und Mo vor dem unheimlichen Capricorn warnt. Am nächsten Morgen verlassen Meggie und Mo ihr Zuhause. Im Gepäck haben sie ein geheimnisvolles Buch, das Mo vor vielen Jahren zum letzten Mal gelesen hat und das er unbedingt vor Capricorn verstecken muss. Doch Capricorn und seine Männer sind ihnen schon auf der Spur. Bald ist nicht nur das Buch, sondern auch Meggie selbst in Gefahr. .",
+      "blurb": "Der Welterfolg im prachtvollen Schuber In einer stürmischen Nacht taucht ein unheimlicher Gast bei Meggie und ihrem Vater Mo auf. Er warnt Mo vor einem Mann namens Capricorn. So beginnt das unglaubliche, magische und atemberaubende Abenteuer um ein Buch, das Tintenherz heißt und das Meggie, Mo und ihre Freunde in die zauberhafte, wunderschöne und grausame Tintenwelt führt. Cornelia Funkes »Tintenwelt«-Trilogie ist ein Welterfolg, vielfach preisgekrönt und für das Kino verfilmt. Ein meisterhaftes Erzählwerk voll überbordender Fantasie, schaurig-schöner Spannung, eine Liebeserklärung an das Buch, erzählt in Funkes einzigartig bildhafter Sprache. Die neugestaltete Taschenbuch-Gesamtausgabe vereint die kompletten Romane Tintenherz , Tintenblut und Tintentod nun erstmals in einem attraktiven Schmuckschuber mit Goldfolie: das perfekte Geschenk für kleine und große Funke-Fans.",
       "keywords": [
-        "Deutsch als Fremdsprache (DaF)",
-        "Lektüre",
-        "Zusatzmaterialien",
-        "Sekundarstufe I",
-        "Sekundarstufe II",
-        "A2 - B1",
-        "Abitur",
         "Fantasy für Jugendliche",
         "Klassiker",
         "Spiegel Bestsellerliste",
@@ -689,18 +69,9 @@
         "Jugendbuch",
         "Kulturpass",
         "ab 12 Jahren",
-        "Fantasy Jugendliche",
-        "Buch"
+        "Fantasy Jugendliche"
       ],
       "thema": [
-        {
-          "code": "YPCK91",
-          "label": "Schule und Lernen: Moderne (Nicht-Mutter- oder Zweit-) Sprachen: Schulausgaben literarischer Texte"
-        },
-        {
-          "code": "2ACG",
-          "label": "Deutsch"
-        },
         {
           "code": "YFC",
           "label": "Kinder/Jugendliche: Action- und Abenteuergeschichten"
@@ -774,14 +145,14 @@
         "Jugendbuch",
         "Jugendbücher ab 12 Jahre"
       ],
-      "publisher": "Ernst Klett Sprachen",
-      "place": "Stuttgart",
-      "published_year": "2025",
-      "pages": 135,
+      "publisher": "Dressler Verlag",
+      "place": "Hamburg",
+      "published_year": "2021",
+      "pages": 573,
       "original_title": "Tintenherz",
       "translators": [],
-      "series": "Deutsch - leichter lesen",
-      "record_count": 40,
+      "series": "Der erste Band der Tintenwelt-Trilogie",
+      "record_count": 12,
       "fetched_at": "2026-08-13"
     },
     "Achtsam morden|Carsten Dusse": {
@@ -980,7 +351,7 @@
       "original_title": "",
       "translators": [],
       "series": "Achtsam morden-Reihe",
-      "record_count": 40,
+      "record_count": 15,
       "fetched_at": "2026-08-13"
     },
     "Hotel Laguna|Alexander Gorkow": {
@@ -1049,7 +420,7 @@
         "Flaquer Serrano, Miquel J."
       ],
       "series": "",
-      "record_count": 8,
+      "record_count": 6,
       "fetched_at": "2026-08-13"
     },
     "Grand Hotel Avalon|Maggie Stiefvater": {
@@ -1509,7 +880,7 @@
         "Schmitz, Werner"
       ],
       "series": "",
-      "record_count": 40,
+      "record_count": 37,
       "fetched_at": "2026-08-13"
     },
     "Angerichtet|Herman Koch": {
@@ -1891,6 +1262,316 @@
       "record_count": 3,
       "fetched_at": "2026-08-13"
     },
+    "Lügen über meine Mutter|Daniela Dröscher": {
+      "dnb_title": "Lügen über meine Mutter",
+      "subtitle": "Roman",
+      "isbn": "9783462006575",
+      "isbn_candidates": [
+        "9783462006575",
+        "9783462001990",
+        "9783462303681"
+      ],
+      "blurb": "Daniela Dröscher erzählt vom Aufwachsen in einer Familie, in der ein Thema alles beherrscht: das Körpergewicht der Mutter. Ist diese schöne, eigenwillige, unberechenbare Frau zu dick? Muss sie dringend abnehmen? Ja, das muss sie. Entscheidet ihr Ehemann. Und die Mutter ist dem ausgesetzt, Tag für Tag. &#xa0; »Lügen über meine Mutter« ist zweierlei zugleich: die Erzählung einer Kindheit im Hunsrück der 1980er, die immer stärker beherrscht wird von der fixen Idee des Vaters, das Übergewicht seiner Frau wäre verantwortlich für alles, was ihm versagt bleibt: die Beförderung, der soziale Aufstieg, die Anerkennung in der Dorfgemeinschaft. Und es ist eine Befragung des Geschehens aus der heutigen Perspektive: Was ist damals wirklich passiert? Was wurde verheimlicht, worüber wurde gelogen? Und was sagt uns das alles über den größeren Zusammenhang: die Gesellschaft, die ständig auf uns einwirkt, ob wir wollen oder nicht?&#xa0;Schonungslos und eindrücklich lässt Daniela Dröscher ihr kindliches Alter Ego die Jahre, in denen sich dieses »Kammerspiel namens Familie« abspielte, noch einmal durchleben. Ihr gelingt ein ebenso berührender wie kluger Roman über subtile Gewalt, aber auch über Verantwortung und Fürsorge. Vor allem aber ist dies ein tragik-komisches Buch über eine starke Frau, die nicht aufhört, für die Selbstbestimmung über ihr Leben zu kämpfen.",
+      "keywords": [
+        "Familiengeschichte",
+        "literarische Autofiktion",
+        "Bodyshaming",
+        "Übergewicht",
+        "autobiographisch",
+        "80er Jahre",
+        "Frauenbild",
+        "Longlist Deutscher Buchpreis 2022",
+        "Körperbilder",
+        "kleinbürgerliche Konventionen",
+        "Zeige deine Klasse",
+        "Ministerium für Mitgefühl",
+        "Familienroman",
+        "Emanzipationsgeschichte",
+        "Emanzipation",
+        "Geschenkbuch für Mütter",
+        "Buch für Mütter",
+        "Dröscher neuer Roman",
+        "Coming of Age",
+        "1980er-Jahre",
+        "Bundesrepublik",
+        "Bonner Republik",
+        "Herkunft",
+        "Ursprungsfamilie",
+        "Familiendrama",
+        "Körperbewusstsein",
+        "Patriarchat",
+        "Anna Seghers-Preis"
+      ],
+      "thema": [
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
+        },
+        {
+          "code": "FC",
+          "label": "Biografischer Roman / Autobiografischer Roman"
+        },
+        {
+          "code": "FXM",
+          "label": "Belletristik: Themen, Stoffe, Motive: Seelenleben"
+        },
+        {
+          "code": "FS",
+          "label": "Familienleben"
+        },
+        {
+          "code": "FXB",
+          "label": "Belletristik: Themen, Stoffe, Motive: Heranwachsen"
+        },
+        {
+          "code": "1DFG-DE-UR",
+          "label": "Rheinland-Pfalz"
+        },
+        {
+          "code": "3MPQX",
+          "label": "ca. 1980 bis ca. 1989"
+        },
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik"
+        },
+        {
+          "code": "FC",
+          "label": "Biografischer Roman"
+        },
+        {
+          "code": "3MPQX",
+          "label": "1980 bis 1989 n. Chr."
+        }
+      ],
+      "genre": [
+        "Fiktionale Darstellung",
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
+      ],
+      "publisher": "Kiepenheuer & Witsch",
+      "place": "Köln",
+      "published_year": "2024",
+      "pages": 443,
+      "original_title": "",
+      "translators": [],
+      "series": "KiWi",
+      "record_count": 4,
+      "fetched_at": "2026-08-13"
+    },
+    "Herkunft|Saša Stanišić": {
+      "dnb_title": "Herkunft",
+      "subtitle": "",
+      "isbn": "9783442719709",
+      "isbn_candidates": [
+        "9783442719709",
+        "9783630874739",
+        "9783641163242"
+      ],
+      "blurb": "HERKUNFT ist ein Buch über den ersten Zufall unserer Biografie: irgendwo geboren werden. Und was danach kommt. HERKUNFT ist ein Buch über ein Dorf, in dem nur noch dreizehn Menschen leben, ein Land, das es heute nicht mehr gibt, eine zersplitterte Familie, die meine ist. Es ist ein Buch über die Frage, was zu mir gehört, ein Selbstporträt mit Ahnen. Und ein Scheitern des Selbstporträts. HERKUNFT ist ein Abschied von meiner dementen Großmutter. Während ich Erinnerungen sammle, verliert sie ihre. HERKUNFT ist ein Buch über meine Heimaten, in der Erinnerung und der Erfindung. Ein Buch über Sprache und Scham, Ankommen und Zurechtkommen, Glück und Tod.",
+      "keywords": [
+        "Longlist Deutscher Buchpreis 2019",
+        "Großmutter",
+        "Heidelberg",
+        "Oskorusa",
+        "Bestseller 2019",
+        "Bosnien-Herzegowina",
+        "Heimat",
+        "Alfred-Döblin-Preis",
+        "Preis der Leipziger Buchmesse",
+        "Demenz",
+        "Dorf",
+        "Meine Heimaten"
+      ],
+      "thema": [
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik"
+        },
+        {
+          "code": "1DFG-DE-UB",
+          "label": "Baden-Württemberg"
+        },
+        {
+          "code": "1DFG-DE-VH",
+          "label": "Hamburg"
+        },
+        {
+          "code": "1DXH",
+          "label": "Bosnien und Herzegowina"
+        },
+        {
+          "code": "3MPQ",
+          "label": "Zweite Hälfte 20. Jahrhundert (1950 bis 1999 n. Chr.)"
+        },
+        {
+          "code": "3MRB",
+          "label": "erste Hälfte 21. Jahrhundert (2000 bis 2050 n. Chr.)"
+        }
+      ],
+      "genre": [
+        "Fiktionale Darstellung",
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945",
+        "Romanhafte Biographien",
+        "Autobiografie"
+      ],
+      "publisher": "btb",
+      "place": "München",
+      "published_year": "2020",
+      "pages": 365,
+      "original_title": "Herkunft",
+      "translators": [],
+      "series": "",
+      "record_count": 9,
+      "fetched_at": "2026-08-13"
+    },
+    "Dann schlaf auch du|Leila Slimani": {
+      "dnb_title": "Dann schlaf auch du",
+      "subtitle": "Roman",
+      "isbn": "9783442770557",
+      "isbn_candidates": [
+        "9783442770557",
+        "9783442717422",
+        "9783630875545",
+        "9783641212902"
+      ],
+      "blurb": "Die Geschenkausgabe mit der abgerundeten Ecke: anspruchsvolle Haptik, hochwertiges Papier, mit Lesebändchen, kleines Format. Sie haben Glück gehabt, denken sich Myriam und Paul, als sie Louise einstellen - eine Nanny wie aus dem Bilderbuch, die auf ihre beiden kleinen Kinder aufpasst, in der schönen Pariser Altbauwohnung im 10. Arrondissement. Sie ahnen nichts von den Abgründen und von der Verletzlichkeit der Frau, der sie das Kostbarste anvertrauen. Von der tiefen Einsamkeit, in der sich Louise zu verlieren droht. Bis eines Tages die Tragödie über die kleine Familie hereinbricht. Ebenso unaufhaltsam wie schrecklich. Ausstattung: mit Lesebändchen",
+      "keywords": [
+        "moderne Familie",
+        "berufstätige Mutter",
+        "Frankreich",
+        "Französischer Roman",
+        "Familie",
+        "Kinder",
+        "Nanny",
+        "Kinderfrau",
+        "Mord",
+        "Paris",
+        "Prix Goncourt",
+        "Glück"
+      ],
+      "thema": [
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik"
+        },
+        {
+          "code": "FS",
+          "label": "Familienleben"
+        },
+        {
+          "code": "FXM",
+          "label": "Belletristik: Themen, Stoffe, Motive: Seelenleben"
+        },
+        {
+          "code": "FYT",
+          "label": "Belletristik in Übersetzung"
+        },
+        {
+          "code": "FXM",
+          "label": "Belletristik: Themen, Stoffe, Motive: Psychologisches Innenleben"
+        }
+      ],
+      "genre": [
+        "Fiktionale Darstellung",
+        "Erzählende Literatur",
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
+      ],
+      "publisher": "btb",
+      "place": "München",
+      "published_year": "2021",
+      "pages": 286,
+      "original_title": "Chanson douce",
+      "translators": [
+        "Thoma, Amelie"
+      ],
+      "series": "",
+      "record_count": 7,
+      "fetched_at": "2026-08-13"
+    },
+    "Die Anomalie|Hervé Le Tellier": {
+      "dnb_title": "Die Anomalie",
+      "subtitle": "Der SPIEGEL Bestseller jetzt als Taschenbuch",
+      "isbn": "9783499006975",
+      "isbn_candidates": [
+        "9783499006975",
+        "9783498002589",
+        "9783644010765",
+        "9783763273416"
+      ],
+      "blurb": "Im März 2021 fliegt eine Boeing 787 auf dem Weg von Paris nach New York durch einen elektromagnetischen Wirbelsturm. Die Turbulenzen sind heftig, doch die Landung glückt. Allerdings: Im Juni landet dieselbe Boeing mit denselben Passagieren ein zweites Mal in New York. Im Flieger sitzen der Architekt André und seine Geliebte Lucie, der Auftragskiller Blake, der nigerianische Afro-Pop-Sänger Slimboy, der französische Schriftsteller Victor Miesel, eine amerikanische Schauspielerin. Sie alle führen auf unterschiedliche Weise ein Doppelleben. Und nun gibt es sie tatsächlich doppelt − sie sind mit sich selbst konfrontiert, in der Anomalie einer verrückt gewordenen Welt.",
+      "keywords": [
+        "Prix Goncourt",
+        "Französische Gegenwartsliteratur",
+        "Flughafen",
+        "Paris",
+        "New York",
+        "Überwachung",
+        "Amerikanische Wirklichkeit",
+        "Oulipo",
+        "Science-Fiction",
+        "Doppelung",
+        "Doppelleben",
+        "High Concept",
+        "Zeitsprung",
+        "Parallelgeschichten",
+        "Spiegel Bestseller 2021"
+      ],
+      "thema": [
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik"
+        },
+        {
+          "code": "FDK",
+          "label": "Alternativweltgeschichten"
+        },
+        {
+          "code": "FYT",
+          "label": "Belletristik in Übersetzung"
+        },
+        {
+          "code": "FH",
+          "label": "Thriller / Spannung"
+        },
+        {
+          "code": "1KBB-US-NAK",
+          "label": "New York"
+        },
+        {
+          "code": "1DDF-FR-LAA",
+          "label": "Paris (City)"
+        },
+        {
+          "code": "1FPC",
+          "label": "China"
+        },
+        {
+          "code": "1FKA-IN-JMM",
+          "label": "Mumbai"
+        },
+        {
+          "code": "1HFDN",
+          "label": "Nigeria"
+        }
+      ],
+      "genre": [
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945",
+        "Fiktionale Darstellung",
+        "Erzählende Literatur"
+      ],
+      "publisher": "ROWOHLT Taschenbuch",
+      "place": "Hamburg",
+      "published_year": "2022",
+      "pages": 352,
+      "original_title": "L'Anomalie",
+      "translators": [
+        "Ritte, Jürgen",
+        "Ritte, Romy"
+      ],
+      "series": "",
+      "record_count": 5,
+      "fetched_at": "2026-08-13"
+    },
     "Männer|Johanna Adorján": {
       "dnb_title": "Männer",
       "subtitle": "einige von vielen",
@@ -1954,6 +1635,214 @@
       "translators": [],
       "series": "",
       "record_count": 4,
+      "fetched_at": "2026-08-13"
+    },
+    "Mein Freund Rilke|Melanie Garanin": {
+      "dnb_title": "Mein Freund Rilke",
+      "subtitle": "",
+      "isbn": "9783551757807",
+      "isbn_candidates": [
+        "9783551757807"
+      ],
+      "blurb": "Ellen schreibt einen Artikel über Rainer Maria Rilke. Sie kennt seinen Namen, aber nicht sein Werk. Dann geschieht das Unmögliche: Sie trifft Rilke persönlich. Eine Liebesgeschichte entspinnt sich – zwischen zwei Zeiten, zwei Weltbildern. Poetisch und eindringlich eröffnet Melanie Garanin eine neue, heutige Sicht auf den berühmten Dichter. Für alle, die Rilke lieben oder ihn neu entdecken möchten.",
+      "keywords": [
+        "Rainer Maria Rilke",
+        "Rilke verstehen",
+        "Graphic Novel Rilke",
+        "Graphic Novel Romantisch",
+        "Deutsche Dichter",
+        "Liebesgeschichte"
+      ],
+      "thema": [
+        {
+          "code": "XQC",
+          "label": "Graphic Novel / Comic / Manga: Inspiriert von oder adaptiert von anderen Medien"
+        },
+        {
+          "code": "XQF",
+          "label": "Graphic Novel / Comic / Manga: Moderne und zeitgenössische Belletristik, Literatur"
+        },
+        {
+          "code": "XQR",
+          "label": "Graphic Novel / Comic / Manga: Romanze"
+        },
+        {
+          "code": "3MN",
+          "label": "19. Jahrhundert (ca. 1800 bis ca. 1899)"
+        },
+        {
+          "code": "3MR",
+          "label": "21. Jahrhundert (ca. 2000 bis ca. 2100)"
+        },
+        {
+          "code": "5AN",
+          "label": "empfohlenes Alter: ab ca. 12 Jahre"
+        },
+        {
+          "code": "5LK",
+          "label": "In Bezug auf das Erwachsenenalter"
+        },
+        {
+          "code": "5LKM",
+          "label": "In Bezug auf das mittlere Erwachsenenalter"
+        },
+        {
+          "code": "5TD-DE-A",
+          "label": "Literature of Germany"
+        }
+      ],
+      "genre": [
+        "Comic"
+      ],
+      "publisher": "Carlsen Comics",
+      "place": "Hamburg",
+      "published_year": "",
+      "pages": 184,
+      "original_title": "",
+      "translators": [],
+      "series": "Graphic novel",
+      "record_count": 1,
+      "fetched_at": "2026-08-13"
+    },
+    "Let's talk about feelings|Leif Randt": {
+      "dnb_title": "Let's talk about feelings",
+      "subtitle": "Roman",
+      "isbn": "9783462007961",
+      "isbn_candidates": [
+        "9783462007961",
+        "9783462313369"
+      ],
+      "blurb": "Leif Randt hat ein optimistisches Buch über traurige Abschiede geschrieben. »Let’s Talk About Feelings«feiert die Mode, das Begehren und den Aufbruch ins mittlere Alter.&#xa0; Marian Flanders, 41, verkauft in seiner Westberliner Boutique die vielleicht schönste Kleidung der Welt, aber finanziell erfolgreich ist der Kenting-Beach-Store nur selten. Als seine Mutter Carolina – ein einst ikonisches Fotomodel – nach langer Krankheit verstirbt, richtet Marian eine alternative Trauerfeier für ausgewählte Gäste aus. Auf dem ehemaligen Partyboot seines Vaters hält er eine entwaffnende Rede, co-formuliert von seinem besten Freund, und streut die Asche seiner Mutter auf den Wannsee. Marian glaubt, dass mit diesem Ereignis die freudlosere Hälfte des Lebens beginnt. Doch es folgt ein Jahr der Verwandlung. Aus unterkühlter Traurigkeit wird warmherziger Trotz, aus tiefer Enttäuschung erwächst euphorische Zuneigung – »Let’s Talk About Feelings«&#xa0;ist ein Pageturner für die ganze Familie.",
+      "keywords": [
+        "Middle Age",
+        "coming of middle age",
+        "Westberlin",
+        "Mode",
+        "Trauer",
+        "Alegro Pastel",
+        "Millenials",
+        "Lebensentwürfe",
+        "Mutter-Sohn-Beziehung",
+        "Verlust",
+        "roman trauer",
+        "neues Buch Leif Randt",
+        "Junge deutsche Literatur",
+        "neues buch 2025",
+        "leif randt buch",
+        "Mittleres Leben",
+        "roman emotionale reise",
+        "Familienbeziehungen",
+        "Lebensumbruch",
+        "Neuanfang",
+        "Gefühle",
+        "Männer und Gefühle"
+      ],
+      "thema": [
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
+        },
+        {
+          "code": "FXL",
+          "label": "Belletristik: Themen, Stoffe, Motive: Tod, Trauer, Verlust"
+        },
+        {
+          "code": "FXM",
+          "label": "Belletristik: Themen, Stoffe, Motive: Seelenleben"
+        },
+        {
+          "code": "FXB",
+          "label": "Belletristik: Themen, Stoffe, Motive: Heranwachsen"
+        },
+        {
+          "code": "AKT",
+          "label": "Mode- und Textildesign"
+        },
+        {
+          "code": "FS",
+          "label": "Familienleben"
+        },
+        {
+          "code": "1DFG-DE-BE",
+          "label": "Berlin"
+        },
+        {
+          "code": "1DFG",
+          "label": "Deutschland"
+        },
+        {
+          "code": "3MRB",
+          "label": "Erste Hälfte 21. Jahrhundert (ca. 2000 bis ca. 2050)"
+        }
+      ],
+      "genre": [
+        "Fiktionale Darstellung",
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
+      ],
+      "publisher": "Kiepenheuer & Witsch",
+      "place": "Köln",
+      "published_year": "2025",
+      "pages": 305,
+      "original_title": "",
+      "translators": [],
+      "series": "",
+      "record_count": 3,
+      "fetched_at": "2026-08-13"
+    },
+    "Einatmen. Ausatmen|Maxim Leo": {
+      "dnb_title": "Einatmen. Ausatmen.",
+      "subtitle": "Roman",
+      "isbn": "9783462006513",
+      "isbn_candidates": [
+        "9783462006513",
+        "9783462312751"
+      ],
+      "blurb": "Was passiert, wenn eine gefühlsresistente Spitzenmanagerin ein Achtsamkeitstraining bei einem Coach absolvieren muss, der selbst in einer Sinnkrise steckt? Maxim Leos rasend komischer und tief berührender Roman über die Suche nach dem richtigen Leben und den Weg zu uns selbst. Marlene Buchholz soll Vorstandsvorsitzende des Aviola- Konzerns werden. Ihre Kollegen sind sich einig, dass sie fachlich hochkompetent ist – aber menschlich eine ziemliche Katastrophe. Weshalb sie zum Coaching in ein Brandenburger Schloss geschickt wird – zu Alex Grow, dem berühmten Seelenflüsterer. Was niemand weiß: Seine &#xa0;Academy steht kurz vor dem Bankrott und Alex hat selbst mit Panikattacken zu kämpfen. Marlene ist seine letzte Hoffnung, denn im Erfolgsfall winkt ein Großauftrag der Aviola . Doch die Klientin bleibt skeptisch und verschlossen – bis ein verletztes Wildschwein, ein schüchterner Hausmeister und ein dreizehnjähriges Mädchen auftauchen, die Marlenes Augen und Herz öffnen und sie erahnen lassen, was am Ende wirklich zählt.",
+      "keywords": [
+        "Achtsamkeit Roman",
+        "Maxim Leo Roman",
+        "neues Buch Maxim Leo",
+        "Humorvoller Roman",
+        "Sinnsuche Roman",
+        "Persönlichkeitsentwicklung Buch",
+        "Coaching",
+        "Der Pfau",
+        "unterhaltungsroman",
+        "Geschenk für Männer"
+      ],
+      "thema": [
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
+        },
+        {
+          "code": "FXM",
+          "label": "Belletristik: Themen, Stoffe, Motive: Seelenleben"
+        },
+        {
+          "code": "FU",
+          "label": "Belletristik: Humor"
+        },
+        {
+          "code": "1DFG-DE-BG",
+          "label": "Brandenburg"
+        },
+        {
+          "code": "3MRB",
+          "label": "Erste Hälfte 21. Jahrhundert (ca. 2000 bis ca. 2050)"
+        }
+      ],
+      "genre": [
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
+      ],
+      "publisher": "Kiepenheuer & Witsch",
+      "place": "Köln",
+      "published_year": "2026",
+      "pages": 256,
+      "original_title": "",
+      "translators": [],
+      "series": "",
+      "record_count": 3,
       "fetched_at": "2026-08-13"
     },
     "Es ist hell und draußen dreht sich die Welt|Dita Zipfel": {
@@ -2330,7 +2219,7 @@
       "original_title": "",
       "translators": [],
       "series": "",
-      "record_count": 6,
+      "record_count": 4,
       "fetched_at": "2026-08-13"
     },
     "Die Namen|Florence Knapp": {
@@ -2572,7 +2461,7 @@
         "Várnai, Péter"
       ],
       "series": "",
-      "record_count": 29,
+      "record_count": 24,
       "fetched_at": "2026-08-13"
     },
     "Wenn die Kraniche nach Süden ziehen|Lisa Ridzén": {
@@ -2871,7 +2760,7 @@
       "original_title": "",
       "translators": [],
       "series": "KiWi",
-      "record_count": 11,
+      "record_count": 5,
       "fetched_at": "2026-08-13"
     },
     "Die Wolkengucker|Kristina Fritz": {
@@ -3195,7 +3084,7 @@
       "original_title": "Kochen im falschen Jahrhundert",
       "translators": [],
       "series": "",
-      "record_count": 8,
+      "record_count": 5,
       "fetched_at": "2026-08-13"
     },
     "Schlupfwinkel|Friedrich Ani": {
@@ -3571,7 +3460,7 @@
       "original_title": "",
       "translators": [],
       "series": "",
-      "record_count": 6,
+      "record_count": 4,
       "fetched_at": "2026-08-13"
     },
     "Wedding People|Alison Espach": {
@@ -3888,7 +3777,7 @@
       "original_title": "",
       "translators": [],
       "series": "Piper",
-      "record_count": 4,
+      "record_count": 3,
       "fetched_at": "2026-08-13"
     },
     "Tigermilch|Stefanie de Velasco": {
@@ -3914,7 +3803,7 @@
       "original_title": "",
       "translators": [],
       "series": "KiWi",
-      "record_count": 13,
+      "record_count": 4,
       "fetched_at": "2026-08-13"
     },
     "Tage im warmen Licht|Kristina Pfister": {
@@ -4414,7 +4303,7 @@
       "original_title": "Marianengraben",
       "translators": [],
       "series": "",
-      "record_count": 17,
+      "record_count": 8,
       "fetched_at": "2026-08-13"
     },
     "Auf gefährlich sanfte Art|Antoine Laurain": {
@@ -4585,7 +4474,7 @@
       "original_title": "",
       "translators": [],
       "series": "",
-      "record_count": 35,
+      "record_count": 7,
       "fetched_at": "2026-08-13"
     },
     "Der Geschmack von Apfelkernen|Katharina Hagena": {
@@ -4654,7 +4543,7 @@
       "original_title": "",
       "translators": [],
       "series": "KiWi Geschenkbuch im Kleinformat",
-      "record_count": 40,
+      "record_count": 9,
       "fetched_at": "2026-08-13"
     },
     "Nonna|Thomas de Padova": {
@@ -4935,7 +4824,31 @@
       "original_title": "",
       "translators": [],
       "series": "",
-      "record_count": 7,
+      "record_count": 5,
+      "fetched_at": "2026-08-13"
+    },
+    "Drei Meter Dreißig|Jaqueline Scheiber": {
+      "dnb_title": "Dreimeterdreissig",
+      "subtitle": "Roman",
+      "isbn": "9783763276646",
+      "isbn_candidates": [
+        "9783763276646"
+      ],
+      "blurb": "",
+      "keywords": [],
+      "thema": [],
+      "genre": [
+        "Fiktionale Darstellung",
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
+      ],
+      "publisher": "Büchergilde Gutenberg",
+      "place": "Frankfurt am Main",
+      "published_year": "2025",
+      "pages": 233,
+      "original_title": "",
+      "translators": [],
+      "series": "",
+      "record_count": 1,
       "fetched_at": "2026-08-13"
     },
     "Vergiss mich|Alex Schulman": {
@@ -5095,7 +5008,7 @@
         "Lungstrass-Kapfer, Charlotte"
       ],
       "series": "",
-      "record_count": 6,
+      "record_count": 4,
       "fetched_at": "2026-08-13"
     },
     "Der Bademeister ohne Himmel|Petra Pellini": {
@@ -5190,7 +5103,7 @@
       "original_title": "",
       "translators": [],
       "series": "",
-      "record_count": 8,
+      "record_count": 5,
       "fetched_at": "2026-08-13"
     },
     "Uhren gibt es nicht mehr|André Heller": {
@@ -5444,80 +5357,30 @@
     "Montauk|Max Frisch": {
       "dnb_title": "Montauk",
       "subtitle": "eine Erzählung",
-      "isbn": "9783518427484",
+      "isbn": "9783518462379",
       "isbn_candidates": [
-        "9783518427484",
-        "9783518468111",
         "9783518462379",
         "9783518189207",
-        "9783518735206",
-        "9783518735213"
+        "9783518735213",
+        "9783941711181",
+        "9783518456132",
+        "9783458066781"
       ],
-      "blurb": "Der Schlüssel zu Max Frischs Werk: Ein grenzenlos persönliches, berührendes Buch »Ich möchte diesen Tag beschreiben, nichts als diesen Tag, unser Wochenende und wie’s dazu gekommen ist, wie es weiter verläuft. Ich möchte erzählen können, ohne irgend etwas dabei zu erfinden.« Diese Ausgabe von Montauk ist Teil der Edition SUHRKAMP LETTERPRESS, die in Zusammenarbeit mit dem Typographen Erik Spiekermann und der SÜPERGRÜP, einer Gruppe von sieben ausgezeichneten deutschen Designern – neben Erik Spiekermann Mirko Borsche, Johannes Erler, Lars Harmsen, Sarah Illenberger, Eike König und Mario Lombardo –, entstanden ist: sieben herausragende Werke des 20. Jahrhunderts, alle erschienen im Suhrkamp Verlag, neu gestaltet, gesetzt und von digital belichteten Platten im Buchdruckverfahren auf einem Original Heidelberger Zylinder gedruckt. Die exklusive nummerierte Auflage ist limitiert auf 1.000 Exemplare und mit Lesebändchen und einer Broschüre zum Projekt ausgestattet. Mirko Borsche, SÜPERGRÜP, entwarf den Umschlag. Erik Spiekermann hat Satz und Layout vorgenommen.",
-      "keywords": [
-        "Gestaltung",
-        "autobiografisch",
-        "Letterpress",
-        "Design",
-        "Mirko Borsche",
-        "20. Jahrhundert",
-        "Max Frisch",
-        "Geschenk",
-        "Bibliophil",
-        "Liebesaffäre",
-        "amerikanische Ostküste",
-        "Buchdruck",
-        "Erik Spiekermann",
-        "Geschenkbuch",
-        "Staat New York",
-        "Schweizer",
-        "Belletristische Darstellung",
-        "Schullektüre",
-        "Long Island",
-        "Schriftsteller"
-      ],
-      "thema": [
-        {
-          "code": "FBA",
-          "label": "Moderne und zeitgenössische Belletristik"
-        },
-        {
-          "code": "FC",
-          "label": "Biografischer Roman"
-        },
-        {
-          "code": "1KBB-US-NAK",
-          "label": "New York"
-        },
-        {
-          "code": "1KBB-US-NA",
-          "label": "USA Nordosten, Mid-Atlantic States"
-        },
-        {
-          "code": "3MPQV",
-          "label": "1970 bis 1979 n. Chr."
-        },
-        {
-          "code": "3MPQS",
-          "label": "1960 bis 1969 n. Chr."
-        },
-        {
-          "code": "3MPQM",
-          "label": "1950 bis 1959 n. Chr."
-        }
-      ],
+      "blurb": "",
+      "keywords": [],
+      "thema": [],
       "genre": [
-        "Erzählende Literatur",
-        "Erzählende Literatur: Gegenwartsliteratur ab 1945",
         "Fiktionale Darstellung",
         "Belletristische Darstellung",
-        "Kommentar"
+        "Kommentar",
+        "Erzählende Literatur",
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
       ],
       "publisher": "Suhrkamp",
       "place": "Berlin",
-      "published_year": "2018",
-      "pages": 183,
-      "original_title": "Montauk",
+      "published_year": "2011",
+      "pages": null,
+      "original_title": "",
       "translators": [
         "Aramburu, Fernando",
         "Christov, Angel",
@@ -5528,8 +5391,8 @@
         "Skelton, Geoffrey",
         "Özdemir, İlknur"
       ],
-      "series": "Suhrkamp Letterpress",
-      "record_count": 40,
+      "series": "Suhrkamp Taschenbuch",
+      "record_count": 35,
       "fetched_at": "2026-08-13"
     },
     "Die anhaltende Suche nach Glück|Géraldine Dalban-Moreynas": {
@@ -6115,6 +5978,29 @@
       "record_count": 4,
       "fetched_at": "2026-08-13"
     },
+    "Kirschblüten: Hanami|Doris Dörrie": {
+      "dnb_title": "Kirschblüten - Hanami",
+      "subtitle": "ein Filmbuch",
+      "isbn": "9783257240672",
+      "isbn_candidates": [
+        "9783257240672",
+        "9783868052046",
+        "9783257066579"
+      ],
+      "blurb": "Ein Buch zum Film, ein Buch über den Film, ein Buch für nach dem Film: Rudi und Trudi sind seit dreißig Jahren ein Paar. Als Trudi plötzlich stirbt, fliegt Rudi zu Sohn Karl nach Japan, um das zu sehen, was Trudi wichtig war und was sie zusammen nicht mehr erleben konnten: ihren Sohn in Japan, die legendäre japanische Kirschblüte, den Fujiyama und auch den Butoh-Tanz, der früher einmal Trudis Leidenschaft gewesen war.",
+      "keywords": [],
+      "thema": [],
+      "genre": [],
+      "publisher": "Diogenes",
+      "place": "Zürich",
+      "published_year": "2011",
+      "pages": null,
+      "original_title": "",
+      "translators": [],
+      "series": "Diogenes-Taschenbuch",
+      "record_count": 3,
+      "fetched_at": "2026-08-13"
+    },
     "Die Partie seines Lebens|Walter Tevis": {
       "dnb_title": "Die Partie seines Lebens",
       "subtitle": "Roman",
@@ -6403,6 +6289,91 @@
       "record_count": 3,
       "fetched_at": "2026-08-13"
     },
+    "Noch mal von vorne|Dana von Suffrin": {
+      "dnb_title": "Nochmal von vorne",
+      "subtitle": "Roman",
+      "isbn": "9783462009231",
+      "isbn_candidates": [
+        "9783462009231",
+        "9783462002973",
+        "9783462304442"
+      ],
+      "blurb": "Was hält eine Familie zusammen, in der es nur Fliehkräfte zu geben scheint und alles darauf hinausläuft, dass etwas zu Bruch geht? Am Ende nur die eigene Geschichte. Dana von Suffrin hat einen virtuosen Roman über modernes jüdisches Leben zwischen München und Tel Aviv geschrieben. Der Tod ihres Vaters und die Auflösung seiner Wohnung bringt für Rosa vieles in Bewegung, bei dem sie eigentlich froh war, dass es geruht hatte. Denn die Geschichte der Familie Jeruscher ist ein einziges Durcheinander aus Streitereien, versuchten oder gelungenen Fluchten, aus Sehnsüchten und enttäuschten Hoffnungen und dem vergeblichen Wunsch, irgendwo heimisch zu werden. Kraftvoll und mit großartigem schwarzen Humor erzählt Dana von Suffrin von einer deutsch-jüdischen Familie, in der ein ganzes Jahrhundert voller Gewalt und Vertreibung nachwirkt – und von zwei Schwestern, die sich entzweien und wieder versöhnen, weil es etwas gibt, das nur sie aneinander verstehen. &#xa0;",
+      "keywords": [
+        "Longlist Deutscher Buchpreis 2024",
+        "Familiengeschichte",
+        "Schwesterbeziehung",
+        "Judentum",
+        "jüdisch",
+        "Jüdin",
+        "Transgenerationelles",
+        "Israel",
+        "Humor",
+        "Junge deutsche Literatur",
+        "Familienkonflikt",
+        "Trennung",
+        "Shoah",
+        "Dana Vowinckel",
+        "Longlist Deutscher Buchpreis",
+        "neues Taschenbuch",
+        "neues Taschenbuch 2025"
+      ],
+      "thema": [
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
+        },
+        {
+          "code": "FS",
+          "label": "Familienleben"
+        },
+        {
+          "code": "FXL",
+          "label": "Belletristik: Themen, Stoffe, Motive: Tod, Trauer, Verlust"
+        },
+        {
+          "code": "FXM",
+          "label": "Belletristik: Themen, Stoffe, Motive: Seelenleben"
+        },
+        {
+          "code": "FXQ",
+          "label": "Erzählerisches Thema: Vertreibung, Exil, Migration"
+        },
+        {
+          "code": "1DFG-DE-TBC",
+          "label": "München"
+        },
+        {
+          "code": "1FBH-IL-A",
+          "label": "Tel-Aviv"
+        },
+        {
+          "code": "3MP",
+          "label": "20. Jahrhundert (ca. 1900 bis ca. 1999)"
+        },
+        {
+          "code": "3MRB",
+          "label": "Erste Hälfte 21. Jahrhundert (ca. 2000 bis ca. 2050)"
+        },
+        {
+          "code": "5PGJ",
+          "label": "Bezug zu Juden und jüdischen Gruppen"
+        }
+      ],
+      "genre": [
+        "Fiktionale Darstellung",
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
+      ],
+      "publisher": "Kiepenheuer & Witsch",
+      "place": "Köln",
+      "published_year": "2025",
+      "pages": 235,
+      "original_title": "",
+      "translators": [],
+      "series": "KiWi",
+      "record_count": 3,
+      "fetched_at": "2026-08-13"
+    },
     "Sieben Tage Sommer|Thommie Bayer": {
       "dnb_title": "Sieben Tage Sommer",
       "subtitle": "Roman",
@@ -6532,7 +6503,7 @@
       "original_title": "",
       "translators": [],
       "series": "",
-      "record_count": 4,
+      "record_count": 3,
       "fetched_at": "2026-08-13"
     },
     "Zwei vernünftige Erwachsene, die sich mal nackt gesehen haben|Anika Decker": {
@@ -6824,7 +6795,7 @@
         "Ṿolḳ, Erez"
       ],
       "series": "",
-      "record_count": 27,
+      "record_count": 16,
       "fetched_at": "2026-08-13"
     },
     "23 Uhr 12|Adeline Dieudonné": {
@@ -6978,6 +6949,75 @@
       "translators": [],
       "series": "",
       "record_count": 2,
+      "fetched_at": "2026-08-13"
+    },
+    "Das Eisschloss|Tarjei Vesaas": {
+      "dnb_title": "Das Eis-Schloss",
+      "subtitle": "Roman",
+      "isbn": "9783423148184",
+      "isbn_candidates": [
+        "9783423148184",
+        "9783945370216"
+      ],
+      "blurb": "»Ein literarisches Juwel.«&#xa0;Ulrich Baron in ›Buchjournal‹ Tarjei&#xa0;Vesaas&#xa0;erzählt die Geschichte von zwei elfjährigen Mädchen, Siss und Unn. Unn kommt als Waise zu ihrer Tante und bringt mit ihrer Traurigkeit das Gefüge der ländlichen Gemeinschaft aus dem Gleichgewicht. Siss fühlt sich angezogen und freundet sich mit ihr an – bis Unn plötzlich verschwunden ist. Mit eisklaren Sätzen und ergreifenden poetischen Bildern formt&#xa0;Vesaas&#xa0;eine Studie existenzieller Einsamkeit und der Sehnsucht nach menschlicher Nähe. Ein bezwingendes Sprachkunstwerk von enorm suggestiver Kraft.",
+      "keywords": [
+        "Dorf",
+        "Einsamkeit",
+        "Erwachsenwerden",
+        "Freundschaft",
+        "Klassiker",
+        "Moderne",
+        "Natur",
+        "Norwegen",
+        "Preis des Nordischen Rats",
+        "Schnee",
+        "skandinavische Literatur",
+        "Verbundenheit",
+        "Verlust",
+        "Wiederentdeckung",
+        "Winter",
+        "Eis"
+      ],
+      "thema": [
+        {
+          "code": "FBC",
+          "label": "Klassische Belletristik"
+        },
+        {
+          "code": "DC",
+          "label": "Lyrik, Poesie"
+        },
+        {
+          "code": "FB",
+          "label": "Belletristik: allgemein und literarisch"
+        },
+        {
+          "code": "FN",
+          "label": "Traditionelle Geschichten, Märchen, Mythen, Fabeln und Legenden"
+        },
+        {
+          "code": "1D",
+          "label": "Europa"
+        },
+        {
+          "code": "F",
+          "label": "Belletristik und verwandte Gebiete"
+        }
+      ],
+      "genre": [
+        "Fiktionale Darstellung",
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
+      ],
+      "publisher": "dtv",
+      "place": "München",
+      "published_year": "2021",
+      "pages": 199,
+      "original_title": "Is-slottet",
+      "translators": [
+        "Schmidt-Henkel, Hinrich"
+      ],
+      "series": "",
+      "record_count": 5,
       "fetched_at": "2026-08-13"
     },
     "Die Eismacher|Ernest van der Kwast": {
@@ -7286,7 +7326,63 @@
       "original_title": "",
       "translators": [],
       "series": "Reclams Universal-Bibliothek",
-      "record_count": 7,
+      "record_count": 3,
+      "fetched_at": "2026-08-13"
+    },
+    "Verflixte Festtage|Kati Hertzsch": {
+      "dnb_title": "Verflixte Festtage",
+      "subtitle": "Geschichten für richtig frohe Weihnachten",
+      "isbn": "9783257261998",
+      "isbn_candidates": [
+        "9783257261998",
+        "9783257247695"
+      ],
+      "blurb": "Festlich soll es sein, glänzend und gemütlich. Kinderaugen leuchten, die Familie kommt zusammen, und an Liebe wird nicht gespart. Freude soll herrschen, Besinnlichkeit und Wärme. Doch woher nehmen und nicht stehlen, wenn die Verwandtschaft bucklig, der Tannenbaum verwachsen und der Festschmaus misslungen ist? Für heiter-subversive Stimmung in der Heiligen Nacht sorgen Geschichten von Daniela Krien, Ildikó von Kürthy, Daniel Glattauer und Mareike Fallwickl.",
+      "keywords": [
+        "Advent",
+        "Familienfest",
+        "Feiertage",
+        "Gavalda, Anna",
+        "Geschenk",
+        "Glattauer, Daniel",
+        "Schreiber, Daniel",
+        "Verwandtschaft",
+        "Weihnacht",
+        "Weihnachtsfrust",
+        "Weihnachtsgeschichten",
+        "Weihnachtsstimmung",
+        "Zitzmann, Yvonne"
+      ],
+      "thema": [
+        {
+          "code": "DNT",
+          "label": "Anthologien (nicht Lyrik)"
+        },
+        {
+          "code": "FYB",
+          "label": "Belletristik: Erzählungen, Kurzgeschichten, Short Stories"
+        },
+        {
+          "code": "WZG",
+          "label": "Geschenkbücher"
+        },
+        {
+          "code": "5HPD",
+          "label": "Weihnachten"
+        }
+      ],
+      "genre": [
+        "Erzählende Literatur: Anthologien",
+        "Anthologie"
+      ],
+      "publisher": "Diogenes",
+      "place": "[S.l.] @",
+      "published_year": "2026",
+      "pages": 352,
+      "original_title": "",
+      "translators": [],
+      "series": "diogenes deluxe",
+      "record_count": 2,
       "fetched_at": "2026-08-13"
     },
     "Barbara stirbt nicht|Alina Bronsky": {
@@ -7361,7 +7457,7 @@
       "original_title": "",
       "translators": [],
       "series": "",
-      "record_count": 13,
+      "record_count": 6,
       "fetched_at": "2026-08-13"
     },
     "Issa|Mirrianne Mahn": {
@@ -7665,7 +7761,7 @@
       "original_title": "",
       "translators": [],
       "series": "KiWi",
-      "record_count": 7,
+      "record_count": 6,
       "fetched_at": "2026-08-13"
     },
     "Institut für gute Mütter|Jessamine Chan": {
@@ -7811,7 +7907,7 @@
       "original_title": "Munk",
       "translators": [],
       "series": "",
-      "record_count": 6,
+      "record_count": 4,
       "fetched_at": "2026-08-13"
     },
     "Bevor wir uns vergessen|Éliette Abécassis": {
@@ -7925,7 +8021,7 @@
       "original_title": "Nur vom Weltraum aus ist die Erde blau",
       "translators": [],
       "series": "KiWi",
-      "record_count": 8,
+      "record_count": 6,
       "fetched_at": "2026-08-13"
     },
     "Die schönste Version|Ruth-Maria Thomas": {
@@ -8027,7 +8123,7 @@
       "original_title": "",
       "translators": [],
       "series": "",
-      "record_count": 8,
+      "record_count": 5,
       "fetched_at": "2026-08-13"
     },
     "Die Himmelsrichtungen|Jo Lendle": {
@@ -8251,7 +8347,7 @@
       "original_title": "",
       "translators": [],
       "series": "",
-      "record_count": 10,
+      "record_count": 7,
       "fetched_at": "2026-08-13"
     },
     "Kleine Monster|Jessica Lind": {
@@ -8464,7 +8560,7 @@
         "Mumot, André"
       ],
       "series": "dtv",
-      "record_count": 20,
+      "record_count": 19,
       "fetched_at": "2026-08-13"
     },
     "Draußen feiern die Leute|Sven Pfizenmaier": {
@@ -8709,7 +8805,7 @@
       "original_title": "Müll",
       "translators": [],
       "series": "",
-      "record_count": 5,
+      "record_count": 3,
       "fetched_at": "2026-08-13"
     },
     "Nullzeit|Juli Zeh": {
@@ -8758,7 +8854,7 @@
       "original_title": "Nullzeit",
       "translators": [],
       "series": "",
-      "record_count": 20,
+      "record_count": 9,
       "fetched_at": "2026-08-13"
     },
     "Vox|Nicholson Baker": {
@@ -8902,7 +8998,7 @@
         "Balkenhol, Marion"
       ],
       "series": "",
-      "record_count": 10,
+      "record_count": 6,
       "fetched_at": "2026-08-13"
     },
     "Das Shaolin Prinzip|Bernhard Moestl": {
@@ -8927,7 +9023,7 @@
       "original_title": "",
       "translators": [],
       "series": "Knaur",
-      "record_count": 7,
+      "record_count": 5,
       "fetched_at": "2026-08-13"
     },
     "Bleib|Adeline Dieudonné": {
@@ -9266,7 +9362,7 @@
         "Tortzen, Karen"
       ],
       "series": "",
-      "record_count": 10,
+      "record_count": 8,
       "fetched_at": "2026-08-13"
     },
     "Nächsten Sommer|Edgar Rai": {
@@ -9337,7 +9433,7 @@
       "original_title": "",
       "translators": [],
       "series": "Atb",
-      "record_count": 7,
+      "record_count": 6,
       "fetched_at": "2026-08-13"
     },
     "Gebrauchsanweisung fürs Zugreisen|Jaroslav Rudiš": {
@@ -9467,7 +9563,7 @@
       "original_title": "",
       "translators": [],
       "series": "",
-      "record_count": 6,
+      "record_count": 2,
       "fetched_at": "2026-08-13"
     },
     "Léon und Louise|Alex Capus": {
@@ -9541,7 +9637,7 @@
       "original_title": "Léon und Louise",
       "translators": [],
       "series": "",
-      "record_count": 31,
+      "record_count": 10,
       "fetched_at": "2026-08-13"
     },
     "Trennungsroman|Anna Brüggemann": {
@@ -9609,7 +9705,7 @@
       "original_title": "",
       "translators": [],
       "series": "",
-      "record_count": 4,
+      "record_count": 3,
       "fetched_at": "2026-08-13"
     },
     "Supergute Tage|Mark Haddon": {
@@ -9729,7 +9825,7 @@
       "original_title": "",
       "translators": [],
       "series": "Kein & Aber Pocket",
-      "record_count": 10,
+      "record_count": 7,
       "fetched_at": "2026-08-13"
     },
     "Der Papierpalast|Miranda Cowley Heller": {
@@ -9821,7 +9917,7 @@
         "Höbel, Susanne"
       ],
       "series": "",
-      "record_count": 8,
+      "record_count": 7,
       "fetched_at": "2026-08-13"
     },
     "City of Girls|Elizabeth Gilbert": {
@@ -9908,7 +10004,7 @@
         "Somann-Jung, Britt"
       ],
       "series": "",
-      "record_count": 7,
+      "record_count": 5,
       "fetched_at": "2026-08-13"
     },
     "Das Geräusch einer Schnecke beim Essen|Elisabeth Tova Bailey": {
@@ -10014,19 +10110,14 @@
     },
     "Hawaii|Cihan Acar": {
       "dnb_title": "Hawaii",
-      "subtitle": "Text und Material",
-      "isbn": "9783766139955",
+      "subtitle": "",
+      "isbn": "9783446266834",
       "isbn_candidates": [
-        "9783766139955",
         "9783446266834",
         "9783446265868"
       ],
-      "blurb": "Wer bin ich? Wovon träume ich? Wo fühle ich mich zu Hause? ”Hawaii“ – der Titel verheißt einen Traum aus Meer, Strand und Palmen. Hawaii ist aber auch der Name eines ”Problemviertels“ in Heilbronn, der Heimatstadt des Protagonisten Kemal. Sein Traum ist zerplatzt. Mit 21 Jahren hat Kemal Arslan schon alles erreicht und doch wieder verloren: Seine vielversprechende Karriere als Profifußballer in der Türkei musste er nach einem Unfall beenden. Nun ist er zurück in Heilbronn. Die Handlung spielt an einem einzigen Sommerwochenende; die Hitze entlädt sich in Straßenschlachten zwischen Neonazis und Migrantengangs. Kemal gerät zwischen die Fronten. Die Beziehung zu seiner großen Liebe Sina ist in die Brüche gegangen, sein Geld nahezu aufgebraucht und sein Jaguar ähnlich schrottreif wie sein großer Traum. Die Erwartungen seiner Eltern, seiner Freunde und der Gesellschaft werden sichtbar – Kemal stolpert rastlos und verloren durch eine Stadt im Aufruhr. Inmitten der Tumulte ist Kemal auf der Suche nach seinem Platz zwischen deutschtürkischer Community und sogenannter Mehrheitsgesellschaft. Er muss sich entscheiden, was er mit seinem Leben anfangen will. Doch wie findet man den Ort, an dem man sich zu Hause fühlt? Wie unter einem Brennglas ist Cihan Acars Debütroman eine ”schlüssige Deutschland-Momentaufnahme“ (Süddeutsche Zeitung), die zeitlose Fragen nach Zugehörigkeit, Identität und Heimat aufwirft. Mittels QR-Code stellen wir Ihnen das Zusatzkapitel ”Kemal Arslan, der Fußballer“ kostenlos als Download zur Verfügung.",
+      "blurb": "",
       "keywords": [
-        "Deutsch",
-        "Sekundarstufe I",
-        "Sekundarstufe II",
-        "Lektüre",
         "#ohnefolie",
         "Abbas",
         "Außenseiter",
@@ -10055,18 +10146,6 @@
       ],
       "thema": [
         {
-          "code": "YPCA",
-          "label": "Schule und Lernen: Erstspracherwerb"
-        },
-        {
-          "code": "4Z-DE-DC",
-          "label": "Für die Gesamtschule"
-        },
-        {
-          "code": "4Z-DE-DD",
-          "label": "Für das Gymnasium"
-        },
-        {
           "code": "FBA",
           "label": "Moderne und zeitgenössische Belletristik"
         },
@@ -10084,17 +10163,16 @@
         }
       ],
       "genre": [
-        "Lehr- und Lernressource",
         "Fiktionale Darstellung",
         "Erzählende Literatur: Gegenwartsliteratur ab 1945"
       ],
-      "publisher": "C.C. Buchner",
-      "place": "Bamberg",
-      "published_year": "2022",
-      "pages": 196,
-      "original_title": "Hawaii",
+      "publisher": "Carl Hanser Verlag GmbH & Co. KG",
+      "place": "München",
+      "published_year": "2020",
+      "pages": 208,
+      "original_title": "",
       "translators": [],
-      "series": "Buchners Schulbibliothek der Moderne",
+      "series": "",
       "record_count": 3,
       "fetched_at": "2026-08-13"
     },
@@ -10201,7 +10279,7 @@
       "original_title": "",
       "translators": [],
       "series": "KiWi",
-      "record_count": 6,
+      "record_count": 4,
       "fetched_at": "2026-08-13"
     },
     "Seltsame Blüten|Donal Ryan": {
@@ -10538,7 +10616,7 @@
       "original_title": "",
       "translators": [],
       "series": "Rororo",
-      "record_count": 7,
+      "record_count": 6,
       "fetched_at": "2026-08-13"
     },
     "Der letzte Satz|Robert Seethaler": {
@@ -10673,7 +10751,7 @@
       "original_title": "",
       "translators": [],
       "series": "",
-      "record_count": 20,
+      "record_count": 9,
       "fetched_at": "2026-08-13"
     },
     "Augustblau|Deborah Levy": {
@@ -11043,91 +11121,39 @@
     "Schlafes Bruder|Robert Schneider": {
       "dnb_title": "Schlafes Bruder",
       "subtitle": "Roman",
-      "isbn": "9783150208045",
+      "isbn": "9783150113905",
       "isbn_candidates": [
-        "9783150208045",
         "9783150113905",
         "9783150205679",
         "9783150111208",
         "9783150204870",
-        "9783150204023"
+        "9783150204023",
+        "9783150202609"
       ],
-      "blurb": "Wer liebt, schläft nicht – ein Klassiker der Gegenwartsliteratur War der 1803 geborene Elias Johannes Alder womöglich der größte Musiker aller Zeiten? Der talentierte Junge, der sich nachts zum Orgelspiel in die Kirche schleicht, sorgt eher für Argwohn unter den verschworenen Dorfbewohnern im mittleren Vorarlberg. Doch was Elias noch mehr quält, ist die unerfüllte Sehnsucht nach seiner Cousine Elsbeth. Bei einem Wettbewerb will er sein himmlisches Talent an der Orgel zur Vollendung bringen und fasst dabei einen unglaublichen Entschluss: Er will nicht einen Augenblick ruhen, bis er dem »Geheimnis der Unmöglichkeit seines Liebens« auf den Grund gekommen ist. Mit seinem ergreifenden Roman schuf Robert Schneider im Jahr 1992 die kunstvoll erzählte Geschichte einer Inselbegabung. Schlafes Bruder ging um die Welt, wurde in über dreißig Sprachen übersetzt, erfolgreich verfilmt und zählt heute, knapp 35 Jahre später, zum Kanon deutschsprachiger Gegenwartsliteratur.",
+      "blurb": "»Das ist die Geschichte des Musikers Johannes Elias Alder, der zweiundzwanzigjährig sein Leben zu Tode brachte, nachdem er beschlossen hatte, nicht mehr zu schlafen.« So beginnt der Debütroman von Robert Schneider, mit dem ihm vor 30 Jahren ein literarischer Welterfolg gelang. Der Auftaktsatz nimmt die Geschichte über das Leben eines Genies in der Enge eines österreichischen Bergdorfs vorweg: Schon als Kind ist der 1803 geborene Elias Außenseiter, sein außergewöhnlich scharfes Gehör und sein musikalisches Talent sorgen bei den Dorfbewohnern für Aufsehen und Argwohn. Die unerfüllte Liebe zu seiner Cousine Elsbeth quält ihn im Laufe der Jahre, und sie treibt ihn an. Bei einem Orgelwettbewerb in Feldberg improvisiert Elias über den Bach-Choral »Komm, o Tod, du Schlafes Bruder« und entfacht eine ungeahnt starke Wirkung auf sein Publikum und sich selbst. Der Roman wurde in Dutzende Sprachen übersetzt, erfolgreich verfilmt und ist einer der großen Klassiker der Gegenwart.",
       "keywords": [
-        "Genie",
-        "Schlaf",
-        "Musiker",
-        "Weltliteratur",
-        "Johannes Elias Alder",
-        "Moderne Klassiker",
-        "Schullektüre",
-        "Deutschunterricht",
-        "Organist",
-        "absolutes Gehör",
-        "Inselintelligenz",
-        "Autismus",
-        "Liebesgeschichte Bergdorf",
-        "Vorarlberger Land",
-        "Österreich",
-        "Bergroman",
-        "19. Jahrhundert",
-        "Dorf",
-        "Alpen",
-        "Berge",
-        "Tal",
-        "Hochtal",
-        "historischer Roman",
-        "Liebesgeschichte",
         "Bestseller",
-        "Orgel",
-        "Roman Musiker",
-        "Roman Tod Schlafmangel",
-        "Joseph Vilsmaier",
-        "Gegenwartsliteratur Klassiker",
-        "moderner Roman Österreich",
-        "musikalisches Genie Roman",
-        "Dorfgeschichte Alpen",
-        "literarische Liebestragödie",
-        "Weltliteratur Moderne",
-        "Vorarlberg Bergroman",
-        "historische Dorfgeschichte",
-        "Musikerroman Klassiker",
-        "Orgelmusik Motiv",
-        "absolutes Gehör Literatur",
-        "Schullektüre Oberstufe Deutsch",
-        "Studienlektüre Moderne Literatur",
-        "Schlafmangel Motiv Roman",
-        "literarische Tragödie Liebe",
-        "Bestseller Gegenwartsliteratur",
-        "österreichischer Klassiker Roman",
-        "Reclam Jubiläumsausgabe",
-        "Literatur Tod und Liebe",
-        "Genie und Wahnsinn Roman",
         "Prosa",
         "20. Jahrhundert",
         "Moderne und zeitgenössische Belletristik",
         "Literatur",
+        "Genie",
+        "Musiker",
+        "Johannes Elias Alder",
         "Geschenk",
         "Geschenkbuch",
+        "Weltliteratur",
         "Klassiker",
         "Deutsche Literatur"
       ],
       "thema": [
         {
           "code": "FBA",
-          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
+          "label": "Moderne und zeitgenössische Belletristik"
         },
         {
           "code": "AV",
           "label": "Musik"
-        },
-        {
-          "code": "1DFA",
-          "label": "Österreich"
-        },
-        {
-          "code": "FBA",
-          "label": "Moderne und zeitgenössische Belletristik"
         },
         {
           "code": "2ACG",
@@ -11152,14 +11178,14 @@
       ],
       "publisher": "Reclam",
       "place": "Ditzingen",
-      "published_year": "2026",
-      "pages": 187,
+      "published_year": "2022",
+      "pages": 224,
       "original_title": "Schlafes Bruder",
       "translators": [
         "Mirianašvili, Maia"
       ],
-      "series": "Reclam Taschenbuch",
-      "record_count": 40,
+      "series": "",
+      "record_count": 28,
       "fetched_at": "2026-08-13"
     },
     "Mein Jahr der Ruhe und Entspannung|Ottessa Moshfegh": {
@@ -11264,7 +11290,7 @@
       "original_title": "",
       "translators": [],
       "series": "Kleine Reihe Hanser",
-      "record_count": 38,
+      "record_count": 9,
       "fetched_at": "2026-08-13"
     },
     "Beschreibung einer Krabbenwanderung|Karosh Taha": {
@@ -11517,7 +11543,7 @@
       "original_title": "Dschinns",
       "translators": [],
       "series": "",
-      "record_count": 22,
+      "record_count": 8,
       "fetched_at": "2026-08-13"
     },
     "Der größte Spaß, den wir je hatten|Claire Lombardo": {
@@ -11926,7 +11952,7 @@
         "Paulu, Alexandra"
       ],
       "series": "",
-      "record_count": 9,
+      "record_count": 6,
       "fetched_at": "2026-08-13"
     },
     "Die Unvollkommenheit der Liebe|Elizabeth Strout": {
@@ -12168,7 +12194,71 @@
       "original_title": "",
       "translators": [],
       "series": "",
-      "record_count": 8,
+      "record_count": 4,
+      "fetched_at": "2026-08-13"
+    },
+    "Soweit der Fluss uns trägt|Shelley Read": {
+      "dnb_title": "So weit der Fluss uns trägt",
+      "subtitle": "",
+      "isbn": "",
+      "isbn_candidates": [],
+      "blurb": "",
+      "keywords": [
+        "Natur",
+        "Rassismus",
+        "Feminismus",
+        "Bestseller",
+        "Delia Owens",
+        "Der Gesang der Flusskrebse",
+        "Resilienz",
+        "Stausee",
+        "Colorado",
+        "Nature Writing",
+        "Elk Mountains",
+        "Herkunft",
+        "atmosphärisch",
+        "episch",
+        "Zuhause",
+        "Von hier bis zum Anfang",
+        "Chris Whitaker",
+        "Bonnie Garmus",
+        "berührend",
+        "zauberhaft",
+        "Der Papierpalast",
+        "Das Flüstern der Bienen",
+        "Isabel Allende",
+        "Blockbuster",
+        "HBGENBEL: Belletristik"
+      ],
+      "thema": [
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
+        },
+        {
+          "code": "1KBB-US-WMC",
+          "label": "Colorado"
+        },
+        {
+          "code": "3MP",
+          "label": "20. Jahrhundert (ca. 1900 bis ca. 1999)"
+        }
+      ],
+      "genre": [
+        "Hörbuch",
+        "Fiktionale Darstellung",
+        "Erzählende Literatur"
+      ],
+      "publisher": "Deutsche Nationalbibliothek",
+      "place": "Leipzig",
+      "published_year": "2025",
+      "pages": null,
+      "original_title": "Go as a river",
+      "translators": [
+        "Kuhn, Wibke"
+      ],
+      "series": "",
+      "record_count": 1,
       "fetched_at": "2026-08-13"
     },
     "Schnell leben|Brigitte Giraud": {
@@ -12698,7 +12788,7 @@
       "original_title": "",
       "translators": [],
       "series": "",
-      "record_count": 9,
+      "record_count": 6,
       "fetched_at": "2026-08-13"
     },
     "Pandatage|James Gould-Bourn": {
@@ -12758,7 +12848,7 @@
         "Kleiner, Stephan"
       ],
       "series": "KiWi",
-      "record_count": 7,
+      "record_count": 5,
       "fetched_at": "2026-08-13"
     },
     "Nüchtern|Daniel Schreiber": {
@@ -12802,7 +12892,7 @@
       "original_title": "",
       "translators": [],
       "series": "Suhrkamp Taschenbuch",
-      "record_count": 8,
+      "record_count": 5,
       "fetched_at": "2026-08-13"
     },
     "Eierlikörtage|Hendrik Groen": {
@@ -12979,7 +13069,7 @@
       "original_title": "Kleine Probleme",
       "translators": [],
       "series": "KiWi",
-      "record_count": 8,
+      "record_count": 5,
       "fetched_at": "2026-08-13"
     },
     "Drei Wünsche|Laura Karasek": {
@@ -13192,7 +13282,7 @@
       "original_title": "",
       "translators": [],
       "series": "",
-      "record_count": 8,
+      "record_count": 5,
       "fetched_at": "2026-08-13"
     },
     "Der Erdspiegel|Andrea Maria Schenkel": {
@@ -13335,7 +13425,7 @@
         "O'Brien, Andrea"
       ],
       "series": "",
-      "record_count": 8,
+      "record_count": 5,
       "fetched_at": "2026-08-13"
     },
     "Schweig!|Judith Merchant": {
@@ -13496,6 +13586,68 @@
       "record_count": 4,
       "fetched_at": "2026-08-13"
     },
+    "Sein oder nicht sein|Klaus Pohl": {
+      "dnb_title": "Sein oder Nichtsein",
+      "subtitle": "Roman",
+      "isbn": "9783462004434",
+      "isbn_candidates": [
+        "9783462004434"
+      ],
+      "blurb": "Es ist und bleibt ein großes Geheimnis: Wie entsteht ein Kunstwerk? Klaus Pohl erzählt in seinem Buch von der Entstehung eines großen Kunstwerks, der denkwürdigen »Hamlet«-Inszenierung Peter Zadeks aus dem Jahr 1999 – an welcher er selbst als Schauspieler beteiligt war.&#xa0; Und so erlebt der Leser, wie sich eine Gruppe der besten Theaterschauspieler der letzten Jahrzehnte – Angela Winkler, Ulrich Wildgruber, Otto Sander, Eva Mattes u. a. – in die monatelangen Probearbeiten aufbricht. Es folgen Tragödien und Komödien, heftige Kämpfe und zarte Liebesgeschichten, Wut und Hingabe, Konkurrenz und Freundschaft, und am Ende das unvergleichliche Glück des Entdeckens und Gelingens. Und dies nicht nur auf der Probebühne, sondern im Leben aller Beteiligten vom Regie-Zampano bis zum Bühnenbildner und der Souffleurin … Zugleich ist Klaus Pohls Roman dieser Inszenierung nicht nur ein kulturhistorisches Dokument, sondern selbst ein poetisches Kunststück voller überraschender Wendungen und intimer Portraits. »Was für ein grandioses Buch! Wer nach der Lektüre noch einmal ins Theater geht, darf nicht später sagen, er hätte von nichts gewusst!« (Maxim Biller)",
+      "keywords": [
+        "Sein oder Nicht sein",
+        "Theater",
+        "Peter Zadek",
+        "Hamlet",
+        "Theaterstück",
+        "Probentagebuch",
+        "Schauspieler",
+        "Hamlet-Inszenierung",
+        "Hörbuch",
+        "Angela Winkler",
+        "Joachim Meyerhoff",
+        "Ulrich Wildgruber",
+        "Eva Mattes",
+        "Horatio",
+        "Der Audio-Verlag",
+        "Das Literarische Quartett",
+        "Shakespeare",
+        "Literarisches Quartett",
+        "ZDF",
+        "Starregisseur"
+      ],
+      "thema": [
+        {
+          "code": "FC",
+          "label": "Biografischer Roman / Autobiografischer Roman"
+        },
+        {
+          "code": "ATC",
+          "label": "einzelne Schauspieler und Darsteller"
+        },
+        {
+          "code": "ATDF",
+          "label": "Theaterregie und Theaterproduktion"
+        },
+        {
+          "code": "DD",
+          "label": "Drama, Theaterstücke, Drehbücher"
+        }
+      ],
+      "genre": [
+        "Fiktionale Darstellung",
+        "Erzählende Literatur"
+      ],
+      "publisher": "Kiepenheuer & Witsch",
+      "place": "Köln",
+      "published_year": "2023",
+      "pages": 286,
+      "original_title": "",
+      "translators": [],
+      "series": "KiWi",
+      "record_count": 1,
+      "fetched_at": "2026-08-13"
+    },
     "Zauber der Stille|Florian Illies": {
       "dnb_title": "Zauber der Stille",
       "subtitle": "Caspar David Friedrichs Reise durch die Zeiten",
@@ -13614,7 +13766,7 @@
       "original_title": "Zauber der Stille",
       "translators": [],
       "series": "Fischer Taschenbibliothek",
-      "record_count": 13,
+      "record_count": 6,
       "fetched_at": "2026-08-13"
     },
     "Die Perfektionen|Vincenzo Latronico": {
@@ -14355,7 +14507,7 @@
       "original_title": "",
       "translators": [],
       "series": "",
-      "record_count": 13,
+      "record_count": 11,
       "fetched_at": "2026-08-13"
     },
     "Herz auf Eis|Isabelle Autissier": {
@@ -14675,7 +14827,7 @@
         "Abarbanell, Bettina"
       ],
       "series": "",
-      "record_count": 5,
+      "record_count": 4,
       "fetched_at": "2026-08-13"
     },
     "Und dann steht einer auf und öffnet das Fenster|Susann Pásztor": {
@@ -14731,7 +14883,7 @@
       "original_title": "",
       "translators": [],
       "series": "",
-      "record_count": 6,
+      "record_count": 4,
       "fetched_at": "2026-08-13"
     },
     "Fremde Federn|Alina Lindermuth": {
@@ -14852,159 +15004,38 @@
     "Gittersee|Charlotte Gneuß": {
       "dnb_title": "Gittersee",
       "subtitle": "Roman",
-      "isbn": "9783150161739",
+      "isbn": "9783596523764",
       "isbn_candidates": [
-        "9783150161739",
-        "9783150155622",
         "9783596523764",
         "9783596710355",
         "9783103970883",
-        "9783104914107"
+        "9783104914107",
+        "9788419332974",
+        "9788205603035"
       ],
-      "blurb": "Pflichtlektüre im länderübergreifenden Abitur 2029–31 Gittersee, ein Vorort von Dresden, Mitte der 1970er Jahre: Karin ist 16, muss ihre kleine Schwester hüten und der Großmutter im Haushalt helfen. Die Eltern haben ihre eigenen Sorgen. Verstanden fühlt sie sich nur von ihrer Freundin Marie. Und dann ist Karin auch noch verliebt – in Paul. Paul wäre gerne Künstler, muss aber im Bergbau arbeiten. Als er von einem Ausflug nach Tschechien nicht zurückkehrt, stehen plötzlich zwei Uniformierte vor Karins Tür ... Klassenlektüre und Textarbeit einfach gemacht: Die Reihe »Reclam XL – Text und Kontext« erfüllt alle Anforderungen an Schullektüre und Bedürfnisse des Deutschunterrichts: Reclam XL bietet den sorgfältig edierten Werktext – seiten- und zeilengleich mit der entsprechenden Ausgabe aus Reclams Universal-Bibliothek. Das Format ist größer (12,2 x 20 cm) als die gelben Klassiker der Universal-Bibliothek, mit ausreichend Platz für Notizen am Seitenrand. Schwierige Wörter werden am Fuß jeder Seite erklärt, ausführlichere Wort- und Sacherläuterungen stehen im Anhang. Ein Materialienteil mit Text- und Bilddokumenten erleichtert die Einordnung und Deutung des Werkes im Unterricht. Natürlich passen auch weiterhin alle Lektüreschlüssel, Erläuterungsbände und Interpretationen dazu!",
+      "blurb": "1976, im Dresdner Vorort Gittersee: Karin ist 16, hütet ihre kleine Schwester und hilft der Großmutter im Haushalt, die ihrer Zeit als Blitzmädel hinterhertrauert. Während die Großmutter nach eigenen Regeln spielt, kämpfen die Eltern mit den Erwartungen, die an sie gestellt werden. Aufgehoben fühlt sich Karin bei ihrer besten Freundin Marie, dem einzigen Mädchen in der Klasse, das später nicht etwas machen, sondern etwas werden will: die erste Frau auf dem Mond. Und Karin ist verliebt in Paul, der gerne Künstler wäre, aber im Schacht bei der Wismut arbeitet. Als Paul zu einem Ausflug aufbricht und nicht zurückkommt, stehen eines Nachts zwei Uniformierte vor der Tür, und Karins fragile Welt gerät aus den Fugen.&#xa0;",
       "keywords": [
-        "reclam hefte",
-        "gelb",
-        "lektüre",
-        "weltliteratur",
-        "literatur klassiker",
-        "schullektüre",
-        "reclams universal bibliothek",
-        "klassenlektüre",
-        "gelbe bücher",
-        "Deutsch",
-        "Deutsch-Unterricht",
-        "Drama",
-        "Klassik",
-        "Sekundarstufe",
-        "Deutschunterricht",
-        "DDR",
-        "Coming-of-Age",
         "Debütroman",
-        "aspekte-Literaturpreis",
-        "Republikflucht",
-        "Anspruchsvolle Literatur",
-        "Jürgen-Ponto-Preis",
         "Stasi",
-        "Generationenwechsel",
-        "Leben in der DDR",
-        "Wismut",
+        "Republikflucht",
         "Spitzel",
-        "70er Jahre",
-        "Abi",
-        "Abitur",
-        "ddr roman",
-        "roman über jugend in der ddr",
-        "coming-of-age ostdeutschland",
-        "reclaim paperback",
-        "deutscher buchpreis 2023",
-        "roman über stasi",
-        "frauen im sozialismus",
-        "politische romane deutschland",
-        "literatur unter sozialismus",
-        "roman für den literaturunterricht",
-        "empfehlung deutschunterricht",
-        "feministische literatur ddr",
-        "ostdeutsche literatur",
-        "gegenwartsliteratur deutsch",
-        "roman für lehrkräfte",
-        "gesellschaftskritischer roman",
-        "buch über überwachung",
-        "historische romane deutschland",
-        "roman dresden 1970er",
-        "rote reihe",
-        "textausgabe",
-        "analyse",
-        "interpretation",
-        "textanalyse",
-        "lektürehilfe",
-        "klausurvorbereitung",
-        "lektüreschlüssel",
-        "erläuterungen",
-        "reclam lektüreschlüssel",
-        "inhaltsangabe",
-        "einfach deutsch",
-        "analyse deutsch",
-        "deutsch unterricht",
-        "maturavorbereitung",
-        "analyse sprache",
-        "abiturvorbereitung",
-        "reclam lektüreschlüssel xl",
-        "historischer kontext",
-        "stilanalyse",
-        "lernglossar",
-        "figurenanalyse",
-        "referatsvorbereitung",
-        "literaturhinweise",
-        "aufbau analyse",
-        "prüfungsaufgaben",
-        "blau",
-        "informationen zum autor",
-        "deutsche literatur",
-        "deutsche klassiker",
-        "Unterricht",
-        "Referate",
-        "Klausuren",
-        "Charakterisierung",
-        "Sprache",
-        "Stil",
-        "Textbeleg",
-        "Infografiken",
-        "Literaturtipps",
-        "Medientipps",
-        "Lösungshinweise",
-        "Zentrale Begriffe",
-        "Kommentar",
-        "Referat",
-        "Zusammenfassung",
-        "Klausur",
-        "Sekundärliteratur",
         "Schachtarbeiter",
+        "Wismut",
+        "70er Jahre",
+        "Generationenwechsel",
         "Julia Franck",
         "Marion Brasch",
+        "Anspruchsvolle Literatur",
         "Ein Buch von S. Fischer",
-        "Longlist Deutscher Buchpreis 2023"
+        "Leben in der DDR",
+        "Longlist Deutscher Buchpreis 2023",
+        "aspekte-Literaturpreis",
+        "Jürgen-Ponto-Preis"
       ],
       "thema": [
         {
-          "code": "YPCA91",
-          "label": "Schule und Lernen: Erstsprache: Schulausgaben literarischer Texte"
-        },
-        {
-          "code": "DSK",
-          "label": "Literaturwissenschaft: Prosa, Erzählung, Roman, Autoren"
-        },
-        {
           "code": "FBA",
           "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
-        },
-        {
-          "code": "1DFG-DE-FSB",
-          "label": "Dresden"
-        },
-        {
-          "code": "2ACG",
-          "label": "Deutsch"
-        },
-        {
-          "code": "3MPQ",
-          "label": "Zweite Hälfte 20. Jahrhundert (ca. 1950 bis ca. 1999)"
-        },
-        {
-          "code": "DSRC",
-          "label": "Literaturwissenschaft: Begleitbücher, Lektürehilfen, Interpretationen"
-        },
-        {
-          "code": "YX",
-          "label": "Kinder/Jugendliche: Persönliche und soziale Themen"
-        },
-        {
-          "code": "YPCA9",
-          "label": "Schule und Lernen: Erstsprache: Literatur"
-        },
-        {
-          "code": "4CN",
-          "label": "Für die Sekundarstufe II"
         },
         {
           "code": "FXB",
@@ -15023,8 +15054,16 @@
           "label": "Nationalpark Sächsische Schweiz"
         },
         {
+          "code": "1DFG-DE-FSB",
+          "label": "Dresden"
+        },
+        {
           "code": "1QBDL",
           "label": "Ostdeutschland, DDR"
+        },
+        {
+          "code": "3MPQ",
+          "label": "Zweite Hälfte 20. Jahrhundert (ca. 1950 bis ca. 1999)"
         },
         {
           "code": "1DFG-DE-FS",
@@ -15032,22 +15071,21 @@
         }
       ],
       "genre": [
-        "Lehr- und Lernressource",
         "Fiktionale Darstellung",
         "Erzählende Literatur: Gegenwartsliteratur ab 1945",
         "Erzählende Literatur"
       ],
-      "publisher": "Reclam",
-      "place": "Ditzingen",
-      "published_year": "2026",
-      "pages": 246,
+      "publisher": "FISCHER TaschenbuchBibliothek",
+      "place": "Frankfurt am Main",
+      "published_year": "2025",
+      "pages": 254,
       "original_title": "Gittersee",
       "translators": [
         "Franz, Merete",
         "Gurt, Carlota"
       ],
-      "series": "Reclam XL",
-      "record_count": 17,
+      "series": "Fischer TaschenBibliothek",
+      "record_count": 11,
       "fetched_at": "2026-08-13"
     },
     "Im Wasser sind wir schwerelos|Tomasz Jedrowski": {
@@ -15948,7 +15986,7 @@
         "Ḳanṭor, Avram"
       ],
       "series": "",
-      "record_count": 10,
+      "record_count": 9,
       "fetched_at": "2026-08-13"
     },
     "So reich wie der König|Abigail Assor": {
@@ -16134,7 +16172,7 @@
         "Pugliano, Marina"
       ],
       "series": "",
-      "record_count": 13,
+      "record_count": 11,
       "fetched_at": "2026-08-13"
     },
     "Das dritte Licht|Claire Keegan": {
@@ -16201,8 +16239,8 @@
         "9783150198421",
         "9783423082259",
         "9783455000955",
-        "9783125659032",
-        "9783423134576"
+        "9783423134576",
+        "9783492245678"
       ],
       "blurb": "Anfang des 20. Jahrhunderts wird auf dem Passagierschiff »Virginian« ein Findelkind entdeckt. Der Maschinist Danny Boodman nimmt sich des kleinen Jungen an und nennt ihn Novecento. Das Kind entwickelt sich nach und nach zu einem Klaviertalent und begeistert auf den Rundreisen die Passagiere der »Virginian« auf sämtlichen Meeren. Doch eines tut der Virtuose dabei nie: sein Zuhause, das Passagierschiff, verlassen. Als die »Virginian« Jahre später verschrottet zu werden droht, muss sich Novecento jedoch entscheiden …",
       "keywords": [
@@ -16232,7 +16270,7 @@
         "Krieger, Karin"
       ],
       "series": "",
-      "record_count": 17,
+      "record_count": 16,
       "fetched_at": "2026-08-13"
     },
     "Hitzewelle|Fabienne Maris": {
@@ -16335,7 +16373,7 @@
         "Genzler, Bruno"
       ],
       "series": "Rororo",
-      "record_count": 12,
+      "record_count": 11,
       "fetched_at": "2026-08-13"
     },
     "An Liebe stirbst du nicht|Géraldine Dalban-Moreynas": {
@@ -16418,7 +16456,7 @@
         "Malafosse, Sina de"
       ],
       "series": "",
-      "record_count": 4,
+      "record_count": 3,
       "fetched_at": "2026-08-13"
     },
     "Die Kriegerin|Helene Bukowski": {
@@ -16482,7 +16520,7 @@
       "original_title": "",
       "translators": [],
       "series": "",
-      "record_count": 3,
+      "record_count": 2,
       "fetched_at": "2026-08-13"
     },
     "Auszeit|Hannah Lühmann": {
@@ -16639,7 +16677,7 @@
         "Braun, Anne"
       ],
       "series": "",
-      "record_count": 5,
+      "record_count": 3,
       "fetched_at": "2026-08-13"
     },
     "Arbeit|Thorsten Nagelschmidt": {
@@ -16957,6 +16995,92 @@
       "original_title": "",
       "translators": [],
       "series": "",
+      "record_count": 3,
+      "fetched_at": "2026-08-13"
+    },
+    "Super, und dir?|Kathrin Weßling": {
+      "dnb_title": "Super und dir?",
+      "subtitle": "Roman",
+      "isbn": "9783961010103",
+      "isbn_candidates": [
+        "9783961010103",
+        "9783548060217",
+        "9783843717649"
+      ],
+      "blurb": "»Ich glaube, Kathrin Weßling hat den Roman ihrer Generation geschrieben.« ZEITmagazin Newsletter, Christoph Amend Marlene Beckmann ist 31 Jahre alt und lebt das Leben, das sie sich gewünscht hat. Auf die Frage, wie es ihr geht, antwortet sie meistens: »Super, und dir?« Marlene hat sich äußerlich im Griff. Bis sie ihren ersten richtigen Job als Social Media Managerin in einem multinationalen Unternehmen antritt. Bis sie vor lauter Überstunden kein Privatleben mehr hat. Bis der Druck schließlich zu groß wird ... Mit emotionaler Wucht beschreibt Kathrin Weßling eine gnadenlose Welt, in der Ersetzbarkeit, fehlende Perspektiven und der Zwang zur Selbstoptimierung eine ganze Generation unter Druck setzen.",
+      "keywords": [
+        "Arbeitswelt",
+        "Globalisierung",
+        "Zwang",
+        "Neuerscheinung 2018",
+        "Schöner Schein",
+        "Social Media",
+        "Optimierung",
+        "Minfulness",
+        "Yoga",
+        "Hashtag",
+        "facebook",
+        "Instagram",
+        "Selbstoptimierung",
+        "drogen",
+        "Matcha-Latte",
+        "Matcha-Tee",
+        "Spiegel Online",
+        "Absturz",
+        "neu",
+        "neuheit",
+        "neuerscheinung",
+        "buch neu",
+        "neu 2018",
+        "Versagen",
+        "Neuerscheinung 2019",
+        "neu 2019",
+        "Roman 2019",
+        "Mindfulness",
+        "erster Job",
+        "Literatur 2019"
+      ],
+      "thema": [
+        {
+          "code": "FQ",
+          "label": "Lifestyle-Literatur"
+        },
+        {
+          "code": "FXB",
+          "label": "Belletristik: Themen, Stoffe, Motive: Heranwachsen"
+        },
+        {
+          "code": "FXM",
+          "label": "Belletristik: Themen, Stoffe, Motive: Seelenleben"
+        },
+        {
+          "code": "FXS",
+          "label": "Belletristik: Themen, Stoffe, Motive: Soziales"
+        },
+        {
+          "code": "3MRBF",
+          "label": "2010 bis 2019 n. Chr."
+        },
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik"
+        },
+        {
+          "code": "FQ",
+          "label": "Zeitgenössische Lifestyle-Literatur"
+        }
+      ],
+      "genre": [
+        "Fiktionale Darstellung",
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
+      ],
+      "publisher": "Ullstein fünf",
+      "place": "Berlin",
+      "published_year": "2018",
+      "pages": 255,
+      "original_title": "",
+      "translators": [],
+      "series": "",
       "record_count": 4,
       "fetched_at": "2026-08-13"
     },
@@ -17085,7 +17209,7 @@
         "Steinitz, Claudia"
       ],
       "series": "",
-      "record_count": 7,
+      "record_count": 6,
       "fetched_at": "2026-08-13"
     },
     "Über die See|Mariette Navarro": {
@@ -17417,475 +17541,6 @@
         "Jakobeit, Brigitte"
       ],
       "series": "",
-      "record_count": 3,
-      "fetched_at": "2026-08-13"
-    },
-    "Drei Meter Dreißig|Jaqueline Scheiber": {
-      "dnb_title": "Dreimeterdreissig",
-      "subtitle": "Roman",
-      "isbn": "9783763276646",
-      "isbn_candidates": [
-        "9783763276646"
-      ],
-      "blurb": "",
-      "keywords": [],
-      "thema": [],
-      "genre": [
-        "Fiktionale Darstellung",
-        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
-      ],
-      "publisher": "Büchergilde Gutenberg",
-      "place": "Frankfurt am Main",
-      "published_year": "2025",
-      "pages": 233,
-      "original_title": "",
-      "translators": [],
-      "series": "",
-      "record_count": 1,
-      "fetched_at": "2026-08-13"
-    },
-    "Noch mal von vorne|Dana von Suffrin": {
-      "dnb_title": "Nochmal von vorne",
-      "subtitle": "Roman",
-      "isbn": "9783462009231",
-      "isbn_candidates": [
-        "9783462009231",
-        "9783462002973",
-        "9783462304442"
-      ],
-      "blurb": "Was hält eine Familie zusammen, in der es nur Fliehkräfte zu geben scheint und alles darauf hinausläuft, dass etwas zu Bruch geht? Am Ende nur die eigene Geschichte. Dana von Suffrin hat einen virtuosen Roman über modernes jüdisches Leben zwischen München und Tel Aviv geschrieben. Der Tod ihres Vaters und die Auflösung seiner Wohnung bringt für Rosa vieles in Bewegung, bei dem sie eigentlich froh war, dass es geruht hatte. Denn die Geschichte der Familie Jeruscher ist ein einziges Durcheinander aus Streitereien, versuchten oder gelungenen Fluchten, aus Sehnsüchten und enttäuschten Hoffnungen und dem vergeblichen Wunsch, irgendwo heimisch zu werden. Kraftvoll und mit großartigem schwarzen Humor erzählt Dana von Suffrin von einer deutsch-jüdischen Familie, in der ein ganzes Jahrhundert voller Gewalt und Vertreibung nachwirkt – und von zwei Schwestern, die sich entzweien und wieder versöhnen, weil es etwas gibt, das nur sie aneinander verstehen. &#xa0;",
-      "keywords": [
-        "Longlist Deutscher Buchpreis 2024",
-        "Familiengeschichte",
-        "Schwesterbeziehung",
-        "Judentum",
-        "jüdisch",
-        "Jüdin",
-        "Transgenerationelles",
-        "Israel",
-        "Humor",
-        "Junge deutsche Literatur",
-        "Familienkonflikt",
-        "Trennung",
-        "Shoah",
-        "Dana Vowinckel",
-        "Longlist Deutscher Buchpreis",
-        "neues Taschenbuch",
-        "neues Taschenbuch 2025"
-      ],
-      "thema": [
-        {
-          "code": "FBA",
-          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
-        },
-        {
-          "code": "FS",
-          "label": "Familienleben"
-        },
-        {
-          "code": "FXL",
-          "label": "Belletristik: Themen, Stoffe, Motive: Tod, Trauer, Verlust"
-        },
-        {
-          "code": "FXM",
-          "label": "Belletristik: Themen, Stoffe, Motive: Seelenleben"
-        },
-        {
-          "code": "FXQ",
-          "label": "Erzählerisches Thema: Vertreibung, Exil, Migration"
-        },
-        {
-          "code": "1DFG-DE-TBC",
-          "label": "München"
-        },
-        {
-          "code": "1FBH-IL-A",
-          "label": "Tel-Aviv"
-        },
-        {
-          "code": "3MP",
-          "label": "20. Jahrhundert (ca. 1900 bis ca. 1999)"
-        },
-        {
-          "code": "3MRB",
-          "label": "Erste Hälfte 21. Jahrhundert (ca. 2000 bis ca. 2050)"
-        },
-        {
-          "code": "5PGJ",
-          "label": "Bezug zu Juden und jüdischen Gruppen"
-        }
-      ],
-      "genre": [
-        "Fiktionale Darstellung",
-        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
-      ],
-      "publisher": "Kiepenheuer & Witsch",
-      "place": "Köln",
-      "published_year": "2025",
-      "pages": 235,
-      "original_title": "",
-      "translators": [],
-      "series": "KiWi",
-      "record_count": 3,
-      "fetched_at": "2026-08-13"
-    },
-    "Das Eisschloss|Tarjei Vesaas": {
-      "dnb_title": "Das Eis-Schloss",
-      "subtitle": "Roman",
-      "isbn": "9783423148184",
-      "isbn_candidates": [
-        "9783423148184",
-        "9783945370216"
-      ],
-      "blurb": "»Ein literarisches Juwel.«&#xa0;Ulrich Baron in ›Buchjournal‹ Tarjei&#xa0;Vesaas&#xa0;erzählt die Geschichte von zwei elfjährigen Mädchen, Siss und Unn. Unn kommt als Waise zu ihrer Tante und bringt mit ihrer Traurigkeit das Gefüge der ländlichen Gemeinschaft aus dem Gleichgewicht. Siss fühlt sich angezogen und freundet sich mit ihr an – bis Unn plötzlich verschwunden ist. Mit eisklaren Sätzen und ergreifenden poetischen Bildern formt&#xa0;Vesaas&#xa0;eine Studie existenzieller Einsamkeit und der Sehnsucht nach menschlicher Nähe. Ein bezwingendes Sprachkunstwerk von enorm suggestiver Kraft.",
-      "keywords": [
-        "Dorf",
-        "Einsamkeit",
-        "Erwachsenwerden",
-        "Freundschaft",
-        "Klassiker",
-        "Moderne",
-        "Natur",
-        "Norwegen",
-        "Preis des Nordischen Rats",
-        "Schnee",
-        "skandinavische Literatur",
-        "Verbundenheit",
-        "Verlust",
-        "Wiederentdeckung",
-        "Winter",
-        "Eis"
-      ],
-      "thema": [
-        {
-          "code": "FBC",
-          "label": "Klassische Belletristik"
-        },
-        {
-          "code": "DC",
-          "label": "Lyrik, Poesie"
-        },
-        {
-          "code": "FB",
-          "label": "Belletristik: allgemein und literarisch"
-        },
-        {
-          "code": "FN",
-          "label": "Traditionelle Geschichten, Märchen, Mythen, Fabeln und Legenden"
-        },
-        {
-          "code": "1D",
-          "label": "Europa"
-        },
-        {
-          "code": "F",
-          "label": "Belletristik und verwandte Gebiete"
-        }
-      ],
-      "genre": [
-        "Fiktionale Darstellung",
-        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
-      ],
-      "publisher": "dtv",
-      "place": "München",
-      "published_year": "2021",
-      "pages": 199,
-      "original_title": "Is-slottet",
-      "translators": [
-        "Schmidt-Henkel, Hinrich"
-      ],
-      "series": "",
-      "record_count": 5,
-      "fetched_at": "2026-08-13"
-    },
-    "Verflixte Festtage|Kati Hertzsch": {
-      "dnb_title": "Verflixte Festtage",
-      "subtitle": "Geschichten für richtig frohe Weihnachten",
-      "isbn": "9783257261998",
-      "isbn_candidates": [
-        "9783257261998",
-        "9783257247695"
-      ],
-      "blurb": "Festlich soll es sein, glänzend und gemütlich. Kinderaugen leuchten, die Familie kommt zusammen, und an Liebe wird nicht gespart. Freude soll herrschen, Besinnlichkeit und Wärme. Doch woher nehmen und nicht stehlen, wenn die Verwandtschaft bucklig, der Tannenbaum verwachsen und der Festschmaus misslungen ist? Für heiter-subversive Stimmung in der Heiligen Nacht sorgen Geschichten von Daniela Krien, Ildikó von Kürthy, Daniel Glattauer und Mareike Fallwickl.",
-      "keywords": [
-        "Advent",
-        "Familienfest",
-        "Feiertage",
-        "Gavalda, Anna",
-        "Geschenk",
-        "Glattauer, Daniel",
-        "Schreiber, Daniel",
-        "Verwandtschaft",
-        "Weihnacht",
-        "Weihnachtsfrust",
-        "Weihnachtsgeschichten",
-        "Weihnachtsstimmung",
-        "Zitzmann, Yvonne"
-      ],
-      "thema": [
-        {
-          "code": "DNT",
-          "label": "Anthologien (nicht Lyrik)"
-        },
-        {
-          "code": "FYB",
-          "label": "Belletristik: Erzählungen, Kurzgeschichten, Short Stories"
-        },
-        {
-          "code": "WZG",
-          "label": "Geschenkbücher"
-        },
-        {
-          "code": "5HPD",
-          "label": "Weihnachten"
-        }
-      ],
-      "genre": [
-        "Erzählende Literatur: Anthologien",
-        "Anthologie"
-      ],
-      "publisher": "Diogenes",
-      "place": "[S.l.] @",
-      "published_year": "2026",
-      "pages": 352,
-      "original_title": "",
-      "translators": [],
-      "series": "diogenes deluxe",
-      "record_count": 2,
-      "fetched_at": "2026-08-13"
-    },
-    "Soweit der Fluss uns trägt|Shelley Read": {
-      "dnb_title": "So weit der Fluss uns trägt",
-      "subtitle": "",
-      "isbn": "",
-      "isbn_candidates": [],
-      "blurb": "",
-      "keywords": [
-        "Natur",
-        "Rassismus",
-        "Feminismus",
-        "Bestseller",
-        "Delia Owens",
-        "Der Gesang der Flusskrebse",
-        "Resilienz",
-        "Stausee",
-        "Colorado",
-        "Nature Writing",
-        "Elk Mountains",
-        "Herkunft",
-        "atmosphärisch",
-        "episch",
-        "Zuhause",
-        "Von hier bis zum Anfang",
-        "Chris Whitaker",
-        "Bonnie Garmus",
-        "berührend",
-        "zauberhaft",
-        "Der Papierpalast",
-        "Das Flüstern der Bienen",
-        "Isabel Allende",
-        "Blockbuster",
-        "HBGENBEL: Belletristik"
-      ],
-      "thema": [
-        {
-          "code": "FBA",
-          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
-        },
-        {
-          "code": "1KBB-US-WMC",
-          "label": "Colorado"
-        },
-        {
-          "code": "3MP",
-          "label": "20. Jahrhundert (ca. 1900 bis ca. 1999)"
-        }
-      ],
-      "genre": [
-        "Hörbuch",
-        "Fiktionale Darstellung",
-        "Erzählende Literatur"
-      ],
-      "publisher": "Deutsche Nationalbibliothek",
-      "place": "Leipzig",
-      "published_year": "2025",
-      "pages": null,
-      "original_title": "Go as a river",
-      "translators": [
-        "Kuhn, Wibke"
-      ],
-      "series": "",
-      "record_count": 1,
-      "fetched_at": "2026-08-13"
-    },
-    "Sein oder nicht sein|Klaus Pohl": {
-      "dnb_title": "Sein oder Nichtsein",
-      "subtitle": "Roman",
-      "isbn": "9783462004434",
-      "isbn_candidates": [
-        "9783462004434"
-      ],
-      "blurb": "Es ist und bleibt ein großes Geheimnis: Wie entsteht ein Kunstwerk? Klaus Pohl erzählt in seinem Buch von der Entstehung eines großen Kunstwerks, der denkwürdigen »Hamlet«-Inszenierung Peter Zadeks aus dem Jahr 1999 – an welcher er selbst als Schauspieler beteiligt war.&#xa0; Und so erlebt der Leser, wie sich eine Gruppe der besten Theaterschauspieler der letzten Jahrzehnte – Angela Winkler, Ulrich Wildgruber, Otto Sander, Eva Mattes u. a. – in die monatelangen Probearbeiten aufbricht. Es folgen Tragödien und Komödien, heftige Kämpfe und zarte Liebesgeschichten, Wut und Hingabe, Konkurrenz und Freundschaft, und am Ende das unvergleichliche Glück des Entdeckens und Gelingens. Und dies nicht nur auf der Probebühne, sondern im Leben aller Beteiligten vom Regie-Zampano bis zum Bühnenbildner und der Souffleurin … Zugleich ist Klaus Pohls Roman dieser Inszenierung nicht nur ein kulturhistorisches Dokument, sondern selbst ein poetisches Kunststück voller überraschender Wendungen und intimer Portraits. »Was für ein grandioses Buch! Wer nach der Lektüre noch einmal ins Theater geht, darf nicht später sagen, er hätte von nichts gewusst!« (Maxim Biller)",
-      "keywords": [
-        "Sein oder Nicht sein",
-        "Theater",
-        "Peter Zadek",
-        "Hamlet",
-        "Theaterstück",
-        "Probentagebuch",
-        "Schauspieler",
-        "Hamlet-Inszenierung",
-        "Hörbuch",
-        "Angela Winkler",
-        "Joachim Meyerhoff",
-        "Ulrich Wildgruber",
-        "Eva Mattes",
-        "Horatio",
-        "Der Audio-Verlag",
-        "Das Literarische Quartett",
-        "Shakespeare",
-        "Literarisches Quartett",
-        "ZDF",
-        "Starregisseur"
-      ],
-      "thema": [
-        {
-          "code": "FC",
-          "label": "Biografischer Roman / Autobiografischer Roman"
-        },
-        {
-          "code": "ATC",
-          "label": "einzelne Schauspieler und Darsteller"
-        },
-        {
-          "code": "ATDF",
-          "label": "Theaterregie und Theaterproduktion"
-        },
-        {
-          "code": "DD",
-          "label": "Drama, Theaterstücke, Drehbücher"
-        }
-      ],
-      "genre": [
-        "Fiktionale Darstellung",
-        "Erzählende Literatur"
-      ],
-      "publisher": "Kiepenheuer & Witsch",
-      "place": "Köln",
-      "published_year": "2023",
-      "pages": 286,
-      "original_title": "",
-      "translators": [],
-      "series": "KiWi",
-      "record_count": 1,
-      "fetched_at": "2026-08-13"
-    },
-    "Super, und dir?|Kathrin Weßling": {
-      "dnb_title": "Super und dir?",
-      "subtitle": "Roman",
-      "isbn": "9783961010103",
-      "isbn_candidates": [
-        "9783961010103",
-        "9783548060217",
-        "9783843717649"
-      ],
-      "blurb": "»Ich glaube, Kathrin Weßling hat den Roman ihrer Generation geschrieben.« ZEITmagazin Newsletter, Christoph Amend Marlene Beckmann ist 31 Jahre alt und lebt das Leben, das sie sich gewünscht hat. Auf die Frage, wie es ihr geht, antwortet sie meistens: »Super, und dir?« Marlene hat sich äußerlich im Griff. Bis sie ihren ersten richtigen Job als Social Media Managerin in einem multinationalen Unternehmen antritt. Bis sie vor lauter Überstunden kein Privatleben mehr hat. Bis der Druck schließlich zu groß wird ... Mit emotionaler Wucht beschreibt Kathrin Weßling eine gnadenlose Welt, in der Ersetzbarkeit, fehlende Perspektiven und der Zwang zur Selbstoptimierung eine ganze Generation unter Druck setzen.",
-      "keywords": [
-        "Arbeitswelt",
-        "Globalisierung",
-        "Zwang",
-        "Neuerscheinung 2018",
-        "Schöner Schein",
-        "Social Media",
-        "Optimierung",
-        "Minfulness",
-        "Yoga",
-        "Hashtag",
-        "facebook",
-        "Instagram",
-        "Selbstoptimierung",
-        "drogen",
-        "Matcha-Latte",
-        "Matcha-Tee",
-        "Spiegel Online",
-        "Absturz",
-        "neu",
-        "neuheit",
-        "neuerscheinung",
-        "buch neu",
-        "neu 2018",
-        "Versagen",
-        "Neuerscheinung 2019",
-        "neu 2019",
-        "Roman 2019",
-        "Mindfulness",
-        "erster Job",
-        "Literatur 2019"
-      ],
-      "thema": [
-        {
-          "code": "FQ",
-          "label": "Lifestyle-Literatur"
-        },
-        {
-          "code": "FXB",
-          "label": "Belletristik: Themen, Stoffe, Motive: Heranwachsen"
-        },
-        {
-          "code": "FXM",
-          "label": "Belletristik: Themen, Stoffe, Motive: Seelenleben"
-        },
-        {
-          "code": "FXS",
-          "label": "Belletristik: Themen, Stoffe, Motive: Soziales"
-        },
-        {
-          "code": "3MRBF",
-          "label": "2010 bis 2019 n. Chr."
-        },
-        {
-          "code": "FBA",
-          "label": "Moderne und zeitgenössische Belletristik"
-        },
-        {
-          "code": "FQ",
-          "label": "Zeitgenössische Lifestyle-Literatur"
-        }
-      ],
-      "genre": [
-        "Fiktionale Darstellung",
-        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
-      ],
-      "publisher": "Ullstein fünf",
-      "place": "Berlin",
-      "published_year": "2018",
-      "pages": 255,
-      "original_title": "",
-      "translators": [],
-      "series": "",
-      "record_count": 4,
-      "fetched_at": "2026-08-13"
-    },
-    "Kirschblüten: Hanami|Doris Dörrie": {
-      "dnb_title": "Kirschblüten - Hanami",
-      "subtitle": "ein Filmbuch",
-      "isbn": "9783257240672",
-      "isbn_candidates": [
-        "9783257240672",
-        "9783868052046",
-        "9783257066579"
-      ],
-      "blurb": "Ein Buch zum Film, ein Buch über den Film, ein Buch für nach dem Film: Rudi und Trudi sind seit dreißig Jahren ein Paar. Als Trudi plötzlich stirbt, fliegt Rudi zu Sohn Karl nach Japan, um das zu sehen, was Trudi wichtig war und was sie zusammen nicht mehr erleben konnten: ihren Sohn in Japan, die legendäre japanische Kirschblüte, den Fujiyama und auch den Butoh-Tanz, der früher einmal Trudis Leidenschaft gewesen war.",
-      "keywords": [],
-      "thema": [],
-      "genre": [],
-      "publisher": "Diogenes",
-      "place": "Zürich",
-      "published_year": "2011",
-      "pages": null,
-      "original_title": "",
-      "translators": [],
-      "series": "Diogenes-Taschenbuch",
       "record_count": 3,
       "fetched_at": "2026-08-13"
     }
