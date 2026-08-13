@@ -46,12 +46,33 @@ type Extractor = (
 // Both the model and the vector file are loaded lazily and only once — the first
 // search pays the cost (model download ~30–50 MB, cached afterwards), browsing
 // and filtering never load anything.
+let modelReady = false;
+const modelReadyListeners = new Set<() => void>();
+
+export function subscribeToModelReady(listener: () => void): () => void {
+  modelReadyListeners.add(listener);
+  return () => {
+    modelReadyListeners.delete(listener);
+  };
+}
+
+export function isModelReady(): boolean {
+  return modelReady;
+}
+
 let extractorPromise: Promise<Extractor> | null = null;
 function getExtractor(): Promise<Extractor> {
   if (!extractorPromise) {
-    extractorPromise = import('@huggingface/transformers').then(
-      async ({ pipeline }) => (await pipeline('feature-extraction', MODEL)) as unknown as Extractor,
-    );
+    extractorPromise = import('@huggingface/transformers')
+      .then(
+        async ({ pipeline }) =>
+          (await pipeline('feature-extraction', MODEL)) as unknown as Extractor,
+      )
+      .then((extractor) => {
+        modelReady = true;
+        for (const listener of modelReadyListeners) listener();
+        return extractor;
+      });
   }
   return extractorPromise;
 }

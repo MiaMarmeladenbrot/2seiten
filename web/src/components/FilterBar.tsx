@@ -28,7 +28,7 @@ export function FilterBar({ filters, onChange }: Props) {
 
       <div className="dropdowns">
         <div className="dropdown">
-          <span className="dropdown-label">Thema</span>
+          <span className="dropdown-label">Folge</span>
           <select value={filters.theme} onChange={(e) => onChange({ theme: e.target.value })}>
             <option value="">alle</option>
             {THEMES.map((t) => (

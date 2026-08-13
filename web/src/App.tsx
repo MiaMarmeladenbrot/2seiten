@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState, useSyncExternalStore } from 'react';
 import { Hero } from './components/Hero';
 import { SearchBar } from './components/SearchBar';
 import { FilterBar } from './components/FilterBar';
@@ -6,6 +6,7 @@ import { Banner } from './components/Banner';
 import { BookGrid } from './components/BookGrid';
 import { BOOKS } from './data/books';
 import { applyFilters, applyFiltersSync } from './lib/search';
+import { isModelReady, subscribeToModelReady } from './lib/embeddings';
 import type { Book, Filters } from './lib/types';
 
 const INITIAL: Filters = { search: '', recommender: 'alle', theme: '', year: '' };
@@ -29,6 +30,9 @@ export default function App() {
 
   const results = semanticMatchesCurrentFilters ? semanticResult.books : keywordResults;
   const searching = filters.search.trim() !== '' && !semanticMatchesCurrentFilters;
+
+  const modelReady = useSyncExternalStore(subscribeToModelReady, isModelReady);
+  const preparingModel = searching && !modelReady;
 
   const update = (patch: Partial<Filters>) => setFilters((f) => ({ ...f, ...patch }));
 
@@ -66,6 +70,7 @@ export default function App() {
           filters={filters}
           count={results.length}
           searching={searching}
+          preparingModel={preparingModel}
           onClear={() => setFilters(INITIAL)}
         />
       </div>
