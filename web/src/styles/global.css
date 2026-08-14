@@ -292,8 +292,56 @@ input, select { font-family: inherit; }
   margin: 56px auto 96px;
   padding: 0 48px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 56px 36px;
+}
+.grid.is-stale {
+  opacity: 0.5;
+  transition: opacity 0.2s;
+}
+.book-skeleton {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.book-skeleton-cover {
+  aspect-ratio: 63 / 100;
+  border-radius: 2px;
+  margin-bottom: 18px;
+  box-shadow: var(--shadow-cover);
+}
+.book-skeleton-title {
+  height: 20px;
+  border-radius: 2px;
+  margin-bottom: 2px;
+}
+.book-skeleton-author {
+  height: 18px;
+  width: 55%;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+.book-skeleton-meta {
+  height: 22px;
+  width: 70%;
+  border-radius: 2px;
+}
+.shimmer {
+  background: linear-gradient(
+    100deg,
+    var(--bg-deep) 20%,
+    var(--cream-warm) 50%,
+    var(--bg-deep) 80%
+  );
+  background-size: 300% 100%;
+  animation: shimmer-sweep 1.5s ease-in-out infinite;
+}
+@keyframes shimmer-sweep {
+  from { background-position: 150% 0; }
+  to { background-position: -150% 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .shimmer { animation: none; }
 }
 .empty-state {
   grid-column: 1 / -1;
@@ -310,6 +358,7 @@ input, select { font-family: inherit; }
   cursor: pointer;
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 .cover {
   aspect-ratio: 63 / 100;
@@ -397,16 +446,21 @@ input, select { font-family: inherit; }
   color: var(--ink);
   line-height: 1.25;
   margin-bottom: 2px;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 .book-author {
   font-size: 13px;
   color: var(--ink-soft);
   margin-bottom: 10px;
+  overflow-wrap: break-word;
 }
 .book-meta {
   display: flex;
   align-items: center;
   gap: 8px;
+  min-width: 0;
   font-size: 10px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -417,6 +471,7 @@ input, select { font-family: inherit; }
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  min-width: 0;
 }
 
 /* ───── AVATARS ───── */
@@ -461,14 +516,14 @@ footer {
 
 /* ───── RESPONSIVE ───── */
 @media (max-width: 1024px) {
-  .grid { grid-template-columns: repeat(3, 1fr); padding: 0 32px; gap: 48px 28px; }
+  .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); padding: 0 32px; gap: 48px 28px; }
   .hero { padding: 60px 32px 36px; }
   .controls { padding: 0 32px; }
   .banner { padding: 0 32px; }
 }
 @media (max-width: 640px) {
   .grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 36px 18px;
     padding: 0 20px;
     margin: 36px auto 72px;

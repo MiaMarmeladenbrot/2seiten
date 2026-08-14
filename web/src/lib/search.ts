@@ -1,7 +1,6 @@
 import type { Book, Filters } from './types';
 import { semanticSearch } from './embeddings';
 
-// Keyword stand-in used as the instant fallback while the embedding model loads.
 // NOTE: the keyword strings stay German on purpose — they match German queries
 // and German episode/topic content.
 const MOOD_KEYWORDS: Record<string, string[]> = {
@@ -71,7 +70,7 @@ function merge(exact: Book[], rest: Book[]): Book[] {
 }
 
 // Recommender / topic / year filters — applied after the search step.
-function narrow(list: Book[], filters: Filters): Book[] {
+export function narrow(list: Book[], filters: Filters): Book[] {
   if (filters.recommender !== 'alle') {
     list = list.filter((b) => b.recommended_by === filters.recommender);
   }
@@ -80,20 +79,15 @@ function narrow(list: Book[], filters: Filters): Book[] {
   return list;
 }
 
-// Synchronous keyword search — instant, no model. Used for the immediate render
-// and as the fallback shown while the embedding model is still loading.
-export function applyFiltersSync(books: Book[], filters: Filters): Book[] {
-  const q = filters.search.trim();
-  const list = q ? merge(exactMatches(q, books), keywordSearch(q, books)) : books;
-  return narrow(list, filters);
+export function rankBySearchKeywordsOnlyFallback(query: string, books: Book[]): Book[] {
+  const q = query.trim();
+  if (!q) return books;
+  return merge(exactMatches(q, books), keywordSearch(q, books));
 }
 
-// Asynchronous semantic search — the real thing. Embeds the query in the browser
-// and ranks by meaning. Callers (App) await this and replace the sync result.
-export async function applyFilters(books: Book[], filters: Filters): Promise<Book[]> {
-  const q = filters.search.trim();
-  if (!q) return narrow(books, filters);
+export async function rankBySearch(query: string, books: Book[]): Promise<Book[]> {
+  const q = query.trim();
+  if (!q) return books;
   const semantic = await semanticSearch(q, books);
-  const list = merge(exactMatches(q, books), semantic);
-  return narrow(list, filters);
+  return merge(exactMatches(q, books), semantic);
 }

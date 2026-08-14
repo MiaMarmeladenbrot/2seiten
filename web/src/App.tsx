@@ -5,31 +5,43 @@ import { FilterBar } from './components/FilterBar';
 import { Banner } from './components/Banner';
 import { BookGrid } from './components/BookGrid';
 import { BOOKS } from './data/books';
-import { applyFilters, applyFiltersSync } from './lib/search';
+import { narrow, rankBySearch, rankBySearchKeywordsOnlyFallback } from './lib/search';
 import { isModelReady, subscribeToModelReady } from './lib/embeddings';
 import type { Book, Filters } from './lib/types';
 
 const INITIAL: Filters = { search: '', recommender: 'alle', theme: '', year: '' };
+const SEARCH_DEBOUNCE_MS = 250;
 
 function scrollToBanner() {
   document.getElementById('banner-anchor')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
-interface SemanticResult {
-  filters: Filters;
+function useDebounced(value: string, delay: number): string {
+  const [settled, setSettled] = useState(value);
+  useEffect(() => {
+    const id = setTimeout(() => setSettled(value), delay);
+    return () => clearTimeout(id);
+  }, [value, delay]);
+  return value === '' ? '' : settled;
+}
+
+interface Ranking {
+  query: string;
   books: Book[];
 }
 
 export default function App() {
   const [filters, setFilters] = useState<Filters>(INITIAL);
-  const [semanticResult, setSemanticResult] = useState<SemanticResult | null>(null);
+  const [ranking, setRanking] = useState<Ranking | null>(null);
 
-  const keywordResults = useMemo(() => applyFiltersSync(BOOKS, filters), [filters]);
-  const semanticMatchesCurrentFilters =
-    semanticResult !== null && semanticResult.filters === filters;
+  const query = filters.search.trim();
+  const settledQuery = useDebounced(query, SEARCH_DEBOUNCE_MS);
+  const rankingIsForSettledQuery = ranking !== null && ranking.query === settledQuery;
 
-  const results = semanticMatchesCurrentFilters ? semanticResult.books : keywordResults;
-  const searching = filters.search.trim() !== '' && !semanticMatchesCurrentFilters;
+  const searching = query !== '' && !(rankingIsForSettledQuery && settledQuery === query);
+  const ranked = settledQuery === '' ? BOOKS : (ranking?.books ?? null);
+  const results = useMemo(() => (ranked ? narrow(ranked, filters) : []), [ranked, filters]);
+  const awaitingFirstRanking = ranked === null;
 
   const modelReady = useSyncExternalStore(subscribeToModelReady, isModelReady);
   const preparingModel = searching && !modelReady;
@@ -37,21 +49,26 @@ export default function App() {
   const update = (patch: Partial<Filters>) => setFilters((f) => ({ ...f, ...patch }));
 
   useEffect(() => {
-    if (!filters.search.trim()) return;
+    if (!settledQuery) return;
 
     let cancelled = false;
-    applyFilters(BOOKS, filters)
+    rankBySearch(settledQuery, BOOKS)
       .then((books) => {
-        if (!cancelled) setSemanticResult({ filters, books });
+        if (!cancelled) setRanking({ query: settledQuery, books });
       })
       .catch((err) => {
-        console.error('Semantic search unavailable, keeping keyword results:', err);
-        if (!cancelled) setSemanticResult({ filters, books: keywordResults });
+        console.error('Semantic search unavailable, falling back to keywords:', err);
+        if (!cancelled) {
+          setRanking({
+            query: settledQuery,
+            books: rankBySearchKeywordsOnlyFallback(settledQuery, BOOKS),
+          });
+        }
       });
     return () => {
       cancelled = true;
     };
-  }, [filters, keywordResults]);
+  }, [settledQuery]);
 
   return (
     <>
@@ -69,13 +86,14 @@ export default function App() {
         <Banner
           filters={filters}
           count={results.length}
+          countIsPending={awaitingFirstRanking}
           searching={searching}
           preparingModel={preparingModel}
           onClear={() => setFilters(INITIAL)}
         />
       </div>
 
-      <BookGrid books={results} />
+      <BookGrid books={results} loading={awaitingFirstRanking} stale={searching} />
 
       <footer>
         Fan-Projekt zum WDR-Podcast „Zwei Seiten" mit Christine Westermann und Mona Ameziane.

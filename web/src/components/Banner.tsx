@@ -4,12 +4,20 @@ import { RECOMMENDER_LABELS } from '../lib/labels';
 interface Props {
   filters: Filters;
   count: number;
+  countIsPending: boolean;
   searching: boolean;
   preparingModel: boolean;
   onClear: () => void;
 }
 
-export function Banner({ filters, count, searching, preparingModel, onClear }: Props) {
+export function Banner({
+  filters,
+  count,
+  countIsPending,
+  searching,
+  preparingModel,
+  onClear,
+}: Props) {
   const hasFilter = !!filters.theme || !!filters.year || filters.recommender !== 'alle';
   const visible = !!filters.search || hasFilter;
   if (!visible) return null;
@@ -24,7 +32,7 @@ export function Banner({ filters, count, searching, preparingModel, onClear }: P
     <div className="banner">
       <div className="banner-inner">
         <span className="banner-text">
-          {count} {noun}
+          {countIsPending ? noun : `${count} ${noun}`}
           {filters.search && (
             <>
               {' '}
