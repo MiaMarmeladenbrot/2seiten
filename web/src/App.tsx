@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState, useSyncExternalStore } from 'react';
 import { Hero } from './components/Hero';
 import { SearchBar } from './components/SearchBar';
-import { FilterBar } from './components/FilterBar';
+import { FilterMenu } from './components/FilterMenu';
 import { Banner } from './components/Banner';
 import { BookGrid } from './components/BookGrid';
 import { BOOKS } from './data/books';
@@ -79,7 +79,13 @@ export default function App() {
           onChange={(search) => update({ search })}
           onSubmit={scrollToBanner}
         />
-        <FilterBar filters={filters} onChange={update} />
+        <FilterMenu
+          filters={filters}
+          count={results.length}
+          countIsPending={awaitingFirstRanking}
+          onChange={update}
+          onReset={() => update({ recommender: 'alle', theme: '', year: '' })}
+        />
       </section>
 
       <div id="banner-anchor">

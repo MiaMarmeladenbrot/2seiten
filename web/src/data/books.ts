@@ -39,9 +39,14 @@ export const BOOKS: Book[] = data.episodes.flatMap((ep) =>
   })),
 );
 
-export const THEMES: string[] = [...new Set(BOOKS.map((b) => b.topic))].sort((a, b) =>
-  a.toLowerCase().localeCompare(b.toLowerCase()),
-);
+const BOOKS_PER_TOPIC = BOOKS.reduce<Record<string, number>>((acc, b) => {
+  acc[b.topic] = (acc[b.topic] ?? 0) + 1;
+  return acc;
+}, {});
+
+export const THEMES: { topic: string; count: number }[] = Object.entries(BOOKS_PER_TOPIC)
+  .map(([topic, count]) => ({ topic, count }))
+  .sort((a, b) => a.topic.toLowerCase().localeCompare(b.topic.toLowerCase()));
 
 export const YEARS: string[] = [...new Set(BOOKS.map((b) => b.year))].sort().reverse();
 

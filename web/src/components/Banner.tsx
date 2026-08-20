@@ -39,12 +39,12 @@ export function Banner({
               für <strong>„{filters.search}"</strong>
             </>
           )}
-          {hasFilter && <span style={{ color: 'var(--ink-soft)' }}> — {parts.join(' · ')}</span>}
+          {hasFilter && <span className="banner-soft"> ({parts.join(', ')})</span>}
           {searching && (
-            <span style={{ color: 'var(--ink-soft)' }}>
+            <span className="banner-soft">
               {preparingModel
-                ? ' · Stimmungs-Suche wird vorbereitet, beim ersten Mal dauert das einen Moment …'
-                : ' · sucht …'}
+                ? ', Stimmungs-Suche wird vorbereitet, beim ersten Mal dauert das einen Moment …'
+                : ', sucht …'}
             </span>
           )}
         </span>
