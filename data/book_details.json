@@ -4,9 +4,9 @@
     "endpoint": "https://services.dnb.de/sru/dnb",
     "note": "Klappentexte sind geschützte Verlagstexte — nur zum Bau des Suchindex verwenden, nicht anzeigen.",
     "total": 218,
-    "with_blurb": 185,
+    "with_blurb": 186,
     "with_keywords": 206,
-    "with_isbn": 217
+    "with_isbn": 218
   },
   "books": {
     "Tintenherz|Cornelia Funke": {
@@ -156,18 +156,13 @@
       "fetched_at": "2026-08-13"
     },
     "Achtsam morden|Carsten Dusse": {
-      "dnb_title": "Achtsam morden - Alle fünf Bände plus Joschka-Breitner-Übungsbuch",
-      "subtitle": "Roman",
-      "isbn": "9783453444928",
+      "dnb_title": "Achtsam morden",
+      "subtitle": "ein entschleunigter Kriminalroman",
+      "isbn": "9783453428881",
       "isbn_candidates": [
-        "9783453444928",
-        "9783453275768",
-        "9783453442139",
-        "9783453273870",
-        "9783453427648",
         "9783453428881"
       ],
-      "blurb": "Erstmals im Schuber: die fünf Bestseller-Romane der Achtsam Morden-Reihe und das Joschka-Breitner-Übungsbuch Björn Diemel stellt sich die große Frage des Lebens: Wie bekomme ich Familie und organisierte Kriminalität unter einen Hut? Antworten findet er bei seinem Entspannungscoach Joschka Breitner. Durch Achtsamkeit findet Björn einen Zugang, seine Emotionen selbst zu regulieren. Die Freundschaft mit seinem inneren Kind reduziert zahlreiche Triggerpunkte. Björn pilgert, um sich selbst zu finden. Er taucht ein in indische Heilslehren und steigert seine Lebensqualität durch bewusste Ernährung. Alle fünf Bände der Bestsellerreihe von Karsten Dusse gibt es jetzt erstmals – achtsam gestapelt – in einem exklusiven Schuber: »Achtsam morden«, »Das Kind in mir will achtsam morden«, »Achtsam morden am Rande der Welt«, »Achtsam morden im Hier und Jetzt«, »Achtsam morden durch bewusste Ernährung«. Und zum Ausbalancieren obendrauf: das »Übungsbuch nach der Joschka-Breitner-Methode«.",
+      "blurb": "Mordselegant: die achtsam veredelte Ausgabe im Hosentaschenformat Björn Diemel wird von seiner Frau gezwungen, ein Achtsamkeits-Seminar zu besuchen, um seine Ehe ins Reine zu bringen, sich als guter Vater zu beweisen und die etwas aus den Fugen geratene Work-Life-Balance wieder herzustellen. Denn Björn ist ein erfolgreicher Anwalt und hat dementsprechend sehr wenig Zeit für seine Familie. Der Kurs trägt tatsächlich Früchte und Björn kann das Gelernte sogar in seinen Job integrieren, allerdings nicht ganz auf die erwartete Weise. Denn als sein Mandant, ein brutaler und mehr als schuldiger Großkrimineller, beginnt, ihm ernstliche Probleme zu bereiten, bringt er ihn einfach um — und zwar nach allen Regeln der Achtsamkeit. Achtsam morden ist die Geschichte eines bewussten und entschleunigten Mordes, der längst überfällige Schulterschluss zwischen Achtsamkeitsratgeber und Krimi. Der Nr.-1-Bestseller erscheint nun erstmals als hochwertig ausgestattete Ausgabe im praktischen Hosentaschenformat mit exklusivem Zusatzkapitel.",
       "keywords": [
         "krimi",
         "krimis",
@@ -176,63 +171,25 @@
         "lustige",
         "buch",
         "bücher",
-        "serien",
-        "krimikomödie",
-        "achtsamkeit",
-        "jan böhmermann",
-        "adolf-grimme-preis",
-        "debut",
-        "wolf haas",
-        "humor",
-        "unterhaltungsroman",
-        "netflix",
-        "breaking bad",
-        "schuber",
-        "sammelband",
-        "gesamtausgabe",
-        "spanien",
-        "heimatkrimi",
-        "joschka breitner",
-        "björn diemel",
-        "jakobsweg",
-        "pilgerreise",
-        "selbstfindung",
-        "spiegel bestseller",
-        "neuerscheinung 2022",
-        "schwarzer humor",
-        "krimi lustig",
-        "john strelecky",
-        "santiago de compostela",
-        "Pilgerfahrt",
-        "Erleuchtung",
-        "Satire",
-        "soft thriller",
-        "anwalt",
-        "mafia",
-        "coach",
-        "low carb",
-        "clean eating",
-        "ironisch",
-        "entführung",
-        "in sich ruhen",
-        "abnehmen",
-        "gesund essen",
-        "kind in mir",
-        "hier und jetzt",
-        "ende der welt",
-        "hintern hochkriegen",
         "neuerscheinung",
-        "ebooks",
-        "osho",
-        "sannyasin",
-        "bhagwan",
-        "guru",
         "weihnachtsgeschenk",
         "geschenkbuch",
+        "joschka breitner",
+        "björn diemel",
         "entschleunigt auf der überholspur",
+        "achtsamkeit",
+        "humor",
+        "spiegel bestseller",
         "jahresbestseller 2022",
         "jahresbestseller 2021",
         "internationaler bestseller",
+        "mafia",
+        "Krimikomödie",
+        "Jan Böhmermann",
+        "Adolf-Grimme-Preis",
+        "Debut",
+        "Wolf Haas",
+        "Unterhaltungsroman",
         "Zu Fuß ins Ich",
         "Das innere Wunschkind",
         "Nr.-1-Bestsellerautor",
@@ -252,107 +209,23 @@
         {
           "code": "FUP",
           "label": "Satirische Romane und Parodie (fiktional)"
-        },
-        {
-          "code": "1DFG",
-          "label": "Deutschland"
-        },
-        {
-          "code": "1DSE-ES-XA",
-          "label": "Jakobsweg"
-        },
-        {
-          "code": "3MRBH",
-          "label": "ca. 2020 bis ca. 2029"
-        },
-        {
-          "code": "FB",
-          "label": "Belletristik: allgemein und literarisch"
-        },
-        {
-          "code": "1A",
-          "label": "Welt"
-        },
-        {
-          "code": "1D",
-          "label": "Europa"
-        },
-        {
-          "code": "1DF",
-          "label": "Mitteleuropa"
-        },
-        {
-          "code": "1F",
-          "label": "Asien"
-        },
-        {
-          "code": "1FK",
-          "label": "Indischer Subkontinent"
-        },
-        {
-          "code": "1FKA",
-          "label": "Indien"
-        },
-        {
-          "code": "1K",
-          "label": "Amerika"
-        },
-        {
-          "code": "1KB",
-          "label": "Nordamerika (USA und Kanada)"
-        },
-        {
-          "code": "1KBB",
-          "label": "Vereinigte Staaten von Amerika, USA"
-        },
-        {
-          "code": "1KBB-US-W",
-          "label": "USA Westen"
-        },
-        {
-          "code": "1KBB-US-WP",
-          "label": "USA Westen: Pazifikstaaten, Pacific States"
-        },
-        {
-          "code": "1KBB-US-WPN",
-          "label": "Pacific Northwest"
-        },
-        {
-          "code": "1KBB-US-WPNR",
-          "label": "Oregon"
-        },
-        {
-          "code": "3M",
-          "label": "ca. 1500 bis zur Gegenwart"
-        },
-        {
-          "code": "3MR",
-          "label": "21. Jahrhundert (ca. 2000 bis ca. 2100)"
-        },
-        {
-          "code": "3MRB",
-          "label": "Erste Hälfte 21. Jahrhundert (ca. 2000 bis ca. 2050)"
-        },
-        {
-          "code": "3MRBH",
-          "label": "2020 bis 2029 n. Chr."
         }
       ],
       "genre": [
-        "Erzählende Literatur",
         "Fiktionale Darstellung",
         "Krimis, Thriller, Spionage",
+        "Erzählende Literatur",
         "Blindendruck"
       ],
-      "publisher": "Heyne",
+      "publisher": "Wilhelm Heyne Verlag",
       "place": "München",
-      "published_year": "2026",
-      "pages": 2352,
+      "published_year": "2023",
+      "pages": 543,
       "original_title": "",
       "translators": [],
-      "series": "Achtsam morden-Reihe",
+      "series": "",
       "record_count": 15,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-20"
     },
     "Hotel Laguna|Alexander Gorkow": {
       "dnb_title": "Hotel Laguna",
@@ -2324,61 +2197,43 @@
       "fetched_at": "2026-08-13"
     },
     "Frankie|Jochen Gutsch": {
-      "dnb_title": "Frankie - unter Menschen",
+      "dnb_title": "Frankie",
       "subtitle": "Roman",
-      "isbn": "9783328603818",
+      "isbn": "9783328112204",
       "isbn_candidates": [
-        "9783328603818",
         "9783328112204",
         "9783328601838",
-        "9783641326326",
         "9783641295912",
-        "9786238371426"
+        "9786238371426",
+        "9789400517363",
+        "9788432243820"
       ],
-      "blurb": "»Plötzlich war ich wahnsinnig froh, wie die Sterne da am Himmel hingen. So wie immer nämlich, da hatte sich nix geändert. Und ich dachte, so `n Stern hat’s wirklich gut, der weiß einfach, wo er hingehört.« Im Grunde hat Frankie alles, was ein Kater braucht: Riesen-Fernseher, Riesen-Bett, Futter mit viel Soße. Nur sein Menschenfreund Gold fehlt ihm, der seit Monaten in der Klapse sitzt. Eines Tages gerät Frankie nach einem nächtlichen Streifzug in ein Müllauto, das mit ihm davonfährt. Weit weg von seinem Zuhause. Von allem, was er kennt. Verzweifelt sucht Frankie nach einem Weg zurück. Dabei trifft er auf ein Mädchen, die rätselhafte Shattab. Sie ist allein, schmutzig und abgehauen aus der »Kanakensammelstelle«, wie sie sagt. Und so beginnt ein großes Abenteuer und die Reise durch ein Land, in dem beide Fremde sind. Zusammen begegnen sie den unterschiedlichsten Gestalten, Menschen wie Tieren. Einer alten Frau, die vielleicht mal die Fotografin von John Lennon war, zwei belesenen Aaskrähen, brutalen Jugendlichen ohne Herz. Frankie und Shattab rauben moralisch eine Tankstelle aus, sie fliehen auf eine Hühnermastfarm, sie treiben auf einem Fluss Richtung »Arsch der Welt«. Und die ganze Zeit über ist ein Sheriff auf der Jagd nach dem Mädchen. Die unvergessliche Geschichte einer zarten Freundschaft. Ein mitreißender Roman darüber, was es bedeutet, sein Zuhause zu verlieren. Witzig, klug und zutiefst bewegend.",
+      "blurb": "»Das wär nix für mich, so’n Lebenssinn. Erstmal muss man ihn finden. Und dann muss man drauf aufpassen, damit man ihn nicht verliert.« Richard Gold hat alles vorbereitet. Heute ist der Tag, an dem er sich das Leben nehmen wird. Der Strick liegt schon um seinen Hals, als sich ein dürrer Kater vor das Fenster setzt, interessiert glotzt – und Gold komplett aus dem Konzept bringt. Als dann der Kater auch noch bei Gold einzieht, weil der einen großen Fernseher hat, ein „extremst“ weiches Bett und pünktlich Essen serviert, beginnt die skurrile Freundschaft zwischen zwei Außenseitern, von denen zumindest einer ganz fest an ein Happy End im Leben glaubt. Ein Mann, der sterben will. Ein Kater, der ein Zuhause sucht. Eine berührende und zugleich urkomische Geschichte über eine außergewöhnliche Freundschaft und den Weg zurück ins Leben. »Es gelingt Jochen Gutsch in seinem Roman nahezu perfekt, die schwierige Balance zu halten – zwischen Lebensfreude und Todessehnsucht, zwischen unbeschwert und tieftraurig.« Christine Westermann",
       "keywords": [
-        "buch",
-        "bücher",
-        "katzenbuch",
-        "philosophischer roman",
-        "buch sinn des lebens",
-        "lustig und traurig",
-        "einsamkeit",
-        "zugehörigkeit",
-        "suche nach zuhause",
-        "heimatsuche",
-        "freundschaftsgeschichte",
-        "bestseller",
-        "cover mit katze",
-        "sprechender kater",
-        "frankie 2",
-        "mariana leky",
-        "carsten henn",
-        "bestsellerautor",
-        "matt haig",
-        "die mitternachtsbibliothek",
-        "booktok",
-        "booktok bestseller",
-        "tiktok",
-        "geschenke für männer",
-        "geschenkbuch",
-        "ratgeber",
-        "lebenshilfe",
-        "geschenke für frauen",
-        "ebooks",
-        "serien",
         "depressionen überwinden",
         "gesundheit",
         "depression",
+        "buch",
+        "bücher",
         "bernhard hennen",
         "fredrik backman",
+        "matt haig",
         "bücher mit katzen",
+        "geschenkbuch",
+        "lebenshilfe",
+        "mariana leky",
         "ein mann namens ove",
         "kurt krömer",
         "das café am rande der welt",
         "lebensratgeber",
+        "geschenke für frauen",
+        "geschenke für männer",
+        "die mitternachtsbibliothek",
+        "booktok",
+        "tiktok",
         "spiegel bestseller",
         "trauer",
+        "einsamkeit",
         "freundschaft",
         "Es ist nur eine Phase, Hase",
         "Du bleibst mein Sieger, Tiger",
@@ -2388,9 +2243,11 @@
         "gefühlvolle Unterhaltung",
         "Geschenk",
         "Neuerscheinung 2023",
+        "Bestseller",
         "Roman für Frauen",
         "Roman für Männer",
         "Du darfst nicht alles glauben",
+        "Carsten Henn",
         "Der Buchspazierer",
         "Alltagsphilosophie"
       ],
@@ -2404,14 +2261,6 @@
           "label": "Belletristik: Humor"
         },
         {
-          "code": "1DFG",
-          "label": "Deutschland"
-        },
-        {
-          "code": "3MRBH",
-          "label": "ca. 2020 bis ca. 2029"
-        },
-        {
           "code": "FXL",
           "label": "Belletristik: Themen, Stoffe, Motive: Tod, Trauer, Verlust"
         },
@@ -2422,6 +2271,10 @@
         {
           "code": "WZG",
           "label": "Geschenkbücher"
+        },
+        {
+          "code": "3MRBH",
+          "label": "ca. 2020 bis ca. 2029"
         },
         {
           "code": "3MRBH",
@@ -2443,8 +2296,8 @@
       ],
       "publisher": "Penguin Verlag",
       "place": "München",
-      "published_year": "2026",
-      "pages": 235,
+      "published_year": "2025",
+      "pages": 186,
       "original_title": "",
       "translators": [
         "Bredenkamp, Christine",
@@ -2462,7 +2315,7 @@
       ],
       "series": "",
       "record_count": 24,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-20"
     },
     "Wenn die Kraniche nach Süden ziehen|Lisa Ridzén": {
       "dnb_title": "Wenn die Kraniche nach Süden ziehen",
@@ -4849,7 +4702,7 @@
       "translators": [],
       "series": "",
       "record_count": 1,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-20"
     },
     "Vergiss mich|Alex Schulman": {
       "dnb_title": "Vergiss mich",
@@ -6372,7 +6225,7 @@
       "translators": [],
       "series": "KiWi",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-20"
     },
     "Sieben Tage Sommer|Thommie Bayer": {
       "dnb_title": "Sieben Tage Sommer",
@@ -6799,11 +6652,10 @@
       "fetched_at": "2026-08-13"
     },
     "23 Uhr 12|Adeline Dieudonné": {
-      "dnb_title": "23 Uhr 12 – Menschen in einer Nacht",
-      "subtitle": "Ein Roman in zwölf Geschichten – Ein kühner literarischer Streich von der Autorin des Bestsellers ›Das wirkliche Leben‹",
-      "isbn": "9783423445726",
+      "dnb_title": "23 Uhr 12",
+      "subtitle": "Menschen in einer Nacht : ein Roman in zwölf Geschichten",
+      "isbn": "9783423290227",
       "isbn_candidates": [
-        "9783423445726",
         "9783423290227"
       ],
       "blurb": "",
@@ -6868,20 +6720,20 @@
         }
       ],
       "genre": [
-        "Erzählende Literatur: Gegenwartsliteratur ab 1945",
-        "Fiktionale Darstellung"
+        "Fiktionale Darstellung",
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
       ],
       "publisher": "dtv",
       "place": "München",
       "published_year": "2022",
-      "pages": 256,
-      "original_title": "",
+      "pages": 170,
+      "original_title": "Kerozene",
       "translators": [
         "Malafosse, Sina de"
       ],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-20"
     },
     "Über den Fluss|Theresa Pleitner": {
       "dnb_title": "Über den Fluss",
@@ -7018,7 +6870,7 @@
       ],
       "series": "",
       "record_count": 5,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-20"
     },
     "Die Eismacher|Ernest van der Kwast": {
       "dnb_title": "Die Eismacher",
@@ -8348,7 +8200,7 @@
       "translators": [],
       "series": "",
       "record_count": 7,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-20"
     },
     "Kleine Monster|Jessica Lind": {
       "dnb_title": "Kleine Monster",
@@ -8460,54 +8312,28 @@
       "fetched_at": "2026-08-13"
     },
     "Wunder|R.J. Palacio": {
-      "dnb_title": "Wunder - Julian, Christopher und Charlotte erzählen",
+      "dnb_title": "Wunder",
       "subtitle": "",
-      "isbn": "9783423626880",
+      "isbn": "9783423086547",
       "isbn_candidates": [
-        "9783423626880",
         "9783423086547",
         "9783423625890",
         "9783446241756",
         "9783948856816",
-        "9783446257245"
+        "9783446242845"
       ],
-      "blurb": "Von der Bestsellerautorin von WUNDER Julian mobbt August. Eigentlich hat er keinen Grund, so gemein zu sein, doch seit August da ist, kehren seine nächtlichen Albträume zurück. Da er mit niemandem darüber reden kann, lässt er seiner Wut freien Lauf. Christopher ist Auggies bester Freund. Nach seinem Umzug vermisst er ihn, ist aber auch froh, dass Auggie nicht mehr im Mittelpunkt steht. Charlotte kümmert sich um August, weil ihr Gerechtigkeit und Mitgefühl wichtig sind. Doch zum ersten Mal spürt sie auch Zweifel und eigene Wünsche. Durch die Begegnung mit August lernt jeder, sich mit seinen innersten Ängsten und Hoffnungen auseinanderzusetzen – und wächst daran.",
+      "blurb": "Das Buch zum Film August ist zehn Jahre alt und lebt mit seinen Eltern und seiner Schwester Via in New York. August ist schlagfertig, witzig und sensibel. Eigentlich könnte also alles ganz normal sein in seinem Leben. Doch eines trennt August von seinen Altersgenossen: Sein Gesicht ist entstellt, und unzählige Operationen hat er schon über sich ergehen lassen müssen. Das ist auch der Grund, warum er noch nie auf einer öffentlichen Schule war und bisher zu Hause unterrichtet wurde. Das neue Jahr aber soll alles ändern. August wird in die fünfte Klasse der Bezirksschule gehen, und natürlich hat er Angst. Angst davor, angestarrt und ausgegrenzt zu werden. Doch August wäre nicht August, würde er nicht auch diese Herausforderung mit Bravour meistern!",
       "keywords": [
-        "Außenseiter",
-        "Freundschaft",
-        "Kinderbuch",
         "Schule",
         "Familie",
         "einfach",
+        "Freundschaft",
         "Einfaches Deutsch",
         "Einfache Sprache",
         "Wunder",
-        "verständlich",
-        "Hanser Box",
-        "Mobbing",
-        "Neid",
-        "Jugendbuch",
-        "Kindheit",
-        "USA",
-        "Bestseller"
+        "verständlich"
       ],
       "thema": [
-        {
-          "code": "YXE",
-          "label": "Kinder/Jugendliche: Persönliche und soziale Themen: Emotionen, Stimmungen und Gefühle"
-        },
-        {
-          "code": "YXHB",
-          "label": "Kinder/Jugendliche: Persönliche und soziale Themen. Freunde und Freundschaft"
-        },
-        {
-          "code": "1KBB-US-NAKC",
-          "label": "New York City"
-        },
-        {
-          "code": "5AM",
-          "label": "empfohlenes Alter: ab 11 Jahre"
-        },
         {
           "code": "YFB",
           "label": "Kinder/Jugendliche: Gegenwartsliteratur"
@@ -8521,47 +8347,30 @@
           "label": "New York"
         },
         {
+          "code": "5AM",
+          "label": "empfohlenes Alter: ab 11 Jahre"
+        },
+        {
           "code": "FB",
           "label": "Belletristik: allgemein und literarisch"
-        },
-        {
-          "code": "5AL",
-          "label": "empfohlenes Alter: ab 10 Jahre"
-        },
-        {
-          "code": "YXK",
-          "label": "Kinder/Jugendliche: Persönliche und soziale Themen: Behinderung und besondere Förderung"
-        },
-        {
-          "code": "YFM",
-          "label": "Kinder/Jugendliche: Liebesromane, Freundschaftsromane"
-        },
-        {
-          "code": "YFS",
-          "label": "Kinder/Jugendliche: Schulromane"
-        },
-        {
-          "code": "3MR",
-          "label": "21. Jahrhundert (2000 bis 2100 n. Chr.)"
         }
       ],
       "genre": [
-        "Kinderbuch",
-        "Kinderbücher bis 11 Jahre",
+        "Jugendbuch",
         "Jugendbücher ab 12 Jahre",
-        "Jugendbuch"
+        "Kinderbücher bis 11 Jahre"
       ],
       "publisher": "dtv",
       "place": "München",
-      "published_year": "2018",
-      "pages": 413,
-      "original_title": "Auggie & me",
+      "published_year": "2017",
+      "pages": 445,
+      "original_title": "Wonder",
       "translators": [
         "Mumot, André"
       ],
       "series": "dtv",
       "record_count": 19,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-20"
     },
     "Draußen feiern die Leute|Sven Pfizenmaier": {
       "dnb_title": "Draußen feiern die Leute",
@@ -9744,7 +9553,7 @@
       ],
       "series": "",
       "record_count": 11,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-20"
     },
     "Der Club|Takis Würger": {
       "dnb_title": "Der Club",
@@ -12197,70 +12006,6 @@
       "record_count": 4,
       "fetched_at": "2026-08-13"
     },
-    "Soweit der Fluss uns trägt|Shelley Read": {
-      "dnb_title": "So weit der Fluss uns trägt",
-      "subtitle": "",
-      "isbn": "",
-      "isbn_candidates": [],
-      "blurb": "",
-      "keywords": [
-        "Natur",
-        "Rassismus",
-        "Feminismus",
-        "Bestseller",
-        "Delia Owens",
-        "Der Gesang der Flusskrebse",
-        "Resilienz",
-        "Stausee",
-        "Colorado",
-        "Nature Writing",
-        "Elk Mountains",
-        "Herkunft",
-        "atmosphärisch",
-        "episch",
-        "Zuhause",
-        "Von hier bis zum Anfang",
-        "Chris Whitaker",
-        "Bonnie Garmus",
-        "berührend",
-        "zauberhaft",
-        "Der Papierpalast",
-        "Das Flüstern der Bienen",
-        "Isabel Allende",
-        "Blockbuster",
-        "HBGENBEL: Belletristik"
-      ],
-      "thema": [
-        {
-          "code": "FBA",
-          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
-        },
-        {
-          "code": "1KBB-US-WMC",
-          "label": "Colorado"
-        },
-        {
-          "code": "3MP",
-          "label": "20. Jahrhundert (ca. 1900 bis ca. 1999)"
-        }
-      ],
-      "genre": [
-        "Hörbuch",
-        "Fiktionale Darstellung",
-        "Erzählende Literatur"
-      ],
-      "publisher": "Deutsche Nationalbibliothek",
-      "place": "Leipzig",
-      "published_year": "2025",
-      "pages": null,
-      "original_title": "Go as a river",
-      "translators": [
-        "Kuhn, Wibke"
-      ],
-      "series": "",
-      "record_count": 1,
-      "fetched_at": "2026-08-13"
-    },
     "Schnell leben|Brigitte Giraud": {
       "dnb_title": "Schnell leben",
       "subtitle": "",
@@ -13646,7 +13391,7 @@
       "translators": [],
       "series": "KiWi",
       "record_count": 1,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-20"
     },
     "Zauber der Stille|Florian Illies": {
       "dnb_title": "Zauber der Stille",
@@ -14314,7 +14059,7 @@
       "translators": [],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-20"
     },
     "Wie man unsterblich wird|Sally Nicholls": {
       "dnb_title": "Wie man unsterblich wird",
@@ -15221,7 +14966,7 @@
       "translators": [],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-20"
     },
     "Der Geschmack der Sehnsucht|Kim Thúy": {
       "dnb_title": "Der Geschmack der Sehnsucht",
@@ -17543,6 +17288,107 @@
       "series": "",
       "record_count": 3,
       "fetched_at": "2026-08-13"
+    },
+    "So weit der Fluss uns trägt|Shelley Read": {
+      "dnb_title": "So weit der Fluss uns trägt",
+      "subtitle": "Roman",
+      "isbn": "9783570105139",
+      "isbn_candidates": [
+        "9783570105139",
+        "9783328112761",
+        "9783641304614"
+      ],
+      "blurb": "»Niemand wird den Geschmack der süßen Pfirsiche aus Colorado je wieder vergessen, der diesen beeindruckenden Debütroman gelesen hat.« Denis Scheck, Tagesspiegel Am Fuße der Berge Colorados strömt der Gunnison River an einer alten Pfirsichfarm vorbei. Hier lebt in den 1940ern die 17-jährige Victoria mit ihrem Vater und ihrem Bruder in rauer Abgeschiedenheit. Doch der Tag, an dem sie dem freiheitsliebenden Wil begegnet, verändert alles. Bald ist Victoria gezwungen, das Leben, das sie kennt, aufzugeben und in die Wildnis zu fliehen. Dort muss sie ums Überleben kämpfen – um ihr eigenes und um das ihres ungeborenen Kindes. Als sie endlich die Kraft findet, neu anzufangen, droht der Fluss, alles zu zerstören, was ihrer Familie seit Generationen ein Zuhause war. Ein bewegender Roman über unsere Verbindung zur Natur, über Familie und die Stärke einer Frau, die Unglaubliches erlebt und doch niemals den Mut verliert. »Shelley Reads Heldin ist toll, die Naturszenen großartig, aber, Achtung: Ich hab mehr als ein Taschentuch gebraucht bis zum bewegenden Ende!« EMOTION",
+      "keywords": [
+        "Natur",
+        "Rassismus",
+        "Feminismus",
+        "Bestseller",
+        "Delia Owens",
+        "Der Gesang der Flusskrebse",
+        "Resilienz",
+        "Stausee",
+        "Colorado",
+        "Amerika",
+        "Nature Writing",
+        "Familiendrama",
+        "Elk Mountains",
+        "Familie",
+        "Herkunft",
+        "Familienepos",
+        "atmosphärisch",
+        "episch",
+        "Berge",
+        "USA",
+        "Heimat",
+        "Zuhause",
+        "Von hier bis zum Anfang",
+        "Familiengeschichte",
+        "Chris Whitaker",
+        "ergreifend",
+        "40er Jahre",
+        "Bonnie Garmus",
+        "berührend",
+        "Der Papierpalast",
+        "Das Flüstern der Bienen",
+        "Blockbuster",
+        "Bestseller 2023",
+        "Buchhändlerliebling",
+        "Go as a river",
+        "Buchtipp 2023",
+        "Huckleberry Finn",
+        "Fänger im Roggen",
+        "Naturliebe",
+        "naturverbunden",
+        "Leben mit der Natur",
+        "ebooks",
+        "neuerscheinung",
+        "buch",
+        "bücher",
+        "weihnachtsgeschenke",
+        "weihnachtsgeschenke kleinigkeiten",
+        "weihnachten",
+        "weihnachtsgeschenke für frauen",
+        "urlaubsromane für frauen",
+        "aus der mitte entspringt ein fluss"
+      ],
+      "thema": [
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
+        },
+        {
+          "code": "1KBB-US-WMC",
+          "label": "Colorado"
+        },
+        {
+          "code": "3MP",
+          "label": "20. Jahrhundert (ca. 1900 bis ca. 1999)"
+        },
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik"
+        },
+        {
+          "code": "3MP",
+          "label": "20. Jahrhundert (1900 bis 1999 n. Chr.)"
+        }
+      ],
+      "genre": [
+        "Fiktionale Darstellung",
+        "Erzählende Literatur"
+      ],
+      "publisher": "C. Bertelsmann",
+      "place": "München",
+      "published_year": "2023",
+      "pages": 366,
+      "original_title": "Go as a river",
+      "translators": [
+        "Kuhn, Wibke"
+      ],
+      "series": "",
+      "record_count": 7,
+      "fetched_at": "2026-08-20"
     }
   }
 }

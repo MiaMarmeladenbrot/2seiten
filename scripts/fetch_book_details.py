@@ -12,9 +12,15 @@ Usage:
     .venv/bin/python scripts/fetch_book_details.py            # only missing ones
     .venv/bin/python scripts/fetch_book_details.py --force    # fetch everything again
     .venv/bin/python scripts/fetch_book_details.py --limit 10 # try a few first
+    .venv/bin/python scripts/fetch_book_details.py --only Wunder --only Frankie
 
 Query syntax matters: tit="<title>" and atr=<surname>. Quoting the full author
 name returns zero records, and WOE= does not work at all.
+
+The title search matches prefixes, because DNB spells some titles differently
+("Dreimeterdreissig", "Das Eis-Schloss"). That also drags in sequels, companion
+volumes and box sets, so records whose title is the searched one are preferred
+and only fall back to prefix hits when no such record exists.
 """
 
 import argparse
@@ -39,6 +45,7 @@ USER_AGENT = "2seiten-fanproject/0.1 (private hobby project; podcast book index)
 
 MAX_RECORDS = 40
 AUTHOR_ONLY_RECORDS = 60
+DISTINCTIVE_WORD_ATTEMPTS = 3
 REQUEST_PAUSE = 0.4
 BLURB_MIN_CHARS = 150
 BLURB_MAX_CHARS = 6000
@@ -93,6 +100,24 @@ STUDY_KEYWORD_MARKERS = (
     "schullektüre",
     "klassenlektüre",
     "abiturprüfung",
+)
+
+SIDE_EDITION_TITLE_MARKERS = (
+    "leseprobe",
+    "alle bände",
+    "alle fünf bände",
+    "alle vier bände",
+    "alle drei bände",
+    "sämtliche",
+    "gesamtausgabe",
+    "sammelband",
+    "sammelausgabe",
+    "die box",
+    "band 1-",
+    "teil 1-",
+    "bände 1-",
+    "romane in einem band",
+    "in einem band",
 )
 
 KEYWORD_BLOCKLIST = {
@@ -241,7 +266,13 @@ def parse_record(record):
             parsed["is_audio"] = True
 
     parsed["study_edition_score"] = study_edition_score(parsed)
+    parsed["is_side_edition"] = is_side_edition(parsed)
     return parsed
+
+
+def is_side_edition(parsed):
+    title_and_subtitle = f"{parsed['title']} {parsed['subtitle']}".lower()
+    return any(marker in title_and_subtitle for marker in SIDE_EDITION_TITLE_MARKERS)
 
 
 def study_edition_score(parsed):
@@ -266,6 +297,13 @@ def title_matches(searched, found):
         return True
     ca, cb = compact_title(searched), compact_title(found)
     return bool(ca) and bool(cb) and (ca == cb or cb.startswith(ca) or ca.startswith(cb))
+
+
+def titles_are_same_work(searched, found):
+    a, b = normalize_title(searched), normalize_title(found)
+    if not a or not b:
+        return False
+    return a == b or compact_title(searched) == compact_title(found)
 
 
 def run_query(query, max_records=MAX_RECORDS):
@@ -298,12 +336,12 @@ def find_matching_records(title, author):
         attempts.append((f'tit="{punctuation_free}" and atr={name}', False, MAX_RECORDS))
     attempts.append((f'tit="{title}"', True, MAX_RECORDS))
 
-    distinctive_word = next(
-        (w for w in punctuation_free.split() if len(w) >= 4),
-        punctuation_free.split()[0] if punctuation_free else "",
-    )
-    if distinctive_word:
-        attempts.append((f"tit={distinctive_word} and atr={name}", False, MAX_RECORDS))
+    words = punctuation_free.split()
+    distinctive_words = sorted(
+        (w for w in words if len(w) >= 4), key=len, reverse=True
+    ) or words[:1]
+    for word in distinctive_words[:DISTINCTIVE_WORD_ATTEMPTS]:
+        attempts.append((f"tit={word} and atr={name}", False, MAX_RECORDS))
 
     attempts.append((f"atr={name}", False, AUTHOR_ONLY_RECORDS))
 
@@ -329,6 +367,7 @@ def record_rank(parsed):
     german_print = any(i.startswith("9783") for i in parsed["isbns"])
     return (
         parsed["study_edition_score"],
+        0 if not parsed["is_side_edition"] else 1,
         0 if german_print else 1,
         0 if not parsed["is_audio"] else 1,
         0 if parsed["blurb_links"] else 1,
@@ -374,7 +413,9 @@ def build_detail(title, author):
         return None, "kein passender Datensatz"
 
     records = matching
-    usable = [r for r in matching if not r["is_audio"]] or matching
+    usable = [r for r in matching if titles_are_same_work(title, r["title"])] or matching
+    usable = [r for r in usable if not r["is_side_edition"]] or usable
+    usable = [r for r in usable if not r["is_audio"]] or usable
     usable = [r for r in usable if r["study_edition_score"] == 0] or usable
     usable.sort(key=record_rank)
     best = usable[0]
@@ -457,6 +498,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--limit", type=int, default=0)
+    parser.add_argument("--only", action="append", default=[], metavar="TITEL")
     args = parser.parse_args()
 
     data = json.loads(BOOKS_FILE.read_text(encoding="utf-8"))
@@ -467,7 +509,26 @@ def main():
     ]
 
     details = {} if args.force else load_existing()
-    todo = [entry for entry in all_books if entry[0] not in details]
+
+    known_keys = {key for key, _, _ in all_books}
+    orphaned = sorted(set(details) - known_keys)
+    for key in orphaned:
+        del details[key]
+    if orphaned:
+        print(f"{len(orphaned)} Einträge zu nicht mehr vorhandenen Büchern entfernt:")
+        for key in orphaned:
+            print(f"  {key}")
+        print()
+
+    if args.only:
+        wanted = [needle.lower() for needle in args.only]
+        todo = [
+            entry
+            for entry in all_books
+            if any(needle in entry[1].lower() for needle in wanted)
+        ]
+    else:
+        todo = [entry for entry in all_books if entry[0] not in details]
     if args.limit:
         todo = todo[: args.limit]
 

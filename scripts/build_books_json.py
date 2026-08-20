@@ -597,7 +597,7 @@ EXTRACTIONS: dict[str, dict] = {
     "8fc9446c369e50cfb6b0bf9548de757e": {
         "topic": "Zufall",
         "books": [
-            ("Soweit der Fluss uns trägt", "Shelley Read", "Mona", "Hauptempfehlung"),
+            ("So weit der Fluss uns trägt", "Shelley Read", "Mona", "Hauptempfehlung"),
             ("Schnell leben", "Brigitte Giraud", "Christine", "Hauptempfehlung"),
         ],
     },

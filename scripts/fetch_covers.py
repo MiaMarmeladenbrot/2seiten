@@ -152,6 +152,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--limit", type=int, default=0)
+    parser.add_argument("--prune-files", action="store_true")
     args = parser.parse_args()
 
     COVER_DIR.mkdir(parents=True, exist_ok=True)
@@ -172,6 +173,15 @@ def main():
         except json.JSONDecodeError:
             manifest = {}
 
+    orphaned = sorted(set(manifest) - set(details))
+    for key in orphaned:
+        del manifest[key]
+    if orphaned:
+        print(f"{len(orphaned)} Manifest-Einträge ohne Buch entfernt:")
+        for key in orphaned:
+            print(f"  {key}")
+        print()
+
     unknown_overrides = sorted(set(overrides) - set(details))
     if unknown_overrides:
         print(f"WARNUNG: {len(unknown_overrides)} Override-Schlüssel passen zu keinem Buch:")
@@ -182,20 +192,22 @@ def main():
     todo = []
     for key, detail in details.items():
         pinned = overrides.get(key)
+        candidates = detail.get("isbn_candidates") or (
+            [detail["isbn"]] if detail.get("isbn") else []
+        )
         wanted = f"{pinned}.jpg" if pinned else manifest.get(key)
+        stale = wanted is not None and not pinned and Path(wanted).stem not in candidates
         already_there = (
             wanted is not None
             and manifest.get(key) == wanted
             and (COVER_DIR / wanted).exists()
+            and not stale
         )
         if already_there and not args.force:
             continue
         if pinned:
             todo.append((key, [pinned], True))
             continue
-        candidates = detail.get("isbn_candidates") or (
-            [detail["isbn"]] if detail.get("isbn") else []
-        )
         if candidates:
             todo.append((key, candidates, False))
 
@@ -239,6 +251,21 @@ def main():
         json.dumps(dict(sorted(manifest.items())), ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+
+    referenced = set(manifest.values()) | {f"{isbn}.jpg" for isbn in overrides.values()}
+    unreferenced = sorted(
+        f for f in COVER_DIR.glob("*.jpg") if f.name not in referenced
+    )
+    if unreferenced:
+        wasted = sum(f.stat().st_size for f in unreferenced) // 1024
+        verb = "Gelöscht" if args.prune_files else "Nicht mehr verwendet"
+        print(f"\n{verb} ({len(unreferenced)}, {wasted} KB):")
+        for path in unreferenced:
+            print(f"  {path.name}")
+            if args.prune_files:
+                path.unlink()
+        if not args.prune_files:
+            print("  Zum Aufräumen: scripts/fetch_covers.py --prune-files")
 
     on_disk = sum(f.stat().st_size for f in COVER_DIR.glob("*.jpg"))
     print(f"\nGeschrieben: {COVER_DIR}")
