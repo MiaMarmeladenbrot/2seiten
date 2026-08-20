@@ -43,9 +43,6 @@ type Extractor = (
   opts: { pooling: 'mean'; normalize: boolean },
 ) => Promise<{ data: Float32Array }>;
 
-// Both the model and the vector file are loaded lazily and only once — the first
-// search pays the cost (model download ~30–50 MB, cached afterwards), browsing
-// and filtering never load anything.
 let modelReady = false;
 const modelReadyListeners = new Set<() => void>();
 

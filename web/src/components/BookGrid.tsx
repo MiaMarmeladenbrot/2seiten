@@ -35,8 +35,8 @@ export function BookGrid({ books, loading = false, stale = false }: Props) {
 
   return (
     <main className={stale ? 'grid is-stale' : 'grid'}>
-      {books.map((b, i) => (
-        <BookCard key={`${b.title}|${b.author}|${i}`} book={b} />
+      {books.map((b) => (
+        <BookCard key={`${b.title}|${b.author}`} book={b} />
       ))}
     </main>
   );
