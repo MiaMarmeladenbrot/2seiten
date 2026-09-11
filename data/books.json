@@ -11,10 +11,54 @@
       "Mona": "Mona Ameziane",
       "both": "von beiden gemeinsam empfohlen"
     },
-    "total_episodes": 108,
-    "total_books": 218
+    "total_episodes": 110,
+    "total_books": 222
   },
   "episodes": [
+    {
+      "guid": "/238dc3f0aacff8532bc8f945772ccf3f",
+      "title": "Erde – übers Umgraben und Aufwühlen",
+      "published": "2026-09-08T00:10:00+00:00",
+      "topic": "Erde",
+      "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-erde-uebers-umgraben-und-aufwuehlen-100.html",
+      "audio_url": "https://wdrmedien-a.akamaihd.net/media/p/public/weltweit/2026/09/07/7243d8e5-9a7f-4e4a-b8db-724ec37c87c5/7243d8e5-9a7f-4e4a-b8db-724ec37c87c5_MP3-160.mp3",
+      "books": [
+        {
+          "title": "Der Einsiedlersommer",
+          "author": "Anne Sverdrup-Thygeson",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
+        },
+        {
+          "title": "Die Bagage",
+          "author": "Monika Helfer",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
+        }
+      ]
+    },
+    {
+      "guid": "/fe896b9945b5f9d6befc1f5eb3de775e",
+      "title": "Verbote – über das, was nicht erlaubt ist",
+      "published": "2026-08-25T00:10:00+00:00",
+      "topic": "Verbote",
+      "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-verbote-ueber-das-was-nicht-erlaubt-ist-100.html",
+      "audio_url": "https://wdrmedien-a.akamaihd.net/media/p/public/weltweit/2026/08/21/3f1ef6c4-e008-4e80-abfb-e7e1b33ecd06/3f1ef6c4-e008-4e80-abfb-e7e1b33ecd06_MP3-160.mp3",
+      "books": [
+        {
+          "title": "Ilaria",
+          "author": "Gabriella Zalapi",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
+        },
+        {
+          "title": "Fünf Tage im Licht",
+          "author": "Rhiannon Lucy Cosslett",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
+        }
+      ]
+    },
     {
       "guid": "/41e9ac6b35be8ffcaed10941a65356c2",
       "title": "Magie – über Übernatürliches",

@@ -3,10 +3,10 @@
     "source": "Deutsche Nationalbibliothek, SRU-Schnittstelle (MARC21)",
     "endpoint": "https://services.dnb.de/sru/dnb",
     "note": "Klappentexte sind geschützte Verlagstexte — nur zum Bau des Suchindex verwenden, nicht anzeigen.",
-    "total": 218,
-    "with_blurb": 186,
-    "with_keywords": 206,
-    "with_isbn": 218
+    "total": 222,
+    "with_blurb": 189,
+    "with_keywords": 210,
+    "with_isbn": 222
   },
   "books": {
     "Tintenherz|Cornelia Funke": {
@@ -17389,6 +17389,495 @@
       "series": "",
       "record_count": 7,
       "fetched_at": "2026-08-20"
+    },
+    "Der Einsiedlersommer|Anne Sverdrup-Thygeson": {
+      "dnb_title": "Der Einsiedlersommer",
+      "subtitle": "Roman | Der beeindruckende Sommerroman aus Norwegen über die heilsame Kraft von Freundschaft und Natur: »Niemand schreibt über die Natur wie Anne Sverdrup-Thygeson« Maja Lunde",
+      "isbn": "9783423285667",
+      "isbn_candidates": [
+        "9783423285667",
+        "9783423450607"
+      ],
+      "blurb": "Zwei Frauen, zwei Generationen &#xa0; und&#xa0;die &#xa0; heilsame Kraft von Freundschaft und Natur Nach einem schmerzhaften Verlust zieht sich Eva Wist aus Oslo in ein Dorf in Vestfold zurück, um den als ausgestorben geltenden Eremitenkäfer zu suchen. Dort begegnet die 33-jährige Biologin ihrer neuen Nachbarin, der exzentrischen Olga. Die 76-Jährige lebt als Einsiedlerin inmitten des uralten Eichenwaldes. Auf ihrem Grundstück soll ein Steinbruch entstehen. Das Projekt verspricht Arbeitsplätze und eine Zukunft für die Region. Doch Olga will das verhindern: Für sie ist der Wald lebendige Erinnerung – und der Schlüssel zu einem Familiengeheimnis, das sie endlich aufklären will. Während Eva die Artenvielfalt erkundet und mit Olga Freundschaft schließt, findet sie Schritt für Schritt aus der Trauer und ringt um die Frage, was bewahrt werden muss – im Leben wie in der Natur.",
+      "keywords": [
+        "Nature Writing",
+        "Healing Fiction",
+        "historische Romane",
+        "Buchclub-Roman",
+        "Norwegen",
+        "vestfold",
+        "Familiengeheimnis",
+        "frauen-freundschaft",
+        "Romane wie Gesang der Flusskrebse",
+        "Romane wie die Hummerfrauen",
+        "skandinavische Literatur",
+        "norwegische Literatur",
+        "Lisa Ridzén",
+        "Wenn die Kraniche nach Süden ziehen",
+        "Romane wie Geschichte der Bienen",
+        "roman für frauen",
+        "literarischer roman",
+        "Biodiversität",
+        "Artenschutz",
+        "Eremitenkäfer",
+        "Nachhaltigkeit",
+        "natur-roman",
+        "umwelt-roman",
+        "Maja Lunde",
+        "Delia Owens",
+        "Trude Teige Romane",
+        "gegenwartsroman",
+        "Neuanfang",
+        "Alteichenwald",
+        "Trauerbewältigung",
+        "Erinnerungskultur",
+        "Trauma überwinden",
+        "Umweltaktivismus",
+        "sommer",
+        "Dorfchronik",
+        "Kommunalpolitik",
+        "Umwelt vs. Fortschritt",
+        "Frauenperspektiven",
+        "Mikrokosmos Dorf",
+        "Heilung",
+        "Erneuerung",
+        "Generationenbindung",
+        "Steinbruch-Konflikt",
+        "Familiengeheimnis Roman",
+        "Beziehungskrise",
+        "Naturverbundene Erzählung",
+        "Zweiter Weltkrieg Skandinavien",
+        "Alte Eichen",
+        "gesellschaftsroman",
+        "Kindesverlust",
+        "Frauenfreundschaft",
+        "Frauenfreundschaft Roman",
+        "Naturkundliches",
+        "Vergangenheitsbewältigung",
+        "romane wie wenn die kraniche nach süden ziehen",
+        "gehobene Frauenunterhaltung",
+        "anspruchsvolle Unterhaltung",
+        "Skandinavien"
+      ],
+      "thema": [
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
+        },
+        {
+          "code": "FXD",
+          "label": "Belletristik: Themen, Stoffe, Motive: Liebe und Beziehungen"
+        },
+        {
+          "code": "FXL",
+          "label": "Belletristik: Themen, Stoffe, Motive: Tod, Trauer, Verlust"
+        },
+        {
+          "code": "FXE",
+          "label": "Belletristik: Themen, Stoffe, Motive: Umwelt / Natur"
+        },
+        {
+          "code": "JBF",
+          "label": "Soziale und ethische Themen"
+        },
+        {
+          "code": "FYT",
+          "label": "Belletristik in Übersetzung"
+        },
+        {
+          "code": "FXN",
+          "label": "Erzählerisches Thema: Identität / Zugehörigkeit"
+        },
+        {
+          "code": "1DNN",
+          "label": "Norwegen"
+        },
+        {
+          "code": "1DNN-NO-XV",
+          "label": "Vestfold"
+        },
+        {
+          "code": "3MRBF",
+          "label": "ca. 2010 bis ca. 2019"
+        },
+        {
+          "code": "3MPBLB",
+          "label": "Periode des Zweiten Weltkrieges (ca. 1938 bis ca. 1946)"
+        }
+      ],
+      "genre": [
+        "Erzählende Literatur"
+      ],
+      "publisher": "dtv Verlagsgesellschaft",
+      "place": "München",
+      "published_year": "2026",
+      "pages": 480,
+      "original_title": "",
+      "translators": [
+        "(isni)0000000383937730",
+        "Hüther, Franziska",
+        "Pröfrock, Nora"
+      ],
+      "series": "",
+      "record_count": 2,
+      "fetched_at": "2026-09-11"
+    },
+    "Die Bagage|Monika Helfer": {
+      "dnb_title": "Die Bagage",
+      "subtitle": "Roman",
+      "isbn": "9783446282940",
+      "isbn_candidates": [
+        "9783446282940",
+        "9783423254472",
+        "9783423148016",
+        "9783446267329",
+        "9783446265622",
+        "9783763271917"
+      ],
+      "blurb": "»Ein kleines Buch, doch man liest lange darin, denn jeder Satz klingt nach in verschwommener, unbeschreiblicher Schönheit.« NDR Kultur I Jetzt im Geschenk- und Taschenformat! Josef und Maria Moosbrugger leben mit ihren Kindern am Rand eines Bergdorfes. Sie sind die Abseitigen, die Armen, die Bagage. Es ist die Zeit des Ersten Weltkriegs und Josef wird zur Armee eingezogen. Die Zeit, in der Maria und die Kinder allein zurückbleiben und abhängig werden vom Schutz des Bürgermeisters. Die Zeit, in der Georg aus Hannover in die Gegend kommt, der nicht nur hochdeutsch spricht und wunderschön ist, sondern eines Tages auch an die Tür der Bagage klopft. Und es ist die Zeit, in der Maria schwanger wird mit Grete, dem Kind der Familie, mit dem Josef nie ein Wort sprechen wird: der Mutter der Autorin. Mit großer Wucht erzählt Monika Helfer die Geschichte ihrer eigenen Herkunft.",
+      "keywords": [
+        "Dorf",
+        "Voralberg",
+        "Außenseiter",
+        "Emanzipation",
+        "Familiengeschichte",
+        "Herkunft",
+        "Österreich",
+        "Spiegel Bestseller",
+        "Vergangenheit",
+        "Weltkrieg",
+        "Michael Köhlmeier",
+        "Kriegskinder",
+        "Bergroman",
+        "Erster Weltkrieg",
+        "Frauen",
+        "Kind",
+        "Mutterschaft",
+        "Vorarlberg",
+        "Familiengeheimnis",
+        "Bestseller",
+        "Bestsellerautorin",
+        "Bergdorf",
+        "Frauenschicksal",
+        "Kriegsenkel",
+        "Lebensgeschichte",
+        "Liebe",
+        "Eifersucht",
+        "Solothurner",
+        "Literaturpreis",
+        "Schubart-Literaturpreis",
+        "Stammbaumforschung",
+        "autobiographischer Familienroman",
+        "autobiographischer Roman",
+        "Dorfroman",
+        "Familie Moosbrugger",
+        "Familienroman",
+        "Geschichte ihrer Herkunft",
+        "Heimatroman",
+        "Landleben",
+        "Regionalroman",
+        "Spiegel-Bestseller",
+        "Hebel-Preis",
+        "Johann-Peter-Hebel-Preis",
+        "#ohnefolie",
+        "20. Jahrhundert",
+        "Betrug",
+        "Biographie",
+        "Schwangerschaft"
+      ],
+      "thema": [
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
+        },
+        {
+          "code": "FS",
+          "label": "Familienleben"
+        },
+        {
+          "code": "FT",
+          "label": "Generationenromane, Familiensagas"
+        },
+        {
+          "code": "FV",
+          "label": "Historischer Roman"
+        },
+        {
+          "code": "FXB",
+          "label": "Belletristik: Themen, Stoffe, Motive: Heranwachsen"
+        },
+        {
+          "code": "FXD",
+          "label": "Belletristik: Themen, Stoffe, Motive: Liebe und Beziehungen"
+        },
+        {
+          "code": "FXS",
+          "label": "Belletristik: Themen, Stoffe, Motive: Soziales"
+        },
+        {
+          "code": "NHWR5",
+          "label": "Erster Weltkrieg"
+        },
+        {
+          "code": "1DFA",
+          "label": "Österreich"
+        },
+        {
+          "code": "3MPB",
+          "label": "Erste Hälfte 20. Jahrhundert (ca. 1900 bis ca. 1950)"
+        },
+        {
+          "code": "FB",
+          "label": "Belletristik: allgemein und literarisch"
+        },
+        {
+          "code": "FC",
+          "label": "Biografischer Roman / Autobiografischer Roman"
+        },
+        {
+          "code": "3MPB",
+          "label": "Erste Hälfte 20. Jahrhundert (1900 bis 1950 n. Chr.)"
+        },
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik"
+        },
+        {
+          "code": "FC",
+          "label": "Biografischer Roman"
+        }
+      ],
+      "genre": [
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945",
+        "Fiktionale Darstellung",
+        "Erzählende Literatur"
+      ],
+      "publisher": "Hanser, Carl",
+      "place": "München",
+      "published_year": "2026",
+      "pages": 208,
+      "original_title": "",
+      "translators": [],
+      "series": "Kleine Reihe Hanser",
+      "record_count": 7,
+      "fetched_at": "2026-09-11"
+    },
+    "Ilaria|Gabriella Zalapi": {
+      "dnb_title": "Ilaria",
+      "subtitle": "Roman",
+      "isbn": "9783518432693",
+      "isbn_candidates": [
+        "9783518432693",
+        "9783518786659"
+      ],
+      "blurb": "",
+      "keywords": [
+        "Road Novel",
+        "Vater-Tochter-Beziehung",
+        "Scheidung",
+        "Trauma",
+        "Sizilien",
+        "Triest",
+        "Rom",
+        "Norditalien",
+        "Kindheit",
+        "Entführung",
+        "1980er Jahre",
+        "Alkoholismus",
+        "Annie Ernaux",
+        "Bologna",
+        "coup de coeur",
+        "Fleur Jaeggy",
+        "Lolita",
+        "Roadtrip",
+        "Sehnsucht",
+        "Väter und Töchter",
+        "Vladimir Nabokov",
+        "Emilia Romagna",
+        "Friaul-Julisch Venetien",
+        "Ilaria ou la conquête de la désobéissance deutsch",
+        "Italien",
+        "Lazio",
+        "Mittelitalien",
+        "Südeuropa",
+        "Süditalien und italienische Inseln"
+      ],
+      "thema": [
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
+        },
+        {
+          "code": "FYT",
+          "label": "Belletristik in Übersetzung"
+        },
+        {
+          "code": "FXB",
+          "label": "Belletristik: Themen, Stoffe, Motive: Heranwachsen"
+        },
+        {
+          "code": "FXD",
+          "label": "Belletristik: Themen, Stoffe, Motive: Liebe und Beziehungen"
+        },
+        {
+          "code": "FYP",
+          "label": "Belletristik: basierend auf wahren Begebenheiten"
+        },
+        {
+          "code": "1DST-IT-N",
+          "label": "Norditalien"
+        },
+        {
+          "code": "1DST-IT-TZR",
+          "label": "Rom"
+        },
+        {
+          "code": "1DST-IT-UL",
+          "label": "Sizilien"
+        },
+        {
+          "code": "1DST-IT-NFT",
+          "label": "Triest"
+        },
+        {
+          "code": "1DST-IT-TGB",
+          "label": "Bologna"
+        },
+        {
+          "code": "3MPQX",
+          "label": "ca. 1980 bis ca. 1989"
+        },
+        {
+          "code": "FBA",
+          "label": "Modern and contemporary fiction: literary and general"
+        },
+        {
+          "code": "FYT",
+          "label": "Fiction in translation"
+        },
+        {
+          "code": "FXB",
+          "label": "Narrative theme: coming of age"
+        },
+        {
+          "code": "FXD",
+          "label": "Narrative theme: love / relationships"
+        },
+        {
+          "code": "FYP",
+          "label": "Fiction based on or inspired by true events"
+        },
+        {
+          "code": "1DST-IT-N",
+          "label": "Northern Italy"
+        },
+        {
+          "code": "1DST-IT-TZR",
+          "label": "Rome"
+        },
+        {
+          "code": "1DST-IT-UL",
+          "label": "Sicily"
+        },
+        {
+          "code": "1DST-IT-NFT",
+          "label": "Trieste"
+        }
+      ],
+      "genre": [
+        "Fiktionale Darstellung",
+        "Erzählende Literatur",
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
+      ],
+      "publisher": "Suhrkamp Verlag",
+      "place": "Berlin",
+      "published_year": "2026",
+      "pages": 162,
+      "original_title": "Ilaria",
+      "translators": [
+        "(isni)0000000382080501"
+      ],
+      "series": "",
+      "record_count": 2,
+      "fetched_at": "2026-09-11"
+    },
+    "Fünf Tage im Licht|Rhiannon Lucy Cosslett": {
+      "dnb_title": "Fünf Tage im Licht",
+      "subtitle": "Ein flirrender Sommerroman: Vier Freundinnen auf einer griechischen Insel und ein Gemälde, das alles verändert.",
+      "isbn": "9783463000886",
+      "isbn_candidates": [
+        "9783463000886",
+        "9783644026186"
+      ],
+      "blurb": "Die aufgeladene Stimmung eines heißen Sommers, eine geheime Affäre und ein Porträt mit explosiver Wirkung. Die Malerin Sophie verbringt den Sommer mit drei Freundinnen auf der griechischen Insel Sifnos. Eine von ihnen wird bald heiraten, es ist das letzte Mal, dass sie als unverheiratete Frauen zusammen sind. Fünf Tage, dann kommen die jeweiligen Partner nach.&#xa0; Sophie genießt die trägen Tage in der Sommerhitze − und die Auszeit von ihrem Freund Greg, der sie mit seinem Kinderwunsch unter Druck setzt. Jeden Morgen geht sie runter ans Meer zum Schwimmen und begegnet dort dem Griechen Ky. Beide fühlen sich auf Anhieb zueinander hingezogen. Eine intensive Affäre beginnt, in der Sophie sich immer mehr verliert. Unterdessen arbeitet Sophie an einem Aktporträt ihrer Freundin Alessia, doch zwischen den beiden Frauen entstehen Unstimmigkeiten, die sich von Tag zu Tag intensivieren. Sowohl das Gemälde als auch die Affäre stellen alles infrage, was Sophie zu wissen glaubt. Als Greg mit den anderen Männern auf die Insel kommt, droht die Situation zu eskalieren …",
+      "keywords": [
+        "Griechenland Roman",
+        "Sommer in Griechenland",
+        "Griechische Insel",
+        "Sifnos",
+        "Urlaubsroman",
+        "Strandlektüre",
+        "Sommerroman",
+        "Roman für Frauen",
+        "Urlaubslektüre mit Tiefgang",
+        "Freundinnen Roman",
+        "Beziehungsroman",
+        "Zeitgenössische Literatur für Frauen",
+        "Sommerlektüre",
+        "Frauenfreundschaft",
+        "Geheimnisse unter Freundinnen",
+        "verbotene liebe",
+        "Affäre",
+        "Fremdgehen",
+        "Kinderwunsch",
+        "Selbstfindung",
+        "Beziehungskrise",
+        "Lebensentscheidungen",
+        "Der Papierpalast",
+        "intelligenter Sommer-Roman",
+        "female",
+        "nude deutsch"
+      ],
+      "thema": [
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
+        },
+        {
+          "code": "FRD",
+          "label": "Moderne und zeitgenössische Liebesromane"
+        },
+        {
+          "code": "FYT",
+          "label": "Belletristik in Übersetzung"
+        },
+        {
+          "code": "FXM",
+          "label": "Belletristik: Themen, Stoffe, Motive: Seelenleben"
+        },
+        {
+          "code": "FXD",
+          "label": "Belletristik: Themen, Stoffe, Motive: Liebe und Beziehungen"
+        },
+        {
+          "code": "1DXG",
+          "label": "Griechenland"
+        }
+      ],
+      "genre": [
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
+      ],
+      "publisher": "ROWOHLT Kindler",
+      "place": "Hamburg",
+      "published_year": "2026",
+      "pages": 304,
+      "original_title": "Female, Nude",
+      "translators": [
+        "Längsfeld, Sabine"
+      ],
+      "series": "",
+      "record_count": 3,
+      "fetched_at": "2026-09-11"
     }
   }
 }

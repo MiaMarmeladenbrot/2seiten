@@ -27,6 +27,20 @@ OUT_FILE = DATA_DIR / "books.json"
 # Extractions per episode, identified by GUID.
 # Format: GUID -> {topic, books: [(title, author, recommended_by, role)]}
 EXTRACTIONS: dict[str, dict] = {
+    "/238dc3f0aacff8532bc8f945772ccf3f": {
+        "topic": "Erde",
+        "books": [
+            ("Der Einsiedlersommer", "Anne Sverdrup-Thygeson", "Mona", "Hauptempfehlung"),
+            ("Die Bagage", "Monika Helfer", "Christine", "Hauptempfehlung"),
+        ],
+    },
+    "/fe896b9945b5f9d6befc1f5eb3de775e": {
+        "topic": "Verbote",
+        "books": [
+            ("Ilaria", "Gabriella Zalapi", "Christine", "Hauptempfehlung"),
+            ("Fünf Tage im Licht", "Rhiannon Lucy Cosslett", "Mona", "Hauptempfehlung"),
+        ],
+    },
     "/41e9ac6b35be8ffcaed10941a65356c2": {
         "topic": "Magie",
         "books": [
