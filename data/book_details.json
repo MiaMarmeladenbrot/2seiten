@@ -3,10 +3,10 @@
     "source": "Deutsche Nationalbibliothek, SRU-Schnittstelle (MARC21)",
     "endpoint": "https://services.dnb.de/sru/dnb",
     "note": "Klappentexte sind geschützte Verlagstexte — nur zum Bau des Suchindex verwenden, nicht anzeigen.",
-    "total": 222,
-    "with_blurb": 189,
-    "with_keywords": 210,
-    "with_isbn": 222
+    "total": 224,
+    "with_blurb": 191,
+    "with_keywords": 212,
+    "with_isbn": 224
   },
   "books": {
     "Tintenherz|Cornelia Funke": {
@@ -17878,6 +17878,175 @@
       "series": "",
       "record_count": 3,
       "fetched_at": "2026-09-11"
+    },
+    "All die Farben, all das Licht|Cora Wucherer": {
+      "dnb_title": "All die Farben, all das Licht",
+      "subtitle": "Roman | »Eines der besten Debüts, die ich je gelesen habe« Dora Heldt",
+      "isbn": "9783608967043",
+      "isbn_candidates": [
+        "9783608967043",
+        "9783608125986"
+      ],
+      "blurb": "Ein bewegendes Debüt: zwei Schwestern, ein Roadtrip und die Frage, wie man weiterlebt, wenn sich alles ändert »Eine Geschichte voller Emotionen - großartig und beeindruckend erzählt.« Christine Westermann »Eines der besten Debüts, die ich je gelesen habe« Dora Heldt »Zwei hinreißende Schwestern in einer Geschichte voller Liebe, Mut und Hoffnung – dieser Roman hat mich glücklich gemacht.« Elena Fischer »Eine Hommage an die Liebe zwischen Geschwistern und die unbezwingbare Kraft der Kunst.«.&#xa0;Annika Büsing »Es ist eine Wucht!« Alina Bronsky Juna ist siebzehn und will trotz ihres schwindenden Augenlichts um jeden Preis Malerin werden. Martha ist dreizehn und versucht alles, um aus dem Schatten ihrer begabten Schwester zu treten. Die zwei wechseln kaum ein Wort miteinander. Doch dann verschlechtert sich Junas Diagnose, und sie erkennen, dass sie sich nur gemeinsam gegen die Welt wappnen können. Einfühlsam und kraftvoll erzählt Cora Wucherer vom unstillbaren Hunger auf das Leben und von einem Sommer, der alles verändert. Seit sie denken können, teilen sich Juna und Martha ein Zimmer in ihrer engen Familienwohnung in München-Giesing. Doch das ist auch schon alles, was die beiden Schwestern gemeinsam haben. Juna, außergewöhnlich begabt und bedroht von einer seltenen Krankheit, erfährt, dass ihr wohl nur noch wenige Monate bleiben, bis sie ihr Sehvermögen verliert. Ihr Traum, einmal eine ebenso bedeutende Künstlerin zu werden wie ihr großes Vorbild Lotte Laserstein, scheint zu zerbrechen. Ihre jüngere Schwester Martha hingegen kämpft darum, überhaupt gesehen zu werden. Mit Junas Ausweis in der Tasche ergattert sie sich einen Nebenjob in einem Kino – und damit eine völlig neue Unabhängigkeit. Als Juna unbedingt ihr Lieblingsgemälde von Lotte Laserstein in Malmö sehen will, ergreift Martha ihre Chance und organisiert eine heimliche Reise für die beiden. Was als Abenteuer beginnt, wird zu einer ungeahnten Herausforderung – und die Schwestern geraten an die Grenzen dessen, was sie voneinander zu wissen glaubten.",
+      "keywords": [
+        "Schwestern",
+        "Lotte Laserstein",
+        "Selbstfindung",
+        "Debütroman",
+        "Erste Liebe",
+        "Bücher wie Caro Wahl",
+        "Caro Wahl",
+        "Elena Fischer",
+        "Coming-of-Age",
+        "Sehbehinderung",
+        "Neuer Roman 2026",
+        "Gegenwartsliteratur",
+        "Geschwisterbeziehung",
+        "Identitätssuche",
+        "Perspektivwechsel",
+        "Usher-Syndrom",
+        "Familiendrama"
+      ],
+      "thema": [
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
+        },
+        {
+          "code": "FXB",
+          "label": "Belletristik: Themen, Stoffe, Motive: Heranwachsen"
+        },
+        {
+          "code": "FXM",
+          "label": "Belletristik: Themen, Stoffe, Motive: Seelenleben"
+        },
+        {
+          "code": "FXD",
+          "label": "Belletristik: Themen, Stoffe, Motive: Liebe und Beziehungen"
+        },
+        {
+          "code": "FS",
+          "label": "Familienleben"
+        },
+        {
+          "code": "1DFG-DE-VH",
+          "label": "Hamburg"
+        },
+        {
+          "code": "1DFG-DE-TBC",
+          "label": "München"
+        },
+        {
+          "code": "1DNS-SE-BAA",
+          "label": "Malmö"
+        },
+        {
+          "code": "5PHAB",
+          "label": "Relating to siblings"
+        },
+        {
+          "code": "5PN",
+          "label": "Relates specifically to the life experience of women or girls"
+        },
+        {
+          "code": "5PM",
+          "label": "Bezug zu Menschen mit sichtbaren oder verborgenen Behinderungen oder Beeinträchtigungen"
+        },
+        {
+          "code": "5YA",
+          "label": "Bezug zu nicht-stereotypen Geschlechterrollen"
+        },
+        {
+          "code": "5LFE",
+          "label": "Relating to older teenagers"
+        },
+        {
+          "code": "5TD-DE-A",
+          "label": "Literature of Germany"
+        }
+      ],
+      "genre": [
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
+      ],
+      "publisher": "Klett-Cotta",
+      "place": "Stuttgart",
+      "published_year": "2026",
+      "pages": 320,
+      "original_title": "",
+      "translators": [],
+      "series": "",
+      "record_count": 3,
+      "fetched_at": "2026-09-22"
+    },
+    "Wohnverwandtschaften|Isabel Bogdan": {
+      "dnb_title": "Wohnverwandtschaften",
+      "subtitle": "Roman",
+      "isbn": "9783462012477",
+      "isbn_candidates": [
+        "9783462012477",
+        "9783462004199",
+        "9783462311273"
+      ],
+      "blurb": "Ein Roman über eine Wohngemeinschaft, in der vier Menschen unterschiedlichen Alters aus unterschiedlichen Motiven zusammenleben und feststellen: Freunde sind manchmal die bessere Familie. Constanze zieht nach der Trennung von ihrem Lebensgefährten in die Wohngemeinschaft von Jörg, Anke und Murat. Was zunächst als Übergangslösung gedacht war, entpuppt sich als zunehmend stabil. Da ist Jörg, dem die Wohnung gehört und der eine große Reise plant; Anke, die als mittelalte Schauspielerin kaum noch gebucht wird und plötzlich nicht mehr die einzige Frau in der WG ist; und Murat, der sich einfach keine Sorgen machen will und dessen Lebenslust auf die anderen mitreißend und manchmal auch enervierend wirkt. Constanze sorgt als Neuankömmling dafür, dass sich die bisherige Tektonik gehörig verschiebt. Alle vier haben ihre eigenen Träume und Sehnsüchte und müssen sich irgendwann der Frage stellen, ob sie eine reine Zweck-WG sind oder doch die Wahlfamilie. In diesem virtuos komponierten, lebensklugen und humorvollen Roman kommen reihum vier grundverschiedene Menschen zu Wort, die jeweils auf ihre Weise ihre Lebensentwürfe neu justieren müssen.",
+      "keywords": [
+        "Wohngemeinschaft",
+        "Senioren-Wohngemeinschaft",
+        "WG",
+        "Freunde als Familie",
+        "chosen family",
+        "Alter",
+        "Altern",
+        "Zusammenleben",
+        "Wahlfamilie",
+        "Lebensträume",
+        "interkuturell",
+        "Der Pfau",
+        "Geschenk für Frauen",
+        "neues Taschenbuch 2026"
+      ],
+      "thema": [
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
+        },
+        {
+          "code": "FU",
+          "label": "Belletristik: Humor"
+        },
+        {
+          "code": "FS",
+          "label": "Familienleben"
+        },
+        {
+          "code": "FXN",
+          "label": "Erzählerisches Thema: Identität / Zugehörigkeit"
+        },
+        {
+          "code": "FXD",
+          "label": "Belletristik: Themen, Stoffe, Motive: Liebe und Beziehungen"
+        },
+        {
+          "code": "FXS",
+          "label": "Belletristik: Themen, Stoffe, Motive: Soziales"
+        },
+        {
+          "code": "JBSP4",
+          "label": "Altersgruppen: ältere Menschen"
+        }
+      ],
+      "genre": [
+        "Fiktionale Darstellung",
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
+      ],
+      "publisher": "Kiepenheuer & Witsch",
+      "place": "Köln",
+      "published_year": "2026",
+      "pages": 272,
+      "original_title": "",
+      "translators": [],
+      "series": "",
+      "record_count": 4,
+      "fetched_at": "2026-09-22"
     }
   }
 }

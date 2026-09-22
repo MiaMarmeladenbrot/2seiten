@@ -11,10 +11,32 @@
       "Mona": "Mona Ameziane",
       "both": "von beiden gemeinsam empfohlen"
     },
-    "total_episodes": 110,
-    "total_books": 222
+    "total_episodes": 111,
+    "total_books": 224
   },
   "episodes": [
+    {
+      "guid": "/35b92c45a6cbcac426ad342adde2a490",
+      "title": "Versprechen – übers Ehrenwort",
+      "published": "2026-09-22T00:10:00+00:00",
+      "topic": "Versprechen",
+      "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-versprechen-uebers-ehrenwort-100.html",
+      "audio_url": "https://wdrmedien-a.akamaihd.net/media/p/public/weltweit/2026/09/21/2331f10b-263f-4c78-b21d-82655d406e38/2331f10b-263f-4c78-b21d-82655d406e38_MP3-160.mp3",
+      "books": [
+        {
+          "title": "All die Farben, all das Licht",
+          "author": "Cora Wucherer",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
+        },
+        {
+          "title": "Wohnverwandtschaften",
+          "author": "Isabel Bogdan",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
+        }
+      ]
+    },
     {
       "guid": "/238dc3f0aacff8532bc8f945772ccf3f",
       "title": "Erde – übers Umgraben und Aufwühlen",
