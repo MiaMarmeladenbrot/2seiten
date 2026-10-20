@@ -11,10 +11,54 @@
       "Mona": "Mona Ameziane",
       "both": "von beiden gemeinsam empfohlen"
     },
-    "total_episodes": 111,
-    "total_books": 224
+    "total_episodes": 113,
+    "total_books": 228
   },
   "episodes": [
+    {
+      "guid": "/f70102b3c9d30c15be6f7a7cd14ded94",
+      "title": "Freundinnen – über eine ganz besondere Nähe",
+      "published": "2026-10-20T00:10:00+00:00",
+      "topic": "Freundinnen",
+      "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-freundinnen-ueber-eine-ganz-besondere-naehe-100.html",
+      "audio_url": "https://wdrmedien-a.akamaihd.net/media/p/public/weltweit/2026/10/19/dfd98002-ed68-45a0-9b61-c915d090a946/dfd98002-ed68-45a0-9b61-c915d090a946_MP3-160.mp3",
+      "books": [
+        {
+          "title": "Alte Sorten",
+          "author": "Ewald Arenz",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
+        },
+        {
+          "title": "Ein unerhörter Wunsch",
+          "author": "Ann Packer",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
+        }
+      ]
+    },
+    {
+      "guid": "/5b7423c30d3c12d9673130c9b0c7443e",
+      "title": "Schwächen – über unsere weniger starken Seiten",
+      "published": "2026-10-06T00:10:00+00:00",
+      "topic": "Schwächen",
+      "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-schwaechen-ueber-unsere-weniger-starken-seiten-100.html",
+      "audio_url": "https://wdrmedien-a.akamaihd.net/media/p/public/weltweit/2026/10/05/62911c85-4c26-4ae1-8e78-72e73104a7a4/62911c85-4c26-4ae1-8e78-72e73104a7a4_MP3-160.mp3",
+      "books": [
+        {
+          "title": "Yester Year",
+          "author": "Caro Claire Burke",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung"
+        },
+        {
+          "title": "Broder",
+          "author": "Dörte Hansen",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung"
+        }
+      ]
+    },
     {
       "guid": "/35b92c45a6cbcac426ad342adde2a490",
       "title": "Versprechen – übers Ehrenwort",

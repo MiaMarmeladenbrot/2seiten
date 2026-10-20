@@ -3,10 +3,10 @@
     "source": "Deutsche Nationalbibliothek, SRU-Schnittstelle (MARC21)",
     "endpoint": "https://services.dnb.de/sru/dnb",
     "note": "Klappentexte sind geschützte Verlagstexte — nur zum Bau des Suchindex verwenden, nicht anzeigen.",
-    "total": 224,
-    "with_blurb": 191,
-    "with_keywords": 212,
-    "with_isbn": 224
+    "total": 228,
+    "with_blurb": 195,
+    "with_keywords": 216,
+    "with_isbn": 228
   },
   "books": {
     "Tintenherz|Cornelia Funke": {
@@ -18047,6 +18047,375 @@
       "series": "",
       "record_count": 4,
       "fetched_at": "2026-09-22"
+    },
+    "Alte Sorten|Ewald Arenz": {
+      "dnb_title": "Alte Sorten",
+      "subtitle": "Roman",
+      "isbn": "9783832165307",
+      "isbn_candidates": [
+        "9783832165307",
+        "9783832184483",
+        "9783832183813"
+      ],
+      "blurb": "Sally und Liss: zwei Frauen, wie sie unterschiedlicher nicht sein könnten. Sally, kurz vor dem Abitur, will einfach in Ruhe gelassen werden. Sie hasst so ziemlich alles: Angebote, Vorschriften, Regeln, Erwachsene. Fragen hasst sie am meisten, vor allem die nach ihrem Aussehen. Liss ist eine starke, verschlossene Frau, die die Arbeit, die auf dem Hof anfällt, problemlos zu meistern scheint. Schon beim ersten Gespräch der beiden stellt Sally fest, dass Liss anders ist als andere Erwachsene. Kein heimliches Mustern, kein voreiliges Urteilen, keine misstrauischen Fragen. Liss bietet ihr an, auf dem Hof zu übernachten. Aus einer Nacht werden Wochen. Für Sally ist die ältere Frau ein Rätsel. Was ist das für Eine, die nie über sich spricht, die das Haus, in dem die frühere Anwesenheit anderer noch deutlich zu spüren ist, allein bewohnt? Während sie gemeinsam Bäume auszeichnen, Kartoffeln ernten und Liss die alten Birnensorten in ihrem Obstgarten beschreibt, deren Geschmack Sally so liebt, kommen sich die beiden Frauen näher. Und erfahren nach und nach von den Verletzungen, die ihnen zugefügt wurden.",
+      "keywords": [
+        "Alte Sorten",
+        "Bauernhof",
+        "Bienen",
+        "Bäume",
+        "Bäume auszeichnen",
+        "Cover mit Birnen",
+        "Entschleunigung",
+        "Erwachsenwerden",
+        "familie",
+        "Freiheit",
+        "Freundschaft",
+        "Hof",
+        "Landschaft",
+        "Landwirtschaft",
+        "Obst",
+        "Weinberge",
+        "Weinlese",
+        "atmosphäre",
+        "das Diamantenmädchen",
+        "das Lied über der Stadt",
+        "der Duft von Schokolade",
+        "der Teezauberer",
+        "dorfleben",
+        "ehrlich &amp",
+        "söhne",
+        "frauen",
+        "frauenfreundschaft",
+        "lebenssinn",
+        "lebensträume",
+        "liebe",
+        "neues Buch von Ewald Arenz",
+        "schmerz",
+        "vergangenheit",
+        "verlogenheit",
+        "wut",
+        "ehrlich & söhne"
+      ],
+      "thema": [
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik"
+        },
+        {
+          "code": "WND",
+          "label": "Auf dem Land, Landleben: Sachbuch"
+        },
+        {
+          "code": "1DFG-DE-U",
+          "label": "Südwestdeutschland"
+        },
+        {
+          "code": "2ACG",
+          "label": "Deutsch"
+        },
+        {
+          "code": "3MRB",
+          "label": "erste Hälfte 21. Jahrhundert (2000 bis 2050 n. Chr.)"
+        }
+      ],
+      "genre": [
+        "Fiktionale Darstellung",
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
+      ],
+      "publisher": "DuMont",
+      "place": "Köln",
+      "published_year": "2020",
+      "pages": 255,
+      "original_title": "",
+      "translators": [],
+      "series": "",
+      "record_count": 4,
+      "fetched_at": "2026-10-20"
+    },
+    "Ein unerhörter Wunsch|Ann Packer": {
+      "dnb_title": "Ein unerhörter Wunsch",
+      "subtitle": "Roman",
+      "isbn": "9783446287198",
+      "isbn_candidates": [
+        "9783446287198",
+        "9783446289857"
+      ],
+      "blurb": "Ann Packer, die große Vermesserin des menschlichen Herzens, »schreibt mit Mut, Humor und Weisheit über die Zumutung unserer Endlichkeit« (J. Courtney Sullivan) und über das letzte überraschende Kapitel einer Ehe. Dass dieser Moment kommen würde, wussten sie beide: Claires Erkrankung geht in die Phase der letzten Monate und Wochen. Fast vierzig Jahre lang haben sie eine gute Ehe geführt, zwei Kinder großgezogen und die Herausforderungen des Lebens gemeinsam bewältigt – die sprühende Claire und Eliot, stets etwas in ihrem Schatten, aber bedingungslos an ihrer Seite. Vielleicht waren sie sich nie so nah wie jetzt. Da konfrontiert ihn Claire mit einem Wunsch, der ihn komplett aus der Bahn wirft: Nicht ihn will sie um sich haben in der Zeit, die ihr bleibt, sondern ihre besten Freundinnen Holly und Michelle. Ein mit meisterhafter Leichtigkeit erzählter, einfühlsamer Roman über die wahren Zumutungen der Liebe, über Verletzung und Großherzigkeit und die Unberechenbarkeit der letzten Dinge.",
+      "keywords": [
+        "Freundschaft",
+        "Hospiz",
+        "Lebensende",
+        "Letzer Wunsch",
+        "Letzter Wille",
+        "Liebe",
+        "Maine",
+        "Pflege",
+        "Sterben"
+      ],
+      "thema": [
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
+        },
+        {
+          "code": "FS",
+          "label": "Familienleben"
+        },
+        {
+          "code": "FXD",
+          "label": "Belletristik: Themen, Stoffe, Motive: Liebe und Beziehungen"
+        },
+        {
+          "code": "FXK",
+          "label": "Belletristik: Themen, Stoffe, Motive: Gesundheit & Krankheit"
+        },
+        {
+          "code": "FXL",
+          "label": "Belletristik: Themen, Stoffe, Motive: Tod, Trauer, Verlust"
+        },
+        {
+          "code": "FXM",
+          "label": "Belletristik: Themen, Stoffe, Motive: Seelenleben"
+        },
+        {
+          "code": "FYT",
+          "label": "Belletristik in Übersetzung"
+        },
+        {
+          "code": "1KBB-US-NE",
+          "label": "USA Nordosten: Neuengland"
+        },
+        {
+          "code": "3MRB",
+          "label": "Erste Hälfte 21. Jahrhundert (ca. 2000 bis ca. 2050)"
+        }
+      ],
+      "genre": [
+        "Fiktionale Darstellung",
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
+      ],
+      "publisher": "Hanser Berlin",
+      "place": "München",
+      "published_year": "2026",
+      "pages": 302,
+      "original_title": "Some bright nowhere",
+      "translators": [
+        "(isni)0000000055231640"
+      ],
+      "series": "",
+      "record_count": 3,
+      "fetched_at": "2026-10-20"
+    },
+    "Yester Year|Caro Claire Burke": {
+      "dnb_title": "Yesteryear",
+      "subtitle": "Roman",
+      "isbn": "9783453275355",
+      "isbn_candidates": [
+        "9783453275355",
+        "9783641337773"
+      ],
+      "blurb": "Ihr Leben ist perfekt. Solange man nicht hinter die Kulissen schaut. Mit bedrucktem Transparentumschlag und hochwertig veredeltem Bezug. Natalie Heller Mills hat alles: eine malerisch renovierte Farm, fünf Kinder, die um ihre Liebe buhlen, und einen Mann, der in Cowboystiefeln immerhin eine gute Figur abgibt. Vom Sauerteig bis zur Kindererziehung, nichts scheint ihr zu misslingen. Kein Wunder also, dass Millionen von Menschen ihr folgen, ihre Videos schauen, ihre Bilder anklicken. Sie gibt ihnen das, was sie wollen: eine heile Welt. Skandale werden unter den Teppich gekehrt, da, wo sie hingehören. Doch eines Tages wacht Natalie auf und sieht sich mit einer unbequemen Frage konfrontiert: Was wäre, wenn sie keine Nannys beschäftigen könnte, es keine helfenden Hände auf der Farm gäbe, kein Produktionsteam? Was wäre, wenn sie auf einmal das Leben führen müsste, das sie immer vorgetäuscht hat? »Caro Claire Burke hat mit Yesteryear einen genial bösen Roman über das Phänomen der Tradwives geschrieben.« ZEIT online » Yesteryear mausert sich gerade zum gesellschaftskritischen Easy Read des Sommers, denn der Roman ist ein Spiegel der fatalen Romantisierung der Vergangenheit und der heutige Social-Media-Kultur ... Burkes fiktive Welt ist grotesk und wäre fast schon lustig, wenn sie nicht so erschreckend real wäre.« Süddeutsche Zeitung »Es gibt nichts Besseres als gute Plot Twists, und dieser ist wirklich sehr, sehr gut.« Spiegel Online » Yesteryear ist ein kluger und ausgesprochen unterhaltsamer Roman. … Yesteryear nimmt das Tradwife Phänomen ernst genug, um seine Verführungskraft zu verstehen, und zugleich genau genug auseinander, um zu zeigen, wie viel Privilegiertes und Politisches hinter der vermeintlich harmlosen Sehnsucht nach einem traditionellen Leben stecken kann.« Clara Hoheisel, Lesart - Deutschlandfunk Kultur » Yesteryear packt einen bei der Kehle und lässt nicht mehr los.« Anne Hathaway »The Stepford Wives meets The Handmaid's Tale « Hannah Deitch",
+      "keywords": [
+        "krimi",
+        "thriller",
+        "krimis",
+        "kriminalromane",
+        "buch",
+        "bücher",
+        "tradwife",
+        "tradwife thriller",
+        "amazon",
+        "booktok",
+        "tiktok",
+        "zeitreise",
+        "gesellschaftsroman",
+        "feminismus",
+        "care arbeit",
+        "twist",
+        "spannung",
+        "yellowface",
+        "buch für frauen",
+        "instagram",
+        "influencer",
+        "rechtsruck",
+        "traditionell",
+        "nara smith",
+        "ballerina farm",
+        "social media",
+        "utah",
+        "bookstagram",
+        "mormonen",
+        "anne hathaway",
+        "film",
+        "frauenrolle",
+        "hausfrau",
+        "traditionelle hausfrau",
+        "filmvorlage",
+        "ebooks",
+        "buch mit farm",
+        "bauernhof"
+      ],
+      "thema": [
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
+        },
+        {
+          "code": "FDB",
+          "label": "Dystopische und utopische Literatur"
+        },
+        {
+          "code": "FS",
+          "label": "Familienleben"
+        },
+        {
+          "code": "FUP",
+          "label": "Satirische Romane und Parodie (fiktional)"
+        },
+        {
+          "code": "1KBB-US-WMU",
+          "label": "Utah"
+        },
+        {
+          "code": "3MRB",
+          "label": "Erste Hälfte 21. Jahrhundert (ca. 2000 bis ca. 2050)"
+        },
+        {
+          "code": "FFC",
+          "label": "Klassische Kriminalromane und Mystery"
+        },
+        {
+          "code": "FH",
+          "label": "Thriller / Spannung"
+        },
+        {
+          "code": "3MRB",
+          "label": "erste Hälfte 21. Jahrhundert (2000 bis 2050 n. Chr.)"
+        }
+      ],
+      "genre": [
+        "Fiktionale Darstellung",
+        "Erzählende Literatur"
+      ],
+      "publisher": "Heyne",
+      "place": "München",
+      "published_year": "2026",
+      "pages": 463,
+      "original_title": "",
+      "translators": [
+        "(isni)0000000451081840",
+        "(isni)0000000498570350",
+        "Falk, Dietlind",
+        "Kögeböhn, Lisa"
+      ],
+      "series": "",
+      "record_count": 3,
+      "fetched_at": "2026-10-20"
+    },
+    "Broder|Dörte Hansen": {
+      "dnb_title": "Broder",
+      "subtitle": "Roman",
+      "isbn": "9783328604556",
+      "isbn_candidates": [
+        "9783328604556",
+        "9783641337155"
+      ],
+      "blurb": "Über Herkunft, Rivalität und unsere Verantwortung für die Natur. »Es zählt nur einer auf dem Hof, das ist der Sohn, der bleibt. Aber die anderen, die übrig sind, die zweiten, dritten, vierten Söhne und die Töchter, die nicht zählen, bleiben Teil der Herde, ob sie wollen oder nicht. Weil sie mit großen Tieren aufgewachsen sind, ihr Atmen und ihr Brüllen kennen, und den Geruch von Milch und Mist noch an sich haben. Weil sie im Glauben an die alte, ungerechte Ordnung großgeworden sind: Vater, Sohn und heiliger Hof, schon immer so gewesen.« Broder Bahnsen wollte nie etwas anderes als Bauer werden, Nachfolger seines Vaters, der ihm den »Kuhverstand« vererbt hat, das Gespür für Tiere. Aber den Hof bekommt sein Zwillingsbruder Henning, nur wenige Minuten älter, immer schon selbstbewusster und mehr an Maschinen interessiert. Vom Hof vertrieben, baut Broder Bahnsen sich ein Gegenleben auf, wird Tierarzt und hält Abstand zum Betrieb, bis er nach über zwanzig Jahren wiederkommt und eine Praxis in der Nähe der Familie übernimmt. Ab da kümmert er sich auch um die Herde seines Bruders, der den elterlichen Hof zu einem hochmodernen Vorzeigebetrieb gemacht hat, mit Kühen, die auf maximale Milchleistung gezüchtet wurden. Doch der Erfolg hat seinen Preis. Broder ist der erste, der bemerkt, dass Henning langsam die Kontrolle über seinen Hof verliert. Und muss sich plötzlich fragen, ob er darauf nicht all die Jahre nur gewartet hat. Ist das die Gelegenheit, endlich den Platz seines Bruders einzunehmen? Oder hegt er genau wie seine Tochter Claire schon längst Zweifel an dieser Art der Tierhaltung? Dörte Hansen schreibt mit großer Klarsicht über eine Welt, in der unser Wachstumsglaube an seine Grenzen stößt und sich die Frage nach der Verantwortung gegenüber der Schöpfung immer dringender stellt. »Dörte Hansen ist mit Broder ein großer Roman gelungen, der mit unwiderstehlicher Klarheit von Umbruch und Verlust erzählt. Nie schreibt sie ein Wort zu viel, nie eins zu wenig. Die Figuren sind wie aus dem Leben gegriffen und die Bilder, die sie findet, ebenso ungewöhnlich wie ergreifend eingängig.« NDR Kultur, Buch des Monats »Wer ein Erzählkunstwerk der geschlossenen Form noch zu schätzen weiß, muss dieses bewundern.« FAZ »Broder ist eine ergreifende und humorvolle literarische Reflexion über Wandel, Vergänglichkeit und die Grenzen des Wachstums.« NZZ",
+      "keywords": [
+        "buch",
+        "bücher",
+        "dörte hansen neuer roman",
+        "mensch und natur",
+        "bruder",
+        "brüder",
+        "familiengeschichte",
+        "altes land",
+        "mittagsstunde",
+        "zur see",
+        "bauernhof",
+        "klimaschutz",
+        "tierschutz",
+        "sinn des lebens",
+        "verantwortung für natur",
+        "brüdergeschichte",
+        "familienroman",
+        "generationenkonflikt",
+        "geschwisterrivalität",
+        "bestsellerautorin",
+        "buchhandelsliebling",
+        "tiefgründig",
+        "einfühlsam",
+        "nordsee",
+        "insel",
+        "dörte hansen neuerscheinung",
+        "dörte hansen 2026",
+        "dörte hansen neues buch",
+        "ebooks",
+        "neuerscheinung",
+        "literatur",
+        "norddeutschland roman",
+        "landleben",
+        "naturverbundenheit",
+        "gegenwartsroman",
+        "familienkonflikt",
+        "heimat und herkunft"
+      ],
+      "thema": [
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
+        },
+        {
+          "code": "FS",
+          "label": "Familienleben"
+        },
+        {
+          "code": "FXE",
+          "label": "Belletristik: Themen, Stoffe, Motive: Umwelt / Natur"
+        },
+        {
+          "code": "FXK",
+          "label": "Belletristik: Themen, Stoffe, Motive: Gesundheit & Krankheit"
+        },
+        {
+          "code": "FXL",
+          "label": "Belletristik: Themen, Stoffe, Motive: Tod, Trauer, Verlust"
+        },
+        {
+          "code": "FXM",
+          "label": "Belletristik: Themen, Stoffe, Motive: Seelenleben"
+        },
+        {
+          "code": "FXP",
+          "label": "Belletristik: Themen, Stoffe, Motive: Politik"
+        },
+        {
+          "code": "1DFG-DE-VS",
+          "label": "Schleswig-Holstein"
+        },
+        {
+          "code": "3MRB",
+          "label": "Erste Hälfte 21. Jahrhundert (ca. 2000 bis ca. 2050)"
+        },
+        {
+          "code": "3MRB",
+          "label": "erste Hälfte 21. Jahrhundert (2000 bis 2050 n. Chr.)"
+        }
+      ],
+      "genre": [
+        "Fiktionale Darstellung",
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945",
+        "Erzählende Literatur"
+      ],
+      "publisher": "Penguin Verlag",
+      "place": "München",
+      "published_year": "2026",
+      "pages": 222,
+      "original_title": "",
+      "translators": [],
+      "series": "",
+      "record_count": 3,
+      "fetched_at": "2026-10-20"
     }
   }
 }

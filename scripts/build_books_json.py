@@ -27,6 +27,20 @@ OUT_FILE = DATA_DIR / "books.json"
 # Extractions per episode, identified by GUID.
 # Format: GUID -> {topic, books: [(title, author, recommended_by, role)]}
 EXTRACTIONS: dict[str, dict] = {
+    "/f70102b3c9d30c15be6f7a7cd14ded94": {
+        "topic": "Freundinnen",
+        "books": [
+            ("Alte Sorten", "Ewald Arenz", "Mona", "Hauptempfehlung"),
+            ("Ein unerhörter Wunsch", "Ann Packer", "Christine", "Hauptempfehlung"),
+        ],
+    },
+    "/5b7423c30d3c12d9673130c9b0c7443e": {
+        "topic": "Schwächen",
+        "books": [
+            ("Yester Year", "Caro Claire Burke", "Mona", "Hauptempfehlung"),
+            ("Broder", "Dörte Hansen", "Christine", "Hauptempfehlung"),
+        ],
+    },
     "/35b92c45a6cbcac426ad342adde2a490": {
         "topic": "Versprechen",
         "books": [
