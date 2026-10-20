@@ -153,7 +153,9 @@
       "translators": [],
       "series": "Der erste Band der Tintenwelt-Trilogie",
       "record_count": 12,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Achtsam morden|Carsten Dusse": {
       "dnb_title": "Achtsam morden",
@@ -225,7 +227,9 @@
       "translators": [],
       "series": "",
       "record_count": 15,
-      "fetched_at": "2026-08-20"
+      "fetched_at": "2026-08-20",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Hotel Laguna|Alexander Gorkow": {
       "dnb_title": "Hotel Laguna",
@@ -289,12 +293,12 @@
       "published_year": "2017",
       "pages": 362,
       "original_title": "",
-      "translators": [
-        "Flaquer Serrano, Miquel J."
-      ],
+      "translators": [],
       "series": "",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Grand Hotel Avalon|Maggie Stiefvater": {
       "dnb_title": "Grand Hotel Avalon",
@@ -357,7 +361,9 @@
       ],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Weißer Sommer|Eva Pramschüfer": {
       "dnb_title": "Weißer Sommer",
@@ -447,7 +453,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Seemann vom Siebener|Arno Frank": {
       "dnb_title": "Seemann vom Siebener",
@@ -521,7 +529,9 @@
       "translators": [],
       "series": "",
       "record_count": 5,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Das Sommerbuch|Tove Jansson": {
       "dnb_title": "Das Sommerbuch",
@@ -586,7 +596,9 @@
       ],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "swe",
+      "publisher_url": ""
     },
     "Träume aus Salz|Anika Landsteiner": {
       "dnb_title": "Träume aus Salz",
@@ -674,7 +686,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Der alte Mann und das Meer|Ernest Hemingway": {
       "dnb_title": "Der alte Mann und das Meer",
@@ -749,12 +763,13 @@
       "pages": 221,
       "original_title": "The old man and the sea",
       "translators": [
-        "Horschitz-Horst, Annemarie",
         "Schmitz, Werner"
       ],
       "series": "",
       "record_count": 37,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Angerichtet|Herman Koch": {
       "dnb_title": "Angerichtet",
@@ -792,7 +807,9 @@
       ],
       "series": "",
       "record_count": 8,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "dut",
+      "publisher_url": ""
     },
     "Alle meine Mütter|Lena Gorelik": {
       "dnb_title": "Alle meine Mütter",
@@ -887,7 +904,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Salz auf unserer Haut|Benoîte Groult": {
       "dnb_title": "Salz auf unserer Haut",
@@ -959,7 +978,9 @@
       ],
       "series": "",
       "record_count": 25,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "fre",
+      "publisher_url": ""
     },
     "Unter Wasser|Tara Menon": {
       "dnb_title": "Unter Wasser",
@@ -1037,7 +1058,9 @@
       ],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Ultramarin|Ann-Christin Kumm": {
       "dnb_title": "Ultramarin",
@@ -1133,7 +1156,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": "https://www.hanser-literaturverlage.de/buch/9783446286757"
     },
     "Lügen über meine Mutter|Daniela Dröscher": {
       "dnb_title": "Lügen über meine Mutter",
@@ -1229,7 +1254,9 @@
       "translators": [],
       "series": "KiWi",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Herkunft|Saša Stanišić": {
       "dnb_title": "Herkunft",
@@ -1295,7 +1322,9 @@
       "translators": [],
       "series": "",
       "record_count": 9,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Dann schlaf auch du|Leila Slimani": {
       "dnb_title": "Dann schlaf auch du",
@@ -1359,7 +1388,9 @@
       ],
       "series": "",
       "record_count": 7,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "fre",
+      "publisher_url": ""
     },
     "Die Anomalie|Hervé Le Tellier": {
       "dnb_title": "Die Anomalie",
@@ -1443,7 +1474,9 @@
       ],
       "series": "",
       "record_count": 5,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "fre",
+      "publisher_url": ""
     },
     "Männer|Johanna Adorján": {
       "dnb_title": "Männer",
@@ -1508,7 +1541,9 @@
       "translators": [],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Mein Freund Rilke|Melanie Garanin": {
       "dnb_title": "Mein Freund Rilke",
@@ -1575,7 +1610,9 @@
       "translators": [],
       "series": "Graphic novel",
       "record_count": 1,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Let's talk about feelings|Leif Randt": {
       "dnb_title": "Let's talk about feelings",
@@ -1660,7 +1697,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Einatmen. Ausatmen|Maxim Leo": {
       "dnb_title": "Einatmen. Ausatmen.",
@@ -1716,7 +1755,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Es ist hell und draußen dreht sich die Welt|Dita Zipfel": {
       "dnb_title": "Es ist hell und draußen dreht sich die Welt",
@@ -1830,7 +1871,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Eine Hymne an das Leben|Gisèle Pelicot": {
       "dnb_title": "Eine Hymne an das Leben",
@@ -1890,12 +1933,13 @@
       "pages": 255,
       "original_title": "Et la joie de vivre",
       "translators": [
-        "(isni)0000000055231640",
         "Klobusiczky, Patricia"
       ],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "fre",
+      "publisher_url": ""
     },
     "Wir Freitagsmänner|Hans-Gerd Raeth": {
       "dnb_title": "Wir Freitagsmänner",
@@ -2030,7 +2074,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Das Leben ist eins der Härtesten|Giulia Becker": {
       "dnb_title": "Das Leben ist eins der Härtesten",
@@ -2093,7 +2139,9 @@
       "translators": [],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Die Namen|Florence Knapp": {
       "dnb_title": "Die Namen",
@@ -2190,11 +2238,13 @@
       "pages": 352,
       "original_title": "The names",
       "translators": [
-        "(isni)0000000451081840"
+        "Kögeböhn, Lisa"
       ],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Frankie|Jochen Gutsch": {
       "dnb_title": "Frankie",
@@ -2299,23 +2349,12 @@
       "published_year": "2025",
       "pages": 186,
       "original_title": "",
-      "translators": [
-        "Bredenkamp, Christine",
-        "Cabral de Camara, Maria Bobone",
-        "Dekker, Jeannet",
-        "Díez, María José",
-        "Farastrie, Lisa Alvianne",
-        "Guldanová, Zuzana",
-        "Joler, Dalibor",
-        "Krieger, Saulo",
-        "Kurka, Tomáš",
-        "Sinprasert, Piyakal",
-        "Skowrońska, Emilia",
-        "Várnai, Péter"
-      ],
+      "translators": [],
       "series": "",
       "record_count": 24,
-      "fetched_at": "2026-08-20"
+      "fetched_at": "2026-08-20",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Wenn die Kraniche nach Süden ziehen|Lisa Ridzén": {
       "dnb_title": "Wenn die Kraniche nach Süden ziehen",
@@ -2377,7 +2416,9 @@
       ],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "swe",
+      "publisher_url": "https://www.penguin.de/ean/9783442762965"
     },
     "Im Leben nebenan|Anne Sauer": {
       "dnb_title": "Im Leben nebenan",
@@ -2469,7 +2510,9 @@
       "translators": [],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Monstergott|Caroline Schmitt": {
       "dnb_title": "Monstergott",
@@ -2523,7 +2566,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Der Held vom Bahnhof Friedrichstraße|Maxim Leo": {
       "dnb_title": "Der Held vom Bahnhof Friedrichstraße",
@@ -2614,7 +2659,9 @@
       "translators": [],
       "series": "KiWi",
       "record_count": 5,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Die Wolkengucker|Kristina Fritz": {
       "dnb_title": "Die Wolkengucker",
@@ -2697,7 +2744,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Der letzte Sommer der Tauben|Abbas Khider": {
       "dnb_title": "Der letzte Sommer der Tauben",
@@ -2762,7 +2811,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": "https://www.hanser-literaturverlage.de/buch/9783446282223"
     },
     "Ein Tisch am Fenster|Vincent Moissonnier": {
       "dnb_title": "Ein Tisch am Fenster",
@@ -2836,7 +2887,9 @@
       "translators": [],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Kochen im falschen Jahrhundert|Teresa Präauer": {
       "dnb_title": "Kochen im falschen Jahrhundert",
@@ -2938,7 +2991,9 @@
       "translators": [],
       "series": "",
       "record_count": 5,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Schlupfwinkel|Friedrich Ani": {
       "dnb_title": "Schlupfwinkel",
@@ -3048,7 +3103,9 @@
       "translators": [],
       "series": "Suhrkamp Taschenbuch",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Die Ausweichschule|Kaleb Erdmann": {
       "dnb_title": "Die Ausweichschule",
@@ -3122,7 +3179,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Nur für Mitglieder|Thorsten Nagelschmidt": {
       "dnb_title": "Nur für Mitglieder",
@@ -3168,7 +3227,9 @@
       "translators": [],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Vielleicht ist die Liebe so|Katja Früh": {
       "dnb_title": "Vielleicht ist die Liebe so",
@@ -3246,7 +3307,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": "https://www.diogenes.ch/9783257073447"
     },
     "Das kleine Haus am Sonnenhang|Alex Capus": {
       "dnb_title": "Das kleine Haus am Sonnenhang",
@@ -3314,7 +3377,9 @@
       "translators": [],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Wedding People|Alison Espach": {
       "dnb_title": "Wedding people",
@@ -3428,7 +3493,9 @@
       ],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Geordnete Verhältnisse|Lana Lux": {
       "dnb_title": "Geordnete Verhältnisse",
@@ -3520,7 +3587,9 @@
       "translators": [],
       "series": "",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": "https://www.hanser-literaturverlage.de/buch//9783446286023"
     },
     "1000 letzte Dates|Anna Dushime": {
       "dnb_title": "1000 letzte Dates",
@@ -3604,7 +3673,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Fallers große Liebe|Thommie Bayer": {
       "dnb_title": "Fallers große Liebe",
@@ -3631,7 +3702,9 @@
       "translators": [],
       "series": "Piper",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Tigermilch|Stefanie de Velasco": {
       "dnb_title": "Tigermilch",
@@ -3657,7 +3730,9 @@
       "translators": [],
       "series": "KiWi",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Tage im warmen Licht|Kristina Pfister": {
       "dnb_title": "Tage im warmen Licht",
@@ -3784,7 +3859,9 @@
       "translators": [],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Nach Mattias|Peter Zantingh": {
       "dnb_title": "Nach Mattias",
@@ -3874,7 +3951,9 @@
       ],
       "series": "Diogenes-Taschenbuch",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "dut",
+      "publisher_url": "https://www.diogenes.ch/leser/katalog/a-z/all/9783257246247/buch"
     },
     "Familiensache|Claire Lynch": {
       "dnb_title": "Familiensache",
@@ -3967,7 +4046,9 @@
       ],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": "https://www.penguin.de/ean/9783328604266"
     },
     "Gym|Verena Keßler": {
       "dnb_title": "Gym",
@@ -4052,7 +4133,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": "https://www.penguin.de/ean/9783896678065"
     },
     "Marianengraben|Jasmin Schreiber": {
       "dnb_title": "Marianengraben",
@@ -4157,7 +4240,9 @@
       "translators": [],
       "series": "",
       "record_count": 8,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Auf gefährlich sanfte Art|Antoine Laurain": {
       "dnb_title": "Auf gefährlich sanfte Art",
@@ -4212,7 +4297,9 @@
       ],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "fre",
+      "publisher_url": ""
     },
     "Alle meine Wünsche|Grégoire Delacourt": {
       "dnb_title": "Alle meine Wünsche",
@@ -4283,7 +4370,9 @@
       ],
       "series": "",
       "record_count": 9,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "fre",
+      "publisher_url": ""
     },
     "Die Falle|Melanie Raabe": {
       "dnb_title": "Die Falle",
@@ -4328,7 +4417,9 @@
       "translators": [],
       "series": "",
       "record_count": 7,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Der Geschmack von Apfelkernen|Katharina Hagena": {
       "dnb_title": "Der Geschmack von Apfelkernen",
@@ -4397,7 +4488,9 @@
       "translators": [],
       "series": "KiWi Geschenkbuch im Kleinformat",
       "record_count": 9,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Nonna|Thomas de Padova": {
       "dnb_title": "Nonna",
@@ -4482,7 +4575,9 @@
       "translators": [],
       "series": "Insel-Taschenbuch",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Nachts|Mercedes Lauenstein": {
       "dnb_title": "Nachts",
@@ -4512,7 +4607,9 @@
       "translators": [],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Die Karte meiner Träume|Reif Larsen": {
       "dnb_title": "Die Karte meiner Träume",
@@ -4540,7 +4637,9 @@
       ],
       "series": "Fischer",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Damals im Sommer|Florian Gottschick": {
       "dnb_title": "Damals im Sommer",
@@ -4606,7 +4705,9 @@
       "translators": [],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Ein Ende und ein Anfang|Oliver Hilmes": {
       "dnb_title": "Ein Ende und ein Anfang",
@@ -4678,7 +4779,9 @@
       "translators": [],
       "series": "",
       "record_count": 5,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": "https://www.penguin.de/ean/9783328114918"
     },
     "Drei Meter Dreißig|Jaqueline Scheiber": {
       "dnb_title": "Dreimeterdreissig",
@@ -4702,7 +4805,9 @@
       "translators": [],
       "series": "",
       "record_count": 1,
-      "fetched_at": "2026-08-20"
+      "fetched_at": "2026-08-20",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Vergiss mich|Alex Schulman": {
       "dnb_title": "Vergiss mich",
@@ -4798,12 +4903,13 @@
       "pages": 256,
       "original_title": "Glöm mig",
       "translators": [
-        "(isni)0000000418722175",
         "Granz, Hanna"
       ],
       "series": "",
       "record_count": 5,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "swe",
+      "publisher_url": ""
     },
     "Mr. Parnassus Heim für magisch Begabte|T.J. Klune": {
       "dnb_title": "Mr. Parnassus’ Heim für magisch Begabte",
@@ -4862,7 +4968,9 @@
       ],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Der Bademeister ohne Himmel|Petra Pellini": {
       "dnb_title": "Der Bademeister ohne Himmel",
@@ -4957,7 +5065,9 @@
       "translators": [],
       "series": "",
       "record_count": 5,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Uhren gibt es nicht mehr|André Heller": {
       "dnb_title": "Uhren gibt es nicht mehr",
@@ -5030,7 +5140,9 @@
       "translators": [],
       "series": "btb",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Das Ministerium der Zeit|Kaliane Bradley": {
       "dnb_title": "Das Ministerium der Zeit",
@@ -5144,7 +5256,9 @@
       ],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": "https://www.penguin.de/ean/9783328114727"
     },
     "Das Palais muss brennen|Mercedes Spannagel": {
       "dnb_title": "Das Palais muss brennen",
@@ -5205,7 +5319,9 @@
       "translators": [],
       "series": "KiWi",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Montauk|Max Frisch": {
       "dnb_title": "Montauk",
@@ -5234,19 +5350,12 @@
       "published_year": "2011",
       "pages": null,
       "original_title": "",
-      "translators": [
-        "Aramburu, Fernando",
-        "Christov, Angel",
-        "Galli, Matteo",
-        "Gelormini, Nicolás",
-        "Ivanauskienė, Regina",
-        "Klabus, Vital",
-        "Skelton, Geoffrey",
-        "Özdemir, İlknur"
-      ],
+      "translators": [],
       "series": "Suhrkamp Taschenbuch",
       "record_count": 35,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Die anhaltende Suche nach Glück|Géraldine Dalban-Moreynas": {
       "dnb_title": "Die anhaltende Suche nach Glück",
@@ -5340,7 +5449,9 @@
       ],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "fre",
+      "publisher_url": ""
     },
     "Die Ehefrau|Meg Wolitzer": {
       "dnb_title": "Die Ehefrau",
@@ -5475,12 +5586,13 @@
       "pages": 270,
       "original_title": "The wife",
       "translators": [
-        "Ahrens, Henning",
         "Kleiner, Stephan"
       ],
       "series": "",
       "record_count": 8,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Nackt über Berlin|Axel Ranisch": {
       "dnb_title": "Nackt über Berlin",
@@ -5608,7 +5720,9 @@
       "translators": [],
       "series": "",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Peggy|Rebecca Godfrey & Leslie Jamison": {
       "dnb_title": "Peggy",
@@ -5734,7 +5848,9 @@
       ],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Sonnenhang|Kathrin Weßling": {
       "dnb_title": "Sonnenhang",
@@ -5829,7 +5945,9 @@
       "translators": [],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Kirschblüten: Hanami|Doris Dörrie": {
       "dnb_title": "Kirschblüten - Hanami",
@@ -5852,7 +5970,9 @@
       "translators": [],
       "series": "Diogenes-Taschenbuch",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Die Partie seines Lebens|Walter Tevis": {
       "dnb_title": "Die Partie seines Lebens",
@@ -5951,7 +6071,9 @@
       ],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Dschungel|Friedemann Karig": {
       "dnb_title": "Dschungel",
@@ -6063,7 +6185,9 @@
       "translators": [],
       "series": "",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Schwindel|Hengameh Yaghoobifarah": {
       "dnb_title": "Schwindel",
@@ -6140,7 +6264,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Noch mal von vorne|Dana von Suffrin": {
       "dnb_title": "Nochmal von vorne",
@@ -6225,7 +6351,9 @@
       "translators": [],
       "series": "KiWi",
       "record_count": 3,
-      "fetched_at": "2026-08-20"
+      "fetched_at": "2026-08-20",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Sieben Tage Sommer|Thommie Bayer": {
       "dnb_title": "Sieben Tage Sommer",
@@ -6357,7 +6485,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Zwei vernünftige Erwachsene, die sich mal nackt gesehen haben|Anika Decker": {
       "dnb_title": "Zwei vernünftige Erwachsene, die sich mal nackt gesehen haben",
@@ -6461,7 +6591,9 @@
       "translators": [],
       "series": "",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Mitternachtsschwimmer|Roisin Maguire": {
       "dnb_title": "Mitternachtsschwimmer",
@@ -6543,7 +6675,9 @@
       ],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Ostende|Volker Weidermann": {
       "dnb_title": "Ostende",
@@ -6640,16 +6774,12 @@
       "published_year": "2026",
       "pages": 160,
       "original_title": "",
-      "translators": [
-        "Charalanova, Darja",
-        "Dimter, Tomáš",
-        "Janeway, Carol Brown",
-        "Pavel, Cătălin",
-        "Ṿolḳ, Erez"
-      ],
+      "translators": [],
       "series": "",
       "record_count": 16,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "23 Uhr 12|Adeline Dieudonné": {
       "dnb_title": "23 Uhr 12",
@@ -6733,7 +6863,9 @@
       ],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-20"
+      "fetched_at": "2026-08-20",
+      "original_language": "fre",
+      "publisher_url": ""
     },
     "Über den Fluss|Theresa Pleitner": {
       "dnb_title": "Über den Fluss",
@@ -6801,7 +6933,9 @@
       "translators": [],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Das Eisschloss|Tarjei Vesaas": {
       "dnb_title": "Das Eis-Schloss",
@@ -6870,7 +7004,9 @@
       ],
       "series": "",
       "record_count": 5,
-      "fetched_at": "2026-08-20"
+      "fetched_at": "2026-08-20",
+      "original_language": "nor",
+      "publisher_url": ""
     },
     "Die Eismacher|Ernest van der Kwast": {
       "dnb_title": "Die Eismacher",
@@ -6937,7 +7073,9 @@
       ],
       "series": "btb",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "dut",
+      "publisher_url": ""
     },
     "Alles wie immer|Shirley Jackson": {
       "dnb_title": "Alles wie immer",
@@ -7007,7 +7145,9 @@
       ],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Okaye Tage|Jenny Mustard": {
       "dnb_title": "Okaye Tage",
@@ -7130,12 +7270,13 @@
       "pages": 365,
       "original_title": "Okay days",
       "translators": [
-        "(isni)0000000451081840",
         "Kögeböhn, Lisa"
       ],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Der alte Mann und der Bär|Janosch": {
       "dnb_title": "Der alte Mann und der Bär",
@@ -7179,7 +7320,9 @@
       "translators": [],
       "series": "Reclams Universal-Bibliothek",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Verflixte Festtage|Kati Hertzsch": {
       "dnb_title": "Verflixte Festtage",
@@ -7235,7 +7378,9 @@
       "translators": [],
       "series": "diogenes deluxe",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": "https://www.diogenes.ch/9783257261998"
     },
     "Barbara stirbt nicht|Alina Bronsky": {
       "dnb_title": "Barbara stirbt nicht",
@@ -7310,7 +7455,9 @@
       "translators": [],
       "series": "",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Issa|Mirrianne Mahn": {
       "dnb_title": "Issa",
@@ -7449,7 +7596,9 @@
       "translators": [],
       "series": "",
       "record_count": 5,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Weltalltage|Paula Fürstenberg": {
       "dnb_title": "Weltalltage",
@@ -7535,7 +7684,9 @@
       "translators": [],
       "series": "KiWi",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Man kann auch in die Höhe fallen|Joachim Meyerhoff": {
       "dnb_title": "Man kann auch in die Höhe fallen",
@@ -7614,7 +7765,9 @@
       "translators": [],
       "series": "KiWi",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Institut für gute Mütter|Jessamine Chan": {
       "dnb_title": "Institut für gute Mütter",
@@ -7685,12 +7838,13 @@
       "pages": 432,
       "original_title": "The School for Good Mothers",
       "translators": [
-        "(isni)0000000516318133",
         "Hofert, Friederike"
       ],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Munk|Jan Weiler": {
       "dnb_title": "Munk",
@@ -7760,7 +7914,9 @@
       "translators": [],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": "https://www.penguin.de/ean/9783453443174"
     },
     "Bevor wir uns vergessen|Éliette Abécassis": {
       "dnb_title": "Bevor wir uns vergessen",
@@ -7817,12 +7973,13 @@
       "pages": 176,
       "original_title": "Un couple",
       "translators": [
-        "(isni)0000000446149695",
         "Gleinig, Kirsten"
       ],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "fre",
+      "publisher_url": ""
     },
     "Nur vom Weltraum aus ist die Erde blau|Björn Stephan": {
       "dnb_title": "Nur vom Weltraum aus ist die Erde blau",
@@ -7874,7 +8031,9 @@
       "translators": [],
       "series": "KiWi",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Die schönste Version|Ruth-Maria Thomas": {
       "dnb_title": "Die schönste Version",
@@ -7976,7 +8135,9 @@
       "translators": [],
       "series": "",
       "record_count": 5,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Die Himmelsrichtungen|Jo Lendle": {
       "dnb_title": "Die Himmelsrichtungen",
@@ -8123,7 +8284,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": "https://www.penguin.de/ean/9783328113935"
     },
     "Das größere Wunder|Thomas Glavinic": {
       "dnb_title": "Das größere Wunder",
@@ -8200,7 +8363,9 @@
       "translators": [],
       "series": "",
       "record_count": 7,
-      "fetched_at": "2026-08-20"
+      "fetched_at": "2026-08-20",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Kleine Monster|Jessica Lind": {
       "dnb_title": "Kleine Monster",
@@ -8309,7 +8474,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": "https://www.penguin.de/ean/9783896670007"
     },
     "Wunder|R.J. Palacio": {
       "dnb_title": "Wunder",
@@ -8370,7 +8537,9 @@
       ],
       "series": "dtv",
       "record_count": 19,
-      "fetched_at": "2026-08-20"
+      "fetched_at": "2026-08-20",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Draußen feiern die Leute|Sven Pfizenmaier": {
       "dnb_title": "Draußen feiern die Leute",
@@ -8440,7 +8609,9 @@
       "translators": [],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Funny Girl|Anthony McCarten": {
       "dnb_title": "Funny girl",
@@ -8465,7 +8636,9 @@
       ],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Schrei mich bitte nicht so an!|Miriam Wurster": {
       "dnb_title": "Schrei mich bitte nicht so an!",
@@ -8517,7 +8690,9 @@
       "translators": [],
       "series": "",
       "record_count": 1,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Müll|Wolf Haas": {
       "dnb_title": "Müll",
@@ -8615,7 +8790,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Nullzeit|Juli Zeh": {
       "dnb_title": "Nullzeit",
@@ -8664,7 +8841,9 @@
       "translators": [],
       "series": "",
       "record_count": 9,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": "https://www.penguin.de/ean/9783442775903"
     },
     "Vox|Nicholson Baker": {
       "dnb_title": "Vox",
@@ -8722,7 +8901,9 @@
       ],
       "series": "",
       "record_count": 8,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Vox|Christina Dalcher": {
       "dnb_title": "Vox",
@@ -8808,7 +8989,9 @@
       ],
       "series": "",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Das Shaolin Prinzip|Bernhard Moestl": {
       "dnb_title": "Das Shaolin-Prinzip",
@@ -8833,7 +9016,9 @@
       "translators": [],
       "series": "Knaur",
       "record_count": 5,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Bleib|Adeline Dieudonné": {
       "dnb_title": "Bleib",
@@ -8966,7 +9151,9 @@
       ],
       "series": "",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "fre",
+      "publisher_url": ""
     },
     "Nathalie küsst|David Foenkinos": {
       "dnb_title": "Nathalie küsst",
@@ -9002,7 +9189,9 @@
       ],
       "series": "Ullstein",
       "record_count": 7,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "fre",
+      "publisher_url": ""
     },
     "Power|Verena Güntner": {
       "dnb_title": "Power",
@@ -9166,13 +9355,12 @@
       "published_year": "2021",
       "pages": 249,
       "original_title": "Power",
-      "translators": [
-        "Ságlová-Veit, Alena",
-        "Tortzen, Karen"
-      ],
+      "translators": [],
       "series": "",
       "record_count": 8,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Nächsten Sommer|Edgar Rai": {
       "dnb_title": "Nächsten Sommer",
@@ -9243,7 +9431,9 @@
       "translators": [],
       "series": "Atb",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Gebrauchsanweisung fürs Zugreisen|Jaroslav Rudiš": {
       "dnb_title": "Gebrauchsanweisung fürs Zugreisen",
@@ -9373,7 +9563,9 @@
       "translators": [],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Léon und Louise|Alex Capus": {
       "dnb_title": "Léon und Louise",
@@ -9447,7 +9639,9 @@
       "translators": [],
       "series": "",
       "record_count": 10,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Trennungsroman|Anna Brüggemann": {
       "dnb_title": "Trennungsroman",
@@ -9515,7 +9709,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Supergute Tage|Mark Haddon": {
       "dnb_title": "Supergute Tage oder die sonderbare Welt des Christopher Boone",
@@ -9553,7 +9749,9 @@
       ],
       "series": "",
       "record_count": 11,
-      "fetched_at": "2026-08-20"
+      "fetched_at": "2026-08-20",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Der Club|Takis Würger": {
       "dnb_title": "Der Club",
@@ -9635,7 +9833,9 @@
       "translators": [],
       "series": "Kein & Aber Pocket",
       "record_count": 7,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Der Papierpalast|Miranda Cowley Heller": {
       "dnb_title": "Der Papierpalast",
@@ -9722,12 +9922,13 @@
       "pages": 444,
       "original_title": "The paper palace",
       "translators": [
-        "(isni)0000000399028742",
         "Höbel, Susanne"
       ],
       "series": "",
       "record_count": 7,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "City of Girls|Elizabeth Gilbert": {
       "dnb_title": "City of girls",
@@ -9814,7 +10015,9 @@
       ],
       "series": "",
       "record_count": 5,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Das Geräusch einer Schnecke beim Essen|Elisabeth Tova Bailey": {
       "dnb_title": "Das Geräusch einer Schnecke beim Essen",
@@ -9867,7 +10070,9 @@
       ],
       "series": "",
       "record_count": 8,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "60 Tage liegen|Dennis Freischlad": {
       "dnb_title": "60 Tage liegen",
@@ -9915,7 +10120,9 @@
       "translators": [],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Hawaii|Cihan Acar": {
       "dnb_title": "Hawaii",
@@ -9983,7 +10190,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": "https://www.hanser-literaturverlage.de/9783446266834"
     },
     "Wir werden jung sein|Maxim Leo": {
       "dnb_title": "Wir werden jung sein",
@@ -10089,7 +10298,9 @@
       "translators": [],
       "series": "KiWi",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Seltsame Blüten|Donal Ryan": {
       "dnb_title": "Seltsame Blüten",
@@ -10152,7 +10363,9 @@
       ],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": "https://www.diogenes.ch/9783257614046"
     },
     "Scham|Inès Bayard": {
       "dnb_title": "Scham",
@@ -10237,7 +10450,9 @@
       ],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "fre",
+      "publisher_url": ""
     },
     "Die Kobra von Kreuzberg|Michel Decar": {
       "dnb_title": "Die Kobra von Kreuzberg",
@@ -10347,7 +10562,9 @@
       "translators": [],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "So, und jetzt kommst du|Arno Frank": {
       "dnb_title": "So, und jetzt kommst du",
@@ -10426,7 +10643,9 @@
       "translators": [],
       "series": "Rororo",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Der letzte Satz|Robert Seethaler": {
       "dnb_title": "Der letzte Satz",
@@ -10561,7 +10780,9 @@
       "translators": [],
       "series": "",
       "record_count": 9,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Augustblau|Deborah Levy": {
       "dnb_title": "Augustblau",
@@ -10628,7 +10849,9 @@
       ],
       "series": "Kampa Pocket",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Wie ich fälschte, log und Gutes tat|Thomas Klupp": {
       "dnb_title": "Wie ich fälschte, log und Gutes tat",
@@ -10727,7 +10950,9 @@
       "translators": [],
       "series": "",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Abifeier|Eric Nil": {
       "dnb_title": "Abifeier",
@@ -10786,7 +11011,9 @@
       "translators": [],
       "series": "KiWi",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "In einen Stern|Puk Qvortrup": {
       "dnb_title": "In einen Stern",
@@ -10869,7 +11096,9 @@
       ],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "dan",
+      "publisher_url": ""
     },
     "Kurt|Sarah Kuttner": {
       "dnb_title": "Kurt",
@@ -10925,7 +11154,9 @@
       "translators": [],
       "series": "",
       "record_count": 9,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Schlafes Bruder|Robert Schneider": {
       "dnb_title": "Schlafes Bruder",
@@ -10990,12 +11221,12 @@
       "published_year": "2022",
       "pages": 224,
       "original_title": "Schlafes Bruder",
-      "translators": [
-        "Mirianašvili, Maia"
-      ],
+      "translators": [],
       "series": "",
       "record_count": 28,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Mein Jahr der Ruhe und Entspannung|Ottessa Moshfegh": {
       "dnb_title": "Mein Jahr der Ruhe und Entspannung",
@@ -11050,7 +11281,9 @@
       ],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Alle sieben Wellen|Daniel Glattauer": {
       "dnb_title": "Alle sieben Wellen",
@@ -11100,7 +11333,9 @@
       "translators": [],
       "series": "Kleine Reihe Hanser",
       "record_count": 9,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": "https://www.hanser-literaturverlage.de/buch/9783552075818"
     },
     "Beschreibung einer Krabbenwanderung|Karosh Taha": {
       "dnb_title": "Beschreibung einer Krabbenwanderung",
@@ -11169,7 +11404,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Dschinns|Fatma Aydemir": {
       "dnb_title": "Dschinns",
@@ -11353,7 +11590,9 @@
       "translators": [],
       "series": "",
       "record_count": 8,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Der größte Spaß, den wir je hatten|Claire Lombardo": {
       "dnb_title": "Der größte Spaß, den wir je hatten",
@@ -11477,7 +11716,9 @@
       ],
       "series": "",
       "record_count": 7,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Sommer wie Winter|Judith Taschler": {
       "dnb_title": "Sommer wie Winter",
@@ -11600,7 +11841,9 @@
       "translators": [],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Der Mauersegler|Jasmin Schreiber": {
       "dnb_title": "Der Mauersegler",
@@ -11659,7 +11902,9 @@
       "translators": [],
       "series": "",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Miroloi|Karen Köhler": {
       "dnb_title": "Miroloi",
@@ -11757,12 +12002,12 @@
       "published_year": "2021",
       "pages": 462,
       "original_title": "Miroloi",
-      "translators": [
-        "Paulu, Alexandra"
-      ],
+      "translators": [],
       "series": "",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Die Unvollkommenheit der Liebe|Elizabeth Strout": {
       "dnb_title": "Die Unvollkommenheit der Liebe",
@@ -11857,7 +12102,9 @@
       ],
       "series": "",
       "record_count": 5,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Schlichte Wut|Davide Longo": {
       "dnb_title": "Schlichte Wut",
@@ -11931,12 +12178,13 @@
       "pages": 347,
       "original_title": "Una rabbia semplice",
       "translators": [
-        "(isni)0000000081728861",
         "Kleiner, Barbara"
       ],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "ita",
+      "publisher_url": ""
     },
     "Die Wut, die bleibt|Mareike Fallwickl": {
       "dnb_title": "Die Wut, die bleibt",
@@ -12004,7 +12252,9 @@
       "translators": [],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Schnell leben|Brigitte Giraud": {
       "dnb_title": "Schnell leben",
@@ -12090,7 +12340,9 @@
       ],
       "series": "",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "fre",
+      "publisher_url": ""
     },
     "Ich bleibe hier|Marco Balzano": {
       "dnb_title": "Ich bleibe hier",
@@ -12199,7 +12451,9 @@
       ],
       "series": "Diogenes-Taschenbuch",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "ita",
+      "publisher_url": "https://www.diogenes.ch/leser/katalog/a-z/all/9783257246100/buch"
     },
     "All right. Good Night|Helgard Haug": {
       "dnb_title": "All right. Good night.",
@@ -12251,7 +12505,9 @@
       "translators": [],
       "series": "",
       "record_count": 1,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "All das zu verlieren|Leila Slimani": {
       "dnb_title": "All das zu verlieren",
@@ -12323,7 +12579,9 @@
       ],
       "series": "",
       "record_count": 7,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "fre",
+      "publisher_url": ""
     },
     "Verbrenn all meine Briefe|Alex Schulman": {
       "dnb_title": "Verbrenn all meine Briefe",
@@ -12423,7 +12681,9 @@
       ],
       "series": "",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "swe",
+      "publisher_url": ""
     },
     "Hast du uns endlich gefunden|Edgar Selge": {
       "dnb_title": "Hast du uns endlich gefunden",
@@ -12534,7 +12794,9 @@
       "translators": [],
       "series": "",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Pandatage|James Gould-Bourn": {
       "dnb_title": "Pandatage",
@@ -12594,7 +12856,9 @@
       ],
       "series": "KiWi",
       "record_count": 5,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Nüchtern|Daniel Schreiber": {
       "dnb_title": "Nüchtern",
@@ -12638,7 +12902,9 @@
       "translators": [],
       "series": "Suhrkamp Taschenbuch",
       "record_count": 5,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Eierlikörtage|Hendrik Groen": {
       "dnb_title": "Eierlikörtage",
@@ -12684,7 +12950,9 @@
       ],
       "series": "",
       "record_count": 11,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "dut",
+      "publisher_url": ""
     },
     "Mir geht's gut, wenn nicht heute dann morgen|Dirk Stermann": {
       "dnb_title": "\"Mir geht's gut, wenn nicht heute, dann morgen\"",
@@ -12768,7 +13036,9 @@
       "translators": [],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Kleine Probleme|Nele Pollatschek": {
       "dnb_title": "Kleine Probleme",
@@ -12815,7 +13085,9 @@
       "translators": [],
       "series": "KiWi",
       "record_count": 5,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Drei Wünsche|Laura Karasek": {
       "dnb_title": "Drei Wünsche",
@@ -12883,7 +13155,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Bei euch ist es immer so unheimlich still|Alena Schröder": {
       "dnb_title": "Bei euch ist es immer so unheimlich still",
@@ -13028,7 +13302,9 @@
       "translators": [],
       "series": "",
       "record_count": 5,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Der Erdspiegel|Andrea Maria Schenkel": {
       "dnb_title": "Der Erdspiegel",
@@ -13066,7 +13342,9 @@
       "translators": [],
       "series": "",
       "record_count": 1,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Leonard und Paul|Rónán Hession": {
       "dnb_title": "Leonard und Paul",
@@ -13171,7 +13449,9 @@
       ],
       "series": "",
       "record_count": 5,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Schweig!|Judith Merchant": {
       "dnb_title": "Schweig!",
@@ -13227,7 +13507,9 @@
       "translators": [],
       "series": "KiWi",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Nicht von dieser Welt|Michael Ebert": {
       "dnb_title": "Nicht von dieser Welt",
@@ -13329,7 +13611,9 @@
       "translators": [],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Sein oder nicht sein|Klaus Pohl": {
       "dnb_title": "Sein oder Nichtsein",
@@ -13391,7 +13675,9 @@
       "translators": [],
       "series": "KiWi",
       "record_count": 1,
-      "fetched_at": "2026-08-20"
+      "fetched_at": "2026-08-20",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Zauber der Stille|Florian Illies": {
       "dnb_title": "Zauber der Stille",
@@ -13512,7 +13798,9 @@
       "translators": [],
       "series": "Fischer Taschenbibliothek",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Die Perfektionen|Vincenzo Latronico": {
       "dnb_title": "Die Perfektionen",
@@ -13582,12 +13870,13 @@
       "pages": 124,
       "original_title": "Le perfezioni",
       "translators": [
-        "(isni)0000000019602758",
         "Koskull, Verena von"
       ],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "ita",
+      "publisher_url": ""
     },
     "Die Frau, die nicht alterte|Grégoire Delacourt": {
       "dnb_title": "Die Frau die nicht alterte",
@@ -13662,7 +13951,9 @@
       ],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "fre",
+      "publisher_url": ""
     },
     "Sirius|Jonathan Crown": {
       "dnb_title": "Sirius",
@@ -13730,13 +14021,12 @@
       "published_year": "2016",
       "pages": 291,
       "original_title": "",
-      "translators": [
-        "Romanelli, Jamie Searle",
-        "Venis, Erika"
-      ],
+      "translators": [],
       "series": "KiWi",
       "record_count": 11,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Das Glück ist grau|Christopher McDougall": {
       "dnb_title": "Das Glück ist grau",
@@ -13861,7 +14151,9 @@
       ],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Der Hausmann|Wlada Kolosowa": {
       "dnb_title": "Der Hausmann",
@@ -13908,7 +14200,9 @@
       "translators": [],
       "series": "Leykam: Belletristik",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Über uns|Eshkol Nevo": {
       "dnb_title": "Über uns",
@@ -13976,7 +14270,9 @@
       ],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "heb",
+      "publisher_url": ""
     },
     "Nils. Von Tod und Wut. Und von Mut|Melanie Garanin": {
       "dnb_title": "Nils",
@@ -14059,7 +14355,9 @@
       "translators": [],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-20"
+      "fetched_at": "2026-08-20",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Wie man unsterblich wird|Sally Nicholls": {
       "dnb_title": "Wie man unsterblich wird",
@@ -14093,7 +14391,9 @@
       ],
       "series": "",
       "record_count": 5,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Toxic Man|Frédéric Schwilden": {
       "dnb_title": "Toxic Man",
@@ -14155,7 +14455,9 @@
       "translators": [],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Gruber geht|Doris Knecht": {
       "dnb_title": "Gruber geht",
@@ -14182,7 +14484,9 @@
       "translators": [],
       "series": "Rororo",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Das finstere Tal|Thomas Willmann": {
       "dnb_title": "Das finstere Tal",
@@ -14253,7 +14557,9 @@
       "translators": [],
       "series": "",
       "record_count": 11,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Herz auf Eis|Isabelle Autissier": {
       "dnb_title": "Herz auf Eis",
@@ -14339,12 +14645,12 @@
       "published_year": "2018",
       "pages": 238,
       "original_title": "Soudain, seuls",
-      "translators": [
-        "Gleinig, Kirsten"
-      ],
+      "translators": [],
       "series": "Goldmann",
       "record_count": 5,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "fre",
+      "publisher_url": ""
     },
     "Tage in Cape May|Chip Cheek": {
       "dnb_title": "Tage in Cape May",
@@ -14432,7 +14738,9 @@
       ],
       "series": "",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Kleine Kratzer|Jane Campbell": {
       "dnb_title": "Kleine Kratzer",
@@ -14573,7 +14881,9 @@
       ],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Und dann steht einer auf und öffnet das Fenster|Susann Pásztor": {
       "dnb_title": "Und dann steht einer auf und öffnet das Fenster",
@@ -14629,7 +14939,9 @@
       "translators": [],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Fremde Federn|Alina Lindermuth": {
       "dnb_title": "Fremde Federn",
@@ -14664,7 +14976,9 @@
       "translators": [],
       "series": "",
       "record_count": 1,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Wovon ich rede, wenn ich vom Laufen rede|Haruki Murakami": {
       "dnb_title": "Wovon ich rede, wenn ich vom Laufen rede",
@@ -14701,7 +15015,9 @@
       ],
       "series": "",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "jpn",
+      "publisher_url": ""
     },
     "1933 war ein schlimmes Jahr|John Fante": {
       "dnb_title": "1933 war ein schlimmes Jahr",
@@ -14744,7 +15060,9 @@
       ],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Gittersee|Charlotte Gneuß": {
       "dnb_title": "Gittersee",
@@ -14825,13 +15143,12 @@
       "published_year": "2025",
       "pages": 254,
       "original_title": "Gittersee",
-      "translators": [
-        "Franz, Merete",
-        "Gurt, Carlota"
-      ],
+      "translators": [],
       "series": "Fischer TaschenBibliothek",
       "record_count": 11,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Im Wasser sind wir schwerelos|Tomasz Jedrowski": {
       "dnb_title": "Im Wasser sind wir schwerelos",
@@ -14895,7 +15212,9 @@
       ],
       "series": "",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Zusammen sind wir wundervoll|Marina Kirschner": {
       "dnb_title": "Zusammen sind wir wundervoll",
@@ -14966,7 +15285,9 @@
       "translators": [],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-20"
+      "fetched_at": "2026-08-20",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Der Geschmack der Sehnsucht|Kim Thúy": {
       "dnb_title": "Der Geschmack der Sehnsucht",
@@ -15008,7 +15329,9 @@
       ],
       "series": "dtv",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "fre",
+      "publisher_url": ""
     },
     "Ein Stadtmensch im Wald|H.D. Walden": {
       "dnb_title": "Ein Stadtmensch im Wald",
@@ -15074,7 +15397,9 @@
       "translators": [],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "An der Grasnarbe|Mirjam Wittig": {
       "dnb_title": "An der Grasnarbe",
@@ -15336,7 +15661,9 @@
       "translators": [],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Worauf wir hoffen|Fatima Farheen Mirza": {
       "dnb_title": "Worauf wir hoffen",
@@ -15505,7 +15832,9 @@
       ],
       "series": "",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Brüderchen|Clara Dupont-Monod": {
       "dnb_title": "Brüderchen",
@@ -15601,12 +15930,13 @@
       "pages": 176,
       "original_title": "S´adapter",
       "translators": [
-        "(isni)000000005692895X",
         "Finck, Sonja"
       ],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "fre",
+      "publisher_url": ""
     },
     "Königin außer Dienst|Martine Bijl": {
       "dnb_title": "Königin außer Dienst",
@@ -15669,7 +15999,9 @@
       ],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "dut",
+      "publisher_url": ""
     },
     "Kukolka|Lana Lux": {
       "dnb_title": "Kukolka",
@@ -15724,15 +16056,12 @@
       "published_year": "2019",
       "pages": 375,
       "original_title": "Kukolka",
-      "translators": [
-        "Germain, Brice",
-        "Misset, Marcel",
-        "Šedíková Čuhová, Paulina",
-        "Ḳanṭor, Avram"
-      ],
+      "translators": [],
       "series": "",
       "record_count": 9,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "So reich wie der König|Abigail Assor": {
       "dnb_title": "So reich wie der König",
@@ -15852,7 +16181,9 @@
       ],
       "series": "Insel-Taschenbuch",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "fre",
+      "publisher_url": ""
     },
     "Melody|Martin Suter": {
       "dnb_title": "Melody",
@@ -15912,13 +16243,12 @@
       "published_year": "2023",
       "pages": 331,
       "original_title": "Melody",
-      "translators": [
-        "Mannoni, Olivier",
-        "Pugliano, Marina"
-      ],
+      "translators": [],
       "series": "",
       "record_count": 11,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": "https://www.diogenes.ch/leser/katalog/a-z/all/9783257072341/buch"
     },
     "Das dritte Licht|Claire Keegan": {
       "dnb_title": "Das dritte Licht",
@@ -15973,7 +16303,9 @@
       ],
       "series": "",
       "record_count": 5,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Novecento|Alessandro Baricco": {
       "dnb_title": "Novecento",
@@ -16016,7 +16348,9 @@
       ],
       "series": "",
       "record_count": 16,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "ita",
+      "publisher_url": ""
     },
     "Hitzewelle|Fabienne Maris": {
       "dnb_title": "Hitzewelle",
@@ -16051,7 +16385,9 @@
       "translators": [],
       "series": "",
       "record_count": 1,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Die Einsamkeit der Primzahlen|Paolo Giordano": {
       "dnb_title": "Die Einsamkeit der Primzahlen",
@@ -16119,7 +16455,9 @@
       ],
       "series": "Rororo",
       "record_count": 11,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "ita",
+      "publisher_url": ""
     },
     "An Liebe stirbst du nicht|Géraldine Dalban-Moreynas": {
       "dnb_title": "An Liebe stirbst du nicht",
@@ -16202,7 +16540,9 @@
       ],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "fre",
+      "publisher_url": ""
     },
     "Die Kriegerin|Helene Bukowski": {
       "dnb_title": "Die Kriegerin",
@@ -16266,7 +16606,9 @@
       "translators": [],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Auszeit|Hannah Lühmann": {
       "dnb_title": "Auszeit",
@@ -16352,7 +16694,9 @@
       "translators": [],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Eine Frau am Telefon|Carole Fives": {
       "dnb_title": "Eine Frau am Telefon",
@@ -16418,12 +16762,12 @@
       "published_year": "2018",
       "pages": null,
       "original_title": "",
-      "translators": [
-        "Braun, Anne"
-      ],
+      "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Arbeit|Thorsten Nagelschmidt": {
       "dnb_title": "Arbeit",
@@ -16482,7 +16826,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Bis ich wieder atmen konnte|Lorenzo Amurri": {
       "dnb_title": "Bis ich wieder atmen konnte",
@@ -16550,7 +16896,9 @@
       ],
       "series": "",
       "record_count": 1,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "ita",
+      "publisher_url": ""
     },
     "Bell und Harry|Jane Gardam": {
       "dnb_title": "Bell und Harry",
@@ -16652,7 +17000,9 @@
       ],
       "series": "",
       "record_count": 8,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Dunkelgrün fast schwarz|Mareike Fallwickl": {
       "dnb_title": "Dunkelgrün fast schwarz",
@@ -16741,7 +17091,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Super, und dir?|Kathrin Weßling": {
       "dnb_title": "Super und dir?",
@@ -16827,7 +17179,9 @@
       "translators": [],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Lempi, das heißt Liebe|Minna Rytisalo": {
       "dnb_title": "Lempi, das heißt Liebe",
@@ -16919,7 +17273,9 @@
       ],
       "series": "",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "fin",
+      "publisher_url": ""
     },
     "Die vier Jahreszeiten des Sommers|Grégoire Delacourt": {
       "dnb_title": "Die vier Jahreszeiten des Sommers",
@@ -16955,7 +17311,9 @@
       ],
       "series": "",
       "record_count": 6,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "fre",
+      "publisher_url": ""
     },
     "Über die See|Mariette Navarro": {
       "dnb_title": "Über die See",
@@ -17009,7 +17367,9 @@
       ],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "fre",
+      "publisher_url": ""
     },
     "Haha Heartbreak|Olivia Kuderewski": {
       "dnb_title": "Haha heartbreak",
@@ -17072,7 +17432,9 @@
       "translators": [],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Cindy liebt mich nicht|Juan Moreno & Jochen-Martin Gutsch": {
       "dnb_title": "Cindy liebt mich nicht",
@@ -17096,7 +17458,9 @@
       "translators": [],
       "series": "KiWi",
       "record_count": 1,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Fünf Viertelstunden bis zum Meer|Ernest van der Kwast": {
       "dnb_title": "Fünf Viertelstunden bis zum Meer",
@@ -17151,7 +17515,9 @@
       ],
       "series": "",
       "record_count": 5,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "dut",
+      "publisher_url": ""
     },
     "Sommernachtserwachen|Meg Rosoff": {
       "dnb_title": "Sommernachtserwachen",
@@ -17282,12 +17648,13 @@
       "pages": 267,
       "original_title": "The Great Godden",
       "translators": [
-        "(isni)0000000399047644",
         "Jakobeit, Brigitte"
       ],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-13",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "So weit der Fluss uns trägt|Shelley Read": {
       "dnb_title": "So weit der Fluss uns trägt",
@@ -17388,7 +17755,9 @@
       ],
       "series": "",
       "record_count": 7,
-      "fetched_at": "2026-08-20"
+      "fetched_at": "2026-08-20",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "Der Einsiedlersommer|Anne Sverdrup-Thygeson": {
       "dnb_title": "Der Einsiedlersommer",
@@ -17514,13 +17883,15 @@
       "pages": 480,
       "original_title": "",
       "translators": [
-        "(isni)0000000383937730",
+        "Essrich, Ricarda",
         "Hüther, Franziska",
         "Pröfrock, Nora"
       ],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-09-11"
+      "fetched_at": "2026-09-11",
+      "original_language": "nor",
+      "publisher_url": ""
     },
     "Die Bagage|Monika Helfer": {
       "dnb_title": "Die Bagage",
@@ -17660,7 +18031,9 @@
       "translators": [],
       "series": "Kleine Reihe Hanser",
       "record_count": 7,
-      "fetched_at": "2026-09-11"
+      "fetched_at": "2026-09-11",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Ilaria|Gabriella Zalapi": {
       "dnb_title": "Ilaria",
@@ -17795,11 +18168,13 @@
       "pages": 162,
       "original_title": "Ilaria",
       "translators": [
-        "(isni)0000000382080501"
+        "Steinitz, Claudia"
       ],
       "series": "",
       "record_count": 2,
-      "fetched_at": "2026-09-11"
+      "fetched_at": "2026-09-11",
+      "original_language": "fre",
+      "publisher_url": ""
     },
     "Fünf Tage im Licht|Rhiannon Lucy Cosslett": {
       "dnb_title": "Fünf Tage im Licht",
@@ -17877,7 +18252,9 @@
       ],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-09-11"
+      "fetched_at": "2026-09-11",
+      "original_language": "eng",
+      "publisher_url": ""
     },
     "All die Farben, all das Licht|Cora Wucherer": {
       "dnb_title": "All die Farben, all das Licht",
@@ -17976,7 +18353,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-09-22"
+      "fetched_at": "2026-09-22",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Wohnverwandtschaften|Isabel Bogdan": {
       "dnb_title": "Wohnverwandtschaften",
@@ -18046,7 +18425,9 @@
       "translators": [],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-09-22"
+      "fetched_at": "2026-09-22",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Alte Sorten|Ewald Arenz": {
       "dnb_title": "Alte Sorten",
@@ -18130,7 +18511,9 @@
       "translators": [],
       "series": "",
       "record_count": 4,
-      "fetched_at": "2026-10-20"
+      "fetched_at": "2026-10-20",
+      "original_language": "",
+      "publisher_url": ""
     },
     "Ein unerhörter Wunsch|Ann Packer": {
       "dnb_title": "Ein unerhörter Wunsch",
@@ -18200,11 +18583,13 @@
       "pages": 302,
       "original_title": "Some bright nowhere",
       "translators": [
-        "(isni)0000000055231640"
+        "Klobusiczky, Patricia"
       ],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-10-20"
+      "fetched_at": "2026-10-20",
+      "original_language": "eng",
+      "publisher_url": "https://www.hanser-literaturverlage.de/buch/9783446287198"
     },
     "Yester Year|Caro Claire Burke": {
       "dnb_title": "Yesteryear",
@@ -18303,14 +18688,14 @@
       "pages": 463,
       "original_title": "",
       "translators": [
-        "(isni)0000000451081840",
-        "(isni)0000000498570350",
         "Falk, Dietlind",
         "Kögeböhn, Lisa"
       ],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-10-20"
+      "fetched_at": "2026-10-20",
+      "original_language": "eng",
+      "publisher_url": "https://www.penguin.de/ean/9783453275355"
     },
     "Broder|Dörte Hansen": {
       "dnb_title": "Broder",
@@ -18415,7 +18800,9 @@
       "translators": [],
       "series": "",
       "record_count": 3,
-      "fetched_at": "2026-10-20"
+      "fetched_at": "2026-10-20",
+      "original_language": "",
+      "publisher_url": "https://www.penguin.de/ean/9783328604556"
     }
   }
 }

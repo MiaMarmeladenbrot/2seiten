@@ -19,6 +19,15 @@ const BOOKS_PATH = resolve(here, '../../data/books.json');
 const EPISODES_PATH = resolve(here, '../../data/episodes.json');
 const DETAILS_PATH = resolve(here, '../../data/book_details.json');
 const OUT_PATH = resolve(here, '../src/data/embeddings.json');
+const SIMILAR_PATH = resolve(here, '../src/data/similar.json');
+const SIMILAR_COUNT = 3;
+const SIMILAR_BY_HAND = {
+  'Der alte Mann und der Bär|Janosch': [
+    'Mein Freund Rilke|Melanie Garanin',
+    'Nils. Von Tod und Wut. Und von Mut|Melanie Garanin',
+    'Frankie|Jochen Gutsch',
+  ],
+};
 
 const DESCRIPTION_CHARS_WITHOUT_KEYWORDS = 400;
 const DESCRIPTION_CHARS_WITH_KEYWORDS = 200;
@@ -31,6 +40,28 @@ function bookIndexText(book, episode, episodeDescription, keywords) {
   }
   const terms = keywords.slice(0, KEYWORD_COUNT).join(', ');
   return `${head}. ${terms}. ${episodeDescription.slice(0, DESCRIPTION_CHARS_WITH_KEYWORDS)}`;
+}
+
+const GENERIC_GENRES = new Set([
+  'Fiktionale Darstellung',
+  'Erzählende Literatur',
+  'Erzählende Literatur: Gegenwartsliteratur ab 1945',
+]);
+
+function bookLikenessText(book, detail) {
+  const keywords = detail?.keywords ?? [];
+  const genres = (detail?.genre ?? []).filter((genre) => !GENERIC_GENRES.has(genre));
+  const subjects = (detail?.thema ?? [])
+    .filter((entry) => /^[A-Z]/.test(entry.code) && !entry.code.startsWith('FBA'))
+    .map((entry) => entry.label.replace('Belletristik: Themen, Stoffe, Motive: ', ''));
+  return [
+    book.title,
+    book.quote,
+    [...genres, ...subjects].join(', '),
+    keywords.slice(0, KEYWORD_COUNT).join(', '),
+  ]
+    .filter(Boolean)
+    .join('. ');
 }
 
 // Stable key, identical to the one used in the browser (title|author).
@@ -56,7 +87,9 @@ async function main() {
       if (keywords.length) booksWithKeywords++;
       items.push({
         key: keyOf(book),
+        guid: ep.guid,
         text: bookIndexText(book, ep, description, keywords),
+        likenessText: bookLikenessText(book, details[keyOf(book)]),
       });
     }
   }
@@ -77,6 +110,7 @@ async function main() {
   // Run through the model in small batches — mean-pooled + L2-normalized,
   // so that cosine similarity is later just a dot product.
   const vectors = {};
+  const likenessVectors = {};
   const BATCH = 32;
   for (let i = 0; i < items.length; i += BATCH) {
     const batch = items.slice(i, i + BATCH);
@@ -85,9 +119,16 @@ async function main() {
       { pooling: 'mean', normalize: true },
     );
     const rows = out.tolist();
+    const likeness = (
+      await extract(
+        batch.map((it) => it.likenessText),
+        { pooling: 'mean', normalize: true },
+      )
+    ).tolist();
     batch.forEach((it, j) => {
       // round to 6 decimals → smaller JSON, quality stays the same
       vectors[it.key] = rows[j].map((n) => Math.round(n * 1e6) / 1e6);
+      likenessVectors[it.key] = likeness[j];
     });
     console.log(`  ${Math.min(i + BATCH, items.length)}/${items.length}`);
   }
@@ -97,6 +138,34 @@ async function main() {
   writeFileSync(OUT_PATH, JSON.stringify(payload));
   console.log(`Written: ${OUT_PATH}`);
   console.log(`  ${Object.keys(vectors).length} vectors of ${dim} numbers each`);
+
+  writeFileSync(SIMILAR_PATH, JSON.stringify(nearestNeighbours(items, likenessVectors), null, 1));
+  console.log(`Written: ${SIMILAR_PATH}`);
+  console.log(`  ${SIMILAR_COUNT} similar books each, never from the same episode`);
+}
+
+function nearestNeighbours(items, vectors) {
+  const dot = (a, b) => a.reduce((sum, x, i) => sum + x * b[i], 0);
+  const similar = {};
+  const known = new Set(items.map((item) => item.key));
+  for (const [key, picks] of Object.entries(SIMILAR_BY_HAND)) {
+    const unknown = [key, ...picks].filter((k) => !known.has(k));
+    if (unknown.length)
+      throw new Error(`SIMILAR_BY_HAND names unknown books: ${unknown.join(', ')}`);
+  }
+  for (const item of items) {
+    if (SIMILAR_BY_HAND[item.key]) {
+      similar[item.key] = SIMILAR_BY_HAND[item.key];
+      continue;
+    }
+    similar[item.key] = items
+      .filter((other) => other.guid !== item.guid && other.key !== item.key)
+      .map((other) => ({ key: other.key, score: dot(vectors[item.key], vectors[other.key]) }))
+      .sort((a, b) => b.score - a.score)
+      .slice(0, SIMILAR_COUNT)
+      .map((other) => other.key);
+  }
+  return similar;
 }
 
 main().catch((err) => {

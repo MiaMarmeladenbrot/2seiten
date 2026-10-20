@@ -1,13 +1,26 @@
-import { useEffect, useMemo, useState, useSyncExternalStore } from 'react';
+import {
+  Suspense,
+  lazy,
+  useCallback,
+  useEffect,
+  useMemo,
+  useState,
+  useSyncExternalStore,
+} from 'react';
 import { Hero } from './components/Hero';
 import { SearchBar } from './components/SearchBar';
 import { FilterMenu } from './components/FilterMenu';
 import { Banner } from './components/Banner';
 import { BookGrid } from './components/BookGrid';
-import { BOOKS } from './data/books';
+import { BOOKS, BOOK_BY_SLUG } from './data/books';
 import { narrow, rankBySearch, rankBySearchKeywordsOnlyFallback } from './lib/search';
 import { isModelReady, subscribeToModelReady } from './lib/embeddings';
+import { bookSlugFromLocation, closeBook, subscribeToRoute } from './lib/route';
 import type { Book, Filters } from './lib/types';
+
+const loadBookDetail = () => import('./components/BookDetail');
+const BookDetail = lazy(() => loadBookDetail().then((m) => ({ default: m.BookDetail })));
+const DETAIL_PRELOAD_DELAY_MS = 2000;
 
 const INITIAL: Filters = { search: '', recommender: 'alle', theme: '', year: '' };
 const SEARCH_DEBOUNCE_MS = 250;
@@ -30,9 +43,30 @@ interface Ranking {
   books: Book[];
 }
 
+function useOpenBook() {
+  const slug = useSyncExternalStore(subscribeToRoute, bookSlugFromLocation);
+  const wanted = slug ? (BOOK_BY_SLUG.get(slug) ?? null) : null;
+  const [shown, setShown] = useState<Book | null>(wanted);
+
+  if (shown === null && wanted !== null) setShown(wanted);
+
+  useEffect(() => {
+    if (slug && !BOOK_BY_SLUG.has(slug)) closeBook();
+  }, [slug]);
+
+  useEffect(() => {
+    const id = setTimeout(loadBookDetail, DETAIL_PRELOAD_DELAY_MS);
+    return () => clearTimeout(id);
+  }, []);
+
+  const onClosed = useCallback(() => setShown(null), []);
+  return { shown, closing: shown !== null && shown.key !== wanted?.key, onClosed };
+}
+
 export default function App() {
   const [filters, setFilters] = useState<Filters>(INITIAL);
   const [ranking, setRanking] = useState<Ranking | null>(null);
+  const openBook = useOpenBook();
 
   const query = filters.search.trim();
   const settledQuery = useDebounced(query, SEARCH_DEBOUNCE_MS);
@@ -102,8 +136,20 @@ export default function App() {
       <BookGrid books={results} loading={awaitingFirstRanking} stale={searching} />
 
       <footer>
-        Fan-Projekt zum WDR-Podcast „Zwei Seiten" mit Christine Westermann und Mona Ameziane.
+        Fan-Projekt zum WDR-Podcast „Zwei Seiten“ mit Christine Westermann und Mona Ameziane.
       </footer>
+
+      {openBook.shown && (
+        <Suspense fallback={null}>
+          <BookDetail
+            key={openBook.shown.key}
+            book={openBook.shown}
+            closing={openBook.closing}
+            onRequestClose={closeBook}
+            onClosed={openBook.onClosed}
+          />
+        </Suspense>
+      )}
     </>
   );
 }

@@ -13,6 +13,12 @@ Usage:
     .venv/bin/python scripts/fetch_book_details.py --force    # fetch everything again
     .venv/bin/python scripts/fetch_book_details.py --limit 10 # try a few first
     .venv/bin/python scripts/fetch_book_details.py --only Wunder --only Frankie
+    .venv/bin/python scripts/fetch_book_details.py --edition-fields
+
+--edition-fields keeps every chosen edition and only rereads its own record for the
+original language, the translators and the link to the publisher. A full --force
+run picks editions afresh, and the catalogue keeps gaining paperbacks, easy-read
+and foreign editions that would then win.
 
 Query syntax matters: tit="<title>" and atr=<surname>. Quoting the full author
 name returns zero records, and WOE= does not work at all.
@@ -50,6 +56,7 @@ REQUEST_PAUSE = 0.4
 BLURB_MIN_CHARS = 150
 BLURB_MAX_CHARS = 6000
 MAX_BLURB_LINKS = 4
+NON_PUBLISHER_HOSTS = ("dnb.de", "d-nb.info", "nbn-resolving.org", "instagram.com", "facebook.com", "twitter.com")
 
 AUDIO_MARKERS = ("hörbuch", "gesprochen", "ungekürzte lesung", "mp3", "audio-cd")
 
@@ -196,10 +203,12 @@ def parse_record(record):
         "year": "",
         "pages": None,
         "original_title": "",
+        "original_language": "",
         "translators": [],
         "people": [],
         "series": "",
         "blurb_links": [],
+        "web_links": [],
         "is_audio": False,
     }
 
@@ -241,11 +250,13 @@ def parse_record(record):
                 parsed["pages"] = int(pages_match.group(1))
         elif tag == "240":
             parsed["original_title"] = parsed["original_title"] or first_value(pairs, "a")
+        elif tag == "041":
+            parsed["original_language"] = parsed["original_language"] or first_value(pairs, "h")
         elif tag in ("100", "700"):
             is_translator = any(
                 "trl" in v.lower() or "übersetz" in v.lower() for _, v in pairs
             )
-            name = next(
+            name = first_value(pairs, "a") or next(
                 (v for _, v in pairs if v and not looks_like_identifier(v)), ""
             )
             if name:
@@ -257,10 +268,11 @@ def parse_record(record):
             if name and not parsed["series"]:
                 parsed["series"] = name
         elif tag == "856":
-            if "Inhaltstext" in first_value(pairs, "3"):
-                url = first_value(pairs, "u")
-                if url:
-                    parsed["blurb_links"].append(url)
+            url = first_value(pairs, "u")
+            if "Inhaltstext" in first_value(pairs, "3") and url:
+                parsed["blurb_links"].append(url)
+            if url and first_value(pairs, "3") != "Rezension":
+                parsed["web_links"].append(url)
 
         if any(marker in blob for marker in AUDIO_MARKERS):
             parsed["is_audio"] = True
@@ -407,6 +419,15 @@ def fetch_blurb(links):
     return ""
 
 
+def publisher_link(records, isbns):
+    for record in records:
+        for url in record["web_links"]:
+            host = urllib.parse.urlparse(url).netloc
+            if any(isbn in url for isbn in isbns) and not host.endswith(NON_PUBLISHER_HOSTS):
+                return url.replace("http://", "https://", 1)
+    return ""
+
+
 def build_detail(title, author):
     matching, records_seen = find_matching_records(title, author)
     if not matching:
@@ -456,12 +477,48 @@ def build_detail(title, author):
         "published_year": best["year"],
         "pages": best["pages"],
         "original_title": best["original_title"],
-        "translators": sorted({t for r in usable for t in r["translators"]}),
+        "original_language": best["original_language"]
+        or next((r["original_language"] for r in usable if r["original_language"]), ""),
+        "translators": sorted(set(best["translators"])),
+        "publisher_url": publisher_link([best], isbns),
         "series": best["series"],
         "record_count": len(records),
         "fetched_at": date.today().isoformat(),
     }
     return detail, "ok"
+
+
+def refresh_edition_fields(detail):
+    records = run_query(f"num={detail['isbn']}", 1)
+    if not records:
+        return False
+    record = records[0]
+    detail["original_language"] = record["original_language"]
+    detail["translators"] = sorted(set(record["translators"]))
+    detail["publisher_url"] = publisher_link([record], detail["isbn_candidates"] or [detail["isbn"]])
+    return True
+
+
+def refresh_all_edition_fields(details):
+    print(f"Lese Originalsprache, Übersetzung und Verlagslink für {len(details)} gewählte Ausgaben\n")
+    failures = []
+    for index, (key, detail) in enumerate(details.items(), start=1):
+        try:
+            found = refresh_edition_fields(detail)
+        except Exception:
+            found = False
+        if not found:
+            failures.append(key)
+        if index % 25 == 0:
+            print(f"  {index}/{len(details)}")
+        time.sleep(REQUEST_PAUSE)
+    write_output(details)
+    print(f"\nGeschrieben: {OUT_FILE}")
+    print(f"  mit Originalsprache: {sum(1 for d in details.values() if d.get('original_language'))}")
+    print(f"  mit Übersetzung:     {sum(1 for d in details.values() if d.get('translators'))}")
+    print(f"  mit Verlagslink:     {sum(1 for d in details.values() if d.get('publisher_url'))}")
+    for key in failures:
+        print(f"  ISBN nicht gefunden: {key}")
 
 
 def load_existing():
@@ -499,7 +556,12 @@ def main():
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--limit", type=int, default=0)
     parser.add_argument("--only", action="append", default=[], metavar="TITEL")
+    parser.add_argument("--edition-fields", action="store_true")
     args = parser.parse_args()
+
+    if args.edition_fields:
+        refresh_all_edition_fields(load_existing())
+        return
 
     data = json.loads(BOOKS_FILE.read_text(encoding="utf-8"))
     all_books = [

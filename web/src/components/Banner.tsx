@@ -25,7 +25,7 @@ export function Banner({
   const noun = count === 1 ? 'Buch' : 'Bücher';
   const parts: string[] = [];
   if (filters.recommender !== 'alle') parts.push(RECOMMENDER_LABELS[filters.recommender]);
-  if (filters.theme) parts.push(`Folge „${filters.theme}"`);
+  if (filters.theme) parts.push(`Folge „${filters.theme}“`);
   if (filters.year) parts.push(filters.year);
 
   return (
@@ -36,7 +36,7 @@ export function Banner({
           {filters.search && (
             <>
               {' '}
-              für <strong>„{filters.search}"</strong>
+              für <strong>„{filters.search}“</strong>
             </>
           )}
           {hasFilter && <span className="banner-soft"> ({parts.join(', ')})</span>}

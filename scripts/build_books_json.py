@@ -18,6 +18,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from book_quotes import QUOTES
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 EPISODES_FILE = DATA_DIR / "episodes.json"
@@ -926,6 +928,7 @@ def main() -> None:
 
     out_episodes = []
     missing = []
+    stale_quotes = []
     book_count = 0
 
     for ep in episodes:
@@ -941,10 +944,15 @@ def main() -> None:
                 "author": author,
                 "recommended_by": recommended_by,
                 "role": role,
+                "quote": QUOTES.get(f"{title}|{author}"),
             }
             for title, author, recommended_by, role in extraction["books"]
         ]
         book_count += len(books)
+        description = ep.get("description_full_text") or ep.get("description") or ""
+        for book in books:
+            if book["quote"] and book["quote"] not in description:
+                stale_quotes.append(f"{book['title']}|{book['author']}")
 
         out_episodes.append(
             {
@@ -953,6 +961,7 @@ def main() -> None:
                 "published": ep["published"],
                 "topic": extraction["topic"],
                 "page_url": ep.get("page_url"),
+                "ard_url": ep.get("ard_url"),
                 "audio_url": ep.get("audio_url"),
                 "books": books,
             }
@@ -985,6 +994,11 @@ def main() -> None:
     print(f"Written: {OUT_FILE}")
     print(f"  Episodes with data: {len(out_episodes)}")
     print(f"  Total books:        {book_count}")
+    print(f"  Books with a quote: {sum(1 for e in out_episodes for b in e['books'] if b['quote'])}")
+    if stale_quotes:
+        print(f"  Quotes no longer in their description: {len(stale_quotes)}")
+        for key in stale_quotes:
+            print(f"    - {key}")
     if missing:
         print(f"  Missing episodes:   {len(missing)}")
         for guid, title in missing:

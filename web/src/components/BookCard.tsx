@@ -1,15 +1,12 @@
-import { useState } from 'react';
 import type { Book } from '../lib/types';
-import { paletteFor } from '../lib/palette';
-import coverFiles from '../data/covers.json';
-
-const COVER_BY_BOOK = coverFiles as Record<string, string>;
+import { bookHref, followInPlace } from '../lib/route';
+import { BookCover } from './BookCover';
 
 interface Props {
   book: Book;
 }
 
-function Avatar({ recommender }: { recommender: Book['recommended_by'] }) {
+export function Avatar({ recommender }: { recommender: Book['recommended_by'] }) {
   if (recommender === 'Christine') {
     return (
       <span className="avatar-wrap">
@@ -33,40 +30,20 @@ function Avatar({ recommender }: { recommender: Book['recommended_by'] }) {
 }
 
 export function BookCard({ book }: Props) {
-  const { bg, fg } = paletteFor(book);
-  const [imageBroken, setImageBroken] = useState(false);
-  const coverFile = imageBroken ? undefined : COVER_BY_BOOK[`${book.title}|${book.author}`];
   return (
-    <article className="book">
-      <div
-        className={`cover${coverFile ? ' cover-photo' : ''}`}
-        style={{ background: bg, color: fg }}
-      >
-        {coverFile ? (
-          <img
-            className="cover-image"
-            src={`${import.meta.env.BASE_URL}covers/${coverFile}`}
-            alt={`Buchcover von „${book.title}"`}
-            loading="lazy"
-            onError={() => setImageBroken(true)}
-          />
-        ) : (
-          <>
-            <div className="cover-mark">Zwei Seiten</div>
-            <div className="cover-title">{book.title}</div>
-            <div className="cover-foot">
-              <div className="cover-rule" />
-              <div className="cover-author">{book.author}</div>
-            </div>
-          </>
-        )}
-      </div>
+    <a
+      className="book"
+      href={bookHref(book.slug)}
+      data-book-slug={book.slug}
+      onClick={(event) => followInPlace(event, book.slug)}
+    >
+      <BookCover book={book} />
       <h3 className="book-title">{book.title}</h3>
       <p className="book-author">{book.author}</p>
       <p className="book-meta">
         <Avatar recommender={book.recommended_by} />
-        <span className="book-thema">Folge „{book.topic}"</span>
+        <span className="book-thema">Folge „{book.topic}“</span>
       </p>
-    </article>
+    </a>
   );
 }
