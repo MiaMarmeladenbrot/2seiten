@@ -19,6 +19,12 @@ const NARROW_BELOW = 760;
 const COVER_RATIO = 63 / 100;
 const LID_OPEN_MS = 1050;
 const LID_CLOSE_MS = 850;
+const PEEK = 22;
+const NARROW_TOP = 72;
+const NARROW_BOTTOM = 24;
+const SWIPE_START_PX = 8;
+const SWIPE_ZOOM = 0.94;
+const PAGE_GLIDE_MS = 380;
 
 interface Rect {
   left: number;
@@ -29,6 +35,14 @@ interface Rect {
 
 interface Layout extends Rect {
   narrow: boolean;
+  pan: number;
+}
+
+interface Camera {
+  x: number;
+  zoom: number;
+  page: 1 | 2;
+  ready: boolean;
 }
 
 function layoutFor(viewWidth: number, viewHeight: number): Layout {
@@ -46,17 +60,60 @@ function layoutFor(viewWidth: number, viewHeight: number): Layout {
       height,
       left: Math.round(viewWidth / 2),
       top: Math.round((viewHeight - height) / 2),
+      pan: 0,
     };
   }
-  const width = Math.min(viewWidth - 32, 460);
-  const height = Math.min(viewHeight - 40, Math.round(width / COVER_RATIO));
+  const width = viewWidth - 2 * PEEK;
+  const room = viewHeight - NARROW_TOP - NARROW_BOTTOM;
+  const height = Math.min(room, Math.round(width / COVER_RATIO));
   return {
     narrow,
     width,
     height,
-    left: Math.round((viewWidth - width) / 2),
-    top: Math.round((viewHeight - height) / 2),
+    left: PEEK + width,
+    top: NARROW_TOP + Math.round((room - height) / 2),
+    pan: width,
   };
+}
+
+function closedRect(layout: Layout): Rect {
+  return {
+    left: layout.left - layout.pan,
+    top: layout.top,
+    width: layout.width,
+    height: layout.height,
+  };
+}
+
+function tween(ms: number, step: (t: number) => void): Promise<void> {
+  const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  return new Promise((resolve) => {
+    if (still || ms <= 0) {
+      step(1);
+      resolve();
+      return;
+    }
+    const start = performance.now();
+    const frame = (now: number) => {
+      const t = Math.min(1, (now - start) / ms);
+      step(t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);
+      if (t < 1) requestAnimationFrame(frame);
+      else resolve();
+    };
+    requestAnimationFrame(frame);
+  });
+}
+
+function aim(el: HTMLElement | null, camera: Camera, x: number, zoom = 1) {
+  camera.x = x;
+  camera.zoom = zoom;
+  if (el) el.style.transform = `translateX(${x}px) scale(${zoom})`;
+}
+
+function glide(el: HTMLElement | null, camera: Camera, to: number, ms: number): Promise<void> {
+  const fromX = camera.x;
+  const fromZoom = camera.zoom;
+  return tween(ms, (t) => aim(el, camera, fromX + (to - fromX) * t, fromZoom + (1 - fromZoom) * t));
 }
 
 function flipFrom(from: Rect, to: Rect): string {
@@ -94,7 +151,6 @@ function swingLid(
   shadeFront: HTMLElement | null,
   shadeBack: HTMLElement | null,
   open: boolean,
-  narrow: boolean,
 ): Promise<unknown> {
   const duration = open ? LID_OPEN_MS : LID_CLOSE_MS;
   const half = duration / 2;
@@ -118,15 +174,6 @@ function swingLid(
       easing: 'linear',
     }),
   ];
-  if (narrow) {
-    runs.push(
-      play(lid, open ? FADE_OUT : FADE_IN, {
-        duration: half,
-        delay: open ? half : 0,
-        easing: 'linear',
-      }),
-    );
-  }
   return Promise.all(runs);
 }
 
@@ -258,6 +305,9 @@ export function BookDetail({ book, closing, onRequestClose, onClosed }: Props) {
   const pageRef = useRef<HTMLDivElement>(null);
   const flatRef = useRef<HTMLDivElement>(null);
   const closeRef = useRef<HTMLButtonElement>(null);
+  const stageRef = useRef<HTMLDivElement>(null);
+  const cameraElRef = useRef<HTMLDivElement>(null);
+  const cameraRef = useRef<Camera>({ x: -layout.pan, zoom: 1, page: 1, ready: false });
   const closingRef = useRef(false);
 
   const page = pageOf(book);
@@ -286,15 +336,18 @@ export function BookDetail({ book, closing, onRequestClose, onClosed }: Props) {
     ];
     const lid = lidRef.current;
     const flat = flatRef.current;
+    const camera = cameraRef.current;
 
     (async () => {
       play(closeRef.current, FADE_IN, { duration: 340, delay: 600 });
       await Promise.all([
         play(backdropRef.current, FADE_IN, { duration: 340, easing: 'ease-out' }),
         from
-          ? play(bookRef.current, [{ transform: flipFrom(from, layout) }, { transform: 'none' }], {
-              duration: 640,
-            })
+          ? play(
+              bookRef.current,
+              [{ transform: flipFrom(from, closedRect(layout)) }, { transform: 'none' }],
+              { duration: 640 },
+            )
           : play(
               bookRef.current,
               [
@@ -312,10 +365,15 @@ export function BookDetail({ book, closing, onRequestClose, onClosed }: Props) {
         delay: LID_OPEN_MS * 0.35,
         easing: 'ease-out',
       });
-      await swingLid(lid, shadeFrontRef.current, shadeBackRef.current, true, layout.narrow);
+      await Promise.all([
+        swingLid(lid, shadeFrontRef.current, shadeBackRef.current, true),
+        layout.pan ? glide(cameraElRef.current, camera, 0, LID_OPEN_MS) : null,
+      ]);
       if (cancelled || closingRef.current) return;
       if (flat) flat.hidden = false;
       if (lid) lid.style.visibility = 'hidden';
+      camera.page = 1;
+      camera.ready = true;
       closeRef.current?.focus({ preventScroll: true });
     })();
 
@@ -333,21 +391,27 @@ export function BookDetail({ book, closing, onRequestClose, onClosed }: Props) {
     closingRef.current = true;
     let cancelled = false;
     const lid = lidRef.current;
+    const camera = cameraRef.current;
+    camera.ready = false;
     if (flatRef.current) flatRef.current.hidden = true;
     if (lid) lid.style.visibility = '';
 
     (async () => {
       play(closeRef.current, FADE_OUT, { duration: 150 });
       play(pageRef.current, FADE_OUT, { duration: 250, easing: 'ease-in' });
-      await swingLid(lid, shadeFrontRef.current, shadeBackRef.current, false, layout.narrow);
+      await Promise.all([
+        swingLid(lid, shadeFrontRef.current, shadeBackRef.current, false),
+        layout.pan ? glide(cameraElRef.current, camera, -layout.pan, LID_CLOSE_MS) : null,
+      ]);
       if (cancelled) return;
       const to = onScreen(cardCoverOf(book.slug));
       await Promise.all([
         to
-          ? play(bookRef.current, [{ transform: 'none' }, { transform: flipFrom(to, layout) }], {
-              duration: 540,
-              easing: 'cubic-bezier(.5,0,.25,1)',
-            })
+          ? play(
+              bookRef.current,
+              [{ transform: 'none' }, { transform: flipFrom(to, closedRect(layout)) }],
+              { duration: 540, easing: 'cubic-bezier(.5,0,.25,1)' },
+            )
           : play(
               bookRef.current,
               [
@@ -375,6 +439,95 @@ export function BookDetail({ book, closing, onRequestClose, onClosed }: Props) {
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, [closing, onRequestClose]);
+
+  useEffect(() => {
+    if (!layout.narrow) return;
+    const stage = stageRef.current;
+    const cameraEl = cameraElRef.current;
+    const camera = cameraRef.current;
+    if (!stage) return;
+
+    const goTo = (page: 1 | 2) => {
+      camera.page = page;
+      return glide(cameraEl, camera, page === 1 ? 0 : -layout.width, PAGE_GLIDE_MS);
+    };
+    let swipe: { id: number; x: number; y: number; from: number; moving: boolean } | null = null;
+    let swallowClick = false;
+
+    const onDown = (event: PointerEvent) => {
+      if (!camera.ready || event.button !== 0) return;
+      swipe = {
+        id: event.pointerId,
+        x: event.clientX,
+        y: event.clientY,
+        from: camera.x,
+        moving: false,
+      };
+    };
+    const onMove = (event: PointerEvent) => {
+      if (!swipe || event.pointerId !== swipe.id) return;
+      const dx = event.clientX - swipe.x;
+      const dy = event.clientY - swipe.y;
+      if (!swipe.moving) {
+        if (Math.abs(dx) < SWIPE_START_PX || Math.abs(dx) < Math.abs(dy)) return;
+        swipe.moving = true;
+        stage.setPointerCapture(event.pointerId);
+      }
+      aim(cameraEl, camera, Math.min(0, Math.max(-layout.width, swipe.from + dx)), SWIPE_ZOOM);
+    };
+    const onUp = (event: PointerEvent) => {
+      if (!swipe || event.pointerId !== swipe.id) return;
+      const { from, moving } = swipe;
+      swipe = null;
+      if (!moving) return;
+      swallowClick = true;
+      const turned = from === 0 ? camera.x < -layout.width * 0.2 : camera.x < -layout.width * 0.8;
+      goTo(turned ? 2 : 1);
+    };
+    const onClick = (event: MouseEvent) => {
+      if (swallowClick) {
+        swallowClick = false;
+        event.preventDefault();
+        event.stopPropagation();
+        return;
+      }
+      if (!camera.ready || !(event.target instanceof Element)) return;
+      const onHiddenPage =
+        (camera.page === 1 && event.target.closest('.ak-page')) ||
+        (camera.page === 2 && event.target.closest('.ak-flat'));
+      if (!onHiddenPage) return;
+      event.preventDefault();
+      event.stopPropagation();
+      goTo(camera.page === 1 ? 2 : 1);
+    };
+    const onFocus = (event: FocusEvent) => {
+      if (!camera.ready || !(event.target instanceof Element)) return;
+      if (camera.page === 1 && event.target.closest('.ak-page')) goTo(2);
+      if (camera.page === 2 && event.target.closest('.ak-flat')) goTo(1);
+    };
+    const onKey = (event: KeyboardEvent) => {
+      if (!camera.ready) return;
+      if (event.key === 'ArrowRight' && camera.page === 1) goTo(2);
+      if (event.key === 'ArrowLeft' && camera.page === 2) goTo(1);
+    };
+
+    stage.addEventListener('pointerdown', onDown);
+    stage.addEventListener('pointermove', onMove);
+    stage.addEventListener('pointerup', onUp);
+    stage.addEventListener('pointercancel', onUp);
+    stage.addEventListener('click', onClick, true);
+    stage.addEventListener('focusin', onFocus);
+    window.addEventListener('keydown', onKey);
+    return () => {
+      stage.removeEventListener('pointerdown', onDown);
+      stage.removeEventListener('pointermove', onMove);
+      stage.removeEventListener('pointerup', onUp);
+      stage.removeEventListener('pointercancel', onUp);
+      stage.removeEventListener('click', onClick, true);
+      stage.removeEventListener('focusin', onFocus);
+      window.removeEventListener('keydown', onKey);
+    };
+  }, [layout]);
 
   const requestClose = () => {
     if (!closing) onRequestClose();
@@ -427,74 +580,69 @@ export function BookDetail({ book, closing, onRequestClose, onClosed }: Props) {
       aria-labelledby="detail-title"
     >
       <div className="detail-backdrop" ref={backdropRef} onClick={requestClose} />
-      <div className="ak" style={stage}>
-        <div className="ak-book" ref={bookRef}>
-          <section className="ak-page">
-            <div className="ak-scroll" ref={pageRef}>
-              <header className="detail-head">
-                <h2 className="detail-title" id="detail-title">
-                  {book.title}
-                </h2>
-                <p className="detail-author">{book.author}</p>
-              </header>
-              {layout.narrow && (
-                <div className="detail-narrow">
-                  <p className="detail-kicker">
-                    {tipOf(book.recommended_by)} in der Folge „{book.topic}“
-                  </p>
-                  {book.quote && <blockquote className="ak-quote">{book.quote}</blockquote>}
-                  <ListenLink book={book} />
-                </div>
-              )}
-              {facts.length > 0 && (
-                <dl className="detail-facts">
-                  {facts.map(([term, value]) => (
-                    <div key={term}>
-                      <dt>{term}</dt>
-                      <dd>{value}</dd>
-                    </div>
-                  ))}
-                </dl>
-              )}
-              {page?.publisher_url && (
-                <a
-                  className="detail-out"
-                  href={page.publisher_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Zum Buch bei {page.publisher}
-                </a>
-              )}
-              {layout.narrow && partners.length > 0 && (
-                <div className="detail-split">
-                  <OtherBooks books={partners} />
-                </div>
-              )}
-              {alike.length > 0 && (
-                <div className="detail-split">
-                  <p className="detail-section">Vielleicht magst du auch</p>
-                  {alike.map((other) => (
-                    <BookLink key={other.key} book={other} withEpisode />
-                  ))}
-                </div>
-              )}
-            </div>
-          </section>
-          <div className="ak-lid" ref={lidRef}>
-            <div className="ak-front">
-              <BookCover book={book} />
-              <div className="ak-shade" ref={shadeFrontRef} />
-            </div>
-            <div className="ak-back" style={{ '--endpaper': endpaper } as CSSProperties} inert>
-              {label}
-              <div className="ak-shade" ref={shadeBackRef} />
+      <div
+        className="ak-camera"
+        ref={cameraElRef}
+        style={{ transform: `translateX(${-layout.pan}px)` }}
+      >
+        <div className="ak" style={stage} ref={stageRef}>
+          <div className="ak-book" ref={bookRef}>
+            <section className="ak-page">
+              <div className="ak-scroll" ref={pageRef}>
+                <header className="detail-head">
+                  <h2 className="detail-title" id="detail-title">
+                    {book.title}
+                  </h2>
+                  <p className="detail-author">{book.author}</p>
+                </header>
+                {facts.length > 0 && (
+                  <dl className="detail-facts">
+                    {facts.map(([term, value]) => (
+                      <div key={term}>
+                        <dt>{term}</dt>
+                        <dd>{value}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                )}
+                {page?.publisher_url && (
+                  <a
+                    className="detail-out"
+                    href={page.publisher_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Zum Buch bei {page.publisher}
+                  </a>
+                )}
+                {alike.length > 0 && (
+                  <div className="detail-split">
+                    <p className="detail-section">Vielleicht magst du auch</p>
+                    {alike.map((other) => (
+                      <BookLink key={other.key} book={other} withEpisode />
+                    ))}
+                  </div>
+                )}
+              </div>
+            </section>
+            <div className="ak-lid" ref={lidRef}>
+              <div className="ak-front">
+                <BookCover book={book} />
+                <div className="ak-shade" ref={shadeFrontRef} />
+              </div>
+              <div className="ak-back" style={{ '--endpaper': endpaper } as CSSProperties} inert>
+                {label}
+                <div className="ak-shade" ref={shadeBackRef} />
+              </div>
             </div>
           </div>
-        </div>
-        <div className="ak-flat" ref={flatRef} hidden>
-          <div className="ak-back ak-flat-face" style={{ '--endpaper': endpaper } as CSSProperties}>
-            {label}
+          <div className="ak-flat" ref={flatRef} hidden>
+            <div
+              className="ak-back ak-flat-face"
+              style={{ '--endpaper': endpaper } as CSSProperties}
+            >
+              {label}
+            </div>
           </div>
         </div>
       </div>

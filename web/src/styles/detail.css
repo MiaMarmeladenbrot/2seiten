@@ -61,7 +61,20 @@ html.detail-open { overflow: hidden; }
   flex-direction: column;
   gap: 18px;
 }
-.is-narrow .ak-scroll { padding: 64px 24px 32px 30px; }
+.is-narrow .ak-scroll { padding: 30px 22px 30px 28px; }
+.is-narrow .ak-back { padding: 22px 18px; }
+.is-narrow .ak-label { padding: 24px 20px; gap: 13px; }
+
+.ak-camera {
+  position: absolute;
+  inset: 0;
+  transform-origin: 50% 50%;
+  pointer-events: none;
+}
+.ak-camera .ak {
+  pointer-events: auto;
+  touch-action: pan-y;
+}
 
 .ak-lid {
   position: absolute;
@@ -192,12 +205,6 @@ html.detail-open { overflow: hidden; }
   font-style: italic;
   font-size: 18px;
   color: var(--ink-soft);
-}
-.detail-narrow {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  align-items: flex-start;
 }
 .detail-kicker {
   font-size: 10px;
