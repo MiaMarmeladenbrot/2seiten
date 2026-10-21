@@ -25,6 +25,7 @@ const NARROW_BOTTOM = 24;
 const SWIPE_START_PX = 8;
 const SWIPE_ZOOM = 0.94;
 const PAGE_GLIDE_MS = 380;
+const SWIPE_CLICK_GUARD_MS = 350;
 
 interface Rect {
   left: number;
@@ -452,7 +453,7 @@ export function BookDetail({ book, closing, onRequestClose, onClosed }: Props) {
       return glide(cameraEl, camera, page === 1 ? 0 : -layout.width, PAGE_GLIDE_MS);
     };
     let swipe: { id: number; x: number; y: number; from: number; moving: boolean } | null = null;
-    let swallowClick = false;
+    let swallowClicksUntil = 0;
 
     const onDown = (event: PointerEvent) => {
       if (!camera.ready || event.button !== 0) return;
@@ -480,13 +481,12 @@ export function BookDetail({ book, closing, onRequestClose, onClosed }: Props) {
       const { from, moving } = swipe;
       swipe = null;
       if (!moving) return;
-      swallowClick = true;
+      swallowClicksUntil = performance.now() + SWIPE_CLICK_GUARD_MS;
       const turned = from === 0 ? camera.x < -layout.width * 0.2 : camera.x < -layout.width * 0.8;
       goTo(turned ? 2 : 1);
     };
     const onClick = (event: MouseEvent) => {
-      if (swallowClick) {
-        swallowClick = false;
+      if (performance.now() < swallowClicksUntil) {
         event.preventDefault();
         event.stopPropagation();
         return;

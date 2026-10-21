@@ -73,6 +73,9 @@ html.detail-open { overflow: hidden; }
 }
 .ak-camera .ak {
   pointer-events: auto;
+}
+.ak-camera .ak,
+.ak-camera .ak * {
   touch-action: pan-y;
 }
 
