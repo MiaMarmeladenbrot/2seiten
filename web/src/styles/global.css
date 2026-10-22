@@ -72,6 +72,23 @@ input, select { font-family: inherit; }
   font-weight: 400;
   font-variation-settings: "opsz" 96;
 }
+.hero-sub a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--coral);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 0.18em;
+  transition: color 0.2s;
+}
+.hero-sub a:hover { color: var(--coral); }
+.hero-hosts {
+  margin-top: 6px;
+  font-family: var(--serif);
+  font-size: clamp(14px, 1.4vw, 16px);
+  font-style: italic;
+  color: var(--ink-soft);
+  font-variation-settings: "opsz" 14;
+}
 .hero-meta {
   margin-top: 18px;
   font-size: 11px;
