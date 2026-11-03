@@ -558,7 +558,6 @@ export function BookDetail({ book, closing, onRequestClose, onClosed }: Props) {
         [
           ['Verlag', imprint(page)],
           ['Umfang', page.pages ? `${page.pages} Seiten` : ''],
-          ['Schauplatz', page.setting],
           ['Original', page.original_title],
           ['Übersetzung', translation(page)],
         ] as [string, string][]

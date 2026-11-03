@@ -23,7 +23,6 @@ export interface BookPage {
   place: string;
   year: string;
   pages: number | null;
-  setting: string;
   original_title: string;
   translated_from: string;
   translators: string;

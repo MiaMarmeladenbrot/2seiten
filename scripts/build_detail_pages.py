@@ -2,11 +2,14 @@
 Builds web/src/data/details.json, the data behind a book's detail page.
 
 Reads data/book_details.json (DNB) and keeps only what the page shows: publisher,
-place and year, pages, setting, original title and language, translators and a
-link to the book at its publisher. Everything is phrased the way the page prints
-it, so the app does not need to know about MARC codes or Thema labels.
+place and year, pages, original title and language, translators and a link to the
+book at its publisher. Everything is phrased the way the page prints it, so the
+app does not need to know about MARC codes.
 
-PUBLISHER_URLS pins a publisher link by hand where the DNB has none or a wrong one.
+The publisher link comes from data/publisher_links.json, a hand-kept map from
+"Title|Author" to the book's page at its publisher. Every link in it was checked
+once to name one of the book's ISBNs. Books missing there get no link, so for a
+new book add its publisher page by hand, or leave it out.
 
 Books from collection episodes (three or more books) also get the colours of
 their spine, for the shelf that shows the other books of such an episode: the
@@ -40,7 +43,7 @@ CREAM = (0xFA, 0xF4, 0xED)
 READABLE_CONTRAST = 4.5
 TITLE_COLOR_MIN_SHARE = 0.05
 
-PUBLISHER_URLS: dict[str, str] = {}
+PUBLISHER_LINKS_FILE = ROOT / "data" / "publisher_links.json"
 
 LANGUAGES = {
     "ara": "Arabischen",
@@ -66,28 +69,6 @@ LANGUAGES = {
     "swe": "Schwedischen",
     "tur": "Türkischen",
 }
-
-PLACE_NAMES = {
-    "Vereinigte Staaten von Amerika, USA": "USA",
-    "Vereinigtes Königreich, Großbritannien": "Großbritannien",
-    "France": "Frankreich",
-    "Ostdeutschland, DDR": "DDR",
-}
-
-
-def setting_of(thema: list[dict]) -> str:
-    places = [entry for entry in thema if entry["code"].startswith("1")]
-    if not places:
-        return ""
-    label = max(places, key=lambda entry: len(entry["code"]))["label"]
-    region, _, local = label.partition(":")
-    if local:
-        country = region.split()[0]
-        label = f"{local.strip()}, {country}"
-    label = re.sub(r"\s*\((City|Region|Stadt)\)$", "", label).strip()
-    label = label.split(" / ")[0].replace("-am-", " am ")
-    return PLACE_NAMES.get(label, label)
-
 
 def person_name(inverted: str) -> str:
     surname, _, first = inverted.partition(",")
@@ -165,11 +146,9 @@ def page_of(title: str, detail: dict) -> dict:
         "place": detail.get("place", ""),
         "year": detail.get("published_year", ""),
         "pages": detail.get("pages"),
-        "setting": setting_of(detail.get("thema", [])),
         "original_title": "" if same_title(original_title, title) else original_title,
         "translated_from": LANGUAGES.get(detail.get("original_language", ""), ""),
         "translators": joined(translators),
-        "publisher_url": detail.get("publisher_url", ""),
     }
 
 
@@ -183,10 +162,13 @@ def main() -> None:
         if len(episode["books"]) >= SHELF_FROM_BOOKS
         for book in episode["books"]
     }
+    publisher_links = (
+        json.loads(PUBLISHER_LINKS_FILE.read_text(encoding="utf-8")) if PUBLISHER_LINKS_FILE.exists() else {}
+    )
     pages = {}
     for key, detail in details.items():
         page = page_of(key.split("|")[0], detail)
-        page["publisher_url"] = PUBLISHER_URLS.get(key, page["publisher_url"])
+        page["publisher_url"] = publisher_links.get(key, "")
         spine = spine_of(COVER_DIR / covers[key]) if key in on_shelf and key in covers else None
         if spine:
             page["spine"] = spine
@@ -199,7 +181,6 @@ def main() -> None:
 
     print(f"Written: {OUT_FILE}")
     print(f"  books:            {len(pages)}")
-    print(f"  setting:          {count('setting')}")
     print(f"  translated from:  {count('translated_from')}")
     print(f"  translators:      {count('translators')}")
     print(f"  publisher link:   {count('publisher_url')}")
