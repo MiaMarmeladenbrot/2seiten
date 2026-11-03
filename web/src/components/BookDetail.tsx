@@ -1,4 +1,11 @@
-import { useEffect, useLayoutEffect, useRef, useState, type CSSProperties } from 'react';
+import {
+  useEffect,
+  useLayoutEffect,
+  useRef,
+  useState,
+  type CSSProperties,
+  type ReactNode,
+} from 'react';
 import type { Book } from '../lib/types';
 import { bookHref, followInPlace } from '../lib/route';
 import {
@@ -289,6 +296,39 @@ function ListenLink({ book }: { book: Book }) {
   );
 }
 
+function FramedScroll({ children }: { children: ReactNode }) {
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const [edges, setEdges] = useState({ above: false, below: false });
+
+  useLayoutEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    const update = () => {
+      const above = el.scrollTop > 1;
+      const below = el.scrollTop + el.clientHeight < el.scrollHeight - 1;
+      setEdges((prev) => (prev.above === above && prev.below === below ? prev : { above, below }));
+    };
+    update();
+    el.addEventListener('scroll', update, { passive: true });
+    const observer = new ResizeObserver(update);
+    observer.observe(el);
+    for (const child of el.children) observer.observe(child);
+    return () => {
+      el.removeEventListener('scroll', update);
+      observer.disconnect();
+    };
+  }, []);
+
+  const className = ['ak-label-scroll', edges.above && 'more-above', edges.below && 'more-below']
+    .filter(Boolean)
+    .join(' ');
+  return (
+    <div className={className} ref={scrollRef}>
+      {children}
+    </div>
+  );
+}
+
 interface Props {
   book: Book;
   closing: boolean;
@@ -535,21 +575,23 @@ export function BookDetail({ book, closing, onRequestClose, onClosed }: Props) {
 
   const label = (
     <div className="ak-label">
-      <span className="ak-kicker">Empfohlen von</span>
-      <span className="ak-who">{recommenderName(book.recommended_by)}</span>
-      <span className="ak-rule" />
-      <span className="ak-episode">
-        in der Folge „{book.topic}“,
-        <br />
-        {episodeDate(book.published)}
-      </span>
-      {book.quote && <blockquote className="ak-quote">{book.quote}</blockquote>}
-      <ListenLink book={book} />
-      {partners.length > 0 && (
-        <div className="ak-partners">
-          <OtherBooks books={partners} />
-        </div>
-      )}
+      <FramedScroll>
+        <span className="ak-kicker">Empfohlen von</span>
+        <span className="ak-who">{recommenderName(book.recommended_by)}</span>
+        <span className="ak-rule" />
+        <span className="ak-episode">
+          in der Folge „{book.topic}“,
+          <br />
+          {episodeDate(book.published)}
+        </span>
+        {book.quote && <blockquote className="ak-quote">{book.quote}</blockquote>}
+        <ListenLink book={book} />
+        {partners.length > 0 && (
+          <div className="ak-partners">
+            <OtherBooks books={partners} />
+          </div>
+        )}
+      </FramedScroll>
     </div>
   );
 
