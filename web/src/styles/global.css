@@ -292,19 +292,18 @@ input, select { font-family: inherit; }
   gap: 12px;
   width: 100%;
   background: none;
-  border: none;
+  border: 1px solid rgba(43, 31, 28, 0.14);
   font-family: inherit;
   font-size: 14px;
   color: var(--ink);
   text-align: left;
-  padding: 8px 10px;
-  margin: 0 -10px;
+  padding: 9px 12px;
   border-radius: 8px;
   cursor: pointer;
-  transition: background 0.15s;
+  transition: background 0.15s, border-color 0.15s;
 }
-.filter-drill:hover { background: rgba(43, 31, 28, 0.04); }
-.filter-drill.is-set { color: var(--coral); font-weight: 600; }
+.filter-drill:hover { background: rgba(43, 31, 28, 0.04); border-color: var(--ink-faint); }
+.filter-drill.is-set { color: var(--coral); font-weight: 600; border-color: var(--coral); }
 .filter-drill svg {
   width: 6px;
   height: 10px;
