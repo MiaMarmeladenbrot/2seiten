@@ -12,6 +12,7 @@ import { SearchBar } from './components/SearchBar';
 import { FilterMenu } from './components/FilterMenu';
 import { Banner } from './components/Banner';
 import { BookGrid } from './components/BookGrid';
+import { ToTopButton } from './components/ToTopButton';
 import { BOOKS, BOOK_BY_SLUG } from './data/books';
 import { narrow, rankBySearch, rankBySearchKeywordsOnlyFallback } from './lib/search';
 import { isModelReady, subscribeToModelReady } from './lib/embeddings';
@@ -141,6 +142,8 @@ export default function App() {
           <a href="/datenschutz/">Datenschutz</a>
         </nav>
       </footer>
+
+      <ToTopButton />
 
       {openBook.shown && (
         <Suspense fallback={null}>
