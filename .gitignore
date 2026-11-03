@@ -5,6 +5,7 @@ __pycache__/
 *.pyo
 *.pyd
 .python-version
+.cache/
 
 # ───── Node / Web ─────
 node_modules/

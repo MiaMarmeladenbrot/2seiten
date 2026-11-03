@@ -3,7 +3,7 @@ import type { Book } from './types';
 // Same model as the build script (scripts/build_embeddings.mjs). If it changes
 // here, the precomputed book vectors must be rebuilt or query and book vectors
 // won't match.
-const MODEL = 'Xenova/paraphrase-multilingual-MiniLM-L12-v2';
+const MODEL = 'MiaMarmeladenbrot/paraphrase-multilingual-MiniLM-L12-v2-de';
 
 const CUTOFF_SIGMA = 2.0;
 const ABSOLUTE_FLOOR = 0.35;
@@ -63,7 +63,7 @@ function getExtractor(): Promise<Extractor> {
     extractorPromise = import('@huggingface/transformers')
       .then(
         async ({ pipeline }) =>
-          (await pipeline('feature-extraction', MODEL)) as unknown as Extractor,
+          (await pipeline('feature-extraction', MODEL, { dtype: 'q8' })) as unknown as Extractor,
       )
       .then((extractor) => {
         modelReady = true;

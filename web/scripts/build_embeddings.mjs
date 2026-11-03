@@ -12,7 +12,7 @@ import { pipeline } from '@huggingface/transformers';
 
 // IMPORTANT: exactly the same model as in the browser (lib/embeddings.ts),
 // otherwise query and book vectors won't match.
-const MODEL = 'Xenova/paraphrase-multilingual-MiniLM-L12-v2';
+const MODEL = 'MiaMarmeladenbrot/paraphrase-multilingual-MiniLM-L12-v2-de';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const BOOKS_PATH = resolve(here, '../../data/books.json');
@@ -105,7 +105,7 @@ async function main() {
   }
 
   console.log(`Loading model ${MODEL} … (download on first run, cached afterwards)`);
-  const extract = await pipeline('feature-extraction', MODEL);
+  const extract = await pipeline('feature-extraction', MODEL, { dtype: 'q8' });
 
   // Run through the model in small batches — mean-pooled + L2-normalized,
   // so that cosine similarity is later just a dot product.
