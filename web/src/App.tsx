@@ -135,7 +135,11 @@ export default function App() {
       <BookGrid books={results} loading={searching || ranked === null} />
 
       <footer>
-        Fan-Projekt zum WDR-Podcast „Zwei Seiten“ mit Christine Westermann und Mona Ameziane.
+        <p>Fan-Projekt zum WDR-Podcast „Zwei Seiten“ mit Christine Westermann und Mona Ameziane.</p>
+        <nav className="footer-links" aria-label="Rechtliches">
+          <a href="/impressum/">Impressum</a>
+          <a href="/datenschutz/">Datenschutz</a>
+        </nav>
       </footer>
 
       {openBook.shown && (

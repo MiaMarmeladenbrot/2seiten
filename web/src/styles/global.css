@@ -1,27 +1,5 @@
 @import './tokens.css';
-
-/* ───── FONTS (self-hosted aus /public/fonts/) ───── */
-@font-face {
-  font-family: 'Fraunces';
-  src: url('/fonts/Fraunces-VariableFont.woff2') format('woff2-variations');
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Fraunces';
-  src: url('/fonts/Fraunces-Italic-VariableFont.woff2') format('woff2-variations');
-  font-weight: 100 900;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Inter';
-  src: url('/fonts/Inter-VariableFont.woff2') format('woff2-variations');
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
-}
+@import './fonts.css';
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
@@ -737,6 +715,17 @@ footer {
   font-family: var(--serif);
   font-variation-settings: "opsz" 14;
 }
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 14px;
+  font-style: normal;
+  font-family: var(--sans);
+  font-size: 12px;
+}
+.footer-links a { color: var(--ink-soft); }
+.footer-links a:hover { color: var(--coral); }
 
 /* ───── RESPONSIVE ───── */
 @media (max-width: 1024px) {
