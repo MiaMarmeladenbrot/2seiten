@@ -59,6 +59,7 @@ input, select { font-family: inherit; }
   transition: color 0.2s;
 }
 .hero-sub a:hover { color: var(--coral); }
+.hero .nowrap { white-space: nowrap; }
 .hero-hosts {
   margin-top: 6px;
   font-family: var(--serif);

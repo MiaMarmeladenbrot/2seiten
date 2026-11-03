@@ -8,12 +8,20 @@ export function Hero() {
       <h1>Zwei Seiten</h1>
       <div className="hero-rule" />
       <p className="hero-sub">
-        Die Bibliothek zum{' '}
-        <a href={PODCAST_URL} target="_blank" rel="noopener noreferrer">Podcast</a>
+        Die inoffizielle Bibliothek{' '}
+        <span className="nowrap">
+          zum{' '}
+          <a href={PODCAST_URL} target="_blank" rel="noopener noreferrer">Podcast</a>
+        </span>
       </p>
-      <p className="hero-hosts">mit Mona Ameziane & Christine Westermann</p>
+      <p className="hero-hosts">
+        mit <span className="nowrap">Mona Ameziane</span> &{' '}
+        <span className="nowrap">Christine Westermann</span>
+      </p>
       <p className="hero-meta">
-        {META.totalBooks} Bücher &middot; {META.totalEpisodes} Folgen &middot; seit {META.firstYear}
+        <span className="nowrap">{META.totalBooks} Bücher</span> &middot;{' '}
+        <span className="nowrap">{META.totalEpisodes} Folgen</span> &middot;{' '}
+        <span className="nowrap">seit {META.firstYear}</span>
       </p>
     </header>
   );
