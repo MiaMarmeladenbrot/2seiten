@@ -73,9 +73,8 @@ export default function App() {
   const rankingIsForSettledQuery = ranking !== null && ranking.query === settledQuery;
 
   const searching = query !== '' && !(rankingIsForSettledQuery && settledQuery === query);
-  const ranked = settledQuery === '' ? BOOKS : (ranking?.books ?? null);
+  const ranked = settledQuery === '' ? BOOKS : rankingIsForSettledQuery ? ranking.books : null;
   const results = useMemo(() => (ranked ? narrow(ranked, filters) : []), [ranked, filters]);
-  const awaitingFirstRanking = ranked === null;
 
   const modelReady = useSyncExternalStore(subscribeToModelReady, isModelReady);
   const preparingModel = searching && !modelReady;
@@ -116,7 +115,7 @@ export default function App() {
         <FilterMenu
           filters={filters}
           count={results.length}
-          countIsPending={awaitingFirstRanking}
+          countIsPending={searching}
           onChange={update}
           onReset={() => update({ recommender: 'alle', theme: '', year: '' })}
         />
@@ -126,14 +125,14 @@ export default function App() {
         <Banner
           filters={filters}
           count={results.length}
-          countIsPending={awaitingFirstRanking}
+          countIsPending={searching}
           searching={searching}
           preparingModel={preparingModel}
           onClear={() => setFilters(INITIAL)}
         />
       </div>
 
-      <BookGrid books={results} loading={awaitingFirstRanking} stale={searching} />
+      <BookGrid books={results} loading={searching || ranked === null} />
 
       <footer>
         Fan-Projekt zum WDR-Podcast „Zwei Seiten“ mit Christine Westermann und Mona Ameziane.

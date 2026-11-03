@@ -6,10 +6,9 @@ const SKELETON_COUNT = 10;
 interface Props {
   books: Book[];
   loading?: boolean;
-  stale?: boolean;
 }
 
-export function BookGrid({ books, loading = false, stale = false }: Props) {
+export function BookGrid({ books, loading = false }: Props) {
   if (loading) {
     return (
       <main className="grid" aria-busy="true">
@@ -34,7 +33,7 @@ export function BookGrid({ books, loading = false, stale = false }: Props) {
   }
 
   return (
-    <main className={stale ? 'grid is-stale' : 'grid'}>
+    <main className="grid">
       {books.map((b) => (
         <BookCard key={`${b.title}|${b.author}`} book={b} />
       ))}

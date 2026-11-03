@@ -518,10 +518,6 @@ input, select { font-family: inherit; }
   grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 56px 36px;
 }
-.grid.is-stale {
-  opacity: 0.5;
-  transition: opacity 0.2s;
-}
 .book-skeleton {
   display: flex;
   flex-direction: column;
