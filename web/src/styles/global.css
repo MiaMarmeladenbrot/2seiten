@@ -756,6 +756,9 @@ footer {
   .hero h1 { letter-spacing: 0.02em; }
   .controls { padding: 0 20px; gap: 22px; }
   .banner { padding: 0 20px; }
+  .banner-inner { padding: 14px 8px 14px 18px; gap: 8px; }
+  .banner-clear-label { display: none; }
+  .banner-clear { font-size: 18px; padding: 6px 10px; }
   .filter-panel { width: calc(100vw - 32px); }
   .optlist-items { max-height: 40vh; }
   .search-box { padding-left: 18px; }

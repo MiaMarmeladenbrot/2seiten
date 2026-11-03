@@ -60,8 +60,11 @@ export function Banner({
           {hasFilter && <span className="banner-soft"> ({parts.join(', ')})</span>}
           {searching && <span className="banner-soft">, sucht …</span>}
         </span>
-        <button className="banner-clear" onClick={onClear}>
-          × zurücksetzen
+        <button className="banner-clear" onClick={onClear} aria-label="Zurücksetzen">
+          <span aria-hidden="true">×</span>
+          <span className="banner-clear-label" aria-hidden="true">
+            zurücksetzen
+          </span>
         </button>
         {preparingModel && <ModelProgress />}
       </div>
