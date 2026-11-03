@@ -470,6 +470,21 @@ input, select { font-family: inherit; }
   align-items: center;
   box-shadow: var(--shadow-soft);
   border-left: 3px solid var(--coral);
+  position: relative;
+  overflow: hidden;
+}
+.banner-progress {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: var(--bg-deep);
+}
+.banner-progress-fill {
+  height: 100%;
+  background: var(--coral);
+  transition: width 0.3s ease-out;
 }
 .banner-text { font-size: 14px; color: var(--ink); }
 .banner-soft { color: var(--ink-soft); }
@@ -551,6 +566,7 @@ input, select { font-family: inherit; }
 @media (prefers-reduced-motion: reduce) {
   .shimmer { animation: none; }
   .filter-scrim { animation: none; }
+  .banner-progress-fill { transition: none; }
 }
 .empty-state {
   grid-column: 1 / -1;

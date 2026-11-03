@@ -1,5 +1,23 @@
+import { useSyncExternalStore } from 'react';
 import type { Filters } from '../lib/types';
 import { RECOMMENDER_LABELS } from '../lib/labels';
+import { getModelLoadingPercent, subscribeToModelProgress } from '../lib/embeddings';
+
+function ModelProgress() {
+  const percent = useSyncExternalStore(subscribeToModelProgress, getModelLoadingPercent);
+  return (
+    <div
+      className="banner-progress"
+      role="progressbar"
+      aria-label="Stimmungs-Suche wird geladen"
+      aria-valuemin={0}
+      aria-valuemax={100}
+      aria-valuenow={percent}
+    >
+      <div className="banner-progress-fill" style={{ width: `${percent}%` }} />
+    </div>
+  );
+}
 
 interface Props {
   filters: Filters;
@@ -40,17 +58,12 @@ export function Banner({
             </>
           )}
           {hasFilter && <span className="banner-soft"> ({parts.join(', ')})</span>}
-          {searching && (
-            <span className="banner-soft">
-              {preparingModel
-                ? ', Stimmungs-Suche wird vorbereitet, beim ersten Mal dauert das einen Moment …'
-                : ', sucht …'}
-            </span>
-          )}
+          {searching && <span className="banner-soft">, sucht …</span>}
         </span>
         <button className="banner-clear" onClick={onClear}>
           × zurücksetzen
         </button>
+        {preparingModel && <ModelProgress />}
       </div>
     </div>
   );

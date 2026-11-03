@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { preloadSemanticSearch } from '../lib/embeddings';
 
 const PLACEHOLDERS = [
   'habe Fernweh nach dem Meer …',
@@ -57,6 +58,7 @@ export function SearchBar({ value, onChange, onSubmit }: Props) {
           type="text"
           placeholder={placeholder}
           autoComplete="off"
+          onFocus={preloadSemanticSearch}
           value={value}
           onChange={(e) => onChange(e.target.value)}
           onKeyDown={(e) => {

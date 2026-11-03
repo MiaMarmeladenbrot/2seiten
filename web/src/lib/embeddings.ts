@@ -57,21 +57,63 @@ export function isModelReady(): boolean {
   return modelReady;
 }
 
+const MODEL_FILES_SHARE_OF_FIRST_SEARCH_BYTES = 0.88;
+
+let modelLoadingPercent = 0;
+const modelProgressListeners = new Set<() => void>();
+
+export function subscribeToModelProgress(listener: () => void): () => void {
+  modelProgressListeners.add(listener);
+  return () => {
+    modelProgressListeners.delete(listener);
+  };
+}
+
+export function getModelLoadingPercent(): number {
+  return modelLoadingPercent;
+}
+
+function reportModelLoadingPercent(percent: number): void {
+  const rounded = Math.floor(percent);
+  if (rounded <= modelLoadingPercent) return;
+  modelLoadingPercent = rounded;
+  for (const listener of modelProgressListeners) listener();
+}
+
+function onModelFileProgress(info: { status: string; progress?: number }): void {
+  if (info.status === 'progress_total' && info.progress !== undefined) {
+    reportModelLoadingPercent(info.progress * MODEL_FILES_SHARE_OF_FIRST_SEARCH_BYTES);
+  }
+}
+
 let extractorPromise: Promise<Extractor> | null = null;
 function getExtractor(): Promise<Extractor> {
   if (!extractorPromise) {
     extractorPromise = import('@huggingface/transformers')
       .then(
         async ({ pipeline }) =>
-          (await pipeline('feature-extraction', MODEL, { dtype: 'q8' })) as unknown as Extractor,
+          (await pipeline('feature-extraction', MODEL, {
+            dtype: 'q8',
+            progress_callback: onModelFileProgress,
+          })) as unknown as Extractor,
       )
       .then((extractor) => {
+        reportModelLoadingPercent(100);
         modelReady = true;
         for (const listener of modelReadyListeners) listener();
         return extractor;
+      })
+      .catch((err) => {
+        extractorPromise = null;
+        throw err;
       });
   }
   return extractorPromise;
+}
+
+export function preloadSemanticSearch(): void {
+  getExtractor().catch(() => {});
+  getVectors().catch(() => {});
 }
 
 let vectorsPromise: Promise<VectorMap> | null = null;
