@@ -18,12 +18,21 @@ const MOOD_KEYWORDS: Record<string, string[]> = {
   ruhe: ['ruhe', 'stille', 'meditation', 'langsam', 'abend'],
 };
 
+const GERMAN_FILLER_WORDS = new Set([
+  'und', 'oder', 'aber', 'der', 'die', 'das', 'den', 'dem', 'des', 'ein', 'eine', 'einen',
+  'einem', 'einer', 'für', 'mit', 'nach', 'von', 'vom', 'zum', 'zur', 'über', 'bei', 'aus',
+  'auf', 'wenn', 'man', 'hat', 'habe', 'ich', 'mich', 'mir', 'etwas', 'was', 'wie', 'ist',
+  'sind', 'brauche', 'suche', 'möchte', 'will',
+]);
+
 const keyOf = (b: Book): string => b.title + '|' + b.author;
 
 function keywordSearch(query: string, books: Book[]): Book[] {
   const q = query.toLowerCase().trim();
   if (!q) return [];
-  const words = q.split(/\s+/).filter((w) => w.length > 2);
+  const words = q
+    .split(/\s+/)
+    .filter((w) => w.length > 2 && !GERMAN_FILLER_WORDS.has(w));
   const expanded = new Set<string>();
   for (const w of words) {
     expanded.add(w);
