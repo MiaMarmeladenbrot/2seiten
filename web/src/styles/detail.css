@@ -62,8 +62,13 @@ html.detail-open { overflow: hidden; }
   gap: 18px;
 }
 .is-narrow .ak-scroll { padding: 30px 22px 30px 28px; }
-.is-narrow .ak-back { padding: 22px 18px; }
-.is-narrow .ak-label-scroll { padding: 15px 11px; gap: 13px; }
+.is-narrow .ak-back { padding: 16px 14px; }
+.is-narrow .ak-label-scroll { padding: 13px 10px; gap: 10px; }
+.is-narrow .ak-who { font-size: 24px; }
+.is-narrow .ak-episode { font-size: 14px; line-height: 1.35; }
+.is-narrow .ak-quote { font-size: 14px; line-height: 1.45; }
+.is-narrow .ak-partners { padding-top: 10px; }
+.is-narrow .ak-label .detail-listen { padding: 7px 14px 7px 11px; }
 
 .ak-camera {
   position: absolute;
