@@ -11,6 +11,8 @@ each quote still appears in its episode's description.
 """
 
 QUOTES: dict[str, str | None] = {
+    'Sidekick|Sebastian Hotz': 'Ein Sidekick entführt den großen Fernsehstar. Das ist die Punchline im neuen Roman von Sebastian Hotz, in dem er sich mit einem Hauch von Übermut die Medienwelt vorknöpft.',
+    'Yellowface|Rebecca F. Kuang': 'Der Bestseller von Rebecca F. Kuang bewegt sich nicht in der Medien-, sondern in der Literaturwelt. Es geht um ein geklautes Manuskript und die Frage, wer welche Geschichte erzählen darf.',
     'Alte Sorten|Ewald Arenz': "Zwei Frauen, die an unterschiedlichen Punkten im Leben stehen, lernen sich durch Zufall kennen und werden von Fremden zu Freundinnen. Dazu eine Menge Herbstgefühle und lauter alte Birnensorten, das ist der Kern von Ewald Arenz' Bestseller aus dem Jahr 2019.",
     'Ein unerhörter Wunsch|Ann Packer': 'Ann Packers Buch ist in diesem Jahr erschienen und erzählt von Claire, die sterben muss, und sich wünscht, die letzten Tage ihres Lebens nicht mit ihrem Mann, sondern mit ihren Freundinnen zu verbringen.',
     'Yester Year|Caro Claire Burke': 'In diesem Frühjahr war es kaum möglich, an "Yester Year" vorbeizukommen. Das Buch war international ein großer Erfolg, auch deshalb, weil es in der Geschichte um das Internet-Phänomen der "Tradwives" geht.',

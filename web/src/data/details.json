@@ -2554,5 +2554,27 @@
   "translated_from": "",
   "translators": "",
   "publisher_url": "https://www.penguin.de/ean/9783328604556"
+ },
+ "Sidekick|Sebastian Hotz": {
+  "publisher": "Kiepenheuer & Witsch",
+  "place": "Köln",
+  "year": "2026",
+  "pages": 297,
+  "setting": "Deutschland",
+  "original_title": "",
+  "translated_from": "",
+  "translators": "",
+  "publisher_url": ""
+ },
+ "Yellowface|Rebecca F. Kuang": {
+  "publisher": "Eichborn",
+  "place": "Köln",
+  "year": "2025",
+  "pages": 382,
+  "setting": "",
+  "original_title": "",
+  "translated_from": "Englischen",
+  "translators": "Jasmin Humburg",
+  "publisher_url": ""
  }
 }

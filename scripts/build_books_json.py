@@ -29,6 +29,13 @@ OUT_FILE = DATA_DIR / "books.json"
 # Extractions per episode, identified by GUID.
 # Format: GUID -> {topic, books: [(title, author, recommended_by, role)]}
 EXTRACTIONS: dict[str, dict] = {
+    "/77ea5d3c0976c157bcab3b3a57f6713a": {
+        "topic": "Übermut",
+        "books": [
+            ("Sidekick", "Sebastian Hotz", "Christine", "Hauptempfehlung"),
+            ("Yellowface", "Rebecca F. Kuang", "Mona", "Hauptempfehlung"),
+        ],
+    },
     "/f70102b3c9d30c15be6f7a7cd14ded94": {
         "topic": "Freundinnen",
         "books": [

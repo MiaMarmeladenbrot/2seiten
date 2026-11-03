@@ -3,10 +3,10 @@
     "source": "Deutsche Nationalbibliothek, SRU-Schnittstelle (MARC21)",
     "endpoint": "https://services.dnb.de/sru/dnb",
     "note": "Klappentexte sind geschützte Verlagstexte — nur zum Bau des Suchindex verwenden, nicht anzeigen.",
-    "total": 228,
-    "with_blurb": 195,
-    "with_keywords": 216,
-    "with_isbn": 228
+    "total": 230,
+    "with_blurb": 197,
+    "with_keywords": 218,
+    "with_isbn": 230
   },
   "books": {
     "Tintenherz|Cornelia Funke": {
@@ -18803,6 +18803,175 @@
       "fetched_at": "2026-10-20",
       "original_language": "",
       "publisher_url": "https://www.penguin.de/ean/9783328604556"
+    },
+    "Sidekick|Sebastian Hotz": {
+      "dnb_title": "Sidekick",
+      "subtitle": "Roman",
+      "isbn": "9783462009132",
+      "isbn_candidates": [
+        "9783462009132",
+        "9783462313765"
+      ],
+      "blurb": "Sebastian Hotz ’ zweiter Roman ist ein gekonntes Spiel mit »kultigen« TV-Figuren und den Kulturkämpfen unserer Gegenwart – eine Mediensatire als Roadmovie, in der Ähnlichkeiten mit realen Personen selbstverständlich rein zufällig sind.&#xa0; Nach Jahrzehnten der TV-Geschichte ist es so weit: Der legendäre Showmaster Falk Anders kündigt seinen Ruhestand an. In unzähligen Sendungen hat er » dem Land den Puls gefühlt « , die Grenzen von Komik und gutem Geschmack ausgetestet und darüber entschieden, wer mitlachen darf und über wen gelacht wird – Letzteres war oft genug: Boris. Als Sidekick, stets unterlegener Sparringspartner und Trottel vom Dienst blickt Boris auf eine spezielle Karriere im Rampenlicht zurück – aber war es eine, die ihn in den Sessel seines Lehrmeisters führt? Programmchefin Marianne hat ganz andere Pläne: Auf Falk Anders wird die Influencerin Sara Massoudi folgen, neue Reichweiten, neue Zielgruppen. Oder wird es alles ganz anders kommen? Plötzlich findet sich Boris im Bentley seines ehemaligen Chefs wieder, irgendwo in den Weiten des deutschen Autobahnnetzes; im Kofferraum eine kostbare Fracht und am Telefon die Programmchefin. Es entspinnt sich ein dramatisches und absurdes Kammerspiel – unter den Augen der Öffentlichkeit.&#xa0;",
+      "keywords": [
+        "neues buch el hotzo",
+        "el hotzo",
+        "Mediensatire",
+        "Sebastian Hotz Roman",
+        "Deutsches Fernsehen Buch",
+        "Roadmovie Roman",
+        "Kulturkämpfe Gegenwart",
+        "Humorvoller Roman",
+        "Medienkritik Buch",
+        "Satire Deutschland",
+        "Karriere Comedy",
+        "autobiografisch",
+        "twitter",
+        "tv total",
+        "stefan raab",
+        "elton",
+        "deutschland comedy fernsehen",
+        "Harald Schmidt",
+        "Jan Böhmermann",
+        "Late Night Show"
+      ],
+      "thema": [
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
+        },
+        {
+          "code": "FXD",
+          "label": "Belletristik: Themen, Stoffe, Motive: Liebe und Beziehungen"
+        },
+        {
+          "code": "FU",
+          "label": "Belletristik: Humor"
+        },
+        {
+          "code": "FXS",
+          "label": "Belletristik: Themen, Stoffe, Motive: Soziales"
+        },
+        {
+          "code": "1DFG",
+          "label": "Deutschland"
+        },
+        {
+          "code": "3MRB",
+          "label": "Erste Hälfte 21. Jahrhundert (ca. 2000 bis ca. 2050)"
+        }
+      ],
+      "genre": [
+        "Fiktionale Darstellung",
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
+      ],
+      "publisher": "Kiepenheuer & Witsch",
+      "place": "Köln",
+      "published_year": "2026",
+      "pages": 297,
+      "original_title": "",
+      "original_language": "",
+      "translators": [],
+      "publisher_url": "",
+      "series": "",
+      "record_count": 3,
+      "fetched_at": "2026-11-03"
+    },
+    "Yellowface|Rebecca F. Kuang": {
+      "dnb_title": "Yellowface",
+      "subtitle": "Roman. »Rasiermesserscharf!« TIME",
+      "isbn": "9783847902140",
+      "isbn_candidates": [
+        "9783847902140",
+        "9783847901624",
+        "9783751755634",
+        "9783763275533"
+      ],
+      "blurb": "»Unverschämt unterhaltsam!« DEUTSCHLANDFUNK KULTUR June Hayward und Athena Liu könnten beide aufstrebende Stars der Literaturszene sein. Doch während die chinesisch-amerikanische Autorin Athena für ihre Romane gefeiert wird, fristet June ein Dasein im Abseits. Niemand interessiert sich für Geschichten »ganz normaler« weißer Mädchen, so sieht es June zumindest. Als June Zeugin wird, wie Athena bei einem Unfall stirbt, stiehlt sie im Affekt Athenas neuestes, gerade vollendetes Manuskript, einen Roman über die Heldentaten chinesischer Arbeiter während des Ersten Weltkriegs. June überarbeitet das Werk und veröffentlicht es unter ihrem neuen Künstlernamen Juniper Song. Denn verdient es dieses Stück Geschichte nicht, erzählt zu werden, und zwar egal von wem? Aber nun muss June ihr Geheimnis hüten. Und herausfinden, wie weit sie dafür gehen will.",
+      "keywords": [
+        "Thriller",
+        "Literatur",
+        "Buch",
+        "Bücher",
+        "Manuskript",
+        "Buchbranche",
+        "Verlage",
+        "Autoren",
+        "Autor",
+        "geistiger Diebstahl",
+        "Social Media",
+        "Booktok",
+        "Tiktok",
+        "Asien",
+        "China",
+        "Kriminalroman",
+        "Krimi",
+        "Bestseller",
+        "Schriftsteller",
+        "kulturelle Aneignung",
+        "Woke",
+        "Diebstahl",
+        "Diversität",
+        "TikTok Books",
+        "TikTok Germany",
+        "TikTok made me buy it",
+        "Literarische Unterhaltung"
+      ],
+      "thema": [
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
+        },
+        {
+          "code": "FH",
+          "label": "Thriller / Spannung"
+        },
+        {
+          "code": "FF",
+          "label": "Kriminalromane und Mystery"
+        },
+        {
+          "code": "JBFA1",
+          "label": "Rassismus und rassistische Diskriminierung / Antirassismus"
+        },
+        {
+          "code": "JBFA1",
+          "label": "Rassismus und Rassendiskriminierung / Antirassismus"
+        },
+        {
+          "code": "FBA",
+          "label": "Modern and contemporary fiction"
+        },
+        {
+          "code": "FH",
+          "label": "Thriller / suspense fiction"
+        },
+        {
+          "code": "FF",
+          "label": "Crime and mystery fiction"
+        },
+        {
+          "code": "JBFA1",
+          "label": "Racism and racial discrimination"
+        }
+      ],
+      "genre": [
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945",
+        "Fiktionale Darstellung"
+      ],
+      "publisher": "Eichborn",
+      "place": "Köln",
+      "published_year": "2025",
+      "pages": 382,
+      "original_title": "Yellowface",
+      "original_language": "eng",
+      "translators": [
+        "Humburg, Jasmin"
+      ],
+      "publisher_url": "",
+      "series": "",
+      "record_count": 5,
+      "fetched_at": "2026-11-03"
     }
   }
 }

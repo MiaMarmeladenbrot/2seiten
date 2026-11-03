@@ -11,10 +11,35 @@
       "Mona": "Mona Ameziane",
       "both": "von beiden gemeinsam empfohlen"
     },
-    "total_episodes": 113,
-    "total_books": 228
+    "total_episodes": 114,
+    "total_books": 230
   },
   "episodes": [
+    {
+      "guid": "/77ea5d3c0976c157bcab3b3a57f6713a",
+      "title": "Übermut – über den Reiz, zu weit zu gehen",
+      "published": "2026-11-03T00:10:00+00:00",
+      "topic": "Übermut",
+      "page_url": "https://www1.wdr.de/mediathek/audio/wdr/zwei-seiten/audio-uebermut-ueber-den-reiz-zu-weit-zu-gehen-100.html",
+      "ard_url": "https://www.ardsounds.de/episode/urn:ard:episode:ac8907f53a675271/",
+      "audio_url": "https://wdrmedien-a.akamaihd.net/media/p/public/weltweit/2026/11/02/1baef594-550b-44b7-8f0b-aecf699ee53f/1baef594-550b-44b7-8f0b-aecf699ee53f_MP3-160.mp3",
+      "books": [
+        {
+          "title": "Sidekick",
+          "author": "Sebastian Hotz",
+          "recommended_by": "Christine",
+          "role": "Hauptempfehlung",
+          "quote": "Ein Sidekick entführt den großen Fernsehstar. Das ist die Punchline im neuen Roman von Sebastian Hotz, in dem er sich mit einem Hauch von Übermut die Medienwelt vorknöpft."
+        },
+        {
+          "title": "Yellowface",
+          "author": "Rebecca F. Kuang",
+          "recommended_by": "Mona",
+          "role": "Hauptempfehlung",
+          "quote": "Der Bestseller von Rebecca F. Kuang bewegt sich nicht in der Medien-, sondern in der Literaturwelt. Es geht um ein geklautes Manuskript und die Frage, wer welche Geschichte erzählen darf."
+        }
+      ]
+    },
     {
       "guid": "/f70102b3c9d30c15be6f7a7cd14ded94",
       "title": "Freundinnen – über eine ganz besondere Nähe",
