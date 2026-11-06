@@ -4,8 +4,8 @@
     "endpoint": "https://services.dnb.de/sru/dnb",
     "note": "Klappentexte sind geschützte Verlagstexte — nur zum Bau des Suchindex verwenden, nicht anzeigen.",
     "total": 230,
-    "with_blurb": 197,
-    "with_keywords": 218,
+    "with_blurb": 198,
+    "with_keywords": 219,
     "with_isbn": 230
   },
   "books": {
@@ -911,16 +911,16 @@
     "Salz auf unserer Haut|Benoîte Groult": {
       "dnb_title": "Salz auf unserer Haut",
       "subtitle": "Roman",
-      "isbn": "9783548060828",
+      "isbn": "9783426627082",
       "isbn_candidates": [
+        "9783426627082",
         "9783548060828",
         "9783426654347",
         "9783426436486",
         "9783942656610",
-        "9783426417300",
-        "9783898970976"
+        "9783426417300"
       ],
-      "blurb": "Damals ein Skandal, heute ein Klassiker - der Weltbestseller von Frankreichs feministischer Galionsfigur Die Geschichte einer einzigartigen Liebe: George, die Pariser Intellektuelle, und Gauvain, der bretonische Fischer - Welten trennen die beiden, die Barrieren von Erziehung und Bildung, von Weltanschauung und Geschmack stehen zwischen ihnen. Ein Leben miteinander halten beide für unmöglich. Und doch zieht sie ein Verlangen zueinander, das stärker ist als Vernunft und Konvention, eine Leidenschaft, die, auch als die Liebenden älter und reifer werden, nicht erlischt. Ein Roman voll Zärtlichkeit und Sinnlichkeit, der zugleich das Porträt einer freien, selbstständigen Frau entwirft, die zu ihren Gefühlen steht. Mit einem Nachwort von Antonia Baum",
+      "blurb": "Die Geschichte einer im Grunde unmöglichen, einzigartigen Liebe: George, die Pariser Intellektuelle, und Gauvin, der bretonische Fischer&#xa0;- Welten trennen die beiden, die Barrieren von Erziehung und Bildung, von Weltanschauung und Geschmack stehen zwischen ihnen. Ein Leben miteinander halten beide für unmöglich. Und doch zieht sie ein Verlangen zueinander, das stärker ist als Vernunft und Konvention, eine Leidenschaft, die, auch als die Liebenden älter und reifer werden, nicht erlischt. Ein Roman voll Zärtlichkeit und Sinnlichkeit, zugleich das Porträt einer freien, selbstständigen Frau, die zu ihren Gefühlen steht.",
       "keywords": [
         "Weibliche Emanzipation",
         "Emanzipation",
@@ -964,23 +964,21 @@
       ],
       "genre": [
         "Fiktionale Darstellung",
-        "Erzählende Literatur: Gegenwartsliteratur ab 1945",
         "Belletristische Darstellung",
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945",
         "Erzählende Literatur"
       ],
-      "publisher": "Ullstein",
-      "place": "[Berlin]",
-      "published_year": "2019",
-      "pages": 336,
-      "original_title": "Les vaisseaux du cœur",
-      "translators": [
-        "Kuhn, Irène"
-      ],
-      "series": "",
-      "record_count": 25,
-      "fetched_at": "2026-08-13",
+      "publisher": "Knaur-Taschenbuch",
+      "place": "München",
+      "published_year": "2003",
+      "pages": 319,
+      "original_title": "",
       "original_language": "fre",
-      "publisher_url": ""
+      "translators": [],
+      "publisher_url": "",
+      "series": "Knaur",
+      "record_count": 25,
+      "fetched_at": "2026-11-06"
     },
     "Unter Wasser|Tara Menon": {
       "dnb_title": "Unter Wasser",
@@ -4784,30 +4782,73 @@
       "publisher_url": "https://www.penguin.de/ean/9783328114918"
     },
     "Drei Meter Dreißig|Jaqueline Scheiber": {
-      "dnb_title": "Dreimeterdreissig",
-      "subtitle": "Roman",
-      "isbn": "9783763276646",
+      "dnb_title": "dreimeterdreißig",
+      "subtitle": "",
+      "isbn": "9783499018794",
       "isbn_candidates": [
+        "9783499018794",
         "9783763276646"
       ],
-      "blurb": "",
-      "keywords": [],
-      "thema": [],
-      "genre": [
-        "Fiktionale Darstellung",
-        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
+      "blurb": "Drei Meter dreißig, so hoch sind die Wände der Wiener Altbauwohnung, in der Klara und Balázs leben. Zwischen knarzendem Parkett und weit geöffneten Flügeltüren sind sie gerade dabei, sich ein gemeinsames Leben aufzubauen. Doch eines Nachts verändert sich alles, Balázs liegt reglos im gemeinsamen Bett, und ein Wettlauf gegen die Zeit beginnt. Was bleibt von einer Liebe, wenn ein Leben endet? Wer ist man, wenn man seine Heimat verlassen hat und eine fremde Sprache spricht? Zählt die Geschichte – oder vielleicht nur eine Kaffeetasse im Spülbecken, ein letzter Blick in den Spiegel? Und wenn all das entgleitet, kann man die Zeit anhalten? Eine Geschichte, die tief in die existenziellen Fragen des Lebens eintaucht, von der Liebe erzählt und der Unfähigkeit, sie zu verlieren. Ein Buch, das erdet und zugleich schwerelos werden lässt.",
+      "keywords": [
+        "3 Meter dreißig",
+        "literarisches Debüt",
+        "Tod",
+        "schmerzhaft",
+        "Heimat",
+        "Liebe",
+        "Leben",
+        "Frage des Lebens",
+        "Kammerspiel",
+        "Herkunft",
+        "gemeinsames Leben",
+        "fremde Sprache",
+        "Debüt",
+        "Schmerz",
+        "poetisch",
+        "3 meterdreißig"
       ],
-      "publisher": "Büchergilde Gutenberg",
-      "place": "Frankfurt am Main",
-      "published_year": "2025",
-      "pages": 233,
+      "thema": [
+        {
+          "code": "FC",
+          "label": "Biografischer Roman / Autobiografischer Roman"
+        },
+        {
+          "code": "FBA",
+          "label": "Moderne und zeitgenössische Belletristik: allgemein und literarisch"
+        },
+        {
+          "code": "FXD",
+          "label": "Belletristik: Themen, Stoffe, Motive: Liebe und Beziehungen"
+        },
+        {
+          "code": "FXL",
+          "label": "Belletristik: Themen, Stoffe, Motive: Tod, Trauer, Verlust"
+        },
+        {
+          "code": "FXM",
+          "label": "Belletristik: Themen, Stoffe, Motive: Seelenleben"
+        },
+        {
+          "code": "1DFA-AT-W",
+          "label": "Wien"
+        }
+      ],
+      "genre": [
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945",
+        "Fiktionale Darstellung"
+      ],
+      "publisher": "ROWOHLT Taschenbuch",
+      "place": "Hamburg",
+      "published_year": "2026",
+      "pages": 240,
       "original_title": "",
+      "original_language": "",
       "translators": [],
+      "publisher_url": "",
       "series": "",
       "record_count": 1,
-      "fetched_at": "2026-08-20",
-      "original_language": "",
-      "publisher_url": ""
+      "fetched_at": "2026-11-06"
     },
     "Vergiss mich|Alex Schulman": {
       "dnb_title": "Vergiss mich",
@@ -9158,15 +9199,15 @@
     "Nathalie küsst|David Foenkinos": {
       "dnb_title": "Nathalie küsst",
       "subtitle": "Roman",
-      "isbn": "9783548285061",
+      "isbn": "9783406635472",
       "isbn_candidates": [
-        "9783548285061",
         "9783406635472",
+        "9783548285061",
         "9783406635861",
         "9783406621628",
         "9783406621635"
       ],
-      "blurb": "Nathalie liebt François, und François liebt Nathalie. Sie sind ein Traumpaar. Der Traum zerbricht, als François bei einem Autounfall stirbt, und Nathalie allein ins Leben zurückfinden muss. Und dann verändert ein einziger Kuss alles. Nathalie verliebt sich in ihren Kollegen Markus und erkennt: Für die große Liebe gibt es immer eine zweite Chance.",
+      "blurb": "Nathalie und François sind ein Paar wie aus dem Märchenbuch, mit Feingefühl und Geschmack. Doch eines Tages kommt François nicht vom Joggen zurück, eine Blumenhändlerin überfährt ihn. Die schöne Nathalie muss fortan allein durchs Leben gehen, sich der Neugier der Kollegen und der Avancen ihres Chefs Charles in der schwedischen Firma, in der sie als leitende Angestellte arbeitsbesessen über der Akte 114 brütet, erwehren. Als der unscheinbare Quotenschwede Markus ihr Büro betritt, packt sie ihn unvermittelt und küsst ihn. Markus, konsterniert, geht aufs Ganze, eine Liebesgeschichte beginnt, wie sie purer, zärtlicher und empfindsamer nicht sein kann. Während in der Firma die Gerüchteküche brodelt und Charles zu brutalen Maßnahmen greift, begeben sich Nathalie und Markus auf die Flucht in den Garten der Großmutter, zurück zu den Ursprüngen von Kindheit und der gemeinsamen Lieblingssüßigkeit PEZ&#xa0;- und lassen sich von der Liebe überraschen. Voller Anspielungen mit hohem Wiedererkennungswert für alle Fans schreibt Foenkinos hier seine bisher schönste Liebesgeschichte.",
       "keywords": [
         "Paris",
         "Liebe",
@@ -9176,22 +9217,22 @@
       "genre": [
         "Fiktionale Darstellung",
         "Belletristische Darstellung",
-        "Erzählende Literatur: Gegenwartsliteratur ab 1945",
-        "Erzählende Literatur"
+        "Erzählende Literatur",
+        "Erzählende Literatur: Gegenwartsliteratur ab 1945"
       ],
-      "publisher": "Ullstein",
-      "place": "Berlin",
-      "published_year": "2013",
-      "pages": null,
+      "publisher": "Beck",
+      "place": "München",
+      "published_year": "2012",
+      "pages": 238,
       "original_title": "",
+      "original_language": "fre",
       "translators": [
         "Kolb, Christian"
       ],
-      "series": "Ullstein",
+      "publisher_url": "",
+      "series": "",
       "record_count": 7,
-      "fetched_at": "2026-08-13",
-      "original_language": "fre",
-      "publisher_url": ""
+      "fetched_at": "2026-11-06"
     },
     "Power|Verena Güntner": {
       "dnb_title": "Power",

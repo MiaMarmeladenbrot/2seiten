@@ -1,0 +1,6 @@
+{
+  "_hinweis": "Einzelne Bücher auf die Ausgabe mit einer bestimmten ISBN festlegen, wenn der Verlagslink zu einer anderen Ausgabe führt als der automatisch gewählten. Verlag, Jahr und Seitenzahl kommen dann von dieser Ausgabe. Schlüssel ist 'Titel|Autor' wie in book_details.json, Wert die ISBN-13. Danach scripts/fetch_book_details.py ohne Optionen laufen lassen, es holt nur die geänderten Bücher neu, dann scripts/build_detail_pages.py.",
+  "Drei Meter Dreißig|Jaqueline Scheiber": "9783499018794",
+  "Nathalie küsst|David Foenkinos": "9783406635472",
+  "Salz auf unserer Haut|Benoîte Groult": "9783426627082"
+}

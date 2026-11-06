@@ -1,4 +1,5 @@
 {
   "_hinweis": "Einzelne Bücher auf eine bestimmte ISBN festnageln, wenn die automatische Auswahl ein unschönes Cover erwischt. Schlüssel ist 'Titel|Autor' wie in book_details.json, Wert die gewünschte ISBN-13. Die angepinnte ISBN wird ungeprüft geladen. Danach scripts/fetch_covers.py laufen lassen, es holt nur die geänderten Bücher neu.",
-  "Drei Meter Dreißig|Jaqueline Scheiber": "9783701183357"
+  "Drei Meter Dreißig|Jaqueline Scheiber": "9783499018794",
+  "Salz auf unserer Haut|Benoîte Groult": "9783426627082"
 }

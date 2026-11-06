@@ -27,6 +27,11 @@ The title search matches prefixes, because DNB spells some titles differently
 ("Dreimeterdreissig", "Das Eis-Schloss"). That also drags in sequels, companion
 volumes and box sets, so records whose title is the searched one are preferred
 and only fall back to prefix hits when no such record exists.
+
+data/edition_overrides.json pins single books to the edition with a given ISBN,
+for when the publisher link points to a different publisher's edition than the
+one picked automatically. Publisher, year and pages then come from that edition.
+A plain run fetches every book whose pinned ISBN differs from the stored one.
 """
 
 import argparse
@@ -44,6 +49,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 BOOKS_FILE = ROOT / "data" / "books.json"
 OUT_FILE = ROOT / "data" / "book_details.json"
+EDITION_OVERRIDES_FILE = ROOT / "data" / "edition_overrides.json"
 
 SRU_ENDPOINT = "https://services.dnb.de/sru/dnb"
 MARC = "{http://www.loc.gov/MARC21/slim}"
@@ -245,7 +251,7 @@ def parse_record(record):
             if year_match and not parsed["year"]:
                 parsed["year"] = year_match.group(0)
         elif tag == "300":
-            pages_match = re.search(r"(\d+)\s*Seiten", first_value(pairs, "a"))
+            pages_match = re.search(r"(\d+)\s*(?:Seiten|S\.)", first_value(pairs, "a"))
             if pages_match:
                 parsed["pages"] = int(pages_match.group(1))
         elif tag == "240":
@@ -428,7 +434,7 @@ def publisher_link(records, isbns):
     return ""
 
 
-def build_detail(title, author):
+def build_detail(title, author, pinned_isbn=""):
     matching, records_seen = find_matching_records(title, author)
     if not matching:
         return None, "kein passender Datensatz"
@@ -439,6 +445,12 @@ def build_detail(title, author):
     usable = [r for r in usable if not r["is_audio"]] or usable
     usable = [r for r in usable if r["study_edition_score"] == 0] or usable
     usable.sort(key=record_rank)
+
+    if pinned_isbn:
+        pinned = run_query(f"num={pinned_isbn}", 1)
+        if not pinned:
+            return None, f"angepinnte ISBN {pinned_isbn} nicht gefunden"
+        usable = pinned + [r for r in usable if pinned_isbn not in r["isbns"]]
     best = usable[0]
 
     isbns, seen_isbn = [], set()
@@ -447,7 +459,7 @@ def build_detail(title, author):
             if isbn not in seen_isbn:
                 seen_isbn.add(isbn)
                 isbns.append(isbn)
-    isbns.sort(key=lambda i: 0 if i.startswith("9783") else 1)
+    isbns.sort(key=lambda i: 0 if i == pinned_isbn else 1 if i.startswith("9783") else 2)
 
     keywords, thema, genre, blurb_links = [], [], [], []
     seen_thema, seen_genre = set(), set()
@@ -572,6 +584,14 @@ def main():
 
     details = {} if args.force else load_existing()
 
+    pins = {}
+    if EDITION_OVERRIDES_FILE.exists():
+        pins = {
+            key: value
+            for key, value in json.loads(EDITION_OVERRIDES_FILE.read_text(encoding="utf-8")).items()
+            if not key.startswith("_")
+        }
+
     known_keys = {key for key, _, _ in all_books}
     orphaned = sorted(set(details) - known_keys)
     for key in orphaned:
@@ -590,7 +610,12 @@ def main():
             if any(needle in entry[1].lower() for needle in wanted)
         ]
     else:
-        todo = [entry for entry in all_books if entry[0] not in details]
+        todo = [
+            entry
+            for entry in all_books
+            if entry[0] not in details
+            or (entry[0] in pins and details[entry[0]].get("isbn") != pins[entry[0]])
+        ]
     if args.limit:
         todo = todo[: args.limit]
 
@@ -600,7 +625,7 @@ def main():
     failures = []
     for index, (key, title, author) in enumerate(todo, start=1):
         try:
-            detail, note = build_detail(title, author)
+            detail, note = build_detail(title, author, pins.get(key, ""))
         except Exception as error:
             detail, note = None, f"Fehler {type(error).__name__}"
 
