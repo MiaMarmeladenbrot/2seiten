@@ -219,7 +219,7 @@ function BookLink({
         {withEpisode && (
           <span className="book-meta detail-link-meta">
             <Avatar recommender={book.recommended_by} />
-            <span className="book-thema">Folge „{book.topic}“</span>
+            <span className="book-thema">Folge »{book.topic}«</span>
           </span>
         )}
       </span>
@@ -580,11 +580,11 @@ export function BookDetail({ book, closing, onRequestClose, onClosed }: Props) {
         <span className="ak-who">{recommenderName(book.recommended_by)}</span>
         <span className="ak-rule" />
         <span className="ak-episode">
-          in der Folge „{book.topic}“,
+          in der Folge »{book.topic}«,
           <br />
           {episodeDate(book.published)}
         </span>
-        {book.quote && <blockquote className="ak-quote">{book.quote}</blockquote>}
+        {book.quote && <blockquote className="ak-quote">»{book.quote}«</blockquote>}
         <ListenLink book={book} />
         {partners.length > 0 && (
           <div className="ak-partners">

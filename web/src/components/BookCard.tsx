@@ -42,7 +42,7 @@ export function BookCard({ book }: Props) {
       <p className="book-author">{book.author}</p>
       <p className="book-meta">
         <Avatar recommender={book.recommended_by} />
-        <span className="book-thema">Folge „{book.topic}“</span>
+        <span className="book-thema">Folge »{book.topic}«</span>
       </p>
     </a>
   );

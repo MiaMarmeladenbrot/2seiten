@@ -21,7 +21,7 @@ export function BookCover({ book, className = 'cover' }: Props) {
         <img
           className="cover-image"
           src={coverUrl}
-          alt={`Buchcover von „${book.title}“`}
+          alt={`Buchcover von »${book.title}«`}
           loading="lazy"
           onError={() => setImageBroken(true)}
         />

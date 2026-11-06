@@ -41,6 +41,10 @@ export function slugify(text: string): string {
     .replace(/^-+|-+$/g, '');
 }
 
+function nestQuotes(text: string): string {
+  return text.replace(/[„"]([^„“”"]*)[“”"]/g, '›$1‹');
+}
+
 const unslugged: Omit<Book, 'slug'>[] = data.episodes.flatMap((ep) =>
   ep.books.map((b) => ({
     key: `${b.title}|${b.author}`,
@@ -48,7 +52,7 @@ const unslugged: Omit<Book, 'slug'>[] = data.episodes.flatMap((ep) =>
     author: b.author,
     recommended_by: b.recommended_by,
     role: b.role,
-    quote: b.quote ?? null,
+    quote: b.quote ? nestQuotes(b.quote) : null,
     episode_guid: ep.guid,
     episode_title: ep.title,
     topic: ep.topic,
